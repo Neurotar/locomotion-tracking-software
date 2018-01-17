@@ -1,5 +1,6 @@
 # Standard Tracker Application
 
-In this repository the most standard version of the Mobile HomeCage Tracker application is stored.
-Additional information and access to issue tracker you can find at 
-https://bitbucket.org/neurotarteam/standard-tracker-application
+In this repository, only the standard version of the Tracker application is stored. 
+Additional information and issue tracker can be found at 
+https://bitbucket.org/neurotarteam/standard-tracker-application. 
+For more information, contact us at info@neurotar.com.
