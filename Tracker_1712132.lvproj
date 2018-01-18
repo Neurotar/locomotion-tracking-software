@@ -14,6 +14,7 @@ Current version 1.2.0.1</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="orange_mouse_trackericon_256x256_5_pku_icon.ico" Type="Document" URL="../../LabView_Work/Tracker/Logo and Pictures/Version 171213/ico/orange_mouse_trackericon_256x256_5_pku_icon.ico"/>
 		<Item Name="Tracker_171213.vi" Type="VI" URL="../Tracker_171213.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -152,31 +153,35 @@ Current version 1.2.0.1</Property>
 			<Item Name="TTLTrackercalc_171213.vi" Type="VI" URL="../Subvis/TTLTrackercalc_171213.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Tracker Software" Type="EXE">
+			<Item Name="Tracker Software V1.2.0.1" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{2E9F9028-C586-4DC1-A997-9F8F7B746797}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D27B9DC3-B2AC-47E5-B106-C670C3D61B7E}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com/product/mobile-homecage-motion-tracking/</Property>
+				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6DD83CAE-B5AB-4C3A-826F-19D0E58CCE53}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Tracker Software</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker Software V1.2.0.1</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker Software</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/TrackerV1.2.0.1/Tracker Software V1.2.0.1</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3435CDA3-9398-4F7E-BD9B-A34454F3E2B1}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">Tracker V1.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker Software/Tracker V1.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker V1.2.0.1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/TrackerV1.2.0.1/Tracker Software V1.2.0.1/Tracker V1.2.0.1.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker Software/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/TrackerV1.2.0.1/Tracker Software V1.2.0.1/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
-				<Property Name="Source[0].itemID" Type="Str">{45047C4D-35C5-47AE-B7F0-C9A857C18D72}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256_5_pku_icon.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{4353E02D-B756-466E-8C85-79B943F31BF7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker_171213.vi</Property>
@@ -189,14 +194,14 @@ Current version 1.2.0.1</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Tracker Software</Property>
-				<Property Name="TgtF_internalName" Type="Str">Tracker Software</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tracker Software V1.2.0.1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tracker Software V1.2.0.1</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2017 Neurotar Oy</Property>
-				<Property Name="TgtF_productName" Type="Str">Tracker Software</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker Software V1.2.0.1</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{386663B1-EE75-402B-8516-F864AB0846FE}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Tracker V1.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker V1.2.0.1.exe</Property>
 			</Item>
-			<Item Name="Tracker V1.2" Type="Installer">
+			<Item Name="Tracker V1.2.0.1" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Tracker_1712132</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{6B535D6E-EC2A-4078-AE38-CA2E69CF6AB8}</Property>
@@ -249,9 +254,9 @@ Current version 1.2.0.1</Property>
 				<Property Name="DistPartCount" Type="Int">1</Property>
 				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../builds/Tracker Software/Tracker V1.2</Property>
+				<Property Name="INST_buildLocation" Type="Path">../builds/Tracker Software/Tracker V1.2.0.1</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Tracker V1.2</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Tracker V1.2.0.1</Property>
 				<Property Name="INST_defaultDir" Type="Str">{6B535D6E-EC2A-4078-AE38-CA2E69CF6AB8}</Property>
 				<Property Name="INST_productName" Type="Str">Tracker Software</Property>
 				<Property Name="INST_productVersion" Type="Str">1.0.1</Property>
