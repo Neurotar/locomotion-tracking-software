@@ -14,8 +14,7 @@ Current version 1.2.0.2</Property>
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="orange_mouse_trackericon_256x256_5_pku_icon.ico" Type="Document" URL="../../LabView_Work/Tracker/Logo and Pictures/Version 171213/ico/orange_mouse_trackericon_256x256_5_pku_icon.ico"/>
-		<Item Name="Tracker_171213.vi" Type="VI" URL="../Tracker_171213.vi"/>
+		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
@@ -93,6 +92,7 @@ Current version 1.2.0.2</Property>
 			<Item Name="DecimalSplit_171213.vi" Type="VI" URL="../Subvis/DecimalSplit_171213.vi"/>
 			<Item Name="Decode_RAW_to_DEC_171213.vi" Type="VI" URL="../Subvis/Decode_RAW_to_DEC_171213.vi"/>
 			<Item Name="Decode_scancodes-onlylowercases_171213.vi" Type="VI" URL="../Subvis/Decode_scancodes-onlylowercases_171213.vi"/>
+			<Item Name="Digital_Timer.vi" Type="VI" URL="../Subvis/Digital_Timer.vi"/>
 			<Item Name="DisplacementCalc_171213.vi" Type="VI" URL="../Subvis/DisplacementCalc_171213.vi"/>
 			<Item Name="Displayspeed_171213.vi" Type="VI" URL="../Subvis/Displayspeed_171213.vi"/>
 			<Item Name="DisplaySpeedDisplay_171213.vi" Type="VI" URL="../Subvis/DisplaySpeedDisplay_171213.vi"/>
@@ -180,11 +180,11 @@ Current version 1.2.0.2</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/TrackerV1.2.0.1/Tracker Software V1.2.0.1/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256_5_pku_icon.ico</Property>
+				<Property Name="Exe_iconItemID" Type="Ref"></Property>
 				<Property Name="Source[0].itemID" Type="Str">{4353E02D-B756-466E-8C85-79B943F31BF7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker_171213.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
 				<Property Name="Source[1].properties[0].type" Type="Str">Show Abort button</Property>
 				<Property Name="Source[1].properties[0].value" Type="Bool">false</Property>
 				<Property Name="Source[1].properties[1].type" Type="Str">Window has title bar</Property>
