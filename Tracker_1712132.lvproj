@@ -2,8 +2,24 @@
 <Project Type="Project" LVVersion="16008000">
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
-	<Property Name="NI.Project.Description" Type="Str">Mobile HomeCage Tracker software.
-Current version 1.2.0.2</Property>
+	<Property Name="NI.Project.Description" Type="Str">Mobile HomeCage motion tracking software.
+Current version 1.2.0.2
+
+Mobile HomeCage motion tracking software for recording mouse activity
+in the Mobile HomeCage devices.
+Copyright 2018 Neurotar Oy Ltd
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU Affero General Public License as published
+by the Free Software Foundation, either version 3 of the License, or
+any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU Affero General Public License for more details.
+
+You should have received a copy of the GNU Affero General Public License along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
@@ -41,7 +57,6 @@ Current version 1.2.0.2</Property>
 				<Item Name="Get Text Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Get Text Rect.vi"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="Move Pen.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Move Pen.vi"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
@@ -88,7 +103,7 @@ Current version 1.2.0.2</Property>
 			<Item Name="CheckonTheInputData_171213.vi" Type="VI" URL="../Subvis/CheckonTheInputData_171213.vi"/>
 			<Item Name="Clear_broken_frames_2_v16-Recalc_171213.vi" Type="VI" URL="../Subvis/Clear_broken_frames_2_v16-Recalc_171213.vi"/>
 			<Item Name="Clear_broken_frames_2_v16_171213.vi" Type="VI" URL="../Subvis/Clear_broken_frames_2_v16_171213.vi"/>
-			<Item Name="DEC_split_171213.vi" Type="VI" URL="../Subvis/DEC_split_171213.vi"/>
+			<Item Name="DEC_split.vi" Type="VI" URL="../Subvis/DEC_split.vi"/>
 			<Item Name="DecimalSplit_171213.vi" Type="VI" URL="../Subvis/DecimalSplit_171213.vi"/>
 			<Item Name="Decode_RAW_to_DEC_171213.vi" Type="VI" URL="../Subvis/Decode_RAW_to_DEC_171213.vi"/>
 			<Item Name="Decode_scancodes-onlylowercases_171213.vi" Type="VI" URL="../Subvis/Decode_scancodes-onlylowercases_171213.vi"/>
@@ -113,7 +128,7 @@ Current version 1.2.0.2</Property>
 			<Item Name="Loadfulltrackdrawing_171213.vi" Type="VI" URL="../Subvis/Loadfulltrackdrawing_171213.vi"/>
 			<Item Name="Loadingscreen_171213.vi" Type="VI" URL="../Subvis/Loadingscreen_171213.vi"/>
 			<Item Name="LoadinTheStaticPictures_171213.vi" Type="VI" URL="../Subvis/LoadinTheStaticPictures_171213.vi"/>
-			<Item Name="LoadRecalcSave_171213.vi" Type="VI" URL="../Subvis/LoadRecalcSave_171213.vi"/>
+			<Item Name="LoadRecalcSave.vi" Type="VI" URL="../Subvis/LoadRecalcSave.vi"/>
 			<Item Name="LoadRecordingscreen_171213.vi" Type="VI" URL="../Subvis/LoadRecordingscreen_171213.vi"/>
 			<Item Name="LoadRegionbmp_171213.vi" Type="VI" URL="../Subvis/LoadRegionbmp_171213.vi"/>
 			<Item Name="Middfield_171213.vi" Type="VI" URL="../Subvis/Middfield_171213.vi"/>
@@ -127,7 +142,7 @@ Current version 1.2.0.2</Property>
 			<Item Name="ReloadCSVforanalysispart_171213.vi" Type="VI" URL="../Subvis/ReloadCSVforanalysispart_171213.vi"/>
 			<Item Name="Reshape_data_back_for_saving_171213.vi" Type="VI" URL="../Subvis/Reshape_data_back_for_saving_171213.vi"/>
 			<Item Name="Reshape_data_for_memory_storage_171213.vi" Type="VI" URL="../Subvis/Reshape_data_for_memory_storage_171213.vi"/>
-			<Item Name="Save_incrementally_171213.vi" Type="VI" URL="../Subvis/Save_incrementally_171213.vi"/>
+			<Item Name="Save_incrementally_ts.vi" Type="VI" URL="../Subvis/Save_incrementally_ts.vi"/>
 			<Item Name="Savingscreen_171213.vi" Type="VI" URL="../Subvis/Savingscreen_171213.vi"/>
 			<Item Name="SeekBack_171213.vi" Type="VI" URL="../Subvis/SeekBack_171213.vi"/>
 			<Item Name="SeekForward_171213.vi" Type="VI" URL="../Subvis/SeekForward_171213.vi"/>
@@ -142,7 +157,6 @@ Current version 1.2.0.2</Property>
 			<Item Name="Stream_data_171213.vi" Type="VI" URL="../Subvis/Stream_data_171213.vi"/>
 			<Item Name="SumTimeSpendAnalyze_171213.vi" Type="VI" URL="../Subvis/SumTimeSpendAnalyze_171213.vi"/>
 			<Item Name="TheCoordinateColor_171213.vi" Type="VI" URL="../Subvis/TheCoordinateColor_171213.vi"/>
-			<Item Name="Time_171213.vi" Type="VI" URL="../Subvis/Time_171213.vi"/>
 			<Item Name="TrackerTTLsignal_171213.vi" Type="VI" URL="../Subvis/TrackerTTLsignal_171213.vi"/>
 			<Item Name="Transformationto360x360matrixcoordinates_171213.vi" Type="VI" URL="../Subvis/Transformationto360x360matrixcoordinates_171213.vi"/>
 			<Item Name="TransformTo360_171213.vi" Type="VI" URL="../Subvis/TransformTo360_171213.vi"/>
