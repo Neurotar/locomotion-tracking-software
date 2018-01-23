@@ -154,7 +154,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="StaticStrings2_171213.vi" Type="VI" URL="../Subvis/StaticStrings2_171213.vi"/>
 			<Item Name="StaticTextIndicatorstoSaveSpaceonBlockdiogram_171213.vi" Type="VI" URL="../Subvis/StaticTextIndicatorstoSaveSpaceonBlockdiogram_171213.vi"/>
 			<Item Name="StayingActivationWindow_171213.vi" Type="VI" URL="../Subvis/StayingActivationWindow_171213.vi"/>
-			<Item Name="Stream_data_171213.vi" Type="VI" URL="../Subvis/Stream_data_171213.vi"/>
+			<Item Name="Stream_data.vi" Type="VI" URL="../Subvis/Stream_data.vi"/>
 			<Item Name="SumTimeSpendAnalyze_171213.vi" Type="VI" URL="../Subvis/SumTimeSpendAnalyze_171213.vi"/>
 			<Item Name="TheCoordinateColor_171213.vi" Type="VI" URL="../Subvis/TheCoordinateColor_171213.vi"/>
 			<Item Name="TrackerTTLsignal_171213.vi" Type="VI" URL="../Subvis/TrackerTTLsignal_171213.vi"/>
@@ -194,7 +194,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
 				<Property Name="Destination[1].path" Type="Path">../builds/TrackerV1.2.0.1/Tracker Software V1.2.0.1/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref"></Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/</Property>
 				<Property Name="Source[0].itemID" Type="Str">{4353E02D-B756-466E-8C85-79B943F31BF7}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
