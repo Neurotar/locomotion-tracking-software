@@ -111,7 +111,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="Decode_scancodes-onlylowercases_171213.vi" Type="VI" URL="../Subvis/Decode_scancodes-onlylowercases_171213.vi"/>
 			<Item Name="Digital_Timer.vi" Type="VI" URL="../Subvis/Digital_Timer.vi"/>
 			<Item Name="DisplacementCalc_171213.vi" Type="VI" URL="../Subvis/DisplacementCalc_171213.vi"/>
-			<Item Name="Displayspeed_171213.vi" Type="VI" URL="../Subvis/Displayspeed_171213.vi"/>
+			<Item Name="Displayspeed.vi" Type="VI" URL="../Subvis/Displayspeed.vi"/>
 			<Item Name="DisplaySpeedDisplay_171213.vi" Type="VI" URL="../Subvis/DisplaySpeedDisplay_171213.vi"/>
 			<Item Name="Enteringdialoge_171213.vi" Type="VI" URL="../Subvis/Enteringdialoge_171213.vi"/>
 			<Item Name="Filter_data_and_calc_speed_171213.vi" Type="VI" URL="../Subvis/Filter_data_and_calc_speed_171213.vi"/>
