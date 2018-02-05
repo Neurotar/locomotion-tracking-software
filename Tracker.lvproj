@@ -169,7 +169,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="TTLTrackercalc_171213.vi" Type="VI" URL="../Subvis/TTLTrackercalc_171213.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Tracker Software V1.2.0.2" Type="EXE">
+			<Item Name="Tracker Software V1.2.0.4" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{2E9F9028-C586-4DC1-A997-9F8F7B746797}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D27B9DC3-B2AC-47E5-B106-C670C3D61B7E}</Property>
@@ -178,26 +178,26 @@ You should have received a copy of the GNU Affero General Public License along w
 				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com/product/mobile-homecage-motion-tracking/</Property>
 				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6DD83CAE-B5AB-4C3A-826F-19D0E58CCE53}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Tracker Software V1.2.0.2</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker Software V1.2.0.4</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/TrackerV1.2.0.2/Tracker Software V1.2.0.2</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/TrackerV1.2.0.4/Tracker Software V1.2.0.4</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3435CDA3-9398-4F7E-BD9B-A34454F3E2B1}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">Tracker V1.2.0.2.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/TrackerV1.2.0.2/Tracker Software V1.2.0.2/Tracker V1.2.0.2.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker V1.2.0.4.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/TrackerV1.2.0.4/Tracker Software V1.2.0.4/Tracker V1.2.0.4.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/TrackerV1.2.0.2/Tracker Software V1.2.0.2/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/TrackerV1.2.0.4/Tracker Software V1.2.0.4/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{07A74F75-FD75-4C41-A74D-7E38203FED11}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{C578444B-559D-47B4-91AB-6CE3992E694A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -211,7 +211,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Mobile HomeCage motion tracking software.
-Current version 1.2.0.2
+Current version 1.2.0.4
 
 Mobile HomeCage motion tracking software for recording mouse activity
 in the Mobile HomeCage devices.
@@ -228,11 +228,11 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</Property>
-				<Property Name="TgtF_internalName" Type="Str">Tracker Software V1.2.0.2</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tracker Software V1.2.0.4</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Neurotar Oy</Property>
-				<Property Name="TgtF_productName" Type="Str">Tracker Software V1.2.0.2</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker Software V1.2.0.4</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{386663B1-EE75-402B-8516-F864AB0846FE}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Tracker V1.2.0.2.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker V1.2.0.4.exe</Property>
 			</Item>
 			<Item Name="Tracker V1.2.0.1" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Tracker_1712132</Property>
