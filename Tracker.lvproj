@@ -165,7 +165,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="TTLfunction_171213.vi" Type="VI" URL="../Subvis/TTLfunction_171213.vi"/>
 			<Item Name="TTLPreparation_171213.vi" Type="VI" URL="../Subvis/TTLPreparation_171213.vi"/>
 			<Item Name="TTLsignalactivation_171213.vi" Type="VI" URL="../Subvis/TTLsignalactivation_171213.vi"/>
-			<Item Name="TTLsignaldialoge_171213.vi" Type="VI" URL="../Subvis/TTLsignaldialoge_171213.vi"/>
+			<Item Name="TTLsignaldialog.vi" Type="VI" URL="../Subvis/TTLsignaldialog.vi"/>
 			<Item Name="TTLTrackercalc_171213.vi" Type="VI" URL="../Subvis/TTLTrackercalc_171213.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
