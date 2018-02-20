@@ -198,7 +198,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<Property Name="Destination[1].path" Type="Path">../builds/TrackerV1.2.0.5/Tracker Software V1.2.0.5/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C58E1602-0098-435D-A494-424C77BAC603}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{08140DD8-1999-4748-BB05-3650B99858E0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
