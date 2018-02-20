@@ -3,7 +3,7 @@
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str">Mobile HomeCage motion tracking software.
-Current version 1.2.0.4
+Current version 1.2.0.5
 
 Mobile HomeCage motion tracking software for recording mouse activity
 in the Mobile HomeCage devices.
