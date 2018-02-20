@@ -116,6 +116,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="Enteringdialoge_171213.vi" Type="VI" URL="../Subvis/Enteringdialoge_171213.vi"/>
 			<Item Name="Filter_data_and_calc_speed_171213.vi" Type="VI" URL="../Subvis/Filter_data_and_calc_speed_171213.vi"/>
 			<Item Name="Findallcolorsfornumbering_171213.vi" Type="VI" URL="../Subvis/Findallcolorsfornumbering_171213.vi"/>
+			<Item Name="Fire_TTL_at_start_stop.vi" Type="VI" URL="../Subvis/Fire_TTL_at_start_stop.vi"/>
 			<Item Name="Fulltrackasbackground_171213.vi" Type="VI" URL="../Subvis/Fulltrackasbackground_171213.vi"/>
 			<Item Name="Get_final_save_path_171213.vi" Type="VI" URL="../Subvis/Get_final_save_path_171213.vi"/>
 			<Item Name="Get_temporary_save_path_171213.vi" Type="VI" URL="../Subvis/Get_temporary_save_path_171213.vi"/>
