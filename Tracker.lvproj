@@ -32,6 +32,7 @@ You should have received a copy of the GNU Affero General Public License along w
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Last_N_Samples_1D.vi" Type="VI" URL="../Subvis/Last_N_Samples_1D.vi"/>
 		<Item Name="orange_mouse_trackericon_256x256.ico" Type="Document" URL="../bin/orange_mouse_trackericon_256x256.ico"/>
+		<Item Name="Test_TTL_read.vi" Type="VI" URL="../Test_TTL_read.vi"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -96,6 +97,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="BackgroundFulltrackCalculations_171213.vi" Type="VI" URL="../Subvis/BackgroundFulltrackCalculations_171213.vi"/>
 			<Item Name="Backgrounds_171213.vi" Type="VI" URL="../Subvis/Backgrounds_171213.vi"/>
 			<Item Name="Border_171213.vi" Type="VI" URL="../Subvis/Border_171213.vi"/>
+			<Item Name="Cage_hardware_setup.vi" Type="VI" URL="../Subvis/Cage_hardware_setup.vi"/>
 			<Item Name="Cage_setup_171213.vi" Type="VI" URL="../Subvis/Cage_setup_171213.vi"/>
 			<Item Name="Calculate_phi_theta_etc_171213.vi" Type="VI" URL="../Subvis/Calculate_phi_theta_etc_171213.vi"/>
 			<Item Name="CalculateCoordinates_171213.vi" Type="VI" URL="../Subvis/CalculateCoordinates_171213.vi"/>
@@ -137,6 +139,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="Middfield_171213.vi" Type="VI" URL="../Subvis/Middfield_171213.vi"/>
 			<Item Name="Mousbackground_171213.vi" Type="VI" URL="../Subvis/Mousbackground_171213.vi"/>
 			<Item Name="PictureRotation_171213.vi" Type="VI" URL="../Subvis/PictureRotation_171213.vi"/>
+			<Item Name="Poll_tracker.vi" Type="VI" URL="../Subvis/Poll_tracker.vi"/>
 			<Item Name="Poll_tracker_171213.vi" Type="VI" URL="../Subvis/Poll_tracker_171213.vi"/>
 			<Item Name="PrepareingForRecording_171213.vi" Type="VI" URL="../Subvis/PrepareingForRecording_171213.vi"/>
 			<Item Name="PressPlay_171213.vi" Type="VI" URL="../Subvis/PressPlay_171213.vi"/>
