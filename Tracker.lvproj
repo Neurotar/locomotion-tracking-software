@@ -97,8 +97,6 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="BackgroundFulltrackCalculations_171213.vi" Type="VI" URL="../Subvis/BackgroundFulltrackCalculations_171213.vi"/>
 			<Item Name="Backgrounds_171213.vi" Type="VI" URL="../Subvis/Backgrounds_171213.vi"/>
 			<Item Name="Border_171213.vi" Type="VI" URL="../Subvis/Border_171213.vi"/>
-			<Item Name="Cage_hardware_setup.vi" Type="VI" URL="../Subvis/Cage_hardware_setup.vi"/>
-			<Item Name="Cage_setup_171213.vi" Type="VI" URL="../Subvis/Cage_setup_171213.vi"/>
 			<Item Name="Calculate_phi_theta_etc_171213.vi" Type="VI" URL="../Subvis/Calculate_phi_theta_etc_171213.vi"/>
 			<Item Name="CalculateCoordinates_171213.vi" Type="VI" URL="../Subvis/CalculateCoordinates_171213.vi"/>
 			<Item Name="CalculateCoordinatesinArrayformforResavingData_171213.vi" Type="VI" URL="../Subvis/CalculateCoordinatesinArrayformforResavingData_171213.vi"/>
@@ -109,7 +107,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="Clear_broken_frames_2_v16_171213.vi" Type="VI" URL="../Subvis/Clear_broken_frames_2_v16_171213.vi"/>
 			<Item Name="DEC_split.vi" Type="VI" URL="../Subvis/DEC_split.vi"/>
 			<Item Name="DecimalSplit_171213.vi" Type="VI" URL="../Subvis/DecimalSplit_171213.vi"/>
-			<Item Name="Decode_RAW_to_DEC_171213.vi" Type="VI" URL="../Subvis/Decode_RAW_to_DEC_171213.vi"/>
+			<Item Name="Decode_RAW_to_DEC.vi" Type="VI" URL="../Subvis/Decode_RAW_to_DEC.vi"/>
 			<Item Name="Decode_scancodes-onlylowercases_171213.vi" Type="VI" URL="../Subvis/Decode_scancodes-onlylowercases_171213.vi"/>
 			<Item Name="Digital_Timer.vi" Type="VI" URL="../Subvis/Digital_Timer.vi"/>
 			<Item Name="DisplacementCalc_171213.vi" Type="VI" URL="../Subvis/DisplacementCalc_171213.vi"/>
@@ -140,7 +138,6 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="Mousbackground_171213.vi" Type="VI" URL="../Subvis/Mousbackground_171213.vi"/>
 			<Item Name="PictureRotation_171213.vi" Type="VI" URL="../Subvis/PictureRotation_171213.vi"/>
 			<Item Name="Poll_tracker.vi" Type="VI" URL="../Subvis/Poll_tracker.vi"/>
-			<Item Name="Poll_tracker_171213.vi" Type="VI" URL="../Subvis/Poll_tracker_171213.vi"/>
 			<Item Name="PrepareingForRecording_171213.vi" Type="VI" URL="../Subvis/PrepareingForRecording_171213.vi"/>
 			<Item Name="PressPlay_171213.vi" Type="VI" URL="../Subvis/PressPlay_171213.vi"/>
 			<Item Name="RecordingDisplay_171213.vi" Type="VI" URL="../Subvis/RecordingDisplay_171213.vi"/>
@@ -163,6 +160,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="Stream_data.vi" Type="VI" URL="../Subvis/Stream_data.vi"/>
 			<Item Name="SumTimeSpendAnalyze_171213.vi" Type="VI" URL="../Subvis/SumTimeSpendAnalyze_171213.vi"/>
 			<Item Name="TheCoordinateColor_171213.vi" Type="VI" URL="../Subvis/TheCoordinateColor_171213.vi"/>
+			<Item Name="Tracker_hardware_setup.vi" Type="VI" URL="../Subvis/Tracker_hardware_setup.vi"/>
 			<Item Name="TrackerTTLsignal_171213.vi" Type="VI" URL="../Subvis/TrackerTTLsignal_171213.vi"/>
 			<Item Name="Transformationto360x360matrixcoordinates_171213.vi" Type="VI" URL="../Subvis/Transformationto360x360matrixcoordinates_171213.vi"/>
 			<Item Name="TransformTo360_171213.vi" Type="VI" URL="../Subvis/TransformTo360_171213.vi"/>
