@@ -30,9 +30,10 @@ You should have received a copy of the GNU Affero General Public License along w
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Get_TTL_pulse_length_at_input_2_and_start.vi" Type="VI" URL="../Subvis/Get_TTL_pulse_length_at_input_2_and_start.vi"/>
 		<Item Name="Last_N_Samples_1D.vi" Type="VI" URL="../Subvis/Last_N_Samples_1D.vi"/>
 		<Item Name="orange_mouse_trackericon_256x256.ico" Type="Document" URL="../bin/orange_mouse_trackericon_256x256.ico"/>
-		<Item Name="Test_TTL_read.vi" Type="VI" URL="../Test_TTL_read.vi"/>
+		<Item Name="Start_via_TTL_input.vi" Type="VI" URL="../Subvis/Start_via_TTL_input.vi"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
