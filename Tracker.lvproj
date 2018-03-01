@@ -3,7 +3,7 @@
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str">Mobile HomeCage motion tracking software.
-Current version 1.2.0.2
+Current version 1.2.0.5
 
 Mobile HomeCage motion tracking software for recording mouse activity
 in the Mobile HomeCage devices.
@@ -30,8 +30,10 @@ You should have received a copy of the GNU Affero General Public License along w
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
+		<Item Name="Get_TTL_pulse_length_at_input_2_and_start.vi" Type="VI" URL="../Subvis/Get_TTL_pulse_length_at_input_2_and_start.vi"/>
 		<Item Name="Last_N_Samples_1D.vi" Type="VI" URL="../Subvis/Last_N_Samples_1D.vi"/>
 		<Item Name="orange_mouse_trackericon_256x256.ico" Type="Document" URL="../bin/orange_mouse_trackericon_256x256.ico"/>
+		<Item Name="Start_via_TTL_input.vi" Type="VI" URL="../Subvis/Start_via_TTL_input.vi"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -96,7 +98,6 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="BackgroundFulltrackCalculations_171213.vi" Type="VI" URL="../Subvis/BackgroundFulltrackCalculations_171213.vi"/>
 			<Item Name="Backgrounds_171213.vi" Type="VI" URL="../Subvis/Backgrounds_171213.vi"/>
 			<Item Name="Border_171213.vi" Type="VI" URL="../Subvis/Border_171213.vi"/>
-			<Item Name="Cage_setup_171213.vi" Type="VI" URL="../Subvis/Cage_setup_171213.vi"/>
 			<Item Name="Calculate_phi_theta_etc_171213.vi" Type="VI" URL="../Subvis/Calculate_phi_theta_etc_171213.vi"/>
 			<Item Name="CalculateCoordinates_171213.vi" Type="VI" URL="../Subvis/CalculateCoordinates_171213.vi"/>
 			<Item Name="CalculateCoordinatesinArrayformforResavingData_171213.vi" Type="VI" URL="../Subvis/CalculateCoordinatesinArrayformforResavingData_171213.vi"/>
@@ -107,7 +108,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="Clear_broken_frames_2_v16_171213.vi" Type="VI" URL="../Subvis/Clear_broken_frames_2_v16_171213.vi"/>
 			<Item Name="DEC_split.vi" Type="VI" URL="../Subvis/DEC_split.vi"/>
 			<Item Name="DecimalSplit_171213.vi" Type="VI" URL="../Subvis/DecimalSplit_171213.vi"/>
-			<Item Name="Decode_RAW_to_DEC_171213.vi" Type="VI" URL="../Subvis/Decode_RAW_to_DEC_171213.vi"/>
+			<Item Name="Decode_RAW_to_DEC.vi" Type="VI" URL="../Subvis/Decode_RAW_to_DEC.vi"/>
 			<Item Name="Decode_scancodes-onlylowercases_171213.vi" Type="VI" URL="../Subvis/Decode_scancodes-onlylowercases_171213.vi"/>
 			<Item Name="Digital_Timer.vi" Type="VI" URL="../Subvis/Digital_Timer.vi"/>
 			<Item Name="DisplacementCalc_171213.vi" Type="VI" URL="../Subvis/DisplacementCalc_171213.vi"/>
@@ -116,6 +117,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="Enteringdialoge_171213.vi" Type="VI" URL="../Subvis/Enteringdialoge_171213.vi"/>
 			<Item Name="Filter_data_and_calc_speed_171213.vi" Type="VI" URL="../Subvis/Filter_data_and_calc_speed_171213.vi"/>
 			<Item Name="Findallcolorsfornumbering_171213.vi" Type="VI" URL="../Subvis/Findallcolorsfornumbering_171213.vi"/>
+			<Item Name="Fire_TTL_at_start_stop.vi" Type="VI" URL="../Subvis/Fire_TTL_at_start_stop.vi"/>
 			<Item Name="Fulltrackasbackground_171213.vi" Type="VI" URL="../Subvis/Fulltrackasbackground_171213.vi"/>
 			<Item Name="Get_final_save_path_171213.vi" Type="VI" URL="../Subvis/Get_final_save_path_171213.vi"/>
 			<Item Name="Get_temporary_save_path_171213.vi" Type="VI" URL="../Subvis/Get_temporary_save_path_171213.vi"/>
@@ -136,7 +138,7 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="Middfield_171213.vi" Type="VI" URL="../Subvis/Middfield_171213.vi"/>
 			<Item Name="Mousbackground_171213.vi" Type="VI" URL="../Subvis/Mousbackground_171213.vi"/>
 			<Item Name="PictureRotation_171213.vi" Type="VI" URL="../Subvis/PictureRotation_171213.vi"/>
-			<Item Name="Poll_tracker_171213.vi" Type="VI" URL="../Subvis/Poll_tracker_171213.vi"/>
+			<Item Name="Poll_tracker.vi" Type="VI" URL="../Subvis/Poll_tracker.vi"/>
 			<Item Name="PrepareingForRecording_171213.vi" Type="VI" URL="../Subvis/PrepareingForRecording_171213.vi"/>
 			<Item Name="PressPlay_171213.vi" Type="VI" URL="../Subvis/PressPlay_171213.vi"/>
 			<Item Name="RecordingDisplay_171213.vi" Type="VI" URL="../Subvis/RecordingDisplay_171213.vi"/>
@@ -159,17 +161,18 @@ You should have received a copy of the GNU Affero General Public License along w
 			<Item Name="Stream_data.vi" Type="VI" URL="../Subvis/Stream_data.vi"/>
 			<Item Name="SumTimeSpendAnalyze_171213.vi" Type="VI" URL="../Subvis/SumTimeSpendAnalyze_171213.vi"/>
 			<Item Name="TheCoordinateColor_171213.vi" Type="VI" URL="../Subvis/TheCoordinateColor_171213.vi"/>
+			<Item Name="Tracker_hardware_setup.vi" Type="VI" URL="../Subvis/Tracker_hardware_setup.vi"/>
 			<Item Name="TrackerTTLsignal_171213.vi" Type="VI" URL="../Subvis/TrackerTTLsignal_171213.vi"/>
 			<Item Name="Transformationto360x360matrixcoordinates_171213.vi" Type="VI" URL="../Subvis/Transformationto360x360matrixcoordinates_171213.vi"/>
 			<Item Name="TransformTo360_171213.vi" Type="VI" URL="../Subvis/TransformTo360_171213.vi"/>
 			<Item Name="TTLfunction_171213.vi" Type="VI" URL="../Subvis/TTLfunction_171213.vi"/>
 			<Item Name="TTLPreparation_171213.vi" Type="VI" URL="../Subvis/TTLPreparation_171213.vi"/>
 			<Item Name="TTLsignalactivation_171213.vi" Type="VI" URL="../Subvis/TTLsignalactivation_171213.vi"/>
-			<Item Name="TTLsignaldialoge_171213.vi" Type="VI" URL="../Subvis/TTLsignaldialoge_171213.vi"/>
+			<Item Name="TTLsignaldialog.vi" Type="VI" URL="../Subvis/TTLsignaldialog.vi"/>
 			<Item Name="TTLTrackercalc_171213.vi" Type="VI" URL="../Subvis/TTLTrackercalc_171213.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Tracker Software V1.2.0.4" Type="EXE">
+			<Item Name="Tracker Software V1.2.0.6" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{2E9F9028-C586-4DC1-A997-9F8F7B746797}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D27B9DC3-B2AC-47E5-B106-C670C3D61B7E}</Property>
@@ -178,26 +181,26 @@ You should have received a copy of the GNU Affero General Public License along w
 				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com/product/mobile-homecage-motion-tracking/</Property>
 				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{6DD83CAE-B5AB-4C3A-826F-19D0E58CCE53}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Tracker Software V1.2.0.4</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker Software V1.2.0.6</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/TrackerV1.2.0.4/Tracker Software V1.2.0.4</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/TrackerV1.2.0.6/Tracker Software V1.2.0.6</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{3435CDA3-9398-4F7E-BD9B-A34454F3E2B1}</Property>
-				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">Tracker V1.2.0.4.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/TrackerV1.2.0.4/Tracker Software V1.2.0.4/Tracker V1.2.0.4.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker V1.2.0.6.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/TrackerV1.2.0.6/Tracker Software V1.2.0.6/Tracker V1.2.0.6.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/TrackerV1.2.0.4/Tracker Software V1.2.0.4/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/TrackerV1.2.0.6/Tracker Software V1.2.0.6/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{C578444B-559D-47B4-91AB-6CE3992E694A}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{FCFEBAC6-F8C6-4ECC-857B-384F9EC55CF1}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -211,7 +214,7 @@ You should have received a copy of the GNU Affero General Public License along w
 				<Property Name="SourceCount" Type="Int">2</Property>
 				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
 				<Property Name="TgtF_fileDescription" Type="Str">Mobile HomeCage motion tracking software.
-Current version 1.2.0.4
+Current version 1.2.0.6
 
 Mobile HomeCage motion tracking software for recording mouse activity
 in the Mobile HomeCage devices.
@@ -228,11 +231,11 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Affero General Public License for more details.
 
 You should have received a copy of the GNU Affero General Public License along with this program.  If not, see &lt;http://www.gnu.org/licenses/&gt;.</Property>
-				<Property Name="TgtF_internalName" Type="Str">Tracker Software V1.2.0.4</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tracker Software V1.2.0.6</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Neurotar Oy</Property>
-				<Property Name="TgtF_productName" Type="Str">Tracker Software V1.2.0.4</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker Software V1.2.0.6</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{386663B1-EE75-402B-8516-F864AB0846FE}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Tracker V1.2.0.4.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker V1.2.0.6.exe</Property>
 			</Item>
 			<Item Name="Tracker V1.2.0.1" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Tracker_1712132</Property>
