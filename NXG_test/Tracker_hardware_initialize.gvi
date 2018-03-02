@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<SourceFile Checksum="7FCFCACF5432CAA8AB02D79A963D7CED" Timestamp="1D3B15D49A2170D" xmlns="http://www.ni.com/PlatformFramework">
+<SourceFile Checksum="55AA49CDD9281A33B90FC2D32661EDB5" Timestamp="1D3B226C8E0BFDF" xmlns="http://www.ni.com/PlatformFramework">
 	<SourceModelFeatureSet>
 		<ParsableNamespace AssemblyFileVersion="5.2.0.58310" FeatureSetName="LabVIEW Controls" Name="http://www.ni.com/Controls.LabVIEW.Design" OldestCompatibleVersion="5.2.0.49153" Version="5.2.0.49153" />
 		<ParsableNamespace AssemblyFileVersion="5.2.0.58310" FeatureSetName="LabVIEW Virtual Instrument" Name="http://www.ni.com/LabVIEW.VI" OldestCompatibleVersion="5.2.0.9" Version="5.2.0.49152" />
@@ -494,7 +494,7 @@
 						</FlatSequence.Frame>
 						<FlatSequence.Frame Bounds="2055 10 630 485" Id="153">
 							<Literal Bounds="25 370 40 16" DataType="Int32" Id="275" Label="276" xmlns="http://www.ni.com/MocCommon">
-								<p.Data>0</p.Data>
+								<p.Data>1</p.Data>
 								<NumericBehavior Interpretation="Exact" RadixVisibility="Hidden" ValueFormatter="LV:G0" />
 							</Literal>
 							<NodeLabel AttachedTo="275" Bounds="25 349 9 18" Id="276" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
@@ -507,7 +507,7 @@
 								</CaseStructure.Case>
 								<CaseStructure.Case Bounds="5 5 490 300" Id="279" Pattern="True">
 									<Literal Bounds="10 60 80 15" DataType="String" Id="285" Label="286" xmlns="http://www.ni.com/MocCommon">
-										<p.Data>PORTS=0</p.Data>
+										<p.Data>PORTS=1</p.Data>
 										<StringBehavior TextDisplayMode="Default" />
 									</Literal>
 									<NodeLabel AttachedTo="285" Bounds="10 39 86 18" Id="286" Visible="False" xmlns="http://www.ni.com/PlatformFramework">
