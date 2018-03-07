@@ -19,6 +19,8 @@
 			<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW_Setup.vi"/>
 			<Item Name="Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/Stop_acq_and_close_VISA.vi"/>
 			<Item Name="Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/Stream_raw_data.vi"/>
+			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
+			<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file.vi"/>
 			<Item Name="SW_Select_User.vi" Type="VI" URL="../SubVi&apos;s/SW_Select_User.vi"/>
 		</Item>
 		<Item Name="Tracker_v2_test_acq_comms.vi" Type="VI" URL="../Tracker_v2_test_acq_comms.vi"/>
