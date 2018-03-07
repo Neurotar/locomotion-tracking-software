@@ -1,0 +1,7 @@
+[Users]
+Researcher = "f10debe88a160ff45d1fc0669b0f4f31"
+Researcher2 = "f10debe88a160ff45d1fc0669b0f4f31"
+Researcher3 = "f10debe88a160ff45d1fc0669b0f4f31"
+
+[Defaults]
+Default User = "Researcher"
