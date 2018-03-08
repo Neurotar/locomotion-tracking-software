@@ -23,6 +23,8 @@
 			<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file.vi"/>
 			<Item Name="SW_Select_User.vi" Type="VI" URL="../SubVi&apos;s/SW_Select_User.vi"/>
 		</Item>
+		<Item Name="Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/Custom_Close_Button.ctl"/>
+		<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
 		<Item Name="Tracker_v2_test_acq_comms.vi" Type="VI" URL="../Tracker_v2_test_acq_comms.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">

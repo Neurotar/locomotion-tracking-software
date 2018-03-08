@@ -1,7 +1,6 @@
 [Users]
-Researcher = "84381e80b59305827eb545b76e653b68"
-Researcher1 = "e623ac724630476eb815703b7a2b9e40"
-Researcher2 = "1802e5f81a8633140c8100846c6f1855"
+Admin = "c7a090a8e9b6e42526ec02324c83bdf6"
 
 [Defaults]
-Default User = 1
+Default User = 0
+Jump to tracking = FALSE    
