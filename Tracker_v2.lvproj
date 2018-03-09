@@ -14,17 +14,20 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVI&apos;s" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/Custom_Close_Button.ctl"/>
 			<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW_Init.vi"/>
 			<Item Name="HW_Poll_Tracker.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker.vi"/>
 			<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW_Setup.vi"/>
 			<Item Name="Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/Stop_acq_and_close_VISA.vi"/>
 			<Item Name="Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/Stream_raw_data.vi"/>
+			<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 			<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file.vi"/>
 			<Item Name="SW_Select_User.vi" Type="VI" URL="../SubVi&apos;s/SW_Select_User.vi"/>
+			<Item Name="SW_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Initial_tabs_representation.vi"/>
 		</Item>
-		<Item Name="Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/Custom_Close_Button.ctl"/>
-		<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
+		<Item Name="Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/Custom_Boolean_Indicator.ctl"/>
 		<Item Name="Tracker_v2_test_acq_comms.vi" Type="VI" URL="../Tracker_v2_test_acq_comms.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
