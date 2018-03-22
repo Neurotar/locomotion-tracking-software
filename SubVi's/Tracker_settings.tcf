@@ -4,5 +4,5 @@ Admin = "c7a090a8e9b6e42526ec02324c83bdf6"
 [Defaults]
 Default User = 0
 Jump to tracking = FALSE    
-VISA Resource Name  = "Tracker"
+VISA Resource Name = "Tracker"
 Data port OK = TRUE
