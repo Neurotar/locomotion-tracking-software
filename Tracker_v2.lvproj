@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -23,6 +24,7 @@
 			<Item Name="Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/Stop_acq_and_close_VISA.vi"/>
 			<Item Name="Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/Stream_raw_data.vi"/>
 			<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
+			<Item Name="SW_Generate_Segmented_Plot.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot.vi"/>
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 			<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file.vi"/>
 			<Item Name="SW_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Initial_tabs_representation.vi"/>
@@ -90,6 +92,10 @@
 				<Item Name="VISA Flush IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Flush IO Buffer Mask.ctl"/>
 				<Item Name="VISA Set IO Buffer Mask.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Set IO Buffer Mask.ctl"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
+				<Item Name="Set Pen State.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Set Pen State.vi"/>
+				<Item Name="Draw Round Rect.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Round Rect.vi"/>
+				<Item Name="Draw Arc.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Arc.vi"/>
+				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
