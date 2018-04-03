@@ -3,6 +3,15 @@ Admin = "c7a090a8e9b6e42526ec02324c83bdf6"
 
 [Defaults]
 Default User = 0
-Jump to tracking = TRUE    
+Jump to tracking = FALSE
 VISA Resource Name = "Tracker"
-Data port OK = TRUE    
+Data port OK = TRUE
+
+[Admin]
+Amount of midfield segments = 3    
+Amount of border segments = 7    
+Center segment outer radius, mm = 30    
+Midfield segments outer radius, mm = 60    
+Midfield segments starting angle = 0    
+Border segments starting angle = 0    
+Cage diameter, mm = 180    
