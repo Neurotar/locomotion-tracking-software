@@ -16,13 +16,17 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVI&apos;s" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/Custom_Boolean_Indicator.ctl"/>
-			<Item Name="Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/Custom_Close_Button.ctl"/>
+			<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/AL_Rotate_mouse_coords.vi"/>
+			<Item Name="CTL_Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Boolean_Indicator.ctl"/>
+			<Item Name="CTL_Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Close_Button.ctl"/>
+			<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Play_pause_button.ctl"/>
+			<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Record_stop_button.ctl"/>
+			<Item Name="FL_Decode_RAW_to_DEC.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC.vi"/>
 			<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW_Init.vi"/>
 			<Item Name="HW_Poll_Tracker.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker.vi"/>
 			<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW_Setup.vi"/>
-			<Item Name="Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/Stop_acq_and_close_VISA.vi"/>
-			<Item Name="Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/Stream_raw_data.vi"/>
+			<Item Name="HW_Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/HW_Stop_acq_and_close_VISA.vi"/>
+			<Item Name="HW_Stream_raw_data_enq.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data_enq.vi"/>
 			<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
 			<Item Name="SW_Draw_mouse.vi" Type="VI" URL="../SubVi&apos;s/SW_Draw_mouse.vi"/>
 			<Item Name="SW_Generate_Segmented_Plot.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot.vi"/>
@@ -34,7 +38,6 @@
 		<Item Name="Select_User.vi" Type="VI" URL="../Select_User.vi"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="Tracker_v2_test_acq_comms.vi" Type="VI" URL="../Tracker_v2_test_acq_comms.vi"/>
-		<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/AL_Rotate_mouse_coords.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 F function__ogtk.vi"/>
@@ -101,6 +104,7 @@
 				<Item Name="Draw Circle by Radius.vi" Type="VI" URL="/&lt;vilib&gt;/picture/pictutil.llb/Draw Circle by Radius.vi"/>
 				<Item Name="Draw Multiple Lines.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Multiple Lines.vi"/>
 			</Item>
+			<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
