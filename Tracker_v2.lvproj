@@ -28,6 +28,7 @@
 			<Item Name="FL_DEC_split_array.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split_array.vi"/>
 			<Item Name="FL_Decode_RAW_to_DEC.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC.vi"/>
 			<Item Name="FL_Last_N_Samples.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples.vi"/>
+			<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_queue.vi"/>
 			<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_back_for_saving.vi"/>
 			<Item Name="FL_Reshape_data_for_memory_storage.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_for_memory_storage.vi"/>
 			<Item Name="FL_Save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/FL_Save_incrementally.vi"/>
