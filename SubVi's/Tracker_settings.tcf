@@ -8,10 +8,10 @@ VISA Resource Name = "Tracker"
 Data port OK = TRUE
 
 [Admin]
-Amount of midfield segments = 3    
+Amount of midfield segments = 2    
 Amount of border segments = 2    
 Center segment outer radius, mm = 30    
 Midfield segments outer radius, mm = 60    
-Midfield segments starting angle = 30    
-Border segments starting angle = 0    
+Midfield segments starting angle = -80    
+Border segments starting angle = 60    
 Cage diameter, mm = 180    
