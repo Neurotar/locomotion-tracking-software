@@ -43,6 +43,7 @@
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 			<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_temporary_save_path.vi"/>
 			<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
+			<Item Name="SW_Load_frames_from_XML.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML.vi"/>
 			<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file.vi"/>
 			<Item Name="SW_Load_settings_to_main_tab.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_to_main_tab.vi"/>
 			<Item Name="SW_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Initial_tabs_representation.vi"/>
