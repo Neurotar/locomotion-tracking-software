@@ -24,10 +24,13 @@
 			<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_Coordinates.vi"/>
 			<Item Name="FL_Calculate_phi_theta_etc.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_phi_theta_etc.vi"/>
 			<Item Name="FL_Calculate_phi_theta_etc_array.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_phi_theta_etc_array.vi"/>
-			<Item Name="FL_DEC_split.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split.vi"/>
+			<Item Name="FL_DEC_split_and_filter.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split_and_filter.vi"/>
 			<Item Name="FL_DEC_split_array.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split_array.vi"/>
+			<Item Name="FL_Decode_RAW_to_DEC.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC.vi"/>
 			<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_last_out.vi"/>
-			<Item Name="FL_Last_N_Samples_Cluster_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster_1D.vi"/>
+			<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/FL_Filter_data_for_online_display.vi"/>
+			<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster.vi"/>
+			<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
 			<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_queue.vi"/>
 			<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_back_for_saving.vi"/>
 			<Item Name="FL_Reshape_data_for_memory_storage.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_for_memory_storage.vi"/>
@@ -36,9 +39,11 @@
 			<Item Name="HW_Poll_Tracker.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker.vi"/>
 			<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW_Setup.vi"/>
 			<Item Name="HW_Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/HW_Stop_acq_and_close_VISA.vi"/>
+			<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data.vi"/>
 			<Item Name="HW_Stream_raw_data_enq.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data_enq.vi"/>
 			<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
 			<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/SW_Draw_mouse_br.vi"/>
+			<Item Name="SW_Generate_Color_Ramp.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Color_Ramp.vi"/>
 			<Item Name="SW_Generate_Segmented_Plot.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot.vi"/>
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 			<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_temporary_save_path.vi"/>
@@ -126,8 +131,9 @@
 				<Item Name="Relative Path To Platform Independent String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Relative Path To Platform Independent String.vi"/>
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="Close Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Close Zip File.vi"/>
+				<Item Name="Color to RGB.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/Color to RGB.vi"/>
+				<Item Name="RGB to Color.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/colorconv.llb/RGB to Color.vi"/>
 			</Item>
-			<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
