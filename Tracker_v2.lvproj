@@ -22,10 +22,14 @@
 			<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Play_pause_button.ctl"/>
 			<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Record_stop_button.ctl"/>
 			<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_Coordinates.vi"/>
+			<Item Name="FL_Calculate_Coordinates_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_Coordinates_for_saving.vi"/>
 			<Item Name="FL_Calculate_phi_theta_etc.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_phi_theta_etc.vi"/>
 			<Item Name="FL_Calculate_phi_theta_etc_array.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_phi_theta_etc_array.vi"/>
+			<Item Name="FL_Calculate_phi_theta_etc_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_phi_theta_etc_for_saving.vi"/>
 			<Item Name="FL_DEC_split_and_filter.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split_and_filter.vi"/>
+			<Item Name="FL_DEC_split_and_filter_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split_and_filter_for_saving.vi"/>
 			<Item Name="FL_DEC_split_array.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split_array.vi"/>
+			<Item Name="FL_Decode_RAW_to_DEC_bit_split.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_bit_split.vi"/>
 			<Item Name="FL_Decode_RAW_to_DEC_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_for_saving.vi"/>
 			<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_last_out.vi"/>
 			<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/FL_Filter_data_for_online_display.vi"/>
@@ -58,7 +62,6 @@
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="Tracker_v2_test_acq_comms.vi" Type="VI" URL="../Tracker_v2_test_acq_comms.vi"/>
 		<Item Name="Test_data_read.vi" Type="VI" URL="../SubVi&apos;s/Test_data_read.vi"/>
-		<Item Name="FL_Decode_RAW_to_DEC_bit_split.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_bit_split.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 F function__ogtk.vi"/>
