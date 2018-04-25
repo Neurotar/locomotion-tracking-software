@@ -4,15 +4,15 @@ Admin = "c7a090a8e9b6e42526ec02324c83bdf6"
 [Defaults]
 Default User = 0
 Jump to tracking = FALSE
-VISA Resource Name = "Tracker"
+VISA Resource Name = "Tracker88"
 Data port OK = TRUE
 
 [Admin]
-Amount of midfield segments = 4    
+Amount of midfield segments = 3    
 Amount of border segments = 5    
-Center segment outer radius, mm = 30    
-Midfield segments outer radius, mm = 50    
+Center segment outer radius, mm = 18    
+Midfield segments outer radius, mm = 53    
 Cage diameter, mm = 180    
-Midfield segments starting angle = 50    
-Border segments starting angle = -30    
-Start/stop signaling = TRUE    
+Midfield segments starting angle = 18    
+Border segments starting angle = -50    
+Start/stop signaling = FALSE    
