@@ -21,6 +21,7 @@
 			<Item Name="CTL_Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Close_Button.ctl"/>
 			<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Play_pause_button.ctl"/>
 			<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Record_stop_button.ctl"/>
+			<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/FL_Calc_speed_on_the_fly.vi"/>
 			<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_Coordinates.vi"/>
 			<Item Name="FL_Calculate_Coordinates_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_Coordinates_for_saving.vi"/>
 			<Item Name="FL_Calculate_phi_theta_etc.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_phi_theta_etc.vi"/>
@@ -34,6 +35,7 @@
 			<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_last_out.vi"/>
 			<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/FL_Filter_data_for_online_display.vi"/>
 			<Item Name="FL_Last_N_Samples_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_1D.vi"/>
+			<Item Name="FL_Last_N_Samples_1D_for_waveforms.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_1D_for_waveforms.vi"/>
 			<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster.vi"/>
 			<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
 			<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_queue.vi"/>
@@ -56,6 +58,7 @@
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 			<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_save_paths.vi"/>
 			<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
+			<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_data_for_Analysis.vi"/>
 			<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_GL.vi"/>
 			<Item Name="SW_Load_frames_from_XML_LL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_LL.vi"/>
 			<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file.vi"/>
@@ -67,7 +70,6 @@
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="Tracker_v2_test_acq_comms.vi" Type="VI" URL="../Tracker_v2_test_acq_comms.vi"/>
 		<Item Name="Test_data_read.vi" Type="VI" URL="../SubVi&apos;s/Test_data_read.vi"/>
-		<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_data_for_Analysis.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 F function__ogtk.vi"/>
