@@ -39,9 +39,9 @@
 			<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster.vi"/>
 			<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
 			<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_queue.vi"/>
+			<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/FL_Preprocess_and_save_incrementally.vi"/>
 			<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_back_for_saving.vi"/>
 			<Item Name="FL_Reshape_data_for_memory_storage.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_for_memory_storage.vi"/>
-			<Item Name="FL_Save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/FL_Save_incrementally.vi"/>
 			<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/FL_Segment_map_by_color.vi"/>
 			<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
 			<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW_Init.vi"/>
@@ -59,8 +59,8 @@
 			<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_save_paths.vi"/>
 			<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
 			<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_data_for_Analysis.vi"/>
+			<Item Name="SW_Load_frames_from_XML_AA.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_AA.vi"/>
 			<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_GL.vi"/>
-			<Item Name="SW_Load_frames_from_XML_LL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_LL.vi"/>
 			<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file.vi"/>
 			<Item Name="SW_Load_settings_file_light.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file_light.vi"/>
 			<Item Name="SW_Load_settings_to_main_tab.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_to_main_tab.vi"/>
