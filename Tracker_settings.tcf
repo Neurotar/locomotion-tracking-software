@@ -9,10 +9,10 @@ Data port OK = TRUE
 
 [Admin]
 Amount of midfield segments = 3    
-Amount of border segments = 2    
-Center segment outer radius, mm = 25    
-Midfield segments outer radius, mm = 65    
+Amount of border segments = 7    
+Center segment outer radius, mm = 15    
+Midfield segments outer radius, mm = 50    
 Cage diameter, mm = 180    
 Midfield segments starting angle = -30    
-Border segments starting angle = 0    
+Border segments starting angle = 25    
 Start/stop signaling = FALSE    
