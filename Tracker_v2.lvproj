@@ -34,6 +34,7 @@
 			<Item Name="FL_Decode_RAW_to_DEC_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_for_saving.vi"/>
 			<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_last_out.vi"/>
 			<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/FL_Filter_data_for_online_display.vi"/>
+			<Item Name="FL_Last_N_Samples.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples.vi"/>
 			<Item Name="FL_Last_N_Samples_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_1D.vi"/>
 			<Item Name="FL_Last_N_Samples_1D_for_waveforms.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_1D_for_waveforms.vi"/>
 			<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster.vi"/>
@@ -45,7 +46,8 @@
 			<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/FL_Segment_map_by_color.vi"/>
 			<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
 			<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW_Init.vi"/>
-			<Item Name="HW_Poll_Tracker.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker.vi"/>
+			<Item Name="HW_Poll_Tracker_1x.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_1x.vi"/>
+			<Item Name="HW_Poll_Tracker_2x.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_2x.vi"/>
 			<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW_Setup.vi"/>
 			<Item Name="HW_Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/HW_Stop_acq_and_close_VISA.vi"/>
 			<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data.vi"/>
@@ -59,7 +61,7 @@
 			<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_save_paths.vi"/>
 			<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
 			<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_data_for_Analysis.vi"/>
-			<Item Name="SW_Load_frames_from_XML_AA.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_AA.vi"/>
+			<Item Name="SW_Load_frames_from_temp_XML_AA.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_temp_XML_AA.vi"/>
 			<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_GL.vi"/>
 			<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file.vi"/>
 			<Item Name="SW_Load_settings_file_light.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file_light.vi"/>
@@ -170,8 +172,6 @@
 				<Item Name="Lossy Behavior.ctl" Type="VI" URL="/&lt;vilib&gt;/ChannelSupport/Lossy Behavior.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 			</Item>
-			<Item Name="Reshape_data_back_for_saving_171213.vi" Type="VI" URL="../../Tracker_repository_v.1.2.x/Subvis/Reshape_data_back_for_saving_171213.vi"/>
-			<Item Name="Reshape_data_for_memory_storage_171213.vi" Type="VI" URL="../../Tracker_repository_v.1.2.x/Subvis/Reshape_data_for_memory_storage_171213.vi"/>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="Lossy Stream-a[.](c(str,stamp)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](c(str,stamp)).lvlib"/>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
