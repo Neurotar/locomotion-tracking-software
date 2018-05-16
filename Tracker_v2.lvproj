@@ -44,6 +44,7 @@
 			<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_back_for_saving.vi"/>
 			<Item Name="FL_Reshape_data_for_memory_storage.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_for_memory_storage.vi"/>
 			<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/FL_Segment_map_by_color.vi"/>
+			<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/FL_SG_Filter.vi"/>
 			<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
 			<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW_Init.vi"/>
 			<Item Name="HW_Poll_Tracker_1x.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_1x.vi"/>
@@ -68,6 +69,7 @@
 			<Item Name="SW_Load_settings_file_light.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file_light.vi"/>
 			<Item Name="SW_Load_settings_to_main_tab.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_to_main_tab.vi"/>
 			<Item Name="SW_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Initial_tabs_representation.vi"/>
+			<Item Name="SW_SG_coefficients_3-31.vi" Type="VI" URL="../SubVi&apos;s/SW_SG_coefficients_3-31.vi"/>
 		</Item>
 		<Item Name="Select_User.vi" Type="VI" URL="../Select_User.vi"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
@@ -79,6 +81,15 @@
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
 				<Item Name="MD5 Message Digest__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest__ogtk.vi"/>
+				<Item Name="MD5 Message Digest (Binary String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Binary String)__ogtk.vi"/>
+				<Item Name="MD5 ti__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 ti__ogtk.vi"/>
+				<Item Name="MD5 Padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Padding__ogtk.vi"/>
+				<Item Name="MD5 Unrecoverable character padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Unrecoverable character padding__ogtk.vi"/>
+				<Item Name="MD5 FGHI functions__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 FGHI functions__ogtk.vi"/>
+				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 F function__ogtk.vi"/>
+				<Item Name="MD5 G function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 G function__ogtk.vi"/>
+				<Item Name="MD5 H function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 H function__ogtk.vi"/>
+				<Item Name="MD5 I function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 I function__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
