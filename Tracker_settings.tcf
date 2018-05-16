@@ -9,10 +9,11 @@ Data port OK = TRUE
 
 [Admin]
 Amount of midfield segments = 4    
-Amount of border segments = 3    
-Center segment outer radius, mm = 20    
-Midfield segments outer radius, mm = 75    
+Amount of border segments = 8    
+Center segment outer radius, mm = 30    
+Midfield segments outer radius, mm = 60    
 Cage diameter, mm = 180    
-Midfield segments starting angle = -20    
-Border segments starting angle = 30    
+Midfield segments starting angle = 0    
+Border segments starting angle = 0    
 Start/stop signaling = FALSE    
+Mouse snout orientation swap? = TRUE
