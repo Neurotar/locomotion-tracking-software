@@ -1,15 +1,15 @@
 [Users]
-Admin = "c7a090a8e9b6e42526ec02324c83bdf6"
+Researcher = "c7a090a8e9b6e42526ec02324c83bdf6"
 
 [Defaults]
 Default User = 0
 Jump to tracking = FALSE
-VISA Resource Name = "Tracker88"
+VISA Resource Name = "Tracker"
 Data port OK = TRUE
 
-[Admin]
-Amount of midfield segments = 4
-Amount of border segments = 8
+[Researcher]
+Amount of midfield segments = 1
+Amount of border segments = 5
 Center segment outer radius, mm = 50
 Midfield segments outer radius, mm = 110
 Cage diameter, mm = 325
@@ -17,3 +17,14 @@ Midfield segments starting angle = 0
 Border segments starting angle = 0
 Start/stop signaling = FALSE
 Mouse snout orientation swap? = FALSE    
+
+[Admin]
+Amount of midfield segments = 4
+Amount of border segments = 8
+Center segment outer radius, mm = 30
+Midfield segments outer radius, mm = 60
+Midfield segments starting angle = -90
+Border segments starting angle = 90
+Cage diameter, mm = 180
+Start/stop signaling = FALSE
+Mouse snout orientation swap? = FALSE
