@@ -39,6 +39,7 @@
 			<Item Name="FL_Last_N_Samples_1D_for_waveforms.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_1D_for_waveforms.vi"/>
 			<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster.vi"/>
 			<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
+			<Item Name="FL_Make_data_frame_and_put_to_channel.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_channel.vi"/>
 			<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_queue.vi"/>
 			<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/FL_Preprocess_and_save_incrementally.vi"/>
 			<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_back_for_saving.vi"/>
@@ -52,6 +53,7 @@
 			<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW_Setup.vi"/>
 			<Item Name="HW_Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/HW_Stop_acq_and_close_VISA.vi"/>
 			<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data.vi"/>
+			<Item Name="HW_Stream_raw_data_channel.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data_channel.vi"/>
 			<Item Name="HW_Stream_raw_data_enq.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data_enq.vi"/>
 			<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
 			<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/SW_Debounce_filter_U16.vi"/>
@@ -72,10 +74,11 @@
 			<Item Name="SW_SG_coefficients_3-31.vi" Type="VI" URL="../SubVi&apos;s/SW_SG_coefficients_3-31.vi"/>
 		</Item>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
-		<Item Name="Tracker_v2_test_acq_comms.vi" Type="VI" URL="../Tracker_v2_test_acq_comms.vi"/>
+		<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../Tracker_v2_test_acq_comms_channel.vi"/>
 		<Item Name="Test_data_read.vi" Type="VI" URL="../SubVi&apos;s/Test_data_read.vi"/>
 		<Item Name="orange_mouse_trackericon_256x256_5_pku_icon.ico" Type="Document" URL="../../SData/F5/Products/MHC V5 with tracker/Developed Software/Logo and Pictures/Version 171213/ico/orange_mouse_trackericon_256x256_5_pku_icon.ico"/>
 		<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
+		<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../Tracker_v2_test_acq_comms_enq.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
@@ -188,6 +191,7 @@
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+			<Item Name="Stream-c(str,stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp).lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tracker v2" Type="EXE">
