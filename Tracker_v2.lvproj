@@ -37,13 +37,16 @@
 			<Item Name="FL_Last_N_Samples.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples.vi"/>
 			<Item Name="FL_Last_N_Samples_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_1D.vi"/>
 			<Item Name="FL_Last_N_Samples_1D_for_waveforms.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_1D_for_waveforms.vi"/>
+			<Item Name="FL_Last_N_Samples_2D_array_of_strings.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_2D_array_of_strings.vi"/>
 			<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster.vi"/>
 			<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
 			<Item Name="FL_Make_data_frame_and_put_to_channel.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_channel.vi"/>
 			<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_queue.vi"/>
 			<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/FL_Preprocess_and_save_incrementally.vi"/>
 			<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_back_for_saving.vi"/>
+			<Item Name="FL_Reshape_data_back_for_saving_(strings).vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_back_for_saving_(strings).vi"/>
 			<Item Name="FL_Reshape_data_for_memory_storage.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_for_memory_storage.vi"/>
+			<Item Name="FL_Reshape_data_for_memory_storage_(strings).vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_for_memory_storage_(strings).vi"/>
 			<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/FL_Segment_map_by_color.vi"/>
 			<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/FL_SG_Filter.vi"/>
 			<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
@@ -185,13 +188,13 @@
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
-			<Item Name="Lossy Stream-a[.](c(str,stamp)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](c(str,stamp)).lvlib"/>
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="Stream-c(str,stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp).lvlib"/>
+			<Item Name="Lossy Stream-a[.,.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str).lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tracker v2" Type="EXE">
