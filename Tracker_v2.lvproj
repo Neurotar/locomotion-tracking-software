@@ -88,15 +88,6 @@
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
 				<Item Name="MD5 Message Digest__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest__ogtk.vi"/>
-				<Item Name="MD5 Message Digest (Binary String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Binary String)__ogtk.vi"/>
-				<Item Name="MD5 ti__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 ti__ogtk.vi"/>
-				<Item Name="MD5 Padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Padding__ogtk.vi"/>
-				<Item Name="MD5 Unrecoverable character padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Unrecoverable character padding__ogtk.vi"/>
-				<Item Name="MD5 FGHI functions__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 FGHI functions__ogtk.vi"/>
-				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 F function__ogtk.vi"/>
-				<Item Name="MD5 G function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 G function__ogtk.vi"/>
-				<Item Name="MD5 H function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 H function__ogtk.vi"/>
-				<Item Name="MD5 I function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 I function__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -196,9 +187,16 @@
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
-			<Item Name="Stream-c(str,stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp).lvlib"/>
 			<Item Name="Lossy Stream-a[.,.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str).lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name=")Channel.ctl" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/)Channel.ctl"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Write.vi"/>
+			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Write With Abort.vi"/>
+			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Endpoint.vi"/>
+			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/)Channel.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Read.vi"/>
+			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Read With Abort.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Instantiate.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tracker v2" Type="EXE">
@@ -214,20 +212,20 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2_beta1</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2_beta2</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87C54859-F4D2-4BF1-90F8-DF82C2124796}</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">Tracker_2.0_beta1.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2_beta1/Tracker_2.0_beta1.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker_2.0_beta2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2_beta2/Tracker_2.0_beta2.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2_beta1/data</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2_beta2</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256_5_pku_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6CD723A6-0884-49F7-A991-5828148223FB}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5E65412B-389B-4EEF-9B21-8694EC49E8C9}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -237,12 +235,12 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">3</Property>
 				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2 beta1</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2 beta 2</Property>
 				<Property Name="TgtF_internalName" Type="Str">Tracker v2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Neurotar Oy</Property>
-				<Property Name="TgtF_productName" Type="Str">Tracker v2 beta1</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker v2 beta 2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.0_beta1.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.0_beta2.exe</Property>
 			</Item>
 		</Item>
 	</Item>
