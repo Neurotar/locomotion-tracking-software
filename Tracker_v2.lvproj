@@ -37,6 +37,7 @@
 			<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_last_out.vi"/>
 			<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/FL_Filter_data_for_online_display.vi"/>
 			<Item Name="FL_Get_TTL_in_pulse_length.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_TTL_in_pulse_length.vi"/>
+			<Item Name="FL_Get_Zone_presence_time.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Zone_presence_time.vi"/>
 			<Item Name="FL_Last_N_Samples.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples.vi"/>
 			<Item Name="FL_Last_N_Samples_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_1D.vi"/>
 			<Item Name="FL_Last_N_Samples_1D_for_waveforms.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_1D_for_waveforms.vi"/>
@@ -65,6 +66,7 @@
 			<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/SW_Debounce_filter_U16.vi"/>
 			<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/SW_Draw_mouse_br.vi"/>
 			<Item Name="SW_Fire_TTL_at_start_stop.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_at_start_stop.vi"/>
+			<Item Name="SW_Fire_TTL_during_the_acquisition.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_during_the_acquisition.vi"/>
 			<Item Name="SW_Generate_Color_Ramp.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Color_Ramp.vi"/>
 			<Item Name="SW_Generate_Segmented_Plot_v2.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot_v2.vi"/>
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
