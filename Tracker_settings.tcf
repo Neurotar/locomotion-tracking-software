@@ -17,3 +17,4 @@ Midfield segments starting angle = 45
 Border segments starting angle = 0
 Start/stop signaling = FALSE
 Mouse snout orientation swap? = FALSE    
+Zone 01 = "{"Event type":0,"Cond., s":0.10000000149011612,"Stim., s":0.10000000149011612,"Set/Clear":true,"TTL out N":1,"Stim. has been set":true}"
