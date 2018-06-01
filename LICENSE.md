@@ -629,7 +629,7 @@ to attach them to the start of each source file to most effectively
 state the exclusion of warranty; and each file should have at least
 the "copyright" line and a pointer to where the full notice is found.
 
-    Mobile HomeCage motion tracking software for recording mouse activity
+    Mobile HomeCage locomotion tracking software for recording mouse activity
     in the Mobile HomeCage devices.
     Copyright 2018 Neurotar Oy Ltd
 
