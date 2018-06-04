@@ -8,12 +8,12 @@ VISA Resource Name = "Tracker"
 Data port OK = TRUE
 
 [Researcher]
-Amount of midfield segments = 2    
-Amount of border segments = 4    
-Center segment outer radius, mm = 30    
-Midfield segments outer radius, mm = 75    
-Cage diameter, mm = 180    
-Midfield segments starting angle = 0    
-Border segments starting angle = 0    
-Start/stop signaling = TRUE    
-Mouse snout orientation swap? = FALSE
+Amount of midfield segments = 2
+Amount of border segments = 4
+Center segment outer radius, mm = 30
+Midfield segments outer radius, mm = 75
+Cage diameter, mm = 180
+Midfield segments starting angle = 0
+Border segments starting angle = 0
+Start/stop signaling = TRUE
+Mouse snout orientation swap? = FALSE    
