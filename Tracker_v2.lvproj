@@ -56,7 +56,8 @@
 			<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
 			<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW_Init.vi"/>
 			<Item Name="HW_Poll_Tracker_1x.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_1x.vi"/>
-			<Item Name="HW_Poll_Tracker_2x.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_2x.vi"/>
+			<Item Name="HW_Poll_Tracker_2.0.3.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_2.0.3.vi"/>
+			<Item Name="HW_Poll_Tracker_2.0.4+.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_2.0.4+.vi"/>
 			<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW_Setup.vi"/>
 			<Item Name="HW_Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/HW_Stop_acq_and_close_VISA.vi"/>
 			<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data.vi"/>
@@ -90,10 +91,20 @@
 		<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../SubVi&apos;s/Test_of_the_stim_settings_save.vi"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
+		<Item Name="CTL_Custom_Jump_to..._button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Jump_to..._button.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
 				<Item Name="MD5 Message Digest__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest__ogtk.vi"/>
+				<Item Name="MD5 Message Digest (Binary String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Binary String)__ogtk.vi"/>
+				<Item Name="MD5 ti__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 ti__ogtk.vi"/>
+				<Item Name="MD5 Padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Padding__ogtk.vi"/>
+				<Item Name="MD5 Unrecoverable character padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Unrecoverable character padding__ogtk.vi"/>
+				<Item Name="MD5 FGHI functions__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 FGHI functions__ogtk.vi"/>
+				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 F function__ogtk.vi"/>
+				<Item Name="MD5 G function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 G function__ogtk.vi"/>
+				<Item Name="MD5 H function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 H function__ogtk.vi"/>
+				<Item Name="MD5 I function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 I function__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -198,15 +209,8 @@
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="Lossy Stream-a[.,.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str).lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
-			<Item Name=")Channel.ctl" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/)Channel.ctl"/>
-			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Write.vi"/>
-			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Write With Abort.vi"/>
-			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Endpoint.vi"/>
-			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/)Channel.vi"/>
-			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Read.vi"/>
-			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Read With Abort.vi"/>
-			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Instantiate.vi"/>
 			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
+			<Item Name="Stream-c(str,stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp).lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tracker v2" Type="EXE">
