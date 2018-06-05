@@ -17,5 +17,3 @@ Midfield segments starting angle = 0
 Border segments starting angle = 0
 Start/stop signaling = TRUE
 Mouse snout orientation swap? = FALSE    
-Zone 03 = "{"Event type":0,"Dur., s":0.5,"Stim., s":0.5,"Set/Clear":true,"TTL out N":2,"Stim. has been set":true}"
-Zone 06 = "{"Event type":0,"Dur., s":0.20000000298023224,"Stim., s":0.40000000596046448,"Set/Clear":true,"TTL out N":1,"Stim. has been set":true}"
