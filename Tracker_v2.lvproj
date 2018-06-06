@@ -68,10 +68,13 @@
 			<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/SW_Draw_mouse_br.vi"/>
 			<Item Name="SW_Fire_TTL_at_start_stop.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_at_start_stop.vi"/>
 			<Item Name="SW_Fire_TTL_during_the_acquisition.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_during_the_acquisition.vi"/>
+			<Item Name="SW_Gen_Draw_numbers_and_highllights.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Draw_numbers_and_highllights.vi"/>
+			<Item Name="SW_Gen_Draw_Segments.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Draw_Segments.vi"/>
+			<Item Name="SW_Gen_Get_Bounding_rectangles.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Get_Bounding_rectangles.vi"/>
+			<Item Name="SW_Gen_Get_Initial_picture_Scaling_and_Cage_size.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Get_Initial_picture_Scaling_and_Cage_size.vi"/>
 			<Item Name="SW_Generate_Color_Ramp.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Color_Ramp.vi"/>
 			<Item Name="SW_Generate_Segmented_Plot_v2.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot_v2.vi"/>
 			<Item Name="SW_Generate_Segmented_Plot_v3.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot_v3.vi"/>
-			<Item Name="SW_Generate_Segmented_Plot_v3b.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot_v3b.vi"/>
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 			<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_save_paths.vi"/>
 			<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
