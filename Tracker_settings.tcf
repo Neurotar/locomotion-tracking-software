@@ -8,13 +8,15 @@ VISA Resource Name = "Tracker"
 Data port OK = TRUE
 
 [Researcher]
-Amount of midfield segments = 2
-Amount of border segments = 4
+Amount of midfield segments = 3
+Amount of border segments = 5
 Center segment outer radius, mm = 30
 Midfield segments outer radius, mm = 75
 Cage diameter, mm = 180
 Midfield segments starting angle = 0
-Border segments starting angle = 0
+Border segments starting angle = 30
 Start/stop signaling = TRUE
 Mouse snout orientation swap? = FALSE    
 Vertical offset = 0.000000
+Zone 03 = "{"Event type":0,"Dur., s":1.2000000476837158,"Stim., s":0.30000001192092896,"Set/Clear":true,"TTL out N":3,"Stim. has been set":true}"
+Zone 05 = "{"Event type":0,"Dur., s":0.20000000298023224,"Stim., s":0.30000001192092896,"Set/Clear":true,"TTL out N":1,"Stim. has been set":true}"
