@@ -18,3 +18,4 @@ Border segments starting angle = 0
 Start/stop signaling = TRUE
 Mouse snout orientation swap? = FALSE    
 Vertical offset = 0.000000
+IO ports configuration = "[6,3,0,0,2,0]"
