@@ -17,4 +17,4 @@ Midfield segments starting angle = 0
 Border segments starting angle = 0
 Mouse snout orientation swap? = FALSE    
 Vertical offset = 0.000000
-IO ports configuration = "[12,1,1,2,2,0]"
+IO ports configuration = "[12,3,1,0,0,0]"

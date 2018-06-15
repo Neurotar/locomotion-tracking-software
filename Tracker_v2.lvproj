@@ -30,6 +30,7 @@
 			<Item Name="FL_Calculate_phi_theta_etc.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_phi_theta_etc.vi"/>
 			<Item Name="FL_Calculate_phi_theta_etc_array.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_phi_theta_etc_array.vi"/>
 			<Item Name="FL_Calculate_phi_theta_etc_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_phi_theta_etc_for_saving.vi"/>
+			<Item Name="FL_Check_TTL_firing_conditions.vi" Type="VI" URL="../SubVi&apos;s/FL_Check_TTL_firing_conditions.vi"/>
 			<Item Name="FL_DEC_split_and_filter.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split_and_filter.vi"/>
 			<Item Name="FL_DEC_split_and_filter_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split_and_filter_for_saving.vi"/>
 			<Item Name="FL_DEC_split_array.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split_array.vi"/>
