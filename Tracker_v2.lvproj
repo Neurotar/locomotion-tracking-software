@@ -69,7 +69,10 @@
 			<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/SW_Debounce_filter_U16.vi"/>
 			<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/SW_Draw_mouse_br.vi"/>
 			<Item Name="SW_Fire_TTL_at_start_stop.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_at_start_stop.vi"/>
+			<Item Name="SW_Fire_TTL_at_start_universal.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_at_start_universal.vi"/>
 			<Item Name="SW_Fire_TTL_during_the_acquisition.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_during_the_acquisition.vi"/>
+			<Item Name="SW_Fire_TTL_during_the_acquisition_universal.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_during_the_acquisition_universal.vi"/>
+			<Item Name="SW_Gen_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Available_TTL_outputs_array.vi"/>
 			<Item Name="SW_Gen_Check_segments_parameters.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Check_segments_parameters.vi"/>
 			<Item Name="SW_Gen_Draw_numbers_and_highllights.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Draw_numbers_and_highllights.vi"/>
 			<Item Name="SW_Gen_Draw_Segments.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Draw_Segments.vi"/>
@@ -100,6 +103,7 @@
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="orange_mouse_trackericon_256x256.ico" Type="Document" URL="../orange_mouse_trackericon_256x256.ico"/>
+		<Item Name="SW_Fire_TTL_at_stop_universal.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_at_stop_universal.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
