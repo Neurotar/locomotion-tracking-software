@@ -61,6 +61,7 @@
 			<Item Name="HW_Poll_Tracker_2.0.3.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_2.0.3.vi"/>
 			<Item Name="HW_Poll_Tracker_2.0.4+.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_2.0.4+.vi"/>
 			<Item Name="HW_set_IO_ports.vi" Type="VI" URL="../SubVi&apos;s/HW_set_IO_ports.vi"/>
+			<Item Name="HW_set_IO_ports_3-pos.vi" Type="VI" URL="../SubVi&apos;s/HW_set_IO_ports_3-pos.vi"/>
 			<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW_Setup.vi"/>
 			<Item Name="HW_Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/HW_Stop_acq_and_close_VISA.vi"/>
 			<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data.vi"/>
@@ -84,6 +85,7 @@
 			<Item Name="SW_Generate_Segmented_Plot_v2.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot_v2.vi"/>
 			<Item Name="SW_Generate_Segmented_Plot_v3.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot_v3.vi"/>
 			<Item Name="SW_get_config_for_Start_Stop_pulses.vi" Type="VI" URL="../SubVi&apos;s/SW_get_config_for_Start_Stop_pulses.vi"/>
+			<Item Name="SW_get_config_of_Zones_and_IO.vi" Type="VI" URL="../SubVi&apos;s/SW_get_config_of_Zones_and_IO.vi"/>
 			<Item Name="SW_get_IO_ports_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_get_IO_ports_representation.vi"/>
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 			<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_save_paths.vi"/>
