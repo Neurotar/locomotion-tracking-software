@@ -67,6 +67,7 @@
 			<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data.vi"/>
 			<Item Name="HW_Stream_raw_data_channel.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data_channel.vi"/>
 			<Item Name="HW_Stream_raw_data_enq.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data_enq.vi"/>
+			<Item Name="SW_Calc_speed.vi" Type="VI" URL="../SubVi&apos;s/SW_Calc_speed.vi"/>
 			<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
 			<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/SW_Debounce_filter_U16.vi"/>
 			<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/SW_Draw_mouse_br.vi"/>
