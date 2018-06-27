@@ -23,5 +23,10 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU Affero General Public License for more details.
 
-You should have received a copy of the GNU Affero General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+You should have received a copy of the GNU Affero General Public License along with this program.
+If not, see <http://www.gnu.org/licenses/>.
+
+This program uses a 3rd-party software components (Advanced Plotting Toolkit).
+License information: Third_Party_Agreements_Acknowledgements_and_Disclosures.md
+Website: http://advancedplotting.github.io
 ```
