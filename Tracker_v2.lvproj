@@ -38,8 +38,10 @@
 			<Item Name="FL_Decode_RAW_to_DEC_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_for_saving.vi"/>
 			<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_last_out.vi"/>
 			<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/FL_Filter_data_for_online_display.vi"/>
+			<Item Name="FL_Gen_Bins_for_RunLengths.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_RunLengths.vi"/>
 			<Item Name="FL_Gen_Bins_for_Speed.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_Speed.vi"/>
-			<Item Name="FL_Get_Speed_Histogram_Bin_number.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Speed_Histogram_Bin_number.vi"/>
+			<Item Name="FL_Get_Histogram_Bin_number.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Histogram_Bin_number.vi"/>
+			<Item Name="FL_Get_Run_Length.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Run_Length.vi"/>
 			<Item Name="FL_Get_TTL_in_pulse_length.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_TTL_in_pulse_length.vi"/>
 			<Item Name="FL_Get_Zone_presence_time.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Zone_presence_time.vi"/>
 			<Item Name="FL_Last_N_Samples.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples.vi"/>
@@ -81,6 +83,7 @@
 			<Item Name="SW_Fire_TTL_at_stop_universal.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_at_stop_universal.vi"/>
 			<Item Name="SW_Fire_TTL_during_the_acquisition.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_during_the_acquisition.vi"/>
 			<Item Name="SW_Fire_TTL_during_the_acquisition_universal.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_during_the_acquisition_universal.vi"/>
+			<Item Name="SW_Gen_2D_Histogram.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_2D_Histogram.vi"/>
 			<Item Name="SW_Gen_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Available_TTL_outputs_array.vi"/>
 			<Item Name="SW_Gen_Check_segments_parameters.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Check_segments_parameters.vi"/>
 			<Item Name="SW_Gen_Draw_numbers_and_highllights.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Draw_numbers_and_highllights.vi"/>
@@ -106,6 +109,7 @@
 			<Item Name="SW_Load_settings_to_main_tab.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_to_main_tab.vi"/>
 			<Item Name="SW_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/SW_Make_Track_overlay.vi"/>
 			<Item Name="SW_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Initial_tabs_representation.vi"/>
+			<Item Name="SW_Set_SYNC_Status.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_SYNC_Status.vi"/>
 			<Item Name="SW_SG_coefficients_3-31.vi" Type="VI" URL="../SubVi&apos;s/SW_SG_coefficients_3-31.vi"/>
 		</Item>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
@@ -118,7 +122,6 @@
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="orange_mouse_trackericon_256x256.ico" Type="Document" URL="../orange_mouse_trackericon_256x256.ico"/>
 		<Item Name="Plots_testing.vi" Type="VI" URL="../Plots_testing.vi"/>
-		<Item Name="SW_Set_SYNC_Status.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_SYNC_Status.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
