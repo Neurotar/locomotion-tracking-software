@@ -39,9 +39,10 @@
 			<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/FL_Decode_RAW_to_DEC_last_out.vi"/>
 			<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/FL_Filter_data_for_online_display.vi"/>
 			<Item Name="FL_Gen_Bins_for_RunLengths.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_RunLengths.vi"/>
+			<Item Name="FL_Gen_Bins_for_RunTimes.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_RunTimes.vi"/>
 			<Item Name="FL_Gen_Bins_for_Speed.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_Speed.vi"/>
 			<Item Name="FL_Get_Histogram_Bin_number.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Histogram_Bin_number.vi"/>
-			<Item Name="FL_Get_Run_Length.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Run_Length.vi"/>
+			<Item Name="FL_Get_Run_Bout_and_Time.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Run_Bout_and_Time.vi"/>
 			<Item Name="FL_Get_TTL_in_pulse_length.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_TTL_in_pulse_length.vi"/>
 			<Item Name="FL_Get_Zone_presence_time.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Zone_presence_time.vi"/>
 			<Item Name="FL_Last_N_Samples.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples.vi"/>
