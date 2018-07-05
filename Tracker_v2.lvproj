@@ -61,6 +61,7 @@
 			<Item Name="FL_Reshape_data_for_memory_storage_(strings).vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_for_memory_storage_(strings).vi"/>
 			<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/FL_Segment_map_by_color.vi"/>
 			<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/FL_SG_Filter.vi"/>
+			<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/FL_SG_Filter_2.vi"/>
 			<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
 			<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW_Init.vi"/>
 			<Item Name="HW_Poll_Tracker_1x.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_1x.vi"/>
@@ -124,10 +125,20 @@
 		<Item Name="orange_mouse_trackericon_256x256.ico" Type="Document" URL="../orange_mouse_trackericon_256x256.ico"/>
 		<Item Name="Plots_testing.vi" Type="VI" URL="../Plots_testing.vi"/>
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
+		<Item Name="Data_filtering_test.vi" Type="VI" URL="../Data_filtering_test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
 				<Item Name="MD5 Message Digest__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest__ogtk.vi"/>
+				<Item Name="MD5 Message Digest (Binary String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Binary String)__ogtk.vi"/>
+				<Item Name="MD5 ti__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 ti__ogtk.vi"/>
+				<Item Name="MD5 Padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Padding__ogtk.vi"/>
+				<Item Name="MD5 Unrecoverable character padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Unrecoverable character padding__ogtk.vi"/>
+				<Item Name="MD5 FGHI functions__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 FGHI functions__ogtk.vi"/>
+				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 F function__ogtk.vi"/>
+				<Item Name="MD5 G function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 G function__ogtk.vi"/>
+				<Item Name="MD5 H function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 H function__ogtk.vi"/>
+				<Item Name="MD5 I function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 I function__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
@@ -251,14 +262,7 @@
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name=")Channel.ctl" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/)Channel.ctl"/>
-			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Write.vi"/>
-			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Write With Abort.vi"/>
-			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Endpoint.vi"/>
-			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/)Channel.vi"/>
-			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Read.vi"/>
-			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Read With Abort.vi"/>
-			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Instantiate.vi"/>
+			<Item Name="Stream-c(str,stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp).lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tracker v2.1" Type="EXE">
