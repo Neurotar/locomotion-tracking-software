@@ -53,6 +53,7 @@
 			<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
 			<Item Name="FL_Make_data_frame_and_put_to_channel.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_channel.vi"/>
 			<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_queue.vi"/>
+			<Item Name="FL_Make_RAW_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_RAW_data_frame_and_put_to_queue.vi"/>
 			<Item Name="FL_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_Track_overlay.vi"/>
 			<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/FL_Preprocess_and_save_incrementally.vi"/>
 			<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_back_for_saving.vi"/>
