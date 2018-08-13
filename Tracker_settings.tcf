@@ -17,4 +17,6 @@ Midfield segments starting angle = 0
 Border segments starting angle = 0
 Mouse snout orientation swap? = FALSE    
 Vertical offset = 0.000000
-IO ports configuration = "[12,1,1,0,0,0]"
+IO ports configuration = "[12,1,1,0,0,0,2]"
+Zone 05 = "{"Event type":0,"Cond., s":1,"Stim., s":3,"Set/Clear":true,"TTL out N":2,"Stim. has been set":true}"
+Zone 06 = "{"Event type":0,"Cond., s":1,"Stim., s":3,"Set/Clear":true,"TTL out N":1,"Stim. has been set":true}"

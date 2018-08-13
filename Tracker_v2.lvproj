@@ -127,6 +127,7 @@
 		<Item Name="Plots_testing.vi" Type="VI" URL="../Plots_testing.vi"/>
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
 		<Item Name="Data_filtering_test.vi" Type="VI" URL="../Data_filtering_test.vi"/>
+		<Item Name="FL_TTL_xor_with_IO_inv_config.vi" Type="VI" URL="../SubVi&apos;s/FL_TTL_xor_with_IO_inv_config.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
