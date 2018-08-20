@@ -116,7 +116,7 @@
 			<Item Name="SW_Set_Adv_Stimulus_interface.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Adv_Stimulus_interface.vi"/>
 			<Item Name="SW_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Initial_tabs_representation.vi"/>
 			<Item Name="SW_Set_SYNC_Status.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_SYNC_Status.vi"/>
-			<Item Name="SW_SG_coefficients_3-31.vi" Type="VI" URL="../SubVi&apos;s/SW_SG_coefficients_3-31.vi"/>
+			<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/SW_SG_coefficients_3-51.vi"/>
 		</Item>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../Tracker_v2_test_acq_comms_channel.vi"/>
