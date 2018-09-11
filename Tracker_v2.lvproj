@@ -131,6 +131,7 @@
 		<Item Name="Plots_testing.vi" Type="VI" URL="../Plots_testing.vi"/>
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
 		<Item Name="Data_filtering_test.vi" Type="VI" URL="../Data_filtering_test.vi"/>
+		<Item Name="Tracker File Reader.vi" Type="VI" URL="../Tracker File Reader.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
@@ -285,23 +286,23 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.5-preview-01</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.5-preview-02</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87C54859-F4D2-4BF1-90F8-DF82C2124796}</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">5</Property>
 				<Property Name="Destination[0].destName" Type="Str">Tracker_2.1.5.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.5-preview-01/Tracker_2.1.5.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.5-preview-02/Tracker_2.1.5.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.5-preview-01</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.5-preview-02</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{75887B8C-50D8-4C05-A977-2D7C21B8A3A6}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5D606338-6FF7-461A-A4F8-3EBDB64EDF91}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -326,6 +327,57 @@
 				<Property Name="TgtF_productName" Type="Str">Tracker v2.1</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.1.5.exe</Property>
+			</Item>
+			<Item Name="Tracker File Reader v1.0" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{90CA0B4E-C32C-42FE-8087-22E33059AE44}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{756944C0-ED7D-4230-A6CC-C4A6A57F7B6D}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{5A2AA7FE-30E1-44DD-B5E9-ED6F46F86EF6}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker File Reader v1.0</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/FileConverter</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{7B6A123D-074B-4981-B01B-BAD4A7E22DA8}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker File Converter v1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/FileConverter/Tracker File Converter v1.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/FileConverter</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{04A5526B-F228-486C-9CC1-D123E2AF41F8}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/README.md</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
+				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Tracker File Reader.vi</Property>
+				<Property Name="Source[5].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[5].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">File converter for Tracker v2.1.5</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tracker v2.1</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker v2.1</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{B99FA6F9-F521-47C4-893A-DD9110741EC7}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker File Converter v1.exe</Property>
 			</Item>
 		</Item>
 	</Item>
