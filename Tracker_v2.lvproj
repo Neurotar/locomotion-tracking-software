@@ -3,6 +3,7 @@
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
+	<Property Name="varPersistentID:{60AE0F3F-0A3F-4430-A590-DB2740F14DEC}" Type="Ref">/My Computer/Shared_Variables.lvlib/Timing source</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -133,6 +134,9 @@
 		<Item Name="Data_filtering_test.vi" Type="VI" URL="../Data_filtering_test.vi"/>
 		<Item Name="TDMS_test.vi" Type="VI" URL="../SubVi&apos;s/TDMS_test.vi"/>
 		<Item Name="Tracker_Data_Analysis_tool.vi" Type="VI" URL="../Tracker_Data_Analysis_tool.vi"/>
+		<Item Name="Shared_Variables.lvlib" Type="Library" URL="../Shared_Variables.lvlib"/>
+		<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../Shared_Variable_test_1.vi"/>
+		<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../Shared_Variable_test_2.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
@@ -296,6 +300,7 @@
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
 				<Item Name="sizeaction.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/sizeaction.ctl"/>
 				<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
+				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
