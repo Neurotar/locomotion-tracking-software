@@ -9,7 +9,7 @@ Data port OK = TRUE
 
 [Researcher]
 Amount of midfield segments = 3
-Amount of border segments = 5
+Amount of border segments = 8
 Center segment outer radius, mm = 35
 Midfield segments outer radius, mm = 75
 Cage diameter, mm = 180
@@ -18,5 +18,6 @@ Border segments starting angle = 0
 Mouse snout orientation swap? = FALSE    
 Vertical offset = 0.000000
 IO ports configuration = "[12,1,1,0,0,0,0]"
-Zone 03 = "{"Event type":0,"Cond., s":0.10000000149011612,"Stim., s":0.10000000149011612,"Set/Clear":true,"TTL out N":1,"Stim. has been set":true}"
-Zone 09 = "{"Event type":0,"Cond., s":0.30000001192092896,"Stim., s":0.30000001192092896,"Set/Clear":true,"TTL out N":3,"Stim. has been set":true}"
+Zone 09 = "{"Event type":0,"Cond., s":3,"Stim., s":0.30000001192092896,"Set/Clear":true,"TTL out N":3,"Stim. has been set":true}"
+Zone 11 = "{"Event type":0,"Cond., s":5,"Stim., s":1,"Set/Clear":true,"TTL out N":1,"Stim. has been set":true}"
+Zone 12 = "{"Event type":0,"Cond., s":2,"Stim., s":1,"Set/Clear":true,"TTL out N":2,"Stim. has been set":true}"
