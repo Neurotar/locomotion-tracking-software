@@ -139,6 +139,7 @@
 		<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../Shared_Variable_test_2.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TDMS_loading_speeds_test.vi"/>
+		<Item Name="CTL_Reset_settings_(zones).ctl" Type="VI" URL="../SubVi&apos;s/CTL_Reset_settings_(zones).ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
