@@ -107,6 +107,7 @@
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 			<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_save_paths.vi"/>
 			<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
+			<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_data_for_Analysis.vi"/>
 			<Item Name="SW_Load_data_for_Analysis_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_data_for_Analysis_from_TDMS.vi"/>
 			<Item Name="SW_Load_frames_from_temp_XML_AA.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_temp_XML_AA.vi"/>
 			<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_GL.vi"/>
@@ -320,6 +321,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="High Speed Stream-c(str,stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp).lvlib"/>
+			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tracker v2.1" Type="EXE">
