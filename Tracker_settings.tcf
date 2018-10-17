@@ -10,11 +10,11 @@ Data port OK = TRUE
 [Researcher]
 Amount of midfield segments = 2
 Amount of border segments = 4
-Center segment outer radius, mm = 30
-Midfield segments outer radius, mm = 75
-Cage diameter, mm = 180
+Center segment outer radius, mm = 48
+Midfield segments outer radius, mm = 121
+Cage diameter, mm = 290
 Midfield segments starting angle = 0
 Border segments starting angle = 0
 IO ports configuration = "[12,1,1,0,0,0,0]"
 Bridge swap? = FALSE    
-Bridge offset = 0.00    
+Bridge offset = -59.40    
