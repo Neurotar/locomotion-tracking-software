@@ -25,6 +25,7 @@
 			<Item Name="CTL_Custom_Jump_to..._button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Jump_to..._button.ctl"/>
 			<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Play_pause_button.ctl"/>
 			<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Record_stop_button.ctl"/>
+			<Item Name="CTL_Reset_settings_(zones).ctl" Type="VI" URL="../SubVi&apos;s/CTL_Reset_settings_(zones).ctl"/>
 			<Item Name="CTL_Set_Adv_Stim.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Set_Adv_Stim.ctl"/>
 			<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Set_Clear_button.ctl"/>
 			<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/FL_Calc_speed_on_the_fly.vi"/>
@@ -144,7 +145,6 @@
 		<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../Shared_Variable_test_2.vi"/>
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TDMS_loading_speeds_test.vi"/>
-		<Item Name="CTL_Reset_settings_(zones).ctl" Type="VI" URL="../SubVi&apos;s/CTL_Reset_settings_(zones).ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
