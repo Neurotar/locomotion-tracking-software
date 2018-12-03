@@ -10,9 +10,9 @@ Data port OK = TRUE
 [Researcher]
 Amount of midfield segments = 3    
 Amount of border segments = 4    
-Center segment outer radius, mm = 30    
-Midfield segments outer radius, mm = 75    
-Cage diameter, mm = 180    
+Center segment outer radius, mm = 10    
+Midfield segments outer radius, mm = 50    
+Cage diameter, mm = 240    
 Midfield segments starting angle = 0    
 Border segments starting angle = 0    
 IO ports configuration = "[12,1,1,0,0,0,0]"
