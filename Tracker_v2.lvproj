@@ -326,33 +326,33 @@
 			<Item Name="Init Signal.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Abort Signal/Init Signal.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
-			<Item Name="Tracker v2.1.9.5b2 SO" Type="EXE">
+			<Item Name="Tracker v2.1.9.6" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{A9FA9571-5E74-45C3-ADA8-A95EBD01F385}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{411132DE-298F-49EA-8C66-5595C6020CC8}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{82206418-A1EA-4EF8-BB98-21FB9D3BEF4A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.1.9.5b2 SO</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.1.9.6</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.9.5b2_SO</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.9.6</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87C54859-F4D2-4BF1-90F8-DF82C2124796}</Property>
-				<Property Name="Bld_version.build" Type="Int">5</Property>
+				<Property Name="Bld_version.build" Type="Int">6</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">9</Property>
-				<Property Name="Destination[0].destName" Type="Str">Tracker_2.1.9.5b2_SO.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.9.5b2_SO/Tracker_2.1.9.5b2_SO.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker_2.1.9.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.9.6/Tracker_2.1.9.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.9.5b2_SO</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.1.9.6</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{879BD73D-504B-4B8D-A606-0C4A33C3F6FC}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{2CBAFF22-1130-4450-9B9A-621A594861AF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -371,12 +371,12 @@
 				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">6</Property>
 				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.1.9.5b2 SO</Property>
-				<Property Name="TgtF_internalName" Type="Str">Tracker v2.1.9.5b2 SO</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.1.9.6</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tracker v2.1.9.6</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Neurotar Oy</Property>
-				<Property Name="TgtF_productName" Type="Str">Tracker v2.1.9.5b2 SO</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker v2.1.9.6</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.1.9.5b2_SO.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.1.9.exe</Property>
 			</Item>
 			<Item Name="Network_comm_test_1" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
