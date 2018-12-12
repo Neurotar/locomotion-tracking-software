@@ -9,7 +9,7 @@ Data port OK = TRUE
 
 [Researcher]
 Amount of midfield segments = 3
-Amount of border segments = 7
+Amount of border segments = 8
 Center segment outer radius, mm = 30
 Midfield segments outer radius, mm = 75
 Cage diameter, mm = 180
