@@ -20,6 +20,7 @@
 			<Item Name="CTL_Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Boolean_Indicator.ctl"/>
 			<Item Name="CTL_Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Close_Button.ctl"/>
 			<Item Name="CTL_Custom_HW_Re-check_Button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_HW_Re-check_Button.ctl"/>
+			<Item Name="CTL_Custom_Jump_to..._button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Jump_to..._button.ctl"/>
 			<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Play_pause_button.ctl"/>
 			<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Record_stop_button.ctl"/>
 			<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Set_Clear_button.ctl"/>
@@ -56,7 +57,9 @@
 			<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
 			<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW_Init.vi"/>
 			<Item Name="HW_Poll_Tracker_1x.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_1x.vi"/>
-			<Item Name="HW_Poll_Tracker_2x.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_2x.vi"/>
+			<Item Name="HW_Poll_Tracker_2.0.3.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_2.0.3.vi"/>
+			<Item Name="HW_Poll_Tracker_2.0.4+.vi" Type="VI" URL="../SubVi&apos;s/HW_Poll_Tracker_2.0.4+.vi"/>
+			<Item Name="HW_set_IO_ports.vi" Type="VI" URL="../SubVi&apos;s/HW_set_IO_ports.vi"/>
 			<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW_Setup.vi"/>
 			<Item Name="HW_Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/HW_Stop_acq_and_close_VISA.vi"/>
 			<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW_Stream_raw_data.vi"/>
@@ -67,8 +70,14 @@
 			<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/SW_Draw_mouse_br.vi"/>
 			<Item Name="SW_Fire_TTL_at_start_stop.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_at_start_stop.vi"/>
 			<Item Name="SW_Fire_TTL_during_the_acquisition.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_during_the_acquisition.vi"/>
+			<Item Name="SW_Gen_Check_segments_parameters.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Check_segments_parameters.vi"/>
+			<Item Name="SW_Gen_Draw_numbers_and_highllights.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Draw_numbers_and_highllights.vi"/>
+			<Item Name="SW_Gen_Draw_Segments.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Draw_Segments.vi"/>
+			<Item Name="SW_Gen_Get_Bounding_rectangles.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Get_Bounding_rectangles.vi"/>
+			<Item Name="SW_Gen_Get_Initial_picture_Scaling_and_Cage_size.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Get_Initial_picture_Scaling_and_Cage_size.vi"/>
 			<Item Name="SW_Generate_Color_Ramp.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Color_Ramp.vi"/>
 			<Item Name="SW_Generate_Segmented_Plot_v2.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot_v2.vi"/>
+			<Item Name="SW_Generate_Segmented_Plot_v3.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot_v3.vi"/>
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 			<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_save_paths.vi"/>
 			<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
@@ -84,12 +93,12 @@
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../Tracker_v2_test_acq_comms_channel.vi"/>
 		<Item Name="Test_data_read.vi" Type="VI" URL="../SubVi&apos;s/Test_data_read.vi"/>
-		<Item Name="orange_mouse_trackericon_256x256_5_pku_icon.ico" Type="Document" URL="../../SData/F5/Products/MHC V5 with tracker/Developed Software/Logo and Pictures/Version 171213/ico/orange_mouse_trackericon_256x256_5_pku_icon.ico"/>
 		<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 		<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../Tracker_v2_test_acq_comms_enq.vi"/>
 		<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../SubVi&apos;s/Test_of_the_stim_settings_save.vi"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
+		<Item Name="orange_mouse_trackericon_256x256.ico" Type="Document" URL="../orange_mouse_trackericon_256x256.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
@@ -198,6 +207,7 @@
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="Lossy Stream-a[.,.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str).lvlib"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
+			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
 			<Item Name=")Channel.ctl" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/)Channel.ctl"/>
 			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Write.vi"/>
 			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Write With Abort.vi"/>
@@ -206,7 +216,6 @@
 			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Read.vi"/>
 			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Read With Abort.vi"/>
 			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(str,stamp)/Instantiate.vi"/>
-			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tracker v2" Type="EXE">
@@ -222,20 +231,22 @@
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.0.0</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.0.5</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87C54859-F4D2-4BF1-90F8-DF82C2124796}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">Tracker_2.0.0.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.0.0/Tracker_2.0.0.exe</Property>
+				<Property Name="Bld_version.patch" Type="Int">5</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker_2.0.5.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.0.5/Tracker_2.0.5.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.0.0</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2.0.5</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256_5_pku_icon.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{6FD87DD0-0CB1-41E9-9EA4-425429A0B6E5}</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{95067DDF-F1F7-42CD-ACAD-88D774EE4B1A}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -244,21 +255,19 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker_settings.tcf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/orange_mouse_trackericon_256x256_5_pku_icon.ico</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/README.md</Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/README.md</Property>
-				<Property Name="Source[5].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="SourceCount" Type="Int">6</Property>
+				<Property Name="SourceCount" Type="Int">5</Property>
 				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2 beta 3</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.0.5</Property>
 				<Property Name="TgtF_internalName" Type="Str">Tracker v2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2018 Neurotar Oy</Property>
-				<Property Name="TgtF_productName" Type="Str">Tracker v2 beta 3</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker v2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.0.0.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.0.5.exe</Property>
 			</Item>
 		</Item>
 	</Item>
