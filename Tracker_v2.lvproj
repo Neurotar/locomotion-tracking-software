@@ -148,6 +148,7 @@
 		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
 		<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TDMS_loading_speeds_test.vi"/>
 		<Item Name="TDMS_export_tool.vi" Type="VI" URL="../TDMS_export_tool.vi"/>
+		<Item Name="TDMS_to_CSV_48x48.ico" Type="Document" URL="../TDMS_to_CSV_48x48.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 Message Digest (Hexadecimal String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Message Digest (Hexadecimal String)__ogtk.vi"/>
@@ -312,6 +313,8 @@
 				<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
 				<Item Name="Stream Element Allocation Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Stream Element Allocation Mode.ctl"/>
+				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
+				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
@@ -432,6 +435,50 @@
 				<Property Name="TgtF_productName" Type="Str">Network_comm_test_1</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{1A163B19-1A04-4ABF-ADE1-F560AE648097}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Network_comm_tester_1.exe</Property>
+			</Item>
+			<Item Name="TDMS export tool" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{986C627E-90EE-47F7-B99E-622E3DA6B0E5}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5B2C9FC6-6CF5-489A-BB9C-3A13E427CE7C}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com/</Property>
+				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{4A280651-5C89-490A-8BD9-B5D39EB92F86}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TDMS export tool</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/U/LV_builds/TDMS_export_tool</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{55B979DA-F0B8-49DC-A420-B76AB4789156}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.minor" Type="Int">9</Property>
+				<Property Name="Destination[0].destName" Type="Str">TDMS_export.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/U/LV_builds/TDMS_export_tool/TDMS_export.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/U/LV_builds/TDMS_export_tool/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/TDMS_to_CSV_48x48.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{10EFE0B2-09E3-4EE8-8AD5-432B85733B53}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TDMS_export_tool.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TDMS export tool</Property>
+				<Property Name="TgtF_internalName" Type="Str">TDMS export tool</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">TDMS export tool</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{763FFDA8-3802-44B6-9C22-024C36A4C911}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TDMS_export.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
