@@ -126,27 +126,30 @@
 			<Item Name="SW_Set_SYNC_Status.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_SYNC_Status.vi"/>
 			<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/SW_SG_coefficients_3-51.vi"/>
 		</Item>
+		<Item Name="TestVI&apos;s" Type="Folder">
+			<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_channel.vi"/>
+			<Item Name="Test_data_read.vi" Type="VI" URL="../SubVi&apos;s/Test_data_read.vi"/>
+			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
+			<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../SubVi&apos;s/Test_of_the_stim_settings_save.vi"/>
+			<Item Name="Plots_testing.vi" Type="VI" URL="../Plots_testing.vi"/>
+			<Item Name="Data_filtering_test.vi" Type="VI" URL="../Data_filtering_test.vi"/>
+			<Item Name="TDMS_test.vi" Type="VI" URL="../SubVi&apos;s/TDMS_test.vi"/>
+			<Item Name="Network control test 2 writer.vi" Type="VI" URL="../Network control test 2 writer.vi"/>
+			<Item Name="Network control test 2 reader.vi" Type="VI" URL="../Network control test 2 reader.vi"/>
+			<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../Shared_Variable_test_1.vi"/>
+			<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../Shared_Variable_test_2.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
+			<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TDMS_loading_speeds_test.vi"/>
+			<Item Name="Camera_test.vi" Type="VI" URL="../TestVI&apos;s/Camera_test.vi"/>
+		</Item>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
-		<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../Tracker_v2_test_acq_comms_channel.vi"/>
-		<Item Name="Test_data_read.vi" Type="VI" URL="../SubVi&apos;s/Test_data_read.vi"/>
 		<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
-		<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../Tracker_v2_test_acq_comms_enq.vi"/>
-		<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../SubVi&apos;s/Test_of_the_stim_settings_save.vi"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="orange_mouse_trackericon_256x256.ico" Type="Document" URL="../orange_mouse_trackericon_256x256.ico"/>
-		<Item Name="Plots_testing.vi" Type="VI" URL="../Plots_testing.vi"/>
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
-		<Item Name="Data_filtering_test.vi" Type="VI" URL="../Data_filtering_test.vi"/>
-		<Item Name="TDMS_test.vi" Type="VI" URL="../SubVi&apos;s/TDMS_test.vi"/>
 		<Item Name="Tracker_Data_Analysis_tool.vi" Type="VI" URL="../Tracker_Data_Analysis_tool.vi"/>
 		<Item Name="Shared_Variables.lvlib" Type="Library" URL="../Shared_Variables.lvlib"/>
-		<Item Name="Network control test 2 writer.vi" Type="VI" URL="../Network control test 2 writer.vi"/>
-		<Item Name="Network control test 2 reader.vi" Type="VI" URL="../Network control test 2 reader.vi"/>
-		<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../Shared_Variable_test_1.vi"/>
-		<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../Shared_Variable_test_2.vi"/>
-		<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
-		<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TDMS_loading_speeds_test.vi"/>
 		<Item Name="TDMS_export_tool.vi" Type="VI" URL="../TDMS_export_tool.vi"/>
 		<Item Name="TDMS_to_CSV_48x48.ico" Type="Document" URL="../TDMS_to_CSV_48x48.ico"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -312,9 +315,34 @@
 				<Item Name="sizeaction.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/sizeaction.ctl"/>
 				<Item Name="TDMS - File Viewer.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/TDMS - File Viewer.vi"/>
 				<Item Name="VISA Open Access Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Open Access Mode.ctl"/>
-				<Item Name="Stream Element Allocation Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Stream Element Allocation Mode.ctl"/>
 				<Item Name="Recursive File List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Recursive File List.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
+				<Item Name="Channel Abort Instructions.ctl" Type="VI" URL="/&lt;vilib&gt;/ChannelSupport/Channel Abort Instructions.ctl"/>
+				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
+				<Item Name="IMAQdx.ctl" Type="VI" URL="/&lt;vilib&gt;/userdefined/High Color/IMAQdx.ctl"/>
+				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
+				<Item Name="Image Type" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Type"/>
+				<Item Name="IMAQ Create" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Create"/>
+				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
+				<Item Name="Vision Acquisition Path Convert (String).vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/Vision Acquisition Express Utility VIs.llb/Vision Acquisition Path Convert (String).vi"/>
+				<Item Name="Vision Acquisition Path Convert (Path).vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/Vision Acquisition Express Utility VIs.llb/Vision Acquisition Path Convert (Path).vi"/>
+				<Item Name="Vision Acquisition Path Convert.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/Vision Acquisition Express Utility VIs.llb/Vision Acquisition Path Convert.vi"/>
+				<Item Name="IMAQ AVI2 Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Refnum.ctl"/>
+				<Item Name="IMAQ AVI2 Write Frame" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Write Frame"/>
+				<Item Name="IMAQ AVI2 Create" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Create"/>
+				<Item Name="IMAQ AVI2 Close" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Close"/>
+				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
+				<Item Name="IMAQ GetImageInfo" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageInfo"/>
+				<Item Name="IMAQ Write JPEG2000 File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG2000 File 2"/>
+				<Item Name="IMAQ Write PNG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write PNG File 2"/>
+				<Item Name="IMAQ Write JPEG File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write JPEG File 2"/>
+				<Item Name="IMAQ Write TIFF File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write TIFF File 2"/>
+				<Item Name="IMAQ Write BMP File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write BMP File 2"/>
+				<Item Name="IMAQ Write Image And Vision Info File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write Image And Vision Info File 2"/>
+				<Item Name="IMAQ Write File 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ Write File 2"/>
+				<Item Name="Vision Acquisition Image Logging.vi" Type="VI" URL="/&lt;vilib&gt;/vision/driver/Vision Acquisition Express Utility VIs.llb/Vision Acquisition Image Logging.vi"/>
+				<Item Name="IMAQ WindNonTearing" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindNonTearing"/>
+				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
@@ -331,13 +359,17 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
-			<Item Name=")Channel.ctl" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/)Channel.ctl"/>
-			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Write.vi"/>
-			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/)Channel.vi"/>
-			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Read.vi"/>
-			<Item Name="_Read For Replicate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/_Read For Replicate.vi"/>
-			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Instantiate.vi"/>
-			<Item Name="Init Signal.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Abort Signal/Init Signal.vi"/>
+			<Item Name="High Speed Stream-c(str,stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp).lvlib"/>
+			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="ImageAcquisition_test.vi" Type="VI" URL="../TestVI&apos;s/ImageAcquisition_test.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Tracker v2.1.9.7" Type="EXE">
@@ -425,7 +457,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{61F59B26-F473-4463-B0AF-6B6CDD0BA86B}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Network control test 2 writer.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestVI's/Network control test 2 writer.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
