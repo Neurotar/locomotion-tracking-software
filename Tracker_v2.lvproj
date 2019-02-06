@@ -23,6 +23,7 @@
 			<Item Name="CTL_Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Close_Button.ctl"/>
 			<Item Name="CTL_Custom_HW_Re-check_Button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_HW_Re-check_Button.ctl"/>
 			<Item Name="CTL_Custom_Jump_to..._button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Jump_to..._button.ctl"/>
+			<Item Name="CTL_Data_flow_control_cluster.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Data_flow_control_cluster.ctl"/>
 			<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Play_pause_button.ctl"/>
 			<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Record_stop_button.ctl"/>
 			<Item Name="CTL_Reset_settings_(zones).ctl" Type="VI" URL="../SubVi&apos;s/CTL_Reset_settings_(zones).ctl"/>
