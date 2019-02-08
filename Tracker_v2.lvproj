@@ -593,14 +593,30 @@
 				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
 				<Property Name="DistPart[3].SoftDepCount" Type="Int">12</Property>
 				<Property Name="DistPart[3].upgradeCode" Type="Str">{E4F03E30-E086-4EFC-B703-16299EC18DC7}</Property>
-				<Property Name="DistPartCount" Type="Int">4</Property>
+				<Property Name="DistPart[4].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{8BC8FAB5-6843-483B-B020-F545FA0A144E}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI TDM Excel Add-In 2018</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{6D2EBDAF-6CCD-44F3-B767-4DF9E0F2037B}</Property>
+				<Property Name="DistPart[5].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[5].productID" Type="Str">{3ECA30BC-9D30-46B4-B4DA-1D9FC315D29D}</Property>
+				<Property Name="DistPart[5].productName" Type="Str">NI Measurement &amp; Automation Explorer 18.5</Property>
+				<Property Name="DistPart[5].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[0].productName" Type="Str">NI Error Reporting</Property>
+				<Property Name="DistPart[5].SoftDep[0].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[5].SoftDepCount" Type="Int">1</Property>
+				<Property Name="DistPart[5].upgradeCode" Type="Str">{AE940F24-CC0E-4148-9A96-10FB04D9796D}</Property>
+				<Property Name="DistPart[6].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[6].productID" Type="Str">{7F91F095-E296-43CA-AC52-1E1CFC778DBB}</Property>
+				<Property Name="DistPart[6].productName" Type="Str">NI-VISA Configuration Support 18.5</Property>
+				<Property Name="DistPart[6].upgradeCode" Type="Str">{093EECCF-DE2B-4226-B7E5-B1FD4028A783}</Property>
+				<Property Name="DistPartCount" Type="Int">7</Property>
 				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
 				<Property Name="INST_buildLocation" Type="Path">/U/LV_builds/Tracker_v2/Tracker_v2.1.9.8_installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.9.8 installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="INST_productName" Type="Str">Tracker v2.1.9.8</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.12</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.13</Property>
 				<Property Name="INST_readmeID" Type="Ref">/My Computer/Support/README.rtf</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
@@ -608,9 +624,7 @@
 				<Property Name="MSI_arpContact" Type="Str">info@neurotar.com</Property>
 				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
 				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
-				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
 				<Property Name="MSI_distID" Type="Str">{75E853F2-2080-4C36-94E8-A06C713940CC}</Property>
-				<Property Name="MSI_hideNonRuntimes" Type="Bool">true</Property>
 				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{018765B4-DD95-4642-8CD2-80E12B0E61CF}</Property>
