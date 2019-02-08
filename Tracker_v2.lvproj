@@ -385,6 +385,9 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{A9FA9571-5E74-45C3-ADA8-A95EBD01F385}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{411132DE-298F-49EA-8C66-5595C6020CC8}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{82206418-A1EA-4EF8-BB98-21FB9D3BEF4A}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.1.9.8</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -407,7 +410,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{5DD8B847-1DE6-423A-831C-4AD46849808B}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{9C058F32-9F0F-4579-9BC5-F2327BD1286D}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -593,11 +596,11 @@
 				<Property Name="DistPartCount" Type="Int">4</Property>
 				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/U/LV_builds/Tracker_v2.1.9.8_installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">/U/LV_builds/Tracker_v2/Tracker_v2.1.9.8_installer</Property>
 				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.9.8 installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="INST_productName" Type="Str">Tracker v2.1.9.8</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.10</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.12</Property>
 				<Property Name="INST_readmeID" Type="Ref">/My Computer/Support/README.rtf</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
@@ -613,6 +616,9 @@
 				<Property Name="MSI_upgradeCode" Type="Str">{018765B4-DD95-4642-8CD2-80E12B0E61CF}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.9.8 software installation</Property>
 				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
+				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
@@ -633,7 +639,14 @@
 				<Property Name="Source[0].File[2].name" Type="Str">Tracker_settings.tcf</Property>
 				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/Tracker_settings.tcf</Property>
 				<Property Name="Source[0].File[2].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].FileCount" Type="Int">3</Property>
+				<Property Name="Source[0].File[3].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[3].name" Type="Str">README.rtf</Property>
+				<Property Name="Source[0].File[3].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[3].Shortcut[0].name" Type="Str">README</Property>
+				<Property Name="Source[0].File[3].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage®</Property>
+				<Property Name="Source[0].File[3].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/README.rtf</Property>
+				<Property Name="Source[0].FileCount" Type="Int">4</Property>
 				<Property Name="Source[0].name" Type="Str">Tracker v2.1.9.8</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.8</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
