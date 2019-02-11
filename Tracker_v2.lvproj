@@ -3,8 +3,6 @@
 	<Property Name="CCSymbols" Type="Str"></Property>
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
-	<Property Name="varPersistentID:{4D39EF16-82E3-4791-9B65-1689F0AC0243}" Type="Ref">/My Computer/Shared_Variables.lvlib/Network-shared string variable</Property>
-	<Property Name="varPersistentID:{60AE0F3F-0A3F-4430-A590-DB2740F14DEC}" Type="Ref">/My Computer/Shared_Variables.lvlib/Timing source</Property>
 	<Item Name="My Computer" Type="My Computer">
 		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
@@ -132,15 +130,15 @@
 			<Item Name="Test_data_read.vi" Type="VI" URL="../SubVi&apos;s/Test_data_read.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 			<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../SubVi&apos;s/Test_of_the_stim_settings_save.vi"/>
-			<Item Name="Plots_testing.vi" Type="VI" URL="../Plots_testing.vi"/>
-			<Item Name="Data_filtering_test.vi" Type="VI" URL="../Data_filtering_test.vi"/>
+			<Item Name="Plots_testing.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing.vi"/>
+			<Item Name="Data_filtering_test.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_test.vi"/>
 			<Item Name="TDMS_test.vi" Type="VI" URL="../SubVi&apos;s/TDMS_test.vi"/>
-			<Item Name="Network control test 2 writer.vi" Type="VI" URL="../Network control test 2 writer.vi"/>
-			<Item Name="Network control test 2 reader.vi" Type="VI" URL="../Network control test 2 reader.vi"/>
-			<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../Shared_Variable_test_1.vi"/>
-			<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../Shared_Variable_test_2.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../Test.vi"/>
-			<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TDMS_loading_speeds_test.vi"/>
+			<Item Name="Network control test 2 writer.vi" Type="VI" URL="../TestVI&apos;s/Network control test 2 writer.vi"/>
+			<Item Name="Network control test 2 reader.vi" Type="VI" URL="../TestVI&apos;s/Network control test 2 reader.vi"/>
+			<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_1.vi"/>
+			<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_2.vi"/>
+			<Item Name="Test.vi" Type="VI" URL="../TestVI&apos;s/Test.vi"/>
+			<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TestVI&apos;s/TDMS_loading_speeds_test.vi"/>
 			<Item Name="Camera_test.vi" Type="VI" URL="../TestVI&apos;s/Camera_test.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
@@ -156,7 +154,6 @@
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
 		<Item Name="Tracker_Data_Analysis_tool.vi" Type="VI" URL="../Tracker_Data_Analysis_tool.vi"/>
-		<Item Name="Shared_Variables.lvlib" Type="Library" URL="../Shared_Variables.lvlib"/>
 		<Item Name="TDMS_export_tool.vi" Type="VI" URL="../TDMS_export_tool.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
@@ -350,6 +347,7 @@
 				<Item Name="IMAQ WindNonTearing" Type="VI" URL="/&lt;vilib&gt;/vision/Display.llb/IMAQ WindNonTearing"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="IMAQ Merge Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Merge Overlay"/>
+				<Item Name="Stream Element Allocation Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Stream Element Allocation Mode.ctl"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
@@ -410,7 +408,7 @@
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{9C058F32-9F0F-4579-9BC5-F2327BD1286D}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{20BBE2E7-F0C1-4832-BB84-3F21D3A059CF}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -467,7 +465,7 @@
 				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Network_comm_test_1/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_Vardep[0].LibDeploy" Type="Bool">true</Property>
-				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref">/My Computer/Shared_Variables.lvlib</Property>
+				<Property Name="Exe_Vardep[0].LibItemID" Type="Ref"></Property>
 				<Property Name="Exe_VardepDeployAtStartup" Type="Bool">true</Property>
 				<Property Name="Exe_VardepHideDeployDlg" Type="Bool">true</Property>
 				<Property Name="Exe_VardepLibItemCount" Type="Int">1</Property>
