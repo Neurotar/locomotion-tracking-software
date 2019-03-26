@@ -141,6 +141,8 @@
 			<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TestVI&apos;s/TDMS_loading_speeds_test.vi"/>
 			<Item Name="Camera_test.vi" Type="VI" URL="../TestVI&apos;s/Camera_test.vi"/>
 			<Item Name="Multiple_ROIs.vi" Type="VI" URL="../TestVI&apos;s/Multiple_ROIs.vi"/>
+			<Item Name="SW_Fire_TTL_during_calibration.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_during_calibration.vi"/>
+			<Item Name="FP_Calibrate_reward.vi" Type="VI" URL="../SubVi&apos;s/FP_Calibrate_reward.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
 			<Item Name="LICENSE.rtf" Type="Document" URL="../Support/LICENSE.rtf"/>
