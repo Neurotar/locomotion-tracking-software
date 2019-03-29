@@ -143,6 +143,9 @@
 			<Item Name="Multiple_ROIs.vi" Type="VI" URL="../TestVI&apos;s/Multiple_ROIs.vi"/>
 			<Item Name="SW_Fire_TTL_during_calibration.vi" Type="VI" URL="../SubVi&apos;s/SW_Fire_TTL_during_calibration.vi"/>
 			<Item Name="FP_Calibrate_reward.vi" Type="VI" URL="../SubVi&apos;s/FP_Calibrate_reward.vi"/>
+			<Item Name="Tracker_v2.2_test_acq_comms.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2.2_test_acq_comms.vi"/>
+			<Item Name="HW_Stream_raw_data_enq_2.vi" Type="VI" URL="../TestVI&apos;s/HW_Stream_raw_data_enq_2.vi"/>
+			<Item Name="FL_Make_data_frame_and_put_to_queue_2.vi" Type="VI" URL="../TestVI&apos;s/FL_Make_data_frame_and_put_to_queue_2.vi"/>
 			<Item Name="Calibration_icon.ico" Type="Document" URL="../Mediafiles and other/Calibration_icon.ico"/>
 		</Item>
 		<Item Name="Support" Type="Folder">
@@ -354,6 +357,11 @@
 				<Item Name="Stream Element Allocation Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Stream Element Allocation Mode.ctl"/>
 				<Item Name="IMAQ Dispose" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ Dispose"/>
 				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
+				<Item Name="Set Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Busy.vi"/>
+				<Item Name="Set Cursor.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor.vi"/>
+				<Item Name="Set Cursor (Cursor ID).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Cursor ID).vi"/>
+				<Item Name="Set Cursor (Icon Pict).vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Set Cursor (Icon Pict).vi"/>
+				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
