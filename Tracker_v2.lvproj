@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -21,11 +22,14 @@
 			<Item Name="CTL_Custom_HW_Re-check_Button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_HW_Re-check_Button.ctl"/>
 			<Item Name="CTL_Custom_Jump_to..._button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Custom_Jump_to..._button.ctl"/>
 			<Item Name="CTL_Data_flow_control_cluster.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Data_flow_control_cluster.ctl"/>
+			<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/CTL_IO_params_cluster.ctl"/>
 			<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Play_pause_button.ctl"/>
 			<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Record_stop_button.ctl"/>
 			<Item Name="CTL_Reset_settings_(zones).ctl" Type="VI" URL="../SubVi&apos;s/CTL_Reset_settings_(zones).ctl"/>
 			<Item Name="CTL_Set_Adv_Stim.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Set_Adv_Stim.ctl"/>
 			<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Set_Clear_button.ctl"/>
+			<Item Name="CTL_Settings_cluster.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Settings_cluster.ctl"/>
+			<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/CTL_Single_stimulus_setting.ctl"/>
 			<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/FL_Calc_speed_on_the_fly.vi"/>
 			<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_Coordinates.vi"/>
 			<Item Name="FL_Calculate_Coordinates_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_Coordinates_for_saving.vi"/>
@@ -57,6 +61,7 @@
 			<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_data_frame_and_put_to_queue.vi"/>
 			<Item Name="FL_Make_RAW_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_RAW_data_frame_and_put_to_queue.vi"/>
 			<Item Name="FL_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_Track_overlay.vi"/>
+			<Item Name="FL_Make_Track_overlay_for_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/FL_Make_Track_overlay_for_IMAQdx.vi"/>
 			<Item Name="FL_Preprocess_and_save_incrementally_TDMS.vi" Type="VI" URL="../SubVi&apos;s/FL_Preprocess_and_save_incrementally_TDMS.vi"/>
 			<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_back_for_saving.vi"/>
 			<Item Name="FL_Reshape_data_back_for_saving_(strings).vi" Type="VI" URL="../SubVi&apos;s/FL_Reshape_data_back_for_saving_(strings).vi"/>
@@ -112,10 +117,12 @@
 			<Item Name="SW_Load_data_for_Conversion_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_data_for_Conversion_from_TDMS.vi"/>
 			<Item Name="SW_Load_frames_from_temp_XML_AA.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_temp_XML_AA.vi"/>
 			<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_GL.vi"/>
+			<Item Name="SW_Load_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_parameter_group.vi"/>
 			<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file.vi"/>
 			<Item Name="SW_Load_settings_file_light.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_file_light.vi"/>
 			<Item Name="SW_Load_settings_from_previous_experiments.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_from_previous_experiments.vi"/>
 			<Item Name="SW_Load_settings_to_main_tab.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_to_main_tab.vi"/>
+			<Item Name="SW_Load_settings_to_main_tab_2.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_settings_to_main_tab_2.vi"/>
 			<Item Name="SW_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/SW_Make_Track_overlay.vi"/>
 			<Item Name="SW_Mix_TTL_inputs.vi" Type="VI" URL="../SubVi&apos;s/SW_Mix_TTL_inputs.vi"/>
 			<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Add_Recording_Settings.vi"/>
@@ -158,11 +165,13 @@
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="TDMS_export_tool.vi" Type="VI" URL="../TDMS_export_tool.vi"/>
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
+		<Item Name="Tracker_v.2.2+.vi" Type="VI" URL="../Tracker_v.2.2+.vi"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="Tracker_Data_Analysis_tool.vi" Type="VI" URL="../Tracker_Data_Analysis_tool.vi"/>
 		<Item Name="Tracker_run-time_menu.rtm" Type="Document" URL="../Tracker_run-time_menu.rtm"/>
 		<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
-		<Item Name="Tracker_v.2.2+.vi" Type="VI" URL="../Tracker_v.2.2+.vi"/>
+		<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
+		<Item Name="Test_image_display_speed.vi" Type="VI" URL="../TestVI&apos;s/Test_image_display_speed.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 F function__ogtk.vi"/>
@@ -363,6 +372,14 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="IMAQ SetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ SetImageSize"/>
+				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
+				<Item Name="IMAQ Clear Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Clear Overlay"/>
+				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
+				<Item Name="Draw Rectangle.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Rectangle.vi"/>
+				<Item Name="Empty Picture" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Empty Picture"/>
+				<Item Name="Draw Oval.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/Draw Oval.vi"/>
+				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
@@ -391,6 +408,7 @@
 			<Item Name="Stream-a[.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.](str).lvlib"/>
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
+			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Network_comm_test_1" Type="EXE">
