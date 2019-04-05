@@ -24,4 +24,3 @@ Name prefix = "Track"
 Stop at = 0.00
 "Stop at" enabled = FALSE
 Data filtering = 5
-Zone 04 = "{"Event type":0,"Cond., s":0.68000000715255737305,"Stim., s":4,"Set/Clear":true,"TTL out N":1,"Stim. has been set":true}"
