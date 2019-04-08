@@ -184,6 +184,11 @@
 		<Item Name="Tracker_run-time_menu.rtm" Type="Document" URL="../Tracker_run-time_menu.rtm"/>
 		<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 		<Item Name="Tracker_v.2.2+.vi" Type="VI" URL="../Tracker_v.2.2+.vi"/>
+		<Item Name="CTL_Bounding_Rectangle_of_Segments.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Bounding_Rectangle_of_Segments.ctl"/>
+		<Item Name="SW_Plot_Thick_arc_line_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Plot_Thick_arc_line_IMAQdx.vi"/>
+		<Item Name="SW_Add_cage_border.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Add_cage_border.vi"/>
+		<Item Name="SW_Gen_Draw_numbers_and_highllights_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Draw_numbers_and_highllights_DAQmx.vi"/>
+		<Item Name="SW_Get_ROI_bounding_box.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Get_ROI_bounding_box.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="MD5 F function__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 F function__ogtk.vi"/>
@@ -391,6 +396,9 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
+				<Item Name="Color (U64)" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Color (U64)"/>
+				<Item Name="IMAQ ColorImageToArray" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ColorImageToArray"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
