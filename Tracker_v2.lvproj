@@ -14,8 +14,9 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVI&apos;s" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Controls" Type="Folder">
+				<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
 				<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
 				<Item Name="CTL_Bounding_Rectangle_of_Segments.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Bounding_Rectangle_of_Segments.ctl"/>
 				<Item Name="CTL_Control_States.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Control_States.ctl"/>
@@ -46,6 +47,7 @@
 			</Item>
 			<Item Name="HW Interaction" Type="Folder">
 				<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init.vi"/>
+				<Item Name="HW_Init_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init_2.vi"/>
 				<Item Name="HW_Poll_Tracker_1x.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Poll_Tracker_1x.vi"/>
 				<Item Name="HW_Poll_Tracker_2.0.3.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Poll_Tracker_2.0.3.vi"/>
 				<Item Name="HW_Poll_Tracker_2.0.4+.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Poll_Tracker_2.0.4+.vi"/>
@@ -54,6 +56,7 @@
 				<Item Name="HW_set_IO_ports_3-pos.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos.vi"/>
 				<Item Name="HW_Set_SYNC_Status.vi" Type="VI" URL="../SubVi&apos;s/HW_Set_SYNC_Status.vi"/>
 				<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Setup.vi"/>
+				<Item Name="HW_Setup_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Setup_2.vi"/>
 				<Item Name="HW_Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stop_acq_and_close_VISA.vi"/>
 				<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data.vi"/>
 				<Item Name="HW_Stream_raw_data_channel.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data_channel.vi"/>
@@ -85,6 +88,7 @@
 			<Item Name="Set UI states" Type="Folder">
 				<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 				<Item Name="UI_Set_startup_controls_state_(01).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_startup_controls_state_(01).vi"/>
+				<Item Name="UI_Unlock_(02).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Unlock_(02).vi"/>
 			</Item>
 			<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/FL_Calc_speed_on_the_fly.vi"/>
 			<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/FL_Calculate_Coordinates.vi"/>
@@ -141,6 +145,7 @@
 			<Item Name="SW_get_config_for_Start_Stop_pulses.vi" Type="VI" URL="../SubVi&apos;s/SW_get_config_for_Start_Stop_pulses.vi"/>
 			<Item Name="SW_get_config_of_Zones_and_IO.vi" Type="VI" URL="../SubVi&apos;s/SW_get_config_of_Zones_and_IO.vi"/>
 			<Item Name="SW_get_IO_ports_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_get_IO_ports_representation.vi"/>
+			<Item Name="SW_get_IO_ports_representation_2.vi" Type="VI" URL="../SubVi&apos;s/SW_get_IO_ports_representation_2.vi"/>
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 			<Item Name="SW_Get_ROI_bounding_box.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Get_ROI_bounding_box.vi"/>
 			<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_save_paths.vi"/>
@@ -268,6 +273,7 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
+				<Item Name="eventsource.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventsource.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="ExtractSubstring.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ExtractSubstring.vi"/>
@@ -377,6 +383,7 @@
 				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="status.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/status.vi"/>
 				<Item Name="Stream Element Allocation Mode.ctl" Type="VI" URL="/&lt;vilib&gt;/dex/Stream Element Allocation Mode.ctl"/>
+				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
