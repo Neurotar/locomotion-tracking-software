@@ -44,6 +44,7 @@
 				<Item Name="CTL_Settings_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_cluster.ctl"/>
 				<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
 				<Item Name="CTL_Zones_control_and_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Zones_control_and_indicator.ctl"/>
+				<Item Name="CTL_Cage_radial_segmentation.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_radial_segmentation.ctl"/>
 			</Item>
 			<Item Name="HW Interaction" Type="Folder">
 				<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init.vi"/>
