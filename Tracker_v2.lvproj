@@ -60,6 +60,7 @@
 				<Item Name="HW_Setup_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Setup_2.vi"/>
 				<Item Name="HW_Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stop_acq_and_close_VISA.vi"/>
 				<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data.vi"/>
+				<Item Name="HW_set_IO_ports_3-pos_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos_2.vi"/>
 				<Item Name="HW_Stream_raw_data_channel.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data_channel.vi"/>
 				<Item Name="HW_Stream_raw_data_enq.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data_enq.vi"/>
 			</Item>
