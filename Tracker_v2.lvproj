@@ -80,9 +80,13 @@
 				<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Clear_button.ctl"/>
 				<Item Name="CTL_Settings_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_cluster.ctl"/>
 				<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
+				<Item Name="CTL_States_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_States_cluster.ctl"/>
 				<Item Name="CTL_Zones_control_and_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Zones_control_and_indicator.ctl"/>
 			</Item>
 			<Item Name="HW Interaction" Type="Folder">
+				<Item Name="HW_Acquisition_Start.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Start.vi"/>
+				<Item Name="HW_Acquisition_Stop.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Stop.vi"/>
+				<Item Name="HW_Get_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/HW_Get_data_flow_from_serial_port.vi"/>
 				<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init.vi"/>
 				<Item Name="HW_Init_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init_2.vi"/>
 				<Item Name="HW_Poll_Tracker_1x.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Poll_Tracker_1x.vi"/>
