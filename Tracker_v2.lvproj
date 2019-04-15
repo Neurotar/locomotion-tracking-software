@@ -25,7 +25,9 @@
 				<Item Name="FL_DEC_split_and_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter.vi"/>
 				<Item Name="FL_DEC_split_and_filter_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter_for_saving.vi"/>
 				<Item Name="FL_DEC_split_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_array.vi"/>
+				<Item Name="FL_Decode_RAW_to_DEC_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_2.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_bit_split.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_bit_split.vi"/>
+				<Item Name="FL_Decode_RAW_to_DEC_bit_split_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_bit_split_2.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_for_saving.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_last_out.vi"/>
 				<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Filter_data_for_online_display.vi"/>
