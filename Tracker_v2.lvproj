@@ -24,6 +24,7 @@
 				<Item Name="FL_Calculate_phi_theta_etc_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_for_saving.vi"/>
 				<Item Name="FL_DEC_split_and_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter.vi"/>
 				<Item Name="FL_DEC_split_and_filter_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter_for_saving.vi"/>
+				<Item Name="FL_DEC_split_and_filter_source_(opt).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter_source_(opt).vi"/>
 				<Item Name="FL_DEC_split_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_array.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_2.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_bit_split.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_bit_split.vi"/>
