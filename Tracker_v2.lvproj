@@ -14,7 +14,7 @@
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="SubVi&apos;s" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Calc and data manipulation" Type="Folder">
 				<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calc_speed_on_the_fly.vi"/>
 				<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates.vi"/>
@@ -32,12 +32,13 @@
 				<Item Name="FL_Decode_RAW_to_DEC_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_for_saving.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_last_out.vi"/>
 				<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Filter_data_for_online_display.vi"/>
-				<Item Name="FL_Last_N_Samples.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples.vi"/>
 				<Item Name="FL_Last_N_Samples_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_1D.vi"/>
 				<Item Name="FL_Last_N_Samples_1D_for_waveforms.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_1D_for_waveforms.vi"/>
+				<Item Name="FL_Last_N_Samples_2D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_2D.vi"/>
 				<Item Name="FL_Last_N_Samples_2D_array_of_strings.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_2D_array_of_strings.vi"/>
 				<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster.vi"/>
 				<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
+				<Item Name="FL_Last_N_Samples_SGL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_SGL.vi"/>
 				<Item Name="FL_Make_data_frame_and_put_to_channel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_channel.vi"/>
 				<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_queue.vi"/>
 				<Item Name="FL_Make_RAW_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_RAW_data_frame_and_put_to_queue.vi"/>
@@ -46,6 +47,7 @@
 				<Item Name="FL_Reshape_data_for_memory_storage.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_for_memory_storage.vi"/>
 				<Item Name="FL_Reshape_data_for_memory_storage_(strings).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_for_memory_storage_(strings).vi"/>
 				<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Segment_map_by_color.vi"/>
+				<Item Name="SW_SG_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients.vi"/>
 				<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter.vi"/>
 				<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
 				<Item Name="SW_Calc_speed.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed.vi"/>
@@ -67,6 +69,7 @@
 				<Item Name="CTL_Custom_Jump_to..._button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Jump_to..._button.ctl"/>
 				<Item Name="CTL_Data_flow_control_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Data_flow_control_cluster.ctl"/>
 				<Item Name="CTL_Draw_Area_Size.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Draw_Area_Size.ctl"/>
+				<Item Name="CTL_Filter_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Filter_selector.ctl"/>
 				<Item Name="CTL_Histogram_Properties.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_Properties.ctl"/>
 				<Item Name="CTL_Image_Geometrical_and_scaling_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Image_Geometrical_and_scaling_parameters.ctl"/>
 				<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Indicators_References.ctl"/>
@@ -228,6 +231,7 @@
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 		</Item>
 		<Item Name="Calibration_icon.ico" Type="Document" URL="../Mediafiles and other/Calibration_icon.ico"/>
+		<Item Name="Data_filtering_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_speed_test.vi"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="TDMS_export_tool.vi" Type="VI" URL="../TDMS_export_tool.vi"/>
@@ -380,6 +384,7 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
+				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
