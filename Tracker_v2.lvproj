@@ -19,8 +19,10 @@
 				<Item Name="FL_Adjust_raw_magnets_coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Adjust_raw_magnets_coords.vi"/>
 				<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calc_speed_on_the_fly.vi"/>
 				<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates.vi"/>
+				<Item Name="FL_Calculate_Coordinates_Diff_R_Center.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates_Diff_R_Center.vi"/>
 				<Item Name="FL_Calculate_Coordinates_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates_for_saving.vi"/>
 				<Item Name="FL_Calculate_phi_theta_etc.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc.vi"/>
+				<Item Name="FL_Calculate_phi_theta_etc_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_2.vi"/>
 				<Item Name="FL_Calculate_phi_theta_etc_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_array.vi"/>
 				<Item Name="FL_Calculate_phi_theta_etc_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_for_saving.vi"/>
 				<Item Name="FL_DEC_split_2_and_prefilter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_2_and_prefilter.vi"/>
@@ -42,6 +44,7 @@
 				<Item Name="FL_Last_N_Samples_SGL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_SGL.vi"/>
 				<Item Name="FL_Make_data_frame_and_put_to_channel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_channel.vi"/>
 				<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_queue.vi"/>
+				<Item Name="FL_Make_data_frame_and_put_to_queue_2.vi" Type="VI" URL="../TestVI&apos;s/FL_Make_data_frame_and_put_to_queue_2.vi"/>
 				<Item Name="FL_Make_RAW_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_RAW_data_frame_and_put_to_queue.vi"/>
 				<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_back_for_saving.vi"/>
 				<Item Name="FL_Reshape_data_back_for_saving_(strings).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_back_for_saving_(strings).vi"/>
@@ -110,6 +113,7 @@
 				<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data.vi"/>
 				<Item Name="HW_Stream_raw_data_channel.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data_channel.vi"/>
 				<Item Name="HW_Stream_raw_data_enq.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data_enq.vi"/>
+				<Item Name="HW_Stream_raw_data_enq_2.vi" Type="VI" URL="../TestVI&apos;s/HW_Stream_raw_data_enq_2.vi"/>
 				<Item Name="SW_Fire_TTL_at_start_stop.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_at_start_stop.vi"/>
 				<Item Name="SW_Fire_TTL_at_start_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_at_start_universal.vi"/>
 				<Item Name="SW_Fire_TTL_at_stop_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_at_stop_universal.vi"/>
@@ -133,10 +137,12 @@
 			<Item Name="Segmented plot and mouse" Type="Folder">
 				<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/AL_Rotate_mouse_coords.vi"/>
 				<Item Name="FL_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay.vi"/>
+				<Item Name="FL_Make_Track_overlay_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_DAQmx.vi"/>
 				<Item Name="FL_Make_Track_overlay_for_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_for_IMAQdx.vi"/>
 				<Item Name="SW_Add_cage_border.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Add_cage_border.vi"/>
 				<Item Name="SW_Create_density_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Create_density_overlay.vi"/>
 				<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Draw_mouse_br.vi"/>
+				<Item Name="SW_Draw_mouse_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Draw_mouse_DAQmx.vi"/>
 				<Item Name="SW_Gen_2D_Histogram.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_2D_Histogram.vi"/>
 				<Item Name="SW_Gen_Check_segments_parameters.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Check_segments_parameters.vi"/>
 				<Item Name="SW_Gen_Draw_numbers_and_highllights.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Draw_numbers_and_highllights.vi"/>
@@ -207,8 +213,6 @@
 			<Item Name="Data_loading_speed.xlsx" Type="Document" URL="../TestVI&apos;s/Data_loading_speed.xlsx"/>
 			<Item Name="dmc.lvlps" Type="Document" URL="../TestVI&apos;s/dmc.lvlps"/>
 			<Item Name="dmc_test.vi" Type="VI" URL="../TestVI&apos;s/dmc_test.vi"/>
-			<Item Name="FL_Make_data_frame_and_put_to_queue_2.vi" Type="VI" URL="../TestVI&apos;s/FL_Make_data_frame_and_put_to_queue_2.vi"/>
-			<Item Name="HW_Stream_raw_data_enq_2.vi" Type="VI" URL="../TestVI&apos;s/HW_Stream_raw_data_enq_2.vi"/>
 			<Item Name="ImageAcquisition_test.vi" Type="VI" URL="../TestVI&apos;s/ImageAcquisition_test.vi"/>
 			<Item Name="Loop_speed_variation_test.vi" Type="VI" URL="../TestVI&apos;s/Loop_speed_variation_test.vi"/>
 			<Item Name="Multiple_ROIs.vi" Type="VI" URL="../TestVI&apos;s/Multiple_ROIs.vi"/>
@@ -348,7 +352,9 @@
 				<Item Name="IMAQ Merge Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Merge Overlay"/>
 				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
 				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
+				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
 				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>
+				<Item Name="IMAQ Overlay Points" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Points"/>
 				<Item Name="IMAQ Overlay Rectangle" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Rectangle"/>
 				<Item Name="IMAQ Overlay Text" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Text"/>
 				<Item Name="IMAQ ReadFile 2" Type="VI" URL="/&lt;vilib&gt;/vision/Files.llb/IMAQ ReadFile 2"/>
@@ -464,6 +470,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Lossy Stream-a[.,.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str).lvlib"/>
+			<Item Name="Lossy Stream-c(dbl,dbl,sgl,dbl,dbl,dbl,sgl,dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-c(dbl,dbl,sgl,dbl,dbl,dbl,sgl,dbl).lvlib"/>
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
