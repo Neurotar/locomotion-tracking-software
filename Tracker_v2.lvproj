@@ -165,7 +165,9 @@
 				<Item Name="Tracker_run-time_menu.rtm" Type="Document" URL="../SubVi&apos;s/Set UI states/Tracker_run-time_menu.rtm"/>
 				<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 				<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
+				<Item Name="UI_Set_Play_State_(03A).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Play_State_(03A).vi"/>
 				<Item Name="UI_Set_startup_controls_state_(01).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_startup_controls_state_(01).vi"/>
+				<Item Name="UI_Set_Stop_State_(04A).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Stop_State_(04A).vi"/>
 				<Item Name="UI_Unlock_(02).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Unlock_(02).vi"/>
 			</Item>
 			<Item Name="FL_Check_TTL_firing_conditions.vi" Type="VI" URL="../SubVi&apos;s/FL_Check_TTL_firing_conditions.vi"/>
