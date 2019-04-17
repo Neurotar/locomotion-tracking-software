@@ -178,7 +178,7 @@
 				<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_save_paths.vi"/>
 				<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
 				<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
-				<Item Name="SW_Set_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Recording_Settings.vi"/>
+				<Item Name="SW_Set_Cage_and_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Cage_and_Recording_Settings.vi"/>
 			</Item>
 			<Item Name="FL_Check_TTL_firing_conditions.vi" Type="VI" URL="../SubVi&apos;s/FL_Check_TTL_firing_conditions.vi"/>
 			<Item Name="FL_DEC_split.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split.vi"/>
@@ -243,6 +243,7 @@
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 		</Item>
 		<Item Name="Calibration_icon.ico" Type="Document" URL="../Mediafiles and other/Calibration_icon.ico"/>
+		<Item Name="CTL_Cage_diameter.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_diameter.ctl"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="TDMS_export_tool.vi" Type="VI" URL="../TDMS_export_tool.vi"/>
