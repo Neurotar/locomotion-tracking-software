@@ -40,6 +40,7 @@
 				<Item Name="FL_Last_N_Samples_2D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_2D.vi"/>
 				<Item Name="FL_Last_N_Samples_2D_array_of_strings.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_2D_array_of_strings.vi"/>
 				<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster.vi"/>
+				<Item Name="FL_Last_N_Samples_Cluster_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_1D.vi"/>
 				<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
 				<Item Name="FL_Last_N_Samples_SGL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_SGL.vi"/>
 				<Item Name="FL_Make_data_frame_and_put_to_channel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_channel.vi"/>
@@ -92,6 +93,7 @@
 				<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
 				<Item Name="CTL_States_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_States_cluster.ctl"/>
 				<Item Name="CTL_Zones_control_and_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Zones_control_and_indicator.ctl"/>
+				<Item Name="SW_Get_Menu_tags.vi" Type="VI" URL="../SubVi&apos;s/Controls/SW_Get_Menu_tags.vi"/>
 			</Item>
 			<Item Name="HW Interaction" Type="Folder">
 				<Item Name="HW_Acquisition_Start.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Start.vi"/>
@@ -122,6 +124,8 @@
 				<Item Name="SW_Fire_TTL_during_the_acquisition_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition_universal.vi"/>
 			</Item>
 			<Item Name="Save and Load" Type="Folder">
+				<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally.vi"/>
+				<Item Name="FL_Preprocess_and_save_incrementally_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally_TDMS.vi"/>
 				<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Analysis.vi"/>
 				<Item Name="SW_Load_data_for_Analysis_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Analysis_from_TDMS.vi"/>
 				<Item Name="SW_Load_data_for_Conversion_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Conversion_from_TDMS.vi"/>
@@ -163,12 +167,18 @@
 			</Item>
 			<Item Name="Set UI states" Type="Folder">
 				<Item Name="Tracker_run-time_menu.rtm" Type="Document" URL="../SubVi&apos;s/Set UI states/Tracker_run-time_menu.rtm"/>
+				<Item Name="UI_(01)_Set_startup_controls_state.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(01)_Set_startup_controls_state.vi"/>
+				<Item Name="UI_(02)_Unlock.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(02)_Unlock.vi"/>
+				<Item Name="UI_(03A)_Set_Play_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(03A)_Set_Play_State.vi"/>
+				<Item Name="UI_(04A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(04A)_Set_Stop_State.vi"/>
 				<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 				<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
-				<Item Name="UI_Set_Play_State_(03A).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Play_State_(03A).vi"/>
-				<Item Name="UI_Set_startup_controls_state_(01).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_startup_controls_state_(01).vi"/>
-				<Item Name="UI_Set_Stop_State_(04A).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Stop_State_(04A).vi"/>
-				<Item Name="UI_Unlock_(02).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Unlock_(02).vi"/>
+			</Item>
+			<Item Name="Settings" Type="Folder">
+				<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_save_paths.vi"/>
+				<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
+				<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
+				<Item Name="SW_Set_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Recording_Settings.vi"/>
 			</Item>
 			<Item Name="FL_Check_TTL_firing_conditions.vi" Type="VI" URL="../SubVi&apos;s/FL_Check_TTL_firing_conditions.vi"/>
 			<Item Name="FL_DEC_split.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split.vi"/>
@@ -179,9 +189,6 @@
 			<Item Name="FL_Get_Run_Bout_and_Time.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Run_Bout_and_Time.vi"/>
 			<Item Name="FL_Get_TTL_in_pulse_length.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_TTL_in_pulse_length.vi"/>
 			<Item Name="FL_Get_Zone_presence_time.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Zone_presence_time.vi"/>
-			<Item Name="FL_Last_N_Samples_Cluster_1D.vi" Type="VI" URL="../SubVi&apos;s/FL_Last_N_Samples_Cluster_1D.vi"/>
-			<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/FL_Preprocess_and_save_incrementally.vi"/>
-			<Item Name="FL_Preprocess_and_save_incrementally_TDMS.vi" Type="VI" URL="../SubVi&apos;s/FL_Preprocess_and_save_incrementally_TDMS.vi"/>
 			<Item Name="FL_Save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/FL_Save_incrementally.vi"/>
 			<Item Name="FL_Save_incrementally_ts.vi" Type="VI" URL="../SubVi&apos;s/FL_Save_incrementally_ts.vi"/>
 			<Item Name="FL_TTL_xor_with_IO_inv_config.vi" Type="VI" URL="../SubVi&apos;s/FL_TTL_xor_with_IO_inv_config.vi"/>
@@ -196,13 +203,10 @@
 			<Item Name="SW_get_IO_ports_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_get_IO_ports_representation.vi"/>
 			<Item Name="SW_get_IO_ports_representation_2.vi" Type="VI" URL="../SubVi&apos;s/SW_get_IO_ports_representation_2.vi"/>
 			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
-			<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_save_paths.vi"/>
-			<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_temporary_save_path.vi"/>
 			<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
 			<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 			<Item Name="SW_Load_frames_from_XML_LL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_LL.vi"/>
 			<Item Name="SW_Mix_TTL_inputs.vi" Type="VI" URL="../SubVi&apos;s/SW_Mix_TTL_inputs.vi"/>
-			<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Add_Recording_Settings.vi"/>
 			<Item Name="SW_Set_Adv_Stimulus_interface.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Adv_Stimulus_interface.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder" URL="../Support">
@@ -313,7 +317,6 @@
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="eventsource.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventsource.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="ExtractSubstring.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ExtractSubstring.vi"/>
