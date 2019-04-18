@@ -54,6 +54,8 @@
 				<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Segment_map_by_color.vi"/>
 				<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter.vi"/>
 				<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
+				<Item Name="MAT_Get_HB0_filter_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_Get_HB0_filter_coefficients.vi"/>
+				<Item Name="MAT_HB0_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_HB0_filter.vi"/>
 				<Item Name="SW_Calc_speed.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed.vi"/>
 				<Item Name="SW_Calc_speed_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed_2.vi"/>
 				<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Debounce_filter_U16.vi"/>
@@ -66,6 +68,7 @@
 				<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
 				<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
 				<Item Name="CTL_Bounding_Rectangle_of_Segments.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Bounding_Rectangle_of_Segments.ctl"/>
+				<Item Name="CTL_Cage_diameter.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_diameter.ctl"/>
 				<Item Name="CTL_Cage_radial_segmentation.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_radial_segmentation.ctl"/>
 				<Item Name="CTL_Control_States.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Control_States.ctl"/>
 				<Item Name="CTL_Controls_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Controls_References.ctl"/>
@@ -244,7 +247,6 @@
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 		</Item>
 		<Item Name="Calibration_icon.ico" Type="Document" URL="../Mediafiles and other/Calibration_icon.ico"/>
-		<Item Name="CTL_Cage_diameter.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_diameter.ctl"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="TDMS_export_tool.vi" Type="VI" URL="../TDMS_export_tool.vi"/>
@@ -399,6 +401,7 @@
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
+				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
