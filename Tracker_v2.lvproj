@@ -55,6 +55,7 @@
 				<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter.vi"/>
 				<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
 				<Item Name="SW_Calc_speed.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed.vi"/>
+				<Item Name="SW_Calc_speed_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed_2.vi"/>
 				<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Debounce_filter_U16.vi"/>
 				<Item Name="SW_Get_1D_Array_mean.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_mean.vi"/>
 				<Item Name="SW_Get_1D_Array_normalize.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_normalize.vi"/>
@@ -379,6 +380,7 @@
 				<Item Name="initHelpButtonVisibility.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initHelpButtonVisibility.vi"/>
 				<Item Name="InitScrollbarAndListBox.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/InitScrollbarAndListBox.vi"/>
 				<Item Name="initTabValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initTabValues.vi"/>
+				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="loadAndFormatValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/loadAndFormatValues.vi"/>
 				<Item Name="LoadBufferForMultiListBoxAndFormat.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/LoadBufferForMultiListBoxAndFormat.vi"/>
@@ -395,6 +397,7 @@
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
+				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
