@@ -34,6 +34,7 @@
 				<Item Name="FL_Decode_RAW_to_DEC_bit_split_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_bit_split_2.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_for_saving.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_last_out.vi"/>
+				<Item Name="FL_Decode_Serial_Stream_to_Coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_Serial_Stream_to_Coords.vi"/>
 				<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Filter_data_for_online_display.vi"/>
 				<Item Name="FL_Last_N_Samples_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_1D.vi"/>
 				<Item Name="FL_Last_N_Samples_1D_for_waveforms.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_1D_for_waveforms.vi"/>
@@ -103,6 +104,7 @@
 				<Item Name="HW_Acquisition_Start.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Start.vi"/>
 				<Item Name="HW_Acquisition_Stop.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Stop.vi"/>
 				<Item Name="HW_Get_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/HW_Get_data_flow_from_serial_port.vi"/>
+				<Item Name="HW_Get_raw_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Get_raw_data_flow_from_serial_port.vi"/>
 				<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init.vi"/>
 				<Item Name="HW_Init_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init_2.vi"/>
 				<Item Name="HW_Poll_Tracker_1x.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Poll_Tracker_1x.vi"/>
@@ -399,6 +401,7 @@
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRangeTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRangeTypeDef.ctl"/>
 				<Item Name="LVRectTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRectTypeDef.ctl"/>
+				<Item Name="LVRGBAColorTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRGBAColorTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
 				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
@@ -486,6 +489,7 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Lossy Stream-a[.,.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str).lvlib"/>
+			<Item Name="Lossy Stream-a[.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str).lvlib"/>
 			<Item Name="Lossy Stream-c(dbl,dbl,sgl,dbl,dbl,dbl,sgl,dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-c(dbl,dbl,sgl,dbl,dbl,dbl,sgl,dbl).lvlib"/>
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
@@ -503,7 +507,6 @@
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
-			<Item Name="Stream-a[.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.](str).lvlib"/>
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 		</Item>
