@@ -599,6 +599,50 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Reward_calibration.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Serial streaming tester" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{91D0D5A8-7EA3-4C09-BDB2-9C3E36E1B04C}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{5867CB86-4D80-4723-BDB6-2A6347FD8971}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{591D85B7-8F17-49AC-8EF9-67F05DBBE1B9}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Serial streaming tester</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/U/LV_builds/Serial steaming tester</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{87355F68-1BBC-4744-8921-291BF9439A18}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Serial_streaming_tester.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/U/LV_builds/Serial steaming tester/Serial_streaming_tester.exe</Property>
+				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">/U/LV_builds/Serial steaming tester/data</Property>
+				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E396BE4F-99EF-4BCB-9A30-9CCC9B4DA433}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestVI's/Data_stream_read_test.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Serial streaming tester</Property>
+				<Property Name="TgtF_internalName" Type="Str">Serial streaming tester</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">Serial streaming tester</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{55617121-107C-4A28-A875-073E115B46C6}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Serial_streaming_tester.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="TDMS export tool" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{986C627E-90EE-47F7-B99E-622E3DA6B0E5}</Property>
@@ -643,7 +687,7 @@
 				<Property Name="TgtF_targetfileName" Type="Str">TDMS_export.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Tracker v2.1.9.9" Type="EXE">
+			<Item Name="Tracker v2.1.9.10" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{A9FA9571-5E74-45C3-ADA8-A95EBD01F385}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{411132DE-298F-49EA-8C66-5595C6020CC8}</Property>
@@ -652,28 +696,28 @@
 				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com</Property>
 				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{82206418-A1EA-4EF8-BB98-21FB9D3BEF4A}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.1.9.9</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.1.9.10</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">/U/LV_builds/NI_AB_PROJECTNAME/MHC_Tracker_Software_v2.1.9.9</Property>
+				<Property Name="Bld_localDestDir" Type="Path">/U/LV_builds/NI_AB_PROJECTNAME/MHC_Tracker_Software_v2.1.9.10</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{87C54859-F4D2-4BF1-90F8-DF82C2124796}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">1</Property>
 				<Property Name="Bld_version.patch" Type="Int">9</Property>
-				<Property Name="Destination[0].destName" Type="Str">Tracker_2.1.9.9.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">/U/LV_builds/NI_AB_PROJECTNAME/MHC_Tracker_Software_v2.1.9.9/Tracker_2.1.9.9.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker_2.1.9.10.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">/U/LV_builds/NI_AB_PROJECTNAME/MHC_Tracker_Software_v2.1.9.10/Tracker_2.1.9.10.exe</Property>
 				<Property Name="Destination[0].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">/U/LV_builds/NI_AB_PROJECTNAME/MHC_Tracker_Software_v2.1.9.9</Property>
+				<Property Name="Destination[1].path" Type="Path">/U/LV_builds/NI_AB_PROJECTNAME/MHC_Tracker_Software_v2.1.9.10</Property>
 				<Property Name="Destination[1].path.type" Type="Str">&lt;none&gt;</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Support/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{78467AB3-13FE-4597-90B8-4D6C1A808515}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{E396BE4F-99EF-4BCB-9A30-9CCC9B4DA433}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -695,14 +739,14 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.1.9.9</Property>
-				<Property Name="TgtF_internalName" Type="Str">Tracker v2.1.9.9</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.1.9.10</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tracker v2.1.9.10</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Neurotar Oy</Property>
-				<Property Name="TgtF_productName" Type="Str">Tracker v2.1.9.9</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker v2.1.9.10</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.1.9.9.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.1.9.10.exe</Property>
 			</Item>
-			<Item Name="Tracker v2.1.9.9 installer" Type="Installer">
+			<Item Name="Tracker v2.1.9.10 installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
@@ -780,11 +824,11 @@
 				<Property Name="DistPartCount" Type="Int">6</Property>
 				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/U/LV_builds/Tracker_v2/Tracker_v2.1.9.9_installer</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.9.9 installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">/U/LV_builds/Tracker_v2/Tracker_v2.1.9.10_installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.9.10 installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="INST_productName" Type="Str">Tracker v2.1.9.9</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.17</Property>
+				<Property Name="INST_productName" Type="Str">Tracker v2.1.9.10</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.19</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
@@ -795,7 +839,7 @@
 				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{018765B4-DD95-4642-8CD2-80E12B0E61CF}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.9.9 software installation</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.9.10 software installation</Property>
 				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
 				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
 				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
@@ -806,14 +850,14 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.1.9.9.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.1.9.10.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.1.9.9</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.1.9.10</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
 				<Property Name="Source[0].File[1].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[1].name" Type="Str">Tracker_2.1.9.9.ini</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">Tracker_2.1.9.10.ini</Property>
 				<Property Name="Source[0].File[1].tag" Type="Str">{411132DE-298F-49EA-8C66-5595C6020CC8}</Property>
 				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
 				<Property Name="Source[0].File[2].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
@@ -828,8 +872,8 @@
 				<Property Name="Source[0].File[3].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
 				<Property Name="Source[0].FileCount" Type="Int">4</Property>
-				<Property Name="Source[0].name" Type="Str">Tracker v2.1.9.9</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.9</Property>
+				<Property Name="Source[0].name" Type="Str">Tracker v2.1.9.10</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
@@ -911,11 +955,11 @@
 				<Property Name="PKG_shortcuts[0].Path" Type="Path">Tracker_v2</Property>
 				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
 				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
-				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.9</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
 				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
 				<Property Name="PKG_sources.Count" Type="Int">2</Property>
 				<Property Name="PKG_sources[0].Destination" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
-				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.9</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
 				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
 				<Property Name="PKG_sources[1].Destination" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
 				<Property Name="PKG_sources[1].ID" Type="Ref"></Property>
