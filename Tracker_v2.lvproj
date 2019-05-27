@@ -97,8 +97,8 @@
 				<Item Name="CTL_Settings_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_cluster.ctl"/>
 				<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
 				<Item Name="CTL_States_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_States_cluster.ctl"/>
+				<Item Name="CTL_Undo_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Undo_button.ctl"/>
 				<Item Name="CTL_Zones_control_and_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Zones_control_and_indicator.ctl"/>
-				<Item Name="SW_Get_Menu_tags.vi" Type="VI" URL="../SubVi&apos;s/Controls/SW_Get_Menu_tags.vi"/>
 			</Item>
 			<Item Name="HW Interaction" Type="Folder">
 				<Item Name="HW_Acquisition_Start.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Start.vi"/>
@@ -171,7 +171,14 @@
 				<Item Name="SW_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Make_Track_overlay.vi"/>
 				<Item Name="SW_Plot_Thick_arc_line_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Plot_Thick_arc_line_IMAQdx.vi"/>
 			</Item>
-			<Item Name="Set UI states" Type="Folder">
+			<Item Name="Settings" Type="Folder">
+				<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_save_paths.vi"/>
+				<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
+				<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
+				<Item Name="SW_Set_Cage_and_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Cage_and_Recording_Settings.vi"/>
+			</Item>
+			<Item Name="UI interacton" Type="Folder">
+				<Item Name="SW_Get_Menu_tags.vi" Type="VI" URL="../SubVi&apos;s/Controls/SW_Get_Menu_tags.vi"/>
 				<Item Name="Tracker_run-time_menu.rtm" Type="Document" URL="../SubVi&apos;s/Set UI states/Tracker_run-time_menu.rtm"/>
 				<Item Name="UI_(01)_Set_startup_controls_state.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(01)_Set_startup_controls_state.vi"/>
 				<Item Name="UI_(02)_Unlock.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(02)_Unlock.vi"/>
@@ -179,12 +186,6 @@
 				<Item Name="UI_(04A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(04A)_Set_Stop_State.vi"/>
 				<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 				<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
-			</Item>
-			<Item Name="Settings" Type="Folder">
-				<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_save_paths.vi"/>
-				<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
-				<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
-				<Item Name="SW_Set_Cage_and_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Cage_and_Recording_Settings.vi"/>
 			</Item>
 			<Item Name="FL_Check_TTL_firing_conditions.vi" Type="VI" URL="../SubVi&apos;s/FL_Check_TTL_firing_conditions.vi"/>
 			<Item Name="FL_DEC_split.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split.vi"/>
