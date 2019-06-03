@@ -246,11 +246,13 @@
 			<Item Name="Test_data_read.vi" Type="VI" URL="../TestVI&apos;s/Test_data_read.vi"/>
 			<Item Name="Test_image_display_speed.vi" Type="VI" URL="../TestVI&apos;s/Test_image_display_speed.vi"/>
 			<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../TestVI&apos;s/Test_of_the_stim_settings_save.vi"/>
+			<Item Name="Test_python_interaction.py" Type="Document" URL="../TestVI&apos;s/Test_python_interaction.py"/>
 			<Item Name="Tracker File Reader.vi" Type="VI" URL="../TestVI&apos;s/Tracker File Reader.vi"/>
 			<Item Name="Tracker_v2.2_test_acq_comms.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2.2_test_acq_comms.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_channel.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 		</Item>
+		<Item Name="2D_density_plot_test.vi" Type="VI" URL="../TestVI&apos;s/2D_density_plot_test.vi"/>
 		<Item Name="Calibration_icon.ico" Type="Document" URL="../Mediafiles and other/Calibration_icon.ico"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
