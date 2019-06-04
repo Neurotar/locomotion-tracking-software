@@ -14,12 +14,12 @@ def test_function(some_array):
     output = output.flatten()
     return np.array(output)
 
-Xdata = np.random.randn(2**9)
-Ydata = np.random.randn(2**9)
+#Xdata = np.random.randn(2**9)
+#Ydata = np.random.randn(2**9)
 
 def get_2d_kde(Xdata, Ydata):
     data = np.vstack((Xdata, Ydata)).T
-    grid_points=2**6
+    grid_points=2**9
     nrm=64
     kde = FFTKDE(kernel='gaussian', norm=nrm)
     grid, points = kde.fit(data).evaluate(grid_points)
@@ -31,5 +31,5 @@ def get_2d_kde(Xdata, Ydata):
     z = np.array(z.flatten())
     return z
 
-a = get_2d_kde(Xdata, Ydata)
-print(np.shape(a))
+#a = get_2d_kde(Xdata, Ydata)
+#print(np.shape(a))
