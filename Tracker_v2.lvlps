@@ -17,14 +17,6 @@ Cache_Path[Path] Line0002 = "5CF9-072C-47DE-85CE-2EE2C22561A9}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{42C0"
 Cache_Path[Path] Line0002 = "B5DF-57EF-45A3-A006-CF5A2D031E0D}.txt"
 
-[AB_Cache_{4A280651-5C89-490A-8BD9-B5D39EB92F86}]
-Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{4A28"
-Cache_Path[Path] Line0002 = "0651-5C89-490A-8BD9-B5D39EB92F86}.txt"
-
-[AB_Cache_{55B979DA-F0B8-49DC-A420-B76AB4789156}]
-Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{55B9"
-Cache_Path[Path] Line0002 = "79DA-F0B8-49DC-A420-B76AB4789156}.txt"
-
 [AB_Cache_{6DD8D568-5D42-43D8-80A8-40400A80DB33}]
 Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{6DD8"
 Cache_Path[Path] Line0002 = "D568-5D42-43D8-80A8-40400A80DB33}.txt"
@@ -48,4 +40,12 @@ Cache_Path[Path] Line0002 = "85B7-8F17-49AC-8EF9-67F05DBBE1B9}.txt"
 [AB_Cache_{87355F68-1BBC-4744-8921-291BF9439A18}]
 Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{8735"
 Cache_Path[Path] Line0002 = "5F68-1BBC-4744-8921-291BF9439A18}.txt"
+
+[AB_Cache_{4A280651-5C89-490A-8BD9-B5D39EB92F86}]
+Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{4A28"
+Cache_Path[Path] Line0002 = "0651-5C89-490A-8BD9-B5D39EB92F86}.txt"
+
+[AB_Cache_{55B979DA-F0B8-49DC-A420-B76AB4789156}]
+Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{55B9"
+Cache_Path[Path] Line0002 = "79DA-F0B8-49DC-A420-B76AB4789156}.txt"
 
