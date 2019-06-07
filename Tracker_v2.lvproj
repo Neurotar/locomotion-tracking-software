@@ -106,6 +106,7 @@
 			<Item Name="HW Interaction" Type="Folder">
 				<Item Name="HW_Acquisition_Start.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Start.vi"/>
 				<Item Name="HW_Acquisition_Stop.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Stop.vi"/>
+				<Item Name="HW_Detect_compatible_COM_ports.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Detect_compatible_COM_ports.vi"/>
 				<Item Name="HW_Get_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/HW_Get_data_flow_from_serial_port.vi"/>
 				<Item Name="HW_Get_raw_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Get_raw_data_flow_from_serial_port.vi"/>
 				<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init.vi"/>
@@ -258,6 +259,7 @@
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 		</Item>
 		<Item Name="2D_density_plot_test.vi" Type="VI" URL="../TestVI&apos;s/2D_density_plot_test.vi"/>
+		<Item Name="CTL_VISA_port_Descr.-Name.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_VISA_port_Descr.-Name.ctl"/>
 		<Item Name="FP_TDMS_export_tool.vi" Type="VI" URL="../FP_TDMS_export_tool.vi"/>
 		<Item Name="FP_Tracker_v.2.2+.vi" Type="VI" URL="../FP_Tracker_v.2.2+.vi"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
@@ -423,7 +425,6 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
-				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="panelResize_tdms.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/panelResize_tdms.vi"/>
