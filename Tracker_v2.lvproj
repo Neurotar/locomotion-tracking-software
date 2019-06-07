@@ -133,6 +133,8 @@
 				<Item Name="SW_Fire_TTL_during_calibration.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_calibration.vi"/>
 				<Item Name="SW_Fire_TTL_during_the_acquisition.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition.vi"/>
 				<Item Name="SW_Fire_TTL_during_the_acquisition_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition_universal.vi"/>
+				<Item Name="SW_Get_CPU_load.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Get_CPU_load.vi"/>
+				<Item Name="SW_Get_CPU_load_monitor_reference.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Get_CPU_load_monitor_reference.vi"/>
 			</Item>
 			<Item Name="Save and Load" Type="Folder">
 				<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally.vi"/>
@@ -183,6 +185,7 @@
 				<Item Name="SW_Set_Cage_and_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Cage_and_Recording_Settings.vi"/>
 			</Item>
 			<Item Name="UI interacton" Type="Folder">
+				<Item Name="SW_Adjust_UI_draw_interwal.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Adjust_UI_draw_interwal.vi"/>
 				<Item Name="SW_Get_Menu_tags.vi" Type="VI" URL="../SubVi&apos;s/Controls/SW_Get_Menu_tags.vi"/>
 				<Item Name="Tracker_run-time_menu.rtm" Type="Document" URL="../SubVi&apos;s/Set UI states/Tracker_run-time_menu.rtm"/>
 				<Item Name="UI_(01)_Set_startup_controls_state.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(01)_Set_startup_controls_state.vi"/>
@@ -225,6 +228,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="TestVI&apos;s" Type="Folder">
+			<Item Name="2D_density_plot_test.vi" Type="VI" URL="../TestVI&apos;s/2D_density_plot_test.vi"/>
 			<Item Name="Camera_test.vi" Type="VI" URL="../TestVI&apos;s/Camera_test.vi"/>
 			<Item Name="CTL_Test_state_contrlos.ctl" Type="VI" URL="../TestVI&apos;s/CTL_Test_state_contrlos.ctl"/>
 			<Item Name="Data_filtering_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_speed_test.vi"/>
@@ -260,7 +264,7 @@
 			<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_channel.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 		</Item>
-		<Item Name="2D_density_plot_test.vi" Type="VI" URL="../TestVI&apos;s/2D_density_plot_test.vi"/>
+		<Item Name="CPU_monitoring_test.vi" Type="VI" URL="../TestVI&apos;s/CPU_monitoring_test.vi"/>
 		<Item Name="FP_TDMS_export_tool.vi" Type="VI" URL="../FP_TDMS_export_tool.vi"/>
 		<Item Name="FP_Tracker_v.2.2+.vi" Type="VI" URL="../FP_Tracker_v.2.2+.vi"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
@@ -528,6 +532,9 @@
 			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Read.vi"/>
 			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
+			<Item Name="System" Type="VI" URL="System">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Write.vi"/>
 		</Item>
