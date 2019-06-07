@@ -234,6 +234,7 @@
 			<Item Name="dmc.lvlps" Type="Document" URL="../TestVI&apos;s/dmc.lvlps"/>
 			<Item Name="dmc_test.vi" Type="VI" URL="../TestVI&apos;s/dmc_test.vi"/>
 			<Item Name="Hardware_auto_detection_test.vi" Type="VI" URL="../TestVI&apos;s/Hardware_auto_detection_test.vi"/>
+			<Item Name="Hardware_auto_params_set_test.vi" Type="VI" URL="../TestVI&apos;s/Hardware_auto_params_set_test.vi"/>
 			<Item Name="ImageAcquisition_test.vi" Type="VI" URL="../TestVI&apos;s/ImageAcquisition_test.vi"/>
 			<Item Name="Loop_speed_variation_test.vi" Type="VI" URL="../TestVI&apos;s/Loop_speed_variation_test.vi"/>
 			<Item Name="Multiple_ROIs.vi" Type="VI" URL="../TestVI&apos;s/Multiple_ROIs.vi"/>
@@ -425,6 +426,7 @@
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
+				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="panelResize_tdms.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/panelResize_tdms.vi"/>
@@ -510,6 +512,9 @@
 			</Item>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
