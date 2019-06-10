@@ -1,30 +1,5 @@
-[Users]
-Researcher = "c7a090a8e9b6e42526ec02324c83bdf6"
-
-[Defaults]
-Default User = 0
-Jump to tracking = FALSE
-VISA Resource Name = "Tracker"
-Data port OK = TRUE
-
 [Researcher]
-Amount of midfield segments = 2
-Amount of border segments = 4
-Center segment outer radius, mm = 30
-Midfield segments outer radius, mm = 75
-Cage diameter, mm = 180
-Midfield segments starting angle = 0
-Border segments starting angle = 0
-IO ports configuration = "[12,1,1,2,0,0,0]"
-Bridge swap? = FALSE    
-Bridge offset = 0.00    
-Twisted neck = FALSE    
-Offset H. = 0.00    
-Name prefix = "SavedTrack"
-Stop at = 0.00    
-"Stop at" enabled = FALSE    
-Data filtering = 6    
-Defaults = "<Cluster>\0D\0A<Name>Defaults</Name>\0D\0A<NumElts>2</NumElts>\0D\0A<DBL>\0D\0A<Name>Default User</Name>\0D\0A<Val>0.00000000000000</Val>\0D\0A</DBL>\0D\0A<String>\0D\0A<Name>VISA Resource Name </Name>\0D\0A<Val>Tracker</Val>\0D\0A</String>\0D\0A</Cluster>\0D\0A"
+Defaults = "<Cluster>\0D\0A<Name>Defaults</Name>\0D\0A<NumElts>2</NumElts>\0D\0A<DBL>\0D\0A<Name>Default User</Name>\0D\0A<Val>0.00000000000000</Val>\0D\0A</DBL>\0D\0A<String>\0D\0A<Name>VISA Resource Name </Name>\0D\0A<Val>ASRL5::INSTR</Val>\0D\0A</String>\0D\0A</Cluster>\0D\0A"
 Recording and saving = "<Cluster>\0D\0A<Name>Recording and saving</Name>\0D\0A<NumElts>6</NumElts>\0D\0A<String>\0D\0A<Name>Researcher name</Name>\0D\0A<Val>Researcher</Val>\0D\0A</String>\0D\0A<String>\0D\0A<Name>Name prefix</Name>\0D\0A<Val>Track</Val>\0D\0A</String>\0D\0A<Cluster>\0D\0A<Name>Data filtering</Name>\0D\0A<NumElts>3</NumElts>\0D\0A<EW>\0D\0A<Name>Filter type</Name>\0D\0A<Choice>None</Choice>\0D\0A<Choice>Savitzky-Golay</Choice>\0D\0A<Val>1</Val>\0D\0A</EW>\0D\0A<I32>\0D\0A<Name>Length</Name>\0D\0A<Val>31</Val>\0D\0A</I32>\0D\0A<I32>\0D\0A<Name>Order</Name>\0D\0A<Val>3</Val>\0D\0A</I32>\0D\0A</Cluster>\0D\0A<DBL>\0D\0A<Name>Stop at</Name>\0D\0A<Val>0.00000000000000</Val>\0D\0A</DBL>\0D\0A<Boolean>\0D\0A<Name>"Stop at" enabled</Name>\0D\0A<Val>0</Val>\0D\0A</Boolean>\0D\0A<Path>\0D\0A<Name>Default save folder path</Name>\0D\0A<Val></Val>\0D\0A</Path>\0D\0A</Cluster>\0D\0A"
 Geometry = "<Cluster>\0D\0A<Name>Geometry</Name>\0D\0A<NumElts>13</NumElts>\0D\0A<U16>\0D\0A<Name>Cage diameter, mm</Name>\0D\0A<Val>180</Val>\0D\0A</U16>\0D\0A<I16>\0D\0A<Name>Starting angle MIDFIELD</Name>\0D\0A<Val>0</Val>\0D\0A</I16>\0D\0A<I16>\0D\0A<Name>Starting angle BORDER</Name>\0D\0A<Val>0</Val>\0D\0A</I16>\0D\0A<U16>\0D\0A<Name>Radius, mm CENTER</Name>\0D\0A<Val>30</Val>\0D\0A</U16>\0D\0A<U16>\0D\0A<Name>Radius, mm MIDFIELD</Name>\0D\0A<Val>75</Val>\0D\0A</U16>\0D\0A<U8>\0D\0A<Name>N segments MIDFIELD</Name>\0D\0A<Val>2</Val>\0D\0A</U8>\0D\0A<U8>\0D\0A<Name>N segments BORDER</Name>\0D\0A<Val>4</Val>\0D\0A</U8>\0D\0A<SGL>\0D\0A<Name>R-gap, mm</Name>\0D\0A<Val>0.00000</Val>\0D\0A</SGL>\0D\0A<Boolean>\0D\0A<Name>Bridge swap</Name>\0D\0A<Val>0</Val>\0D\0A</Boolean>\0D\0A<SGL>\0D\0A<Name>Bridge H. offset</Name>\0D\0A<Val>0.00000</Val>\0D\0A</SGL>\0D\0A<SGL>\0D\0A<Name>Bridge V. offset</Name>\0D\0A<Val>0.00000</Val>\0D\0A</SGL>\0D\0A<Boolean>\0D\0A<Name>Twisted neck</Name>\0D\0A<Val>0</Val>\0D\0A</Boolean>\0D\0A<Boolean>\0D\0A<Name>Alt. magn. orientation</Name>\0D\0A<Val>0</Val>\0D\0A</Boolean>\0D\0A</Cluster>\0D\0A"
 IO parameters = "<Cluster>\0D\0A<Name>IO parameters</Name>\0D\0A<NumElts>8</NumElts>\0D\0A<U16>\0D\0A<Name>IO general config.</Name>\0D\0A<Val>12</Val>\0D\0A</U16>\0D\0A<U16>\0D\0A<Name>IO 1 configuration</Name>\0D\0A<Val>1</Val>\0D\0A</U16>\0D\0A<U16>\0D\0A<Name>IO 2 configuration</Name>\0D\0A<Val>1</Val>\0D\0A</U16>\0D\0A<U16>\0D\0A<Name>IO 3 configuration</Name>\0D\0A<Val>0</Val>\0D\0A</U16>\0D\0A<U16>\0D\0A<Name>IO 4 configuration</Name>\0D\0A<Val>0</Val>\0D\0A</U16>\0D\0A<U16>\0D\0A<Name>Activate ext. RS-232</Name>\0D\0A<Val>0</Val>\0D\0A</U16>\0D\0A<U16>\0D\0A<Name>IO inversion config.</Name>\0D\0A<Val>0</Val>\0D\0A</U16>\0D\0A<U8>\0D\0A<Name>Sync capability</Name>\0D\0A<Val>1</Val>\0D\0A</U8>\0D\0A</Cluster>\0D\0A"

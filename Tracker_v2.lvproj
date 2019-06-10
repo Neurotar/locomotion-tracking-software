@@ -150,6 +150,8 @@
 				<Item Name="SW_Load_settings_from_previous_experiments.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_from_previous_experiments.vi"/>
 				<Item Name="SW_Load_settings_to_main_tab.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab.vi"/>
 				<Item Name="SW_Load_settings_to_main_tab_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_2.vi"/>
+				<Item Name="SW_Save_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group.vi"/>
+				<Item Name="SW_Save_Settings.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings.vi"/>
 			</Item>
 			<Item Name="Segmented plot and mouse" Type="Folder">
 				<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/AL_Rotate_mouse_coords.vi"/>
@@ -179,6 +181,7 @@
 				<Item Name="SW_Plot_Thick_arc_line_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Plot_Thick_arc_line_IMAQdx.vi"/>
 			</Item>
 			<Item Name="Settings" Type="Folder">
+				<Item Name="HW_Configure_port(s).vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Configure_port(s).vi"/>
 				<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_save_paths.vi"/>
 				<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
 				<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
@@ -230,6 +233,7 @@
 		<Item Name="TestVI&apos;s" Type="Folder">
 			<Item Name="2D_density_plot_test.vi" Type="VI" URL="../TestVI&apos;s/2D_density_plot_test.vi"/>
 			<Item Name="Camera_test.vi" Type="VI" URL="../TestVI&apos;s/Camera_test.vi"/>
+			<Item Name="CPU_monitoring_test.vi" Type="VI" URL="../TestVI&apos;s/CPU_monitoring_test.vi"/>
 			<Item Name="CTL_Test_state_contrlos.ctl" Type="VI" URL="../TestVI&apos;s/CTL_Test_state_contrlos.ctl"/>
 			<Item Name="Data_filtering_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_speed_test.vi"/>
 			<Item Name="Data_filtering_test.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_test.vi"/>
@@ -264,7 +268,6 @@
 			<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_channel.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 		</Item>
-		<Item Name="CPU_monitoring_test.vi" Type="VI" URL="../TestVI&apos;s/CPU_monitoring_test.vi"/>
 		<Item Name="FP_TDMS_export_tool.vi" Type="VI" URL="../FP_TDMS_export_tool.vi"/>
 		<Item Name="FP_Tracker_v.2.2+.vi" Type="VI" URL="../FP_Tracker_v.2.2+.vi"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
