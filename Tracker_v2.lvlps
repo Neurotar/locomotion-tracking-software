@@ -1,5 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "111,1450,1008,1934"
+ProjectExplorer.ClassicPosition[String] = "142,1089,1039,1573"
 
 [AB_Cache_{5A2AA7FE-30E1-44DD-B5E9-ED6F46F86EF6}]
 Cache_Path[Path] Line0001 = "/C/Users/Mikhail O/AppData/Local/Temp/AB_Cache_{5A"
@@ -37,6 +37,10 @@ Cache_Path[Path] Line0002 = "85B7-8F17-49AC-8EF9-67F05DBBE1B9}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{8735"
 Cache_Path[Path] Line0002 = "5F68-1BBC-4744-8921-291BF9439A18}.txt"
 
+[AB_Cache_{87C54859-F4D2-4BF1-90F8-DF82C2124796}]
+Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{87C5"
+Cache_Path[Path] Line0002 = "4859-F4D2-4BF1-90F8-DF82C2124796}.txt"
+
 [AB_Cache_{4A280651-5C89-490A-8BD9-B5D39EB92F86}]
 Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{4A28"
 Cache_Path[Path] Line0002 = "0651-5C89-490A-8BD9-B5D39EB92F86}.txt"
@@ -44,8 +48,4 @@ Cache_Path[Path] Line0002 = "0651-5C89-490A-8BD9-B5D39EB92F86}.txt"
 [AB_Cache_{55B979DA-F0B8-49DC-A420-B76AB4789156}]
 Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{55B9"
 Cache_Path[Path] Line0002 = "79DA-F0B8-49DC-A420-B76AB4789156}.txt"
-
-[AB_Cache_{87C54859-F4D2-4BF1-90F8-DF82C2124796}]
-Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{87C5"
-Cache_Path[Path] Line0002 = "4859-F4D2-4BF1-90F8-DF82C2124796}.txt"
 

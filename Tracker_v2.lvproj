@@ -35,6 +35,7 @@
 				<Item Name="FL_Decode_RAW_to_DEC_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_2.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_bit_split.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_bit_split.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_bit_split_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_bit_split_2.vi"/>
+				<Item Name="FL_Decode_RAW_to_DEC_bit_split_2b.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_bit_split_2b.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_for_saving.vi"/>
 				<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_last_out.vi"/>
 				<Item Name="FL_Decode_Serial_Stream_to_Coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_Serial_Stream_to_Coords.vi"/>
@@ -211,7 +212,6 @@
 			<Item Name="FL_Save_incrementally_ts.vi" Type="VI" URL="../SubVi&apos;s/FL_Save_incrementally_ts.vi"/>
 			<Item Name="FL_TTL_xor_with_IO_inv_config.vi" Type="VI" URL="../SubVi&apos;s/FL_TTL_xor_with_IO_inv_config.vi"/>
 			<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
-			<Item Name="FP_Calibrate_reward.vi" Type="VI" URL="../SubVi&apos;s/FP_Calibrate_reward.vi"/>
 			<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
 			<Item Name="SW_Gen_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Available_TTL_outputs_array.vi"/>
 			<Item Name="SW_Generate_Segmented_Plot.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot.vi"/>
@@ -268,6 +268,7 @@
 			<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_channel.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 		</Item>
+		<Item Name="FP_Calibrate_reward.vi" Type="VI" URL="../SubVi&apos;s/FP_Calibrate_reward.vi"/>
 		<Item Name="FP_TDMS_export_tool.vi" Type="VI" URL="../FP_TDMS_export_tool.vi"/>
 		<Item Name="FP_Tracker_v.2.2+.vi" Type="VI" URL="../FP_Tracker_v.2.2+.vi"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
@@ -617,7 +618,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{E40E2645-09E7-42F3-9CCA-F49E57C79BEE}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/SubVi's/FP_Calibrate_reward.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FP_Calibrate_reward.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="SourceCount" Type="Int">2</Property>
@@ -693,6 +694,7 @@
 				<Property Name="Bld_previewCacheID" Type="Str">{55B979DA-F0B8-49DC-A420-B76AB4789156}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.minor" Type="Int">9</Property>
+				<Property Name="Bld_version.patch" Type="Int">1</Property>
 				<Property Name="Destination[0].destName" Type="Str">TDMS_export.exe</Property>
 				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/TDMS export tool/TDMS_export.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
@@ -701,7 +703,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/TDMS export tool/data</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons and Credits/Export_icon_256pix.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F878641A-79F1-4195-8B44-FE33D0D9BEF2}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{3F577687-E184-4A37-AB50-4C4840E7D40C}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FP_TDMS_export_tool.vi</Property>
