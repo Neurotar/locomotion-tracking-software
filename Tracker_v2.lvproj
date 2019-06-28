@@ -179,6 +179,7 @@
 				<Item Name="SW_Generate_Segmented_Plot_v4_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Segmented_Plot_v4_DAQmx.vi"/>
 				<Item Name="SW_Get_ROI_bounding_box.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Get_ROI_bounding_box.vi"/>
 				<Item Name="SW_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Make_Track_overlay.vi"/>
+				<Item Name="SW_Make_Track_overlay_test.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Make_Track_overlay_test.vi"/>
 				<Item Name="SW_Plot_Thick_arc_line_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Plot_Thick_arc_line_IMAQdx.vi"/>
 			</Item>
 			<Item Name="Settings" Type="Folder">
