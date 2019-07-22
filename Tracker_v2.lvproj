@@ -780,137 +780,6 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.1.9.10.exe</Property>
 			</Item>
-			<Item Name="Tracker v2.1.9.10 installer" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">Tracker_Drivers</Property>
-				<Property Name="Destination[1].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{FD36E8D1-F88E-4679-92F7-DD259C6B765E}</Property>
-				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[0].productID" Type="Str">{060A0DD9-6B7B-4AC4-A621-A7A37D08E989}</Property>
-				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 16.0</Property>
-				<Property Name="DistPart[0].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
-				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{AD0D6322-6E99-4244-BF1E-F2FBB67C70B2}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI-Serial Runtime 18.5</Property>
-				<Property Name="DistPart[1].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
-				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
-				<Property Name="DistPart[2].productID" Type="Str">{EDF95F83-017A-4425-8F94-63FF8533A5EA}</Property>
-				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 18.5</Property>
-				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
-				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[3].productID" Type="Str">{ED48ACB2-F8B6-44E1-B956-4FCE1221C565}</Property>
-				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 (64-bit)</Property>
-				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
-				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
-				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">Math Kernel Libraries 2017</Property>
-				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
-				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">NI Deployment Framework 2018</Property>
-				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
-				<Property Name="DistPart[3].SoftDep[11].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[11].productName" Type="Str">NI Error Reporting 2018 (64-bit)</Property>
-				<Property Name="DistPart[3].SoftDep[11].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
-				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">Math Kernel Libraries 2018</Property>
-				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
-				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI Logos 18.1</Property>
-				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
-				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI TDM Streaming 18.0</Property>
-				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
-				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2018 (64-bit)</Property>
-				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
-				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2018</Property>
-				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{EF4708F6-5A34-4DBA-B12B-79CC2004E20B}</Property>
-				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI VC2010MSMs</Property>
-				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{EFBA6F9E-F934-4BD7-AC51-60CCA480489C}</Property>
-				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI VC2015 Runtime</Property>
-				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
-				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI mDNS Responder 17.0</Property>
-				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
-				<Property Name="DistPart[3].SoftDepCount" Type="Int">12</Property>
-				<Property Name="DistPart[3].upgradeCode" Type="Str">{E4F03E30-E086-4EFC-B703-16299EC18DC7}</Property>
-				<Property Name="DistPart[4].flavorID" Type="Str">_full_</Property>
-				<Property Name="DistPart[4].productID" Type="Str">{3ECA30BC-9D30-46B4-B4DA-1D9FC315D29D}</Property>
-				<Property Name="DistPart[4].productName" Type="Str">NI Measurement &amp; Automation Explorer 18.5</Property>
-				<Property Name="DistPart[4].SoftDep[0].exclude" Type="Bool">false</Property>
-				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI Error Reporting</Property>
-				<Property Name="DistPart[4].SoftDep[0].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
-				<Property Name="DistPart[4].SoftDepCount" Type="Int">1</Property>
-				<Property Name="DistPart[4].upgradeCode" Type="Str">{AE940F24-CC0E-4148-9A96-10FB04D9796D}</Property>
-				<Property Name="DistPart[5].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[5].productID" Type="Str">{8BC8FAB5-6843-483B-B020-F545FA0A144E}</Property>
-				<Property Name="DistPart[5].productName" Type="Str">NI TDM Excel Add-In 2018</Property>
-				<Property Name="DistPart[5].upgradeCode" Type="Str">{6D2EBDAF-6CCD-44F3-B767-4DF9E0F2037B}</Property>
-				<Property Name="DistPartCount" Type="Int">6</Property>
-				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">/U/LV_builds/Tracker_v2/Tracker_v2.1.9.10_installer</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.9.10 installer</Property>
-				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="INST_productName" Type="Str">Tracker v2.1.9.10</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.19</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
-				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
-				<Property Name="MSI_arpContact" Type="Str">info@neurotar.com</Property>
-				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
-				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
-				<Property Name="MSI_distID" Type="Str">{75E853F2-2080-4C36-94E8-A06C713940CC}</Property>
-				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{018765B4-DD95-4642-8CD2-80E12B0E61CF}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.9.10 software installation</Property>
-				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
-				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
-				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
-				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.1.9.10.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.1.9.10</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
-				<Property Name="Source[0].File[1].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[1].name" Type="Str">Tracker_2.1.9.10.ini</Property>
-				<Property Name="Source[0].File[1].tag" Type="Str">{411132DE-298F-49EA-8C66-5595C6020CC8}</Property>
-				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[2].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[2].name" Type="Str">Tracker_settings.tcf</Property>
-				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/Tracker_settings.tcf</Property>
-				<Property Name="Source[0].File[2].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[3].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[3].name" Type="Str">LICENSE.rtf</Property>
-				<Property Name="Source[0].File[3].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[3].Shortcut[0].name" Type="Str">License</Property>
-				<Property Name="Source[0].File[3].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
-				<Property Name="Source[0].File[3].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
-				<Property Name="Source[0].FileCount" Type="Int">4</Property>
-				<Property Name="Source[0].name" Type="Str">Tracker v2.1.9.10</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
-				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
 			<Item Name="Tracker v2.1.9.12" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{28E2E335-2C44-4C98-815A-EC0F4011CAB0}</Property>
@@ -968,6 +837,134 @@
 				<Property Name="TgtF_productName" Type="Str">Tracker v2.1.9.12</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.1.9.12.exe</Property>
+			</Item>
+			<Item Name="Tracker v2.1.9.12 installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">Tracker_Drivers</Property>
+				<Property Name="Destination[1].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{FD36E8D1-F88E-4679-92F7-DD259C6B765E}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{160B311C-5360-4299-BD7C-1C61EB18036E}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 19.0</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{902E9855-1E7F-464C-AEA1-6906519A14FF}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-Serial Runtime 19.0</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{EACEADFB-F69A-4FA2-8AF8-7A4A57C48A2D}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 19.0</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{E5760F48-4F1E-47A4-ADCE-59D4FBE612AF}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 f3 (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">NI Error Reporting 2019 (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
+				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2018 (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
+				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2018</Property>
+				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{EF4708F6-5A34-4DBA-B12B-79CC2004E20B}</Property>
+				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{E4F03E30-E086-4EFC-B703-16299EC18DC7}</Property>
+				<Property Name="DistPart[4].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{80E00212-803D-4D38-9AD5-4C3E79B8F67F}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI Measurement &amp; Automation Explorer 19.0</Property>
+				<Property Name="DistPart[4].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[4].SoftDep[0].productName" Type="Str">NI Error Reporting</Property>
+				<Property Name="DistPart[4].SoftDep[0].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[4].SoftDepCount" Type="Int">1</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{AE940F24-CC0E-4148-9A96-10FB04D9796D}</Property>
+				<Property Name="DistPart[5].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[5].productID" Type="Str">{EBCDF6CD-76D1-48AF-A6D5-6721CDDA3C17}</Property>
+				<Property Name="DistPart[5].productName" Type="Str">NI TDM Excel Add-In 2019</Property>
+				<Property Name="DistPart[5].upgradeCode" Type="Str">{6D2EBDAF-6CCD-44F3-B767-4DF9E0F2037B}</Property>
+				<Property Name="DistPartCount" Type="Int">6</Property>
+				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/Tracker_v2.1.9.12_installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.9.12 installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="INST_productName" Type="Str">Tracker v2.1.9.12</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.20</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
+				<Property Name="MSI_arpContact" Type="Str">info@neurotar.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
+				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
+				<Property Name="MSI_distID" Type="Str">{75E853F2-2080-4C36-94E8-A06C713940CC}</Property>
+				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{018765B4-DD95-4642-8CD2-80E12B0E61CF}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.9.12 software installation</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
+				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.1.9.12.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.1.9.12</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
+				<Property Name="Source[0].File[2].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[2].name" Type="Str">LICENSE.rtf</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].name" Type="Str">LICENSE</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].subDir" Type="Str">Tracker v2.1.9.10</Property>
+				<Property Name="Source[0].File[2].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].File[3].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[3].name" Type="Str">LICENSE.rtf</Property>
+				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].FileCount" Type="Int">3</Property>
+				<Property Name="Source[0].name" Type="Str">Tracker v2.1.9.12</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.12</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 			<Item Name="Tracker v2.1.9.12 updater" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
