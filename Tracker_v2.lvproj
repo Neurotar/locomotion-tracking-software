@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -15,220 +16,6 @@
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
 		<Item Name="Icons and Credits" Type="Folder" URL="../Icons and Credits">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
-		</Item>
-		<Item Name="SubVi&apos;s" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Calc and data manipulation" Type="Folder">
-				<Item Name="FL_Adjust_raw_magnets_coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Adjust_raw_magnets_coords.vi"/>
-				<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calc_speed_on_the_fly.vi"/>
-				<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates.vi"/>
-				<Item Name="FL_Calculate_Coordinates_Diff_R_Center.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates_Diff_R_Center.vi"/>
-				<Item Name="FL_Calculate_Coordinates_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates_for_saving.vi"/>
-				<Item Name="FL_Calculate_phi_theta_etc.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc.vi"/>
-				<Item Name="FL_Calculate_phi_theta_etc_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_2.vi"/>
-				<Item Name="FL_Calculate_phi_theta_etc_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_array.vi"/>
-				<Item Name="FL_Calculate_phi_theta_etc_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_for_saving.vi"/>
-				<Item Name="FL_DEC_split_2_and_prefilter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_2_and_prefilter.vi"/>
-				<Item Name="FL_DEC_split_and_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter.vi"/>
-				<Item Name="FL_DEC_split_and_filter_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter_for_saving.vi"/>
-				<Item Name="FL_DEC_split_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_array.vi"/>
-				<Item Name="FL_Decode_RAW_to_DEC_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_2.vi"/>
-				<Item Name="FL_Decode_RAW_to_DEC_bit_split.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_bit_split.vi"/>
-				<Item Name="FL_Decode_RAW_to_DEC_bit_split_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_bit_split_2.vi"/>
-				<Item Name="FL_Decode_RAW_to_DEC_bit_split_2b.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_bit_split_2b.vi"/>
-				<Item Name="FL_Decode_RAW_to_DEC_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_for_saving.vi"/>
-				<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_last_out.vi"/>
-				<Item Name="FL_Decode_Serial_Stream_to_Coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_Serial_Stream_to_Coords.vi"/>
-				<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Filter_data_for_online_display.vi"/>
-				<Item Name="FL_Last_N_Samples_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_1D.vi"/>
-				<Item Name="FL_Last_N_Samples_1D_for_waveforms.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_1D_for_waveforms.vi"/>
-				<Item Name="FL_Last_N_Samples_2D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_2D.vi"/>
-				<Item Name="FL_Last_N_Samples_2D_array_of_strings.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_2D_array_of_strings.vi"/>
-				<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster.vi"/>
-				<Item Name="FL_Last_N_Samples_Cluster_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_1D.vi"/>
-				<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
-				<Item Name="FL_Last_N_Samples_SGL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_SGL.vi"/>
-				<Item Name="FL_Make_data_frame_and_put_to_channel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_channel.vi"/>
-				<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_queue.vi"/>
-				<Item Name="FL_Make_data_frame_and_put_to_queue_2.vi" Type="VI" URL="../TestVI&apos;s/FL_Make_data_frame_and_put_to_queue_2.vi"/>
-				<Item Name="FL_Make_RAW_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_RAW_data_frame_and_put_to_queue.vi"/>
-				<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_back_for_saving.vi"/>
-				<Item Name="FL_Reshape_data_back_for_saving_(strings).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_back_for_saving_(strings).vi"/>
-				<Item Name="FL_Reshape_data_for_memory_storage.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_for_memory_storage.vi"/>
-				<Item Name="FL_Reshape_data_for_memory_storage_(strings).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_for_memory_storage_(strings).vi"/>
-				<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Segment_map_by_color.vi"/>
-				<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter.vi"/>
-				<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
-				<Item Name="MAT_Get_HB0_filter_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_Get_HB0_filter_coefficients.vi"/>
-				<Item Name="MAT_HB0_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_HB0_filter.vi"/>
-				<Item Name="SW_Calc_speed.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed.vi"/>
-				<Item Name="SW_Calc_speed_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed_2.vi"/>
-				<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Debounce_filter_U16.vi"/>
-				<Item Name="SW_Get_1D_Array_mean.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_mean.vi"/>
-				<Item Name="SW_Get_1D_Array_normalize.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_normalize.vi"/>
-				<Item Name="SW_SG_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients.vi"/>
-				<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients_3-51.vi"/>
-			</Item>
-			<Item Name="Controls" Type="Folder">
-				<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
-				<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
-				<Item Name="CTL_Bounding_Rectangle_of_Segments.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Bounding_Rectangle_of_Segments.ctl"/>
-				<Item Name="CTL_Cage_diameter.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_diameter.ctl"/>
-				<Item Name="CTL_Cage_radial_segmentation.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_radial_segmentation.ctl"/>
-				<Item Name="CTL_Control_States.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Control_States.ctl"/>
-				<Item Name="CTL_Controls_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Controls_References.ctl"/>
-				<Item Name="CTL_Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Boolean_Indicator.ctl"/>
-				<Item Name="CTL_Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Close_Button.ctl"/>
-				<Item Name="CTL_Custom_HW_Re-check_Button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_HW_Re-check_Button.ctl"/>
-				<Item Name="CTL_Custom_Jump_to..._button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Jump_to..._button.ctl"/>
-				<Item Name="CTL_Data_flow_control_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Data_flow_control_cluster.ctl"/>
-				<Item Name="CTL_Draw_Area_Size.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Draw_Area_Size.ctl"/>
-				<Item Name="CTL_Filter_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Filter_selector.ctl"/>
-				<Item Name="CTL_Histogram_Properties.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_Properties.ctl"/>
-				<Item Name="CTL_Image_Geometrical_and_scaling_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Image_Geometrical_and_scaling_parameters.ctl"/>
-				<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Indicators_References.ctl"/>
-				<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_params_cluster.ctl"/>
-				<Item Name="CTL_IO_status_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_status_indicator.ctl"/>
-				<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Panes_and_VIs_References.ctl"/>
-				<Item Name="CTL_Paths_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Paths_cluster.ctl"/>
-				<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Play_pause_button.ctl"/>
-				<Item Name="CTL_Queue_or_Notifier_Message_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Queue_or_Notifier_Message_Cluster.ctl"/>
-				<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Record_stop_button.ctl"/>
-				<Item Name="CTL_Reset_settings_(zones).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Reset_settings_(zones).ctl"/>
-				<Item Name="CTL_Segmented_plot_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segmented_plot_parameters.ctl"/>
-				<Item Name="CTL_Set_Adv_Stim.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Adv_Stim.ctl"/>
-				<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Clear_button.ctl"/>
-				<Item Name="CTL_Settings_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_cluster.ctl"/>
-				<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
-				<Item Name="CTL_States_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_States_cluster.ctl"/>
-				<Item Name="CTL_Undo_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Undo_button.ctl"/>
-				<Item Name="CTL_VISA_port_Descr.-Name.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_VISA_port_Descr.-Name.ctl"/>
-				<Item Name="CTL_Zones_control_and_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Zones_control_and_indicator.ctl"/>
-			</Item>
-			<Item Name="HW Interaction" Type="Folder">
-				<Item Name="HW_Acquisition_Start.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Start.vi"/>
-				<Item Name="HW_Acquisition_Stop.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Stop.vi"/>
-				<Item Name="HW_Detect_compatible_COM_ports.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Detect_compatible_COM_ports.vi"/>
-				<Item Name="HW_Get_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/HW_Get_data_flow_from_serial_port.vi"/>
-				<Item Name="HW_Get_raw_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Get_raw_data_flow_from_serial_port.vi"/>
-				<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init.vi"/>
-				<Item Name="HW_Init_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init_2.vi"/>
-				<Item Name="HW_Make_sure_stop_Acq_and_null_IO_ports.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Make_sure_stop_Acq_and_null_IO_ports.vi"/>
-				<Item Name="HW_Poll_Tracker_1x.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Poll_Tracker_1x.vi"/>
-				<Item Name="HW_Poll_Tracker_2.0.3.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Poll_Tracker_2.0.3.vi"/>
-				<Item Name="HW_Poll_Tracker_2.0.4+.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Poll_Tracker_2.0.4+.vi"/>
-				<Item Name="HW_Set_IO_Dir_on_ECU.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Set_IO_Dir_on_ECU.vi"/>
-				<Item Name="HW_set_IO_ports.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports.vi"/>
-				<Item Name="HW_set_IO_ports_3-pos.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos.vi"/>
-				<Item Name="HW_set_IO_ports_3-pos_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos_2.vi"/>
-				<Item Name="HW_Set_SYNC_Status.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Set_SYNC_Status.vi"/>
-				<Item Name="HW_Setup.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Setup.vi"/>
-				<Item Name="HW_Setup_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Setup_2.vi"/>
-				<Item Name="HW_Stop_acq_and_close_VISA.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stop_acq_and_close_VISA.vi"/>
-				<Item Name="HW_Stream_raw_data.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data.vi"/>
-				<Item Name="HW_Stream_raw_data_channel.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data_channel.vi"/>
-				<Item Name="HW_Stream_raw_data_enq.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Stream_raw_data_enq.vi"/>
-				<Item Name="HW_Stream_raw_data_enq_2.vi" Type="VI" URL="../TestVI&apos;s/HW_Stream_raw_data_enq_2.vi"/>
-				<Item Name="SW_Fire_TTL_at_start_stop.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_at_start_stop.vi"/>
-				<Item Name="SW_Fire_TTL_at_start_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_at_start_universal.vi"/>
-				<Item Name="SW_Fire_TTL_at_stop_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_at_stop_universal.vi"/>
-				<Item Name="SW_Fire_TTL_during_calibration.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_calibration.vi"/>
-				<Item Name="SW_Fire_TTL_during_the_acquisition.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition.vi"/>
-				<Item Name="SW_Fire_TTL_during_the_acquisition_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition_universal.vi"/>
-				<Item Name="SW_Get_CPU_load.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Get_CPU_load.vi"/>
-				<Item Name="SW_Get_CPU_load_monitor_reference.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Get_CPU_load_monitor_reference.vi"/>
-			</Item>
-			<Item Name="Save and Load" Type="Folder">
-				<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally.vi"/>
-				<Item Name="FL_Preprocess_and_save_incrementally_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally_TDMS.vi"/>
-				<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Analysis.vi"/>
-				<Item Name="SW_Load_data_for_Analysis_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Analysis_from_TDMS.vi"/>
-				<Item Name="SW_Load_data_for_Conversion_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Conversion_from_TDMS.vi"/>
-				<Item Name="SW_Load_frames_from_temp_XML_AA.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_frames_from_temp_XML_AA.vi"/>
-				<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_frames_from_XML_GL.vi"/>
-				<Item Name="SW_Load_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group.vi"/>
-				<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_file.vi"/>
-				<Item Name="SW_Load_settings_file_light.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_file_light.vi"/>
-				<Item Name="SW_Load_settings_from_previous_experiments.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_from_previous_experiments.vi"/>
-				<Item Name="SW_Load_settings_to_main_tab.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab.vi"/>
-				<Item Name="SW_Load_settings_to_main_tab_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_2.vi"/>
-				<Item Name="SW_Save_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group.vi"/>
-				<Item Name="SW_Save_Settings.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings.vi"/>
-			</Item>
-			<Item Name="Segmented plot and mouse" Type="Folder">
-				<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/AL_Rotate_mouse_coords.vi"/>
-				<Item Name="FL_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay.vi"/>
-				<Item Name="FL_Make_Track_overlay_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_DAQmx.vi"/>
-				<Item Name="FL_Make_Track_overlay_for_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_for_IMAQdx.vi"/>
-				<Item Name="SW_Add_cage_border.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Add_cage_border.vi"/>
-				<Item Name="SW_Create_density_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Create_density_overlay.vi"/>
-				<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Draw_mouse_br.vi"/>
-				<Item Name="SW_Draw_mouse_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Draw_mouse_DAQmx.vi"/>
-				<Item Name="SW_Gen_2D_Histogram.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_2D_Histogram.vi"/>
-				<Item Name="SW_Gen_Check_segments_parameters.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Check_segments_parameters.vi"/>
-				<Item Name="SW_Gen_Draw_numbers_and_highllights.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Draw_numbers_and_highllights.vi"/>
-				<Item Name="SW_Gen_Draw_numbers_and_highllights_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Draw_numbers_and_highllights_DAQmx.vi"/>
-				<Item Name="SW_Gen_Draw_Segments.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Draw_Segments.vi"/>
-				<Item Name="SW_Gen_Draw_Segments_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Draw_Segments_DAQmx.vi"/>
-				<Item Name="SW_Gen_Get_Bounding_rectangles.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Get_Bounding_rectangles.vi"/>
-				<Item Name="SW_Gen_Get_Bounding_rectangles_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Get_Bounding_rectangles_DAQmx.vi"/>
-				<Item Name="SW_Gen_Get_Initial_picture_Scaling_and_Cage_size.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Get_Initial_picture_Scaling_and_Cage_size.vi"/>
-				<Item Name="SW_Gen_Get_Initial_picture_Scaling_and_Cage_size_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Get_Initial_picture_Scaling_and_Cage_size_DAQmx.vi"/>
-				<Item Name="SW_Generate_Color_Ramp.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Color_Ramp.vi"/>
-				<Item Name="SW_Generate_Segmented_Plot_v2.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Segmented_Plot_v2.vi"/>
-				<Item Name="SW_Generate_Segmented_Plot_v3.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Segmented_Plot_v3.vi"/>
-				<Item Name="SW_Generate_Segmented_Plot_v4_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Segmented_Plot_v4_DAQmx.vi"/>
-				<Item Name="SW_Get_ROI_bounding_box.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Get_ROI_bounding_box.vi"/>
-				<Item Name="SW_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Make_Track_overlay.vi"/>
-				<Item Name="SW_Make_Track_overlay_test.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Make_Track_overlay_test.vi"/>
-				<Item Name="SW_Plot_Thick_arc_line_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Plot_Thick_arc_line_IMAQdx.vi"/>
-			</Item>
-			<Item Name="Settings" Type="Folder">
-				<Item Name="HW_Configure_port(s).vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Configure_port(s).vi"/>
-				<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_save_paths.vi"/>
-				<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
-				<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
-				<Item Name="SW_Set_Cage_and_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Cage_and_Recording_Settings.vi"/>
-			</Item>
-			<Item Name="UI interacton" Type="Folder">
-				<Item Name="SW_Adjust_UI_draw_interwal.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Adjust_UI_draw_interwal.vi"/>
-				<Item Name="SW_Get_Menu_tags.vi" Type="VI" URL="../SubVi&apos;s/Controls/SW_Get_Menu_tags.vi"/>
-				<Item Name="Tracker_run-time_menu.rtm" Type="Document" URL="../SubVi&apos;s/Set UI states/Tracker_run-time_menu.rtm"/>
-				<Item Name="UI_(01)_Set_startup_controls_state.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(01)_Set_startup_controls_state.vi"/>
-				<Item Name="UI_(02)_Unlock.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(02)_Unlock.vi"/>
-				<Item Name="UI_(03A)_Set_Play_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(03A)_Set_Play_State.vi"/>
-				<Item Name="UI_(04A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(04A)_Set_Stop_State.vi"/>
-				<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
-				<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
-			</Item>
-			<Item Name="FL_Check_TTL_firing_conditions.vi" Type="VI" URL="../SubVi&apos;s/FL_Check_TTL_firing_conditions.vi"/>
-			<Item Name="FL_DEC_split.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split.vi"/>
-			<Item Name="FL_Gen_Bins_for_RunLengths.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_RunLengths.vi"/>
-			<Item Name="FL_Gen_Bins_for_RunTimes.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_RunTimes.vi"/>
-			<Item Name="FL_Gen_Bins_for_Speed.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_Speed.vi"/>
-			<Item Name="FL_Get_Histogram_Bin_number.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Histogram_Bin_number.vi"/>
-			<Item Name="FL_Get_Run_Bout_and_Time.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Run_Bout_and_Time.vi"/>
-			<Item Name="FL_Get_TTL_in_pulse_length.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_TTL_in_pulse_length.vi"/>
-			<Item Name="FL_Get_TTL_in_pulse_length_2.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_TTL_in_pulse_length_2.vi"/>
-			<Item Name="FL_Get_Zone_presence_time.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Zone_presence_time.vi"/>
-			<Item Name="FL_Save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/FL_Save_incrementally.vi"/>
-			<Item Name="FL_Save_incrementally_ts.vi" Type="VI" URL="../SubVi&apos;s/FL_Save_incrementally_ts.vi"/>
-			<Item Name="FL_TTL_xor_with_IO_inv_config.vi" Type="VI" URL="../SubVi&apos;s/FL_TTL_xor_with_IO_inv_config.vi"/>
-			<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
-			<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
-			<Item Name="SW_Gen_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Available_TTL_outputs_array.vi"/>
-			<Item Name="SW_Generate_Segmented_Plot.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot.vi"/>
-			<Item Name="SW_get_config_for_Start_Stop_pulses.vi" Type="VI" URL="../SubVi&apos;s/SW_get_config_for_Start_Stop_pulses.vi"/>
-			<Item Name="SW_get_config_of_Zones_and_IO.vi" Type="VI" URL="../SubVi&apos;s/SW_get_config_of_Zones_and_IO.vi"/>
-			<Item Name="SW_get_config_of_Zones_and_IO_2.vi" Type="VI" URL="../SubVi&apos;s/SW_get_config_of_Zones_and_IO_2.vi"/>
-			<Item Name="SW_get_IO_ports_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_get_IO_ports_representation.vi"/>
-			<Item Name="SW_get_IO_ports_representation_2.vi" Type="VI" URL="../SubVi&apos;s/SW_get_IO_ports_representation_2.vi"/>
-			<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
-			<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
-			<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
-			<Item Name="SW_Load_frames_from_XML_LL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_LL.vi"/>
-			<Item Name="SW_Mix_TTL_inputs.vi" Type="VI" URL="../SubVi&apos;s/SW_Mix_TTL_inputs.vi"/>
-			<Item Name="SW_Set_Adv_Stimulus_interface.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Adv_Stimulus_interface.vi"/>
 		</Item>
 		<Item Name="Support" Type="Folder" URL="../Support">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
@@ -271,9 +58,9 @@
 			<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_channel.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 		</Item>
+		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="FP_Calibrate_reward.vi" Type="VI" URL="../SubVi&apos;s/FP_Calibrate_reward.vi"/>
 		<Item Name="FP_TDMS_export_tool.vi" Type="VI" URL="../FP_TDMS_export_tool.vi"/>
-		<Item Name="FP_Tracker_v.2.2+.vi" Type="VI" URL="../FP_Tracker_v.2.2+.vi"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
@@ -302,6 +89,7 @@
 				<Item Name="AsciiToInt.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/AsciiToInt.vi"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
+				<Item Name="Channel Abort Instructions.ctl" Type="VI" URL="/&lt;vilib&gt;/ChannelSupport/Channel Abort Instructions.ctl"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
@@ -507,11 +295,10 @@
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
 			</Item>
-			<Item Name=")Channel.ctl" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/)Channel.ctl"/>
-			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/)Channel.vi"/>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
 			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
+			<Item Name="High Speed Stream-c(str,stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp).lvlib"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -525,9 +312,6 @@
 			<Item Name="niimaqdx.dll" Type="Document" URL="niimaqdx.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -536,14 +320,12 @@
 			</Item>
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
-			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Read.vi"/>
 			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
-			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Write.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Network_comm_test_1" Type="EXE">
@@ -1120,6 +902,43 @@
 				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">Tracker_v2</Property>
 				<Property Name="PKG_version" Type="Str">1.0.0</Property>
+			</Item>
+			<Item Name="Tracker Source Distribution" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7EF52C42-C010-4D57-8228-8536253DA268}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker Source Distribution</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/18.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">../LabVIEW Data/2018(64-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/Tracker_Source_Distribution</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C4ABB86E-58FD-413E-9CEC-D8802DA46550}</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../Tracker_builds/Tracker_Source_Distribution/Tracker_v2_Tracker Source Distribution_log.txt</Property>
+				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/Tracker_Source_Distribution</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/Tracker_Source_Distribution</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F904E29F-D713-4C72-B20B-FD16E6B98996}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.lvlib/FP_Tracker.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
