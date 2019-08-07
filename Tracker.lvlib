@@ -19,6 +19,7 @@
 		<Item Name="FL_Calculate_phi_theta_etc_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_2.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_array.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_for_saving.vi"/>
+		<Item Name="FL_Collect_Timings_Data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Collect_Timings_Data.vi"/>
 		<Item Name="FL_DEC_split_2_and_prefilter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_2_and_prefilter.vi"/>
 		<Item Name="FL_DEC_split_and_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter.vi"/>
 		<Item Name="FL_DEC_split_and_filter_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter_for_saving.vi"/>
