@@ -60,6 +60,7 @@
 			<Item Name="Single_pulse_ext_TTL.vi" Type="VI" URL="../TestVI&apos;s/Single_pulse_ext_TTL.vi"/>
 		</Item>
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
+		<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 		<Item Name="FP_Calibrate_reward.vi" Type="VI" URL="../SubVi&apos;s/FP_Calibrate_reward.vi"/>
 		<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 		<Item Name="FP_TDMS_export_tool.vi" Type="VI" URL="../FP_TDMS_export_tool.vi"/>
@@ -281,6 +282,7 @@
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
+				<Item Name="ex_BuildTextVarProps.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express output/BuildTextBlock.llb/ex_BuildTextVarProps.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="ExtractSubstring.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/ExtractSubstring.vi"/>
 				<Item Name="fileViewerConfigData.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/fileViewerConfigData.ctl"/>
