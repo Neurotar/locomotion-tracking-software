@@ -37,7 +37,8 @@
 		<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster.vi"/>
 		<Item Name="FL_Last_N_Samples_Cluster_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_1D.vi"/>
 		<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
-		<Item Name="FL_Last_N_Samples_SGL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_SGL.vi"/>
+		<Item Name="FL_Last_N_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_DBL.vi"/>
+		<Item Name="FL_Last_N_Samples_UNIV_iout.vim" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_UNIV_iout.vim"/>
 		<Item Name="FL_Make_data_frame_and_put_to_channel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_channel.vi"/>
 		<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_queue.vi"/>
 		<Item Name="FL_Make_data_frame_and_put_to_queue_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_queue_2.vi"/>
