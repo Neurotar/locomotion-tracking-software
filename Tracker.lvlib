@@ -76,6 +76,7 @@
 		<Item Name="CTL_Custom_HW_Re-check_Button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_HW_Re-check_Button.ctl"/>
 		<Item Name="CTL_Custom_Jump_to..._button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Jump_to..._button.ctl"/>
 		<Item Name="CTL_Data_flow_control_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Data_flow_control_cluster.ctl"/>
+		<Item Name="CTL_Dispenser_calibration_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Dispenser_calibration_info.ctl"/>
 		<Item Name="CTL_Draw_Area_Size.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Draw_Area_Size.ctl"/>
 		<Item Name="CTL_Filter_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Filter_selector.ctl"/>
 		<Item Name="CTL_Histogram_Properties.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_Properties.ctl"/>
@@ -125,6 +126,7 @@
 		<Item Name="SW_Fire_TTL_at_start_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_at_start_universal.vi"/>
 		<Item Name="SW_Fire_TTL_at_stop_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_at_stop_universal.vi"/>
 		<Item Name="SW_Fire_TTL_during_calibration.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_calibration.vi"/>
+		<Item Name="SW_Fire_TTL_during_calibration_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_calibration_2.vi"/>
 		<Item Name="SW_Fire_TTL_during_the_acquisition.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition.vi"/>
 		<Item Name="SW_Fire_TTL_during_the_acquisition_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition_universal.vi"/>
 		<Item Name="SW_Get_CPU_load.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Get_CPU_load.vi"/>
@@ -210,6 +212,7 @@
 		<Item Name="HW_set_IO_ports_3-pos.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos.vi"/>
 		<Item Name="HW_set_IO_ports_3-pos_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos_2.vi"/>
 		<Item Name="HW_Timings_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Timings_Calibration.vi"/>
+		<Item Name="SW_Dispension_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Dispension_Calibration.vi"/>
 		<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_save_paths.vi"/>
 		<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
 		<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
@@ -226,5 +229,5 @@
 		<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 	</Item>
-	<Item Name="SW_Dispension_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Dispension_Calibration.vi"/>
+	<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
 </Library>
