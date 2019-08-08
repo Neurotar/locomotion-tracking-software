@@ -76,6 +76,7 @@
 			<Property Name="Name" Type="Str">DigitalOutTask_0</Property>
 			<Property Name="SampTimingType" Type="Str">On Demand</Property>
 		</Item>
+		<Item Name="Tracker_TTL_swap_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Tracker_TTL_swap_speed_test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
