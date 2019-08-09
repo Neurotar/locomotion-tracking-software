@@ -37,6 +37,8 @@
 			<Item Name="Network control test 1.vi" Type="VI" URL="../TestVI&apos;s/Network control test 1.vi"/>
 			<Item Name="Network control test 2 reader.vi" Type="VI" URL="../TestVI&apos;s/Network control test 2 reader.vi"/>
 			<Item Name="Network control test 2 writer.vi" Type="VI" URL="../TestVI&apos;s/Network control test 2 writer.vi"/>
+			<Item Name="Tracker_TTL_swap_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Tracker_TTL_swap_speed_test.vi"/>
+			<Item Name="Data_filtering_test_2.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_test_2.vi"/>
 			<Item Name="Plots_testing.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing.vi"/>
 			<Item Name="profile.csv" Type="Document" URL="../TestVI&apos;s/profile.csv"/>
 			<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_1.vi"/>
@@ -76,7 +78,6 @@
 			<Property Name="Name" Type="Str">DigitalOutTask_0</Property>
 			<Property Name="SampTimingType" Type="Str">On Demand</Property>
 		</Item>
-		<Item Name="Tracker_TTL_swap_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Tracker_TTL_swap_speed_test.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
