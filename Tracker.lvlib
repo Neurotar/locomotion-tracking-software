@@ -95,6 +95,7 @@
 		<Item Name="CTL_Set_Adv_Stim.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Adv_Stim.ctl"/>
 		<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Clear_button.ctl"/>
 		<Item Name="CTL_Settings_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_cluster.ctl"/>
+		<Item Name="CTL_Settings_parameters_groups.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_parameters_groups.ctl"/>
 		<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
 		<Item Name="CTL_States_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_States_cluster.ctl"/>
 		<Item Name="CTL_Undo_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Undo_button.ctl"/>
@@ -230,4 +231,5 @@
 		<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 	</Item>
+	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 </Library>
