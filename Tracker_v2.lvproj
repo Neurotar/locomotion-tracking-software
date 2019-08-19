@@ -78,6 +78,7 @@
 			<Property Name="Name" Type="Str">DigitalOutTask_0</Property>
 			<Property Name="SampTimingType" Type="Str">On Demand</Property>
 		</Item>
+		<Item Name="MN_Pulse_Generator_main_menu.rtm" Type="Document" URL="../../InVigilo_II/SubVIs/Controls/MN_Pulse_Generator_main_menu.rtm"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -463,6 +464,9 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
