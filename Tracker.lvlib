@@ -10,6 +10,7 @@
 
 </Property>
 	<Item Name="Calc and data manipulation" Type="Folder">
+		<Item Name="CALC_Get_EMA_Coeffs.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Get_EMA_Coeffs.vi"/>
 		<Item Name="FL_Adjust_raw_magnets_coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Adjust_raw_magnets_coords.vi"/>
 		<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calc_speed_on_the_fly.vi"/>
 		<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates.vi"/>
@@ -21,6 +22,7 @@
 		<Item Name="FL_Calculate_phi_theta_etc_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_for_saving.vi"/>
 		<Item Name="FL_Collect_Timings_Data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Collect_Timings_Data.vi"/>
 		<Item Name="FL_DEC_split_2_and_prefilter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_2_and_prefilter.vi"/>
+		<Item Name="FL_DEC_split_3_and_prefilter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_3_and_prefilter.vi"/>
 		<Item Name="FL_DEC_split_and_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter.vi"/>
 		<Item Name="FL_DEC_split_and_filter_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter_for_saving.vi"/>
 		<Item Name="FL_DEC_split_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_array.vi"/>
@@ -31,6 +33,7 @@
 		<Item Name="FL_Decode_RAW_to_DEC_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_for_saving.vi"/>
 		<Item Name="FL_Decode_RAW_to_DEC_last_out.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_RAW_to_DEC_last_out.vi"/>
 		<Item Name="FL_Decode_Serial_Stream_to_Coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Decode_Serial_Stream_to_Coords.vi"/>
+		<Item Name="FL_Feedback_Node.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Feedback_Node.vi"/>
 		<Item Name="FL_Filter_data_for_online_display.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Filter_data_for_online_display.vi"/>
 		<Item Name="FL_Last_N_Samples_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_1D.vi"/>
 		<Item Name="FL_Last_N_Samples_1D_for_waveforms.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_1D_for_waveforms.vi"/>
@@ -52,6 +55,7 @@
 		<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Segment_map_by_color.vi"/>
 		<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter.vi"/>
 		<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
+		<Item Name="FL_ZLEMA_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_ZLEMA_Filter.vi"/>
 		<Item Name="MAT_Get_HB0_filter_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_Get_HB0_filter_coefficients.vi"/>
 		<Item Name="MAT_HB0_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_HB0_filter.vi"/>
 		<Item Name="SW_Calc_speed.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed.vi"/>
@@ -77,6 +81,7 @@
 		<Item Name="CTL_Custom_HW_Re-check_Button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_HW_Re-check_Button.ctl"/>
 		<Item Name="CTL_Custom_Jump_to..._button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Jump_to..._button.ctl"/>
 		<Item Name="CTL_Data_flow_control_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Data_flow_control_cluster.ctl"/>
+		<Item Name="CTL_Decoded_data_frame.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Decoded_data_frame.ctl"/>
 		<Item Name="CTL_Dispenser_calibration_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Dispenser_calibration_info.ctl"/>
 		<Item Name="CTL_Draw_Area_Size.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Draw_Area_Size.ctl"/>
 		<Item Name="CTL_Filter_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Filter_selector.ctl"/>
@@ -232,4 +237,5 @@
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
+	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 </Library>

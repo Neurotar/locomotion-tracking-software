@@ -4,7 +4,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -19,12 +18,14 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="TestVI&apos;s" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="2D_density_plot_test.vi" Type="VI" URL="../TestVI&apos;s/2D_density_plot_test.vi"/>
 			<Item Name="Camera_test.vi" Type="VI" URL="../TestVI&apos;s/Camera_test.vi"/>
 			<Item Name="CPU_monitoring_test.vi" Type="VI" URL="../TestVI&apos;s/CPU_monitoring_test.vi"/>
 			<Item Name="CTL_Test_state_contrlos.ctl" Type="VI" URL="../TestVI&apos;s/CTL_Test_state_contrlos.ctl"/>
 			<Item Name="Data_filtering_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_speed_test.vi"/>
 			<Item Name="Data_filtering_test.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_test.vi"/>
+			<Item Name="Data_filtering_test_2.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_test_2.vi"/>
 			<Item Name="Data_loading_speed.xlsx" Type="Document" URL="../TestVI&apos;s/Data_loading_speed.xlsx"/>
 			<Item Name="Data_stream_read_test.vi" Type="VI" URL="../TestVI&apos;s/Data_stream_read_test.vi"/>
 			<Item Name="dmc.lvlps" Type="Document" URL="../TestVI&apos;s/dmc.lvlps"/>
@@ -37,12 +38,11 @@
 			<Item Name="Network control test 1.vi" Type="VI" URL="../TestVI&apos;s/Network control test 1.vi"/>
 			<Item Name="Network control test 2 reader.vi" Type="VI" URL="../TestVI&apos;s/Network control test 2 reader.vi"/>
 			<Item Name="Network control test 2 writer.vi" Type="VI" URL="../TestVI&apos;s/Network control test 2 writer.vi"/>
-			<Item Name="Tracker_TTL_swap_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Tracker_TTL_swap_speed_test.vi"/>
-			<Item Name="Data_filtering_test_2.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_test_2.vi"/>
 			<Item Name="Plots_testing.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing.vi"/>
 			<Item Name="profile.csv" Type="Document" URL="../TestVI&apos;s/profile.csv"/>
 			<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_1.vi"/>
 			<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_2.vi"/>
+			<Item Name="Single_pulse_ext_TTL.vi" Type="VI" URL="../TestVI&apos;s/Single_pulse_ext_TTL.vi"/>
 			<Item Name="Tab_controls_color_example.vi" Type="VI" URL="../TestVI&apos;s/Tab_controls_color_example.vi"/>
 			<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TestVI&apos;s/TDMS_loading_speeds_test.vi"/>
 			<Item Name="TDMS_saving_speed.xlsx" Type="Document" URL="../TestVI&apos;s/TDMS_saving_speed.xlsx"/>
@@ -54,21 +54,12 @@
 			<Item Name="Test_python_interaction.py" Type="Document" URL="../TestVI&apos;s/Test_python_interaction.py"/>
 			<Item Name="TMDS_clean_and_compress_test.vi" Type="VI" URL="../TestVI&apos;s/TMDS_clean_and_compress_test.vi"/>
 			<Item Name="Tracker File Reader.vi" Type="VI" URL="../TestVI&apos;s/Tracker File Reader.vi"/>
+			<Item Name="Tracker_TTL_swap_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Tracker_TTL_swap_speed_test.vi"/>
 			<Item Name="Tracker_v2.2_test_acq_comms.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2.2_test_acq_comms.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_channel.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
-			<Item Name="Single_pulse_ext_TTL.vi" Type="VI" URL="../TestVI&apos;s/Single_pulse_ext_TTL.vi"/>
+			<Item Name="ZDelay_node_test.vi" Type="VI" URL="../TestVI&apos;s/ZDelay_node_test.vi"/>
 		</Item>
-		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
-		<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
-		<Item Name="FP_Calibrate_reward.vi" Type="VI" URL="../SubVi&apos;s/FP_Calibrate_reward.vi"/>
-		<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
-		<Item Name="FP_TDMS_export_tool.vi" Type="VI" URL="../FP_TDMS_export_tool.vi"/>
-		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
-		<Item Name="README.md" Type="Document" URL="../README.md"/>
-		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
-		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
-		<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 		<Item Name="DigitalOutTask_0" Type="NI-DAQmx Task">
 			<Property Name="\0\ChanType" Type="Str">Digital Output</Property>
 			<Property Name="\0\DO.InvertLines" Type="Str">0</Property>
@@ -78,7 +69,16 @@
 			<Property Name="Name" Type="Str">DigitalOutTask_0</Property>
 			<Property Name="SampTimingType" Type="Str">On Demand</Property>
 		</Item>
+		<Item Name="FP_Calibrate_reward.vi" Type="VI" URL="../SubVi&apos;s/FP_Calibrate_reward.vi"/>
+		<Item Name="FP_TDMS_export_tool.vi" Type="VI" URL="../FP_TDMS_export_tool.vi"/>
+		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="MN_Pulse_Generator_main_menu.rtm" Type="Document" URL="../../InVigilo_II/SubVIs/Controls/MN_Pulse_Generator_main_menu.rtm"/>
+		<Item Name="README.md" Type="Document" URL="../README.md"/>
+		<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
+		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
+		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
+		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
+		<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -466,9 +466,6 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -661,6 +658,43 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{763FFDA8-3802-44B6-9C22-024C36A4C911}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">TDMS_export.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Tracker Source Distribution" Type="Source Distribution">
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7EF52C42-C010-4D57-8228-8536253DA268}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker Source Distribution</Property>
+				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
+				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
+				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/18.0</Property>
+				<Property Name="Bld_excludedDirectory[3]" Type="Path">../LabVIEW Data/2018(64-bit)/ExtraVILib</Property>
+				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
+				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
+				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
+				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/Tracker_Source_Distribution</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{C4ABB86E-58FD-413E-9CEC-D8802DA46550}</Property>
+				<Property Name="Bld_userLogFile" Type="Path">../Tracker_builds/Tracker_Source_Distribution/Tracker_v2_Tracker Source Distribution_log.txt</Property>
+				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
+				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/Tracker_Source_Distribution</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/Tracker_Source_Distribution</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F904E29F-D713-4C72-B20B-FD16E6B98996}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.lvlib/FP_Tracker.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 			<Item Name="Tracker v2.1.9.10" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
@@ -1060,43 +1094,6 @@
 				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
 				<Property Name="PKG_synopsis" Type="Str">Tracker_v2</Property>
 				<Property Name="PKG_version" Type="Str">1.0.0</Property>
-			</Item>
-			<Item Name="Tracker Source Distribution" Type="Source Distribution">
-				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{7EF52C42-C010-4D57-8228-8536253DA268}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Tracker Source Distribution</Property>
-				<Property Name="Bld_excludedDirectory[0]" Type="Path">vi.lib</Property>
-				<Property Name="Bld_excludedDirectory[0].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[1]" Type="Path">resource/objmgr</Property>
-				<Property Name="Bld_excludedDirectory[1].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[2]" Type="Path">/C/ProgramData/National Instruments/InstCache/18.0</Property>
-				<Property Name="Bld_excludedDirectory[3]" Type="Path">../LabVIEW Data/2018(64-bit)/ExtraVILib</Property>
-				<Property Name="Bld_excludedDirectory[3].pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_excludedDirectory[4]" Type="Path">instr.lib</Property>
-				<Property Name="Bld_excludedDirectory[4].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectory[5]" Type="Path">user.lib</Property>
-				<Property Name="Bld_excludedDirectory[5].pathType" Type="Str">relativeToAppDir</Property>
-				<Property Name="Bld_excludedDirectoryCount" Type="Int">6</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/Tracker_Source_Distribution</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{C4ABB86E-58FD-413E-9CEC-D8802DA46550}</Property>
-				<Property Name="Bld_userLogFile" Type="Path">../Tracker_builds/Tracker_Source_Distribution/Tracker_v2_Tracker Source Distribution_log.txt</Property>
-				<Property Name="Bld_userLogFile.pathType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_version.build" Type="Int">1</Property>
-				<Property Name="Bld_version.major" Type="Int">1</Property>
-				<Property Name="Destination[0].destName" Type="Str">Destination Directory</Property>
-				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/Tracker_Source_Distribution</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/Tracker_Source_Distribution</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F904E29F-D713-4C72-B20B-FD16E6B98996}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FP_Tracker.vi</Property>
-				<Property Name="Source[1].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="SourceCount" Type="Int">2</Property>
 			</Item>
 		</Item>
 	</Item>
