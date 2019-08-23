@@ -18,6 +18,7 @@
 		<Item Name="FL_Calculate_Coordinates_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates_for_saving.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_2.vi"/>
+		<Item Name="FL_Calculate_phi_theta_etc_3.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_3.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_array.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_for_saving.vi"/>
 		<Item Name="FL_Collect_Timings_Data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Collect_Timings_Data.vi"/>
@@ -70,7 +71,9 @@
 	<Item Name="Controls" Type="Folder">
 		<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
 		<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
+		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
 		<Item Name="CTL_Bounding_Rectangle_of_Segments.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Bounding_Rectangle_of_Segments.ctl"/>
+		<Item Name="CTL_Cage_Coords.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords.ctl"/>
 		<Item Name="CTL_Cage_diameter.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_diameter.ctl"/>
 		<Item Name="CTL_Cage_radial_segmentation.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_radial_segmentation.ctl"/>
 		<Item Name="CTL_Calibration_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Calibration_parameters.ctl"/>
@@ -90,9 +93,11 @@
 		<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Indicators_References.ctl"/>
 		<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_params_cluster.ctl"/>
 		<Item Name="CTL_IO_status_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_status_indicator.ctl"/>
+		<Item Name="CTL_Mouse_Draw_Params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Mouse_Draw_Params.ctl"/>
 		<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Panes_and_VIs_References.ctl"/>
 		<Item Name="CTL_Paths_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Paths_cluster.ctl"/>
 		<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Play_pause_button.ctl"/>
+		<Item Name="CTL_Pre-filter_params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Pre-filter_params.ctl"/>
 		<Item Name="CTL_Queue_or_Notifier_Message_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Queue_or_Notifier_Message_Cluster.ctl"/>
 		<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Record_stop_button.ctl"/>
 		<Item Name="CTL_Reset_settings_(zones).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Reset_settings_(zones).ctl"/>
