@@ -475,7 +475,7 @@
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
-			<Item Name="Stream-c(c(u32,u32,stamp),c(i16,i16),t&apos;CTL_Animal_Coordinates_and_Speed.ctl&apos;).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(c(u32,u32,stamp),c(i16,i16),t&apos;CTL_Animal_Coordinates_and_Speed.ctl&apos;).lvlib"/>
+			<Item Name="Stream-c(c(u32,u32,stamp),c(i16,i16),t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(c(u32,u32,stamp),c(i16,i16),t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;).lvlib"/>
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
