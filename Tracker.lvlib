@@ -49,6 +49,7 @@
 		<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_queue.vi"/>
 		<Item Name="FL_Make_data_frame_and_put_to_queue_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_queue_2.vi"/>
 		<Item Name="FL_Make_RAW_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_RAW_data_frame_and_put_to_queue.vi"/>
+		<Item Name="FL_React_on_incoming_TTLs.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_React_on_incoming_TTLs.vi"/>
 		<Item Name="FL_Reshape_data_back_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_back_for_saving.vi"/>
 		<Item Name="FL_Reshape_data_back_for_saving_(strings).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_back_for_saving_(strings).vi"/>
 		<Item Name="FL_Reshape_data_for_memory_storage.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Reshape_data_for_memory_storage.vi"/>
@@ -168,7 +169,6 @@
 		<Item Name="SW_get_IO_ports_representation.vi" Type="VI" URL="../SubVi&apos;s/SW_get_IO_ports_representation.vi"/>
 		<Item Name="SW_get_IO_ports_representation_2.vi" Type="VI" URL="../SubVi&apos;s/SW_get_IO_ports_representation_2.vi"/>
 		<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
-		<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
 		<Item Name="SW_Load_frames_from_XML_LL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_LL.vi"/>
 		<Item Name="SW_Mix_TTL_inputs.vi" Type="VI" URL="../SubVi&apos;s/SW_Mix_TTL_inputs.vi"/>
 		<Item Name="SW_Set_Adv_Stimulus_interface.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Adv_Stimulus_interface.vi"/>
@@ -238,9 +238,12 @@
 		<Item Name="UI_(02)_Unlock.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(02)_Unlock.vi"/>
 		<Item Name="UI_(03A)_Set_Play_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(03A)_Set_Play_State.vi"/>
 		<Item Name="UI_(04A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(04A)_Set_Stop_State.vi"/>
+		<Item Name="UI_(05A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(05A)_Set_Stop_State.vi"/>
 		<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
+	<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
+	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 </Library>
