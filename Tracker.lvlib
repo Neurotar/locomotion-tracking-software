@@ -239,6 +239,7 @@
 		<Item Name="UI_(03A)_Set_Play_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(03A)_Set_Play_State.vi"/>
 		<Item Name="UI_(04A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(04A)_Set_Stop_State.vi"/>
 		<Item Name="UI_(05A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(05A)_Set_Stop_State.vi"/>
+		<Item Name="UI_(06A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(06A)_Set_Stop_State.vi"/>
 		<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 	</Item>
