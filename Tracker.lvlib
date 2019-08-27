@@ -176,19 +176,25 @@
 	<Item Name="Save and Load" Type="Folder">
 		<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally.vi"/>
 		<Item Name="FL_Preprocess_and_save_incrementally_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally_TDMS.vi"/>
+		<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Get_save_paths.vi"/>
+		<Item Name="SW_Get_Save_Paths_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Get_Save_Paths_2.vi"/>
 		<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Analysis.vi"/>
 		<Item Name="SW_Load_data_for_Analysis_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Analysis_from_TDMS.vi"/>
 		<Item Name="SW_Load_data_for_Conversion_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Conversion_from_TDMS.vi"/>
 		<Item Name="SW_Load_frames_from_temp_XML_AA.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_frames_from_temp_XML_AA.vi"/>
 		<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_frames_from_XML_GL.vi"/>
 		<Item Name="SW_Load_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group.vi"/>
+		<Item Name="SW_Load_parameter_group_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group_2.vi"/>
 		<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_file.vi"/>
 		<Item Name="SW_Load_settings_file_light.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_file_light.vi"/>
 		<Item Name="SW_Load_settings_from_previous_experiments.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_from_previous_experiments.vi"/>
 		<Item Name="SW_Load_settings_to_main_tab.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab.vi"/>
 		<Item Name="SW_Load_settings_to_main_tab_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_2.vi"/>
+		<Item Name="SW_Load_settings_to_main_tab_3.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_3.vi"/>
 		<Item Name="SW_Save_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group.vi"/>
+		<Item Name="SW_Save_parameter_group_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group_2.vi"/>
 		<Item Name="SW_Save_Settings.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings.vi"/>
+		<Item Name="SW_Save_Settings_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings_2.vi"/>
 	</Item>
 	<Item Name="Segmented plot and mouse" Type="Folder">
 		<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/AL_Rotate_mouse_coords.vi"/>
@@ -225,7 +231,6 @@
 		<Item Name="HW_set_IO_ports_3-pos_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos_2.vi"/>
 		<Item Name="HW_Timings_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Timings_Calibration.vi"/>
 		<Item Name="SW_Dispension_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Dispension_Calibration.vi"/>
-		<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_save_paths.vi"/>
 		<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
 		<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
 		<Item Name="SW_Set_Cage_and_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Cage_and_Recording_Settings.vi"/>
