@@ -29,8 +29,8 @@ Twisted neck = "FALSE"
 Alt. magn. orientation = "FALSE"
 
 [Researcher >>> IO parameters]
-IO general config. = "12"
-IO 1 configuration = "1"
+IO general config. = "13"
+IO 1 configuration = "0"
 IO 2 configuration = "1"
 IO 3 configuration = "0"
 IO 4 configuration = "0"

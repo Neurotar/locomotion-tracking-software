@@ -175,6 +175,7 @@
 	</Item>
 	<Item Name="Recording" Type="Folder">
 		<Item Name="PR_Prepare_TDMS_for_Recording.vi" Type="VI" URL="../SubVi&apos;s/Recording/PR_Prepare_TDMS_for_Recording.vi"/>
+		<Item Name="PR_Write_tracker_stream_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Recording/PR_Write_tracker_stream_to_TDMS.vi"/>
 	</Item>
 	<Item Name="Save and Load" Type="Folder">
 		<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally.vi"/>
@@ -246,8 +247,8 @@
 		<Item Name="UI_(02)_Unlock.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(02)_Unlock.vi"/>
 		<Item Name="UI_(03A)_Set_Play_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(03A)_Set_Play_State.vi"/>
 		<Item Name="UI_(04A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(04A)_Set_Stop_State.vi"/>
-		<Item Name="UI_(05A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(05A)_Set_Stop_State.vi"/>
-		<Item Name="UI_(06A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(06A)_Set_Stop_State.vi"/>
+		<Item Name="UI_(05A)_Set_Record_Start_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(05A)_Set_Record_Start_State.vi"/>
+		<Item Name="UI_(06A)_Set_Record_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(06A)_Set_Record_Stop_State.vi"/>
 		<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 	</Item>
