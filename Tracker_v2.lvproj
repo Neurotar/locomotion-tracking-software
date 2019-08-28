@@ -513,9 +513,6 @@
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -527,7 +524,6 @@
 			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
 			<Item Name="Stream-c(c(u32,u32,stamp),c(i16,i16),t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(c(u32,u32,stamp),c(i16,i16),t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;).lvlib"/>
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
-			<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_save_paths.vi"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

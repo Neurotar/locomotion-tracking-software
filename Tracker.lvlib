@@ -173,6 +173,9 @@
 		<Item Name="SW_Mix_TTL_inputs.vi" Type="VI" URL="../SubVi&apos;s/SW_Mix_TTL_inputs.vi"/>
 		<Item Name="SW_Set_Adv_Stimulus_interface.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Adv_Stimulus_interface.vi"/>
 	</Item>
+	<Item Name="Recording" Type="Folder">
+		<Item Name="PR_Prepare_TDMS_for_Recording.vi" Type="VI" URL="../SubVi&apos;s/Recording/PR_Prepare_TDMS_for_Recording.vi"/>
+	</Item>
 	<Item Name="Save and Load" Type="Folder">
 		<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally.vi"/>
 		<Item Name="FL_Preprocess_and_save_incrementally_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally_TDMS.vi"/>
