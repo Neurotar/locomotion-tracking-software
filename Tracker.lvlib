@@ -89,6 +89,7 @@
 		<Item Name="CTL_Dispenser_calibration_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Dispenser_calibration_info.ctl"/>
 		<Item Name="CTL_Draw_Area_Size.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Draw_Area_Size.ctl"/>
 		<Item Name="CTL_Filter_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Filter_selector.ctl"/>
+		<Item Name="CTL_Full_data_frame.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Full_data_frame.ctl"/>
 		<Item Name="CTL_Histogram_Properties.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_Properties.ctl"/>
 		<Item Name="CTL_Image_Geometrical_and_scaling_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Image_Geometrical_and_scaling_parameters.ctl"/>
 		<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Indicators_References.ctl"/>
@@ -175,6 +176,7 @@
 	</Item>
 	<Item Name="Recording" Type="Folder">
 		<Item Name="PR_Prepare_TDMS_for_Recording.vi" Type="VI" URL="../SubVi&apos;s/Recording/PR_Prepare_TDMS_for_Recording.vi"/>
+		<Item Name="PR_Recording_post-processing.vi" Type="VI" URL="../SubVi&apos;s/Recording/PR_Recording_post-processing.vi"/>
 		<Item Name="PR_Write_tracker_stream_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Recording/PR_Write_tracker_stream_to_TDMS.vi"/>
 	</Item>
 	<Item Name="Save and Load" Type="Folder">
@@ -254,7 +256,6 @@
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
-	<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
