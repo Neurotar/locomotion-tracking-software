@@ -18,12 +18,12 @@
 		<Item Name="FL_Calculate_Coordinates_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates_for_saving.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_2.vi"/>
-		<Item Name="FL_Calculate_phi_theta_etc_3.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_3.vi"/>
+		<Item Name="FL_Calculate_phi_theta_etc_3_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_3_(online).vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_array.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_for_saving.vi"/>
 		<Item Name="FL_Collect_Timings_Data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Collect_Timings_Data.vi"/>
 		<Item Name="FL_DEC_split_2_and_prefilter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_2_and_prefilter.vi"/>
-		<Item Name="FL_DEC_split_3_and_prefilter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_3_and_prefilter.vi"/>
+		<Item Name="FL_DEC_split_3_and_prefilter_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_3_and_prefilter_(online).vi"/>
 		<Item Name="FL_DEC_split_and_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter.vi"/>
 		<Item Name="FL_DEC_split_and_filter_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_and_filter_for_saving.vi"/>
 		<Item Name="FL_DEC_split_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_DEC_split_array.vi"/>
@@ -256,4 +256,5 @@
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
+	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>

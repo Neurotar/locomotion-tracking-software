@@ -54,6 +54,7 @@
 			<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../TestVI&apos;s/Test_of_the_stim_settings_save.vi"/>
 			<Item Name="Test_python_interaction.py" Type="Document" URL="../TestVI&apos;s/Test_python_interaction.py"/>
 			<Item Name="TMDS_clean_and_compress_test.vi" Type="VI" URL="../TestVI&apos;s/TMDS_clean_and_compress_test.vi"/>
+			<Item Name="Track_overlay_draw_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Track_overlay_draw_speed_test.vi"/>
 			<Item Name="Tracker File Reader.vi" Type="VI" URL="../TestVI&apos;s/Tracker File Reader.vi"/>
 			<Item Name="Tracker_TTL_swap_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Tracker_TTL_swap_speed_test.vi"/>
 			<Item Name="Tracker_v2.2_test_acq_comms.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2.2_test_acq_comms.vi"/>
@@ -78,7 +79,6 @@
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
-		<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -120,6 +120,10 @@
 				<Item Name="MD5 ti__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 ti__ogtk.vi"/>
 				<Item Name="MD5 Unrecoverable character padding__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/md5/md5.llb/MD5 Unrecoverable character padding__ogtk.vi"/>
 				<Item Name="Parse String with TDs__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Parse String with TDs__ogtk.vi"/>
+				<Item Name="Random Number - Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number - Within Range__ogtk.vi"/>
+				<Item Name="Random Number Within Range - DBL__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - DBL__ogtk.vi"/>
+				<Item Name="Random Number Within Range - I32__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range - I32__ogtk.vi"/>
+				<Item Name="Random Number Within Range__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/numeric/numeric.llb/Random Number Within Range__ogtk.vi"/>
 				<Item Name="Read Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Key (Variant)__ogtk.vi"/>
 				<Item Name="Read Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Read Section Cluster__ogtk.vi"/>
 				<Item Name="Refnum Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Refnum Subtype Enum__ogtk.ctl"/>
@@ -781,7 +785,7 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker_settings.tcf</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
@@ -914,7 +918,7 @@
 				<Property Name="Source[0].File[0].tag" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
 				<Property Name="Source[0].File[1].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="Source[0].File[1].name" Type="Str">Tracker_settings.tcf</Property>
-				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
 				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
 				<Property Name="Source[0].File[2].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="Source[0].File[2].name" Type="Str">LICENSE.rtf</Property>
@@ -967,7 +971,7 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker_settings.tcf</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
@@ -1037,7 +1041,7 @@
 				<Property Name="Source[0].File[0].tag" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
 				<Property Name="Source[0].File[1].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="Source[0].File[1].name" Type="Str">Tracker_settings.tcf</Property>
-				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
 				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
 				<Property Name="Source[0].File[2].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="Source[0].File[2].name" Type="Str">LICENSE.rtf</Property>
