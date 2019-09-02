@@ -10,10 +10,15 @@
 
 </Property>
 	<Item Name="Calc and data manipulation" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="CALC_Angle_from_center_towards_mouse_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_from_center_towards_mouse_(arr).vi"/>
 		<Item Name="CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi"/>
+		<Item Name="CALC_Bridge_and_clamp_swap_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Bridge_and_clamp_swap_(arr).vi"/>
+		<Item Name="CALC_Calculate_phi_theta_etc_2_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Calculate_phi_theta_etc_2_(offline).vi"/>
 		<Item Name="CALC_Coordinates_Diff_R_Center_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Coordinates_Diff_R_Center_(offline).vi"/>
 		<Item Name="CALC_Get_EMA_Coeffs.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Get_EMA_Coeffs.vi"/>
+		<Item Name="CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi"/>
+		<Item Name="CALC_omega(w)_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_omega(w)_(arr).vi"/>
 		<Item Name="CALC_Phi_theta_etc_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Phi_theta_etc_(offline).vi"/>
 		<Item Name="CALC_Post-process_timestamps.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Post-process_timestamps.vi"/>
 		<Item Name="FL_Adjust_raw_magnets_coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Adjust_raw_magnets_coords.vi"/>
@@ -79,6 +84,7 @@
 		<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
 		<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
+		<Item Name="CTL_Animal_Coordinates_and_Speed_(arr).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed_(arr).ctl"/>
 		<Item Name="CTL_Bounding_Rectangle_of_Segments.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Bounding_Rectangle_of_Segments.ctl"/>
 		<Item Name="CTL_Cage_Coords.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords.ctl"/>
 		<Item Name="CTL_Cage_Coords_(arrays).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords_(arrays).ctl"/>
@@ -211,6 +217,8 @@
 	</Item>
 	<Item Name="Segmented plot and mouse" Type="Folder">
 		<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/AL_Rotate_mouse_coords.vi"/>
+		<Item Name="DRAW_Full_Trajectory_(offline).vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/DRAW_Full_Trajectory_(offline).vi"/>
+		<Item Name="DRAW_Track_overlays_(offline).vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/DRAW_Track_overlays_(offline).vi"/>
 		<Item Name="FL_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay.vi"/>
 		<Item Name="FL_Make_Track_overlay_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_DAQmx.vi"/>
 		<Item Name="FL_Make_Track_overlay_for_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_for_IMAQdx.vi"/>
@@ -261,7 +269,6 @@
 		<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 	</Item>
-	<Item Name="CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi"/>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
