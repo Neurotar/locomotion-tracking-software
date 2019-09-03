@@ -55,6 +55,7 @@
 			<Item Name="Test_python_interaction.py" Type="Document" URL="../TestVI&apos;s/Test_python_interaction.py"/>
 			<Item Name="TMDS_clean_and_compress_test.vi" Type="VI" URL="../TestVI&apos;s/TMDS_clean_and_compress_test.vi"/>
 			<Item Name="Track_overlay_draw_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Track_overlay_draw_speed_test.vi"/>
+			<Item Name="Track_overlay_test.vi" Type="VI" URL="../TestVI&apos;s/Track_overlay_test.vi"/>
 			<Item Name="Tracker File Reader.vi" Type="VI" URL="../TestVI&apos;s/Tracker File Reader.vi"/>
 			<Item Name="Tracker_TTL_swap_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Tracker_TTL_swap_speed_test.vi"/>
 			<Item Name="Tracker_v2.2_test_acq_comms.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2.2_test_acq_comms.vi"/>
@@ -375,6 +376,7 @@
 				<Item Name="IMAQ Image.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/IMAQ Image.ctl"/>
 				<Item Name="IMAQ Merge Overlay" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Merge Overlay"/>
 				<Item Name="IMAQ Overlay Arc" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Arc"/>
+				<Item Name="IMAQ Overlay Bitmap" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Bitmap"/>
 				<Item Name="IMAQ Overlay Line" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Line"/>
 				<Item Name="IMAQ Overlay Multiple Lines 2" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Multiple Lines 2"/>
 				<Item Name="IMAQ Overlay Oval" Type="VI" URL="/&lt;vilib&gt;/vision/Overlay.llb/IMAQ Overlay Oval"/>

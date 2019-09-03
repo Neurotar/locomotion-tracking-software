@@ -91,6 +91,7 @@
 		<Item Name="CTL_Cage_diameter.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_diameter.ctl"/>
 		<Item Name="CTL_Cage_radial_segmentation.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_radial_segmentation.ctl"/>
 		<Item Name="CTL_Calibration_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Calibration_parameters.ctl"/>
+		<Item Name="CTL_Color_ramp.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Color_ramp.ctl"/>
 		<Item Name="CTL_Control_States.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Control_States.ctl"/>
 		<Item Name="CTL_Controls_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Controls_References.ctl"/>
 		<Item Name="CTL_Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Boolean_Indicator.ctl"/>
@@ -112,6 +113,7 @@
 		<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Panes_and_VIs_References.ctl"/>
 		<Item Name="CTL_Paths_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Paths_cluster.ctl"/>
 		<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Play_pause_button.ctl"/>
+		<Item Name="CTL_Post-processing_params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Post-processing_params.ctl"/>
 		<Item Name="CTL_Pre-filter_params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Pre-filter_params.ctl"/>
 		<Item Name="CTL_Queue_or_Notifier_Message_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Queue_or_Notifier_Message_Cluster.ctl"/>
 		<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Record_stop_button.ctl"/>
@@ -222,6 +224,9 @@
 		<Item Name="FL_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay.vi"/>
 		<Item Name="FL_Make_Track_overlay_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_DAQmx.vi"/>
 		<Item Name="FL_Make_Track_overlay_for_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_for_IMAQdx.vi"/>
+		<Item Name="GEN_Colors_positions.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GEN_Colors_positions.vi"/>
+		<Item Name="GEN_Speed-coded_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GEN_Speed-coded_overlay.vi"/>
+		<Item Name="GEN_Time-coded_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GEN_Time-coded_overlay.vi"/>
 		<Item Name="SW_Add_cage_border.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Add_cage_border.vi"/>
 		<Item Name="SW_Create_density_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Create_density_overlay.vi"/>
 		<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Draw_mouse_br.vi"/>
