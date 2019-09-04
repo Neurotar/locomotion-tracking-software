@@ -219,8 +219,8 @@
 	</Item>
 	<Item Name="Segmented plot and mouse" Type="Folder">
 		<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/AL_Rotate_mouse_coords.vi"/>
-		<Item Name="DRAW_Full_Trajectory_(offline).vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/DRAW_Full_Trajectory_(offline).vi"/>
 		<Item Name="DRAW_Track_overlays_(offline).vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/DRAW_Track_overlays_(offline).vi"/>
+		<Item Name="DRAW_Trajectory_(offline).vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/DRAW_Trajectory_(offline).vi"/>
 		<Item Name="FL_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay.vi"/>
 		<Item Name="FL_Make_Track_overlay_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_DAQmx.vi"/>
 		<Item Name="FL_Make_Track_overlay_for_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_for_IMAQdx.vi"/>
@@ -271,11 +271,14 @@
 		<Item Name="UI_(04A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(04A)_Set_Stop_State.vi"/>
 		<Item Name="UI_(05A)_Set_Record_Start_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(05A)_Set_Record_Start_State.vi"/>
 		<Item Name="UI_(06A)_Set_Record_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(06A)_Set_Record_Stop_State.vi"/>
+		<Item Name="UI_(07A)_Set_Play_State_(offline).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(07A)_Set_Play_State_(offline).vi"/>
 		<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
+	<Item Name="SW_Load_raw_data_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_raw_data_from_TDMS.vi"/>
+	<Item Name="SW_Save_proc_data_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_proc_data_to_TDMS.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
