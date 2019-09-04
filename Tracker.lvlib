@@ -206,6 +206,7 @@
 		<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_frames_from_XML_GL.vi"/>
 		<Item Name="SW_Load_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group.vi"/>
 		<Item Name="SW_Load_parameter_group_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group_2.vi"/>
+		<Item Name="SW_Load_raw_data_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_raw_data_from_TDMS.vi"/>
 		<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_file.vi"/>
 		<Item Name="SW_Load_settings_file_light.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_file_light.vi"/>
 		<Item Name="SW_Load_settings_from_previous_experiments.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_from_previous_experiments.vi"/>
@@ -214,6 +215,7 @@
 		<Item Name="SW_Load_settings_to_main_tab_3.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_3.vi"/>
 		<Item Name="SW_Save_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group.vi"/>
 		<Item Name="SW_Save_parameter_group_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group_2.vi"/>
+		<Item Name="SW_Save_proc_data_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_proc_data_to_TDMS.vi"/>
 		<Item Name="SW_Save_Settings.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings.vi"/>
 		<Item Name="SW_Save_Settings_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings_2.vi"/>
 	</Item>
@@ -226,7 +228,9 @@
 		<Item Name="FL_Make_Track_overlay_for_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/FL_Make_Track_overlay_for_IMAQdx.vi"/>
 		<Item Name="GEN_Colors_positions.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GEN_Colors_positions.vi"/>
 		<Item Name="GEN_Speed-coded_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GEN_Speed-coded_overlay.vi"/>
+		<Item Name="GEN_Speed-coded_overlay_PIC.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GEN_Speed-coded_overlay_PIC.vi"/>
 		<Item Name="GEN_Time-coded_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GEN_Time-coded_overlay.vi"/>
+		<Item Name="GEN_Time-coded_overlay_PIC.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GEN_Time-coded_overlay_PIC.vi"/>
 		<Item Name="SW_Add_cage_border.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Add_cage_border.vi"/>
 		<Item Name="SW_Create_density_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Create_density_overlay.vi"/>
 		<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Draw_mouse_br.vi"/>
@@ -278,7 +282,5 @@
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
-	<Item Name="SW_Load_raw_data_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_raw_data_from_TDMS.vi"/>
-	<Item Name="SW_Save_proc_data_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_proc_data_to_TDMS.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
