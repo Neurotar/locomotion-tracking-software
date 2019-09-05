@@ -281,8 +281,10 @@
 		<Item Name="UI_(05A)_Set_Record_Start_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(05A)_Set_Record_Start_State.vi"/>
 		<Item Name="UI_(06A)_Set_Record_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(06A)_Set_Record_Stop_State.vi"/>
 		<Item Name="UI_(07A)_Set_Play_State_(offline).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(07A)_Set_Play_State_(offline).vi"/>
+		<Item Name="UI_(08A)_Prepare_loaded_data_playback.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(08A)_Prepare_loaded_data_playback.vi"/>
 		<Item Name="UI_Set_ByZone_Stim._Control_State_on_Startup.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_ByZone_Stim._Control_State_on_Startup.vi"/>
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
+		<Item Name="UI_Set_Slider_values_when_online.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Slider_values_when_online.vi"/>
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
