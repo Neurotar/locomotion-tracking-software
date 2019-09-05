@@ -110,6 +110,7 @@
 		<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_params_cluster.ctl"/>
 		<Item Name="CTL_IO_status_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_status_indicator.ctl"/>
 		<Item Name="CTL_Mouse_Draw_Params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Mouse_Draw_Params.ctl"/>
+		<Item Name="CTL_Overlays_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Overlays_cluster.ctl"/>
 		<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Panes_and_VIs_References.ctl"/>
 		<Item Name="CTL_Paths_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Paths_cluster.ctl"/>
 		<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Play_pause_button.ctl"/>
@@ -222,6 +223,7 @@
 	<Item Name="Segmented plot and mouse" Type="Folder">
 		<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/AL_Rotate_mouse_coords.vi"/>
 		<Item Name="DRAW_Mouse_body.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/DRAW_Mouse_body.vi"/>
+		<Item Name="DRAW_Mouse_DAQmx_w_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/DRAW_Mouse_DAQmx_w_overlay.vi"/>
 		<Item Name="DRAW_Mouse_track.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/DRAW_Mouse_track.vi"/>
 		<Item Name="DRAW_Track_overlays_(offline).vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/DRAW_Track_overlays_(offline).vi"/>
 		<Item Name="DRAW_Trajectory_(offline).vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/DRAW_Trajectory_(offline).vi"/>
