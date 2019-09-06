@@ -207,6 +207,7 @@
 		<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_frames_from_XML_GL.vi"/>
 		<Item Name="SW_Load_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group.vi"/>
 		<Item Name="SW_Load_parameter_group_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group_2.vi"/>
+		<Item Name="SW_Load_proc_data_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_proc_data_from_TDMS.vi"/>
 		<Item Name="SW_Load_raw_data_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_raw_data_from_TDMS.vi"/>
 		<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_file.vi"/>
 		<Item Name="SW_Load_settings_file_light.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_file_light.vi"/>
