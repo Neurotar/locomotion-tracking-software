@@ -290,4 +290,5 @@
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
+	<Item Name="UI_Update_timeline.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Update_timeline.vi"/>
 </Library>
