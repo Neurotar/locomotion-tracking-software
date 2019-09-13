@@ -1,6 +1,6 @@
 [Researcher >>> Defaults]
 Default User = "0,000000000000000"
-VISA Resource Name = "ASRL5::INSTR"
+VISA Resource Name = "COM5"
 
 [Researcher >>> Recording and saving]
 Researcher name = "Researcher"
@@ -126,7 +126,7 @@ Stimulus presets array\\5B13\\5D.Set/Clear = "FALSE"
 Stimulus presets array\\5B13\\5D.Stim. has been set = "FALSE"
 
 [Researcher >>> Calibration]
-Timing calibration sw/hw = "0,999956200605138"
-True FPS = "76,919707738856800"
-True frame time, s = "0,013000569417073"
+Timing calibration sw/hw = "0,999998947792310"
+True FPS = "76,922995984023885"
+True frame time, s = "0,013000013678714"
 Disp. calibration info.<size(s)> = "0"
