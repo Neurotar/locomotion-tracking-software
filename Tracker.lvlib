@@ -73,9 +73,11 @@
 		<Item Name="FL_ZLEMA_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_ZLEMA_Filter.vi"/>
 		<Item Name="MAT_Get_HB0_filter_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_Get_HB0_filter_coefficients.vi"/>
 		<Item Name="MAT_HB0_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_HB0_filter.vi"/>
+		<Item Name="SW_Add_Reward_Condition.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Add_Reward_Condition.vi"/>
 		<Item Name="SW_Calc_speed.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed.vi"/>
 		<Item Name="SW_Calc_speed_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed_2.vi"/>
 		<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Debounce_filter_U16.vi"/>
+		<Item Name="SW_Generate_SubCondition_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_SubCondition_text.vi"/>
 		<Item Name="SW_Get_1D_Array_mean.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_mean.vi"/>
 		<Item Name="SW_Get_1D_Array_normalize.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_normalize.vi"/>
 		<Item Name="SW_SG_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients.vi"/>
@@ -87,7 +89,6 @@
 		<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed_(arr).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed_(arr).ctl"/>
-		<Item Name="CTL_Array_of_Conditions.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Array_of_Conditions.ctl"/>
 		<Item Name="CTL_Bounding_Rectangle_of_Segments.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Bounding_Rectangle_of_Segments.ctl"/>
 		<Item Name="CTL_Cage_Coords.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords.ctl"/>
 		<Item Name="CTL_Cage_Coords_(arrays).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords_(arrays).ctl"/>
@@ -96,7 +97,10 @@
 		<Item Name="CTL_Calibration_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Calibration_parameters.ctl"/>
 		<Item Name="CTL_Color_ramp.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Color_ramp.ctl"/>
 		<Item Name="CTL_Comparison_type.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Comparison_type.ctl"/>
+		<Item Name="CTL_Condition_response_type.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Condition_response_type.ctl"/>
 		<Item Name="CTL_Condition_type.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Condition_type.ctl"/>
+		<Item Name="CTL_Conditions_Array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_Array.ctl"/>
+		<Item Name="CTL_Conditions_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_Cluster.ctl"/>
 		<Item Name="CTL_Control_States.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Control_States.ctl"/>
 		<Item Name="CTL_Controls_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Controls_References.ctl"/>
 		<Item Name="CTL_Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Boolean_Indicator.ctl"/>
@@ -132,7 +136,7 @@
 		<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
 		<Item Name="CTL_States_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_States_cluster.ctl"/>
 		<Item Name="CTL_Undo_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Undo_button.ctl"/>
-		<Item Name="CTL_Validity_measurement_check_type.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Validity_measurement_check_type.ctl"/>
+		<Item Name="CTL_Validity_check_criteria.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Validity_check_criteria.ctl"/>
 		<Item Name="CTL_VISA_port_Descr.-Name.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_VISA_port_Descr.-Name.ctl"/>
 		<Item Name="CTL_Zones_control_and_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Zones_control_and_indicator.ctl"/>
 	</Item>
@@ -274,8 +278,11 @@
 		<Item Name="HW_Timings_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Timings_Calibration.vi"/>
 		<Item Name="SW_Dispension_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Dispension_Calibration.vi"/>
 		<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
+		<Item Name="SW_Init_Array_of_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Init_Array_of_Conditions.vi"/>
+		<Item Name="SW_Prepare_Conditions_Array_for_Saving.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Prepare_Conditions_Array_for_Saving.vi"/>
 		<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
 		<Item Name="SW_Set_Cage_and_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Cage_and_Recording_Settings.vi"/>
+		<Item Name="SW_Shape_Conditions_Array_after_Loading.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Shape_Conditions_Array_after_Loading.vi"/>
 	</Item>
 	<Item Name="UI interacton" Type="Folder">
 		<Item Name="SW_Adjust_UI_draw_interwal.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Adjust_UI_draw_interwal.vi"/>
@@ -296,8 +303,6 @@
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
-	<Item Name="SW_Add_Reward_Condition.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Add_Reward_Condition.vi"/>
-	<Item Name="SW_Generate_SubCondition_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_SubCondition_text.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
