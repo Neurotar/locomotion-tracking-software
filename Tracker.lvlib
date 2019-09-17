@@ -277,6 +277,7 @@
 		<Item Name="HW_set_IO_ports_3-pos_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos_2.vi"/>
 		<Item Name="HW_Timings_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Timings_Calibration.vi"/>
 		<Item Name="SW_Dispension_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Dispension_Calibration.vi"/>
+		<Item Name="SW_Generate_Full_Condition(s)_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_Full_Condition(s)_text.vi"/>
 		<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
 		<Item Name="SW_Init_Array_of_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Init_Array_of_Conditions.vi"/>
 		<Item Name="SW_Prepare_Conditions_Array_for_Saving.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Prepare_Conditions_Array_for_Saving.vi"/>
