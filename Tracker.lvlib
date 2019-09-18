@@ -14,9 +14,11 @@
 		<Item Name="CALC_Angle_from_center_towards_mouse_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_from_center_towards_mouse_(arr).vi"/>
 		<Item Name="CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi"/>
 		<Item Name="CALC_Bridge_and_clamp_swap_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Bridge_and_clamp_swap_(arr).vi"/>
+		<Item Name="CALC_Bwd_adjust_TTL_pulse_length_according_to_stim_type.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Bwd_adjust_TTL_pulse_length_according_to_stim_type.vi"/>
 		<Item Name="CALC_Calculate_phi_theta_etc_2_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Calculate_phi_theta_etc_2_(offline).vi"/>
 		<Item Name="CALC_Conditions_and_agreement.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Conditions_and_agreement.vi"/>
 		<Item Name="CALC_Coordinates_Diff_R_Center_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Coordinates_Diff_R_Center_(offline).vi"/>
+		<Item Name="CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type.vi"/>
 		<Item Name="CALC_Get_EMA_Coeffs.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Get_EMA_Coeffs.vi"/>
 		<Item Name="CALC_Length_of_True_state_(in_time).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Length_of_True_state_(in_time).vi"/>
 		<Item Name="CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi"/>
