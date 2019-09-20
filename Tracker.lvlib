@@ -25,6 +25,8 @@
 		<Item Name="CALC_omega(w)_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_omega(w)_(arr).vi"/>
 		<Item Name="CALC_Phi_theta_etc_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Phi_theta_etc_(offline).vi"/>
 		<Item Name="CALC_Post-process_timestamps.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Post-process_timestamps.vi"/>
+		<Item Name="CHECK_Condition_has_been_set.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Condition_has_been_set.vi"/>
+		<Item Name="DATA_Reorder_after_condition_modification.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/DATA_Reorder_after_condition_modification.vi"/>
 		<Item Name="FL_Adjust_raw_magnets_coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Adjust_raw_magnets_coords.vi"/>
 		<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calc_speed_on_the_fly.vi"/>
 		<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates.vi"/>
@@ -73,6 +75,7 @@
 		<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter.vi"/>
 		<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
 		<Item Name="FL_ZLEMA_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_ZLEMA_Filter.vi"/>
+		<Item Name="GET_Index_of_selected_Tree_element_and_N_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Index_of_selected_Tree_element_and_N_Conditions.vi"/>
 		<Item Name="MAT_Get_HB0_filter_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_Get_HB0_filter_coefficients.vi"/>
 		<Item Name="MAT_HB0_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_HB0_filter.vi"/>
 		<Item Name="SW_Add_or_Modify_Reward_Condition.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Add_or_Modify_Reward_Condition.vi"/>
@@ -304,7 +307,6 @@
 		<Item Name="UI_Set_Slider_values_when_online.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Slider_values_when_online.vi"/>
 		<Item Name="UI_Update_timeline.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Update_timeline.vi"/>
 	</Item>
-	<Item Name="CHECK_Condition_has_been_set.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Condition_has_been_set.vi"/>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
