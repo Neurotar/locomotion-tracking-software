@@ -75,7 +75,7 @@
 		<Item Name="FL_ZLEMA_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_ZLEMA_Filter.vi"/>
 		<Item Name="MAT_Get_HB0_filter_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_Get_HB0_filter_coefficients.vi"/>
 		<Item Name="MAT_HB0_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_HB0_filter.vi"/>
-		<Item Name="SW_Add_Reward_Condition.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Add_Reward_Condition.vi"/>
+		<Item Name="SW_Add_or_Modify_Reward_Condition.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Add_or_Modify_Reward_Condition.vi"/>
 		<Item Name="SW_Calc_speed.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed.vi"/>
 		<Item Name="SW_Calc_speed_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed_2.vi"/>
 		<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Debounce_filter_U16.vi"/>
