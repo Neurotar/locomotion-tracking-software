@@ -304,6 +304,7 @@
 		<Item Name="UI_Set_Slider_values_when_online.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Slider_values_when_online.vi"/>
 		<Item Name="UI_Update_timeline.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Update_timeline.vi"/>
 	</Item>
+	<Item Name="CHECK_Condition_has_been_set.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Condition_has_been_set.vi"/>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
