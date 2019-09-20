@@ -86,6 +86,8 @@
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
+		<Item Name="CTL_Conditions_build_parameters_in.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_in.ctl"/>
+		<Item Name="CTL_Conditions_build_parameters_out.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_out.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
