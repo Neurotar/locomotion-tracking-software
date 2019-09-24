@@ -66,6 +66,7 @@
 			<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_channel.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 			<Item Name="ZDelay_node_test.vi" Type="VI" URL="../TestVI&apos;s/ZDelay_node_test.vi"/>
+			<Item Name="Zone-to-color_correspondence_lookup_test.vi" Type="VI" URL="../TestVI&apos;s/Zone-to-color_correspondence_lookup_test.vi"/>
 			<Item Name="Zones layout drawing test with smoothing and edge detection.vi" Type="VI" URL="../TestVI&apos;s/Zones layout drawing test with smoothing and edge detection.vi"/>
 		</Item>
 		<Item Name="DigitalOutTask_0" Type="NI-DAQmx Task">
@@ -86,8 +87,6 @@
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
-		<Item Name="CTL_Response_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Response_info.ctl"/>
-		<Item Name="CTL_Reponse_port_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Reponse_port_info.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">

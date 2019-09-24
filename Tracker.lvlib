@@ -136,7 +136,9 @@
 		<Item Name="CTL_Pre-filter_params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Pre-filter_params.ctl"/>
 		<Item Name="CTL_Queue_or_Notifier_Message_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Queue_or_Notifier_Message_Cluster.ctl"/>
 		<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Record_stop_button.ctl"/>
+		<Item Name="CTL_Reponse_port_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Reponse_port_info.ctl"/>
 		<Item Name="CTL_Reset_settings_(zones).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Reset_settings_(zones).ctl"/>
+		<Item Name="CTL_Response_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Response_info.ctl"/>
 		<Item Name="CTL_Segmented_plot_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segmented_plot_parameters.ctl"/>
 		<Item Name="CTL_Set_Adv_Stim.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Adv_Stim.ctl"/>
 		<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Clear_button.ctl"/>
