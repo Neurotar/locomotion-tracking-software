@@ -24,6 +24,7 @@
 		<Item Name="CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi"/>
 		<Item Name="CALC_omega(w)_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_omega(w)_(arr).vi"/>
 		<Item Name="CALC_Phi_theta_etc_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Phi_theta_etc_(offline).vi"/>
+		<Item Name="CALC_Phi_theta_etc_3_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Phi_theta_etc_3_(online).vi"/>
 		<Item Name="CALC_Pix_to_zone_correspondence.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Pix_to_zone_correspondence.vi"/>
 		<Item Name="CALC_Post-process_timestamps.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Post-process_timestamps.vi"/>
 		<Item Name="CHECK_Condition_has_been_set.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Condition_has_been_set.vi"/>
@@ -35,7 +36,6 @@
 		<Item Name="FL_Calculate_Coordinates_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates_for_saving.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_2.vi"/>
-		<Item Name="FL_Calculate_phi_theta_etc_3_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_3_(online).vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_array.vi"/>
 		<Item Name="FL_Calculate_phi_theta_etc_for_saving.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_phi_theta_etc_for_saving.vi"/>
 		<Item Name="FL_Collect_Timings_Data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Collect_Timings_Data.vi"/>
@@ -79,6 +79,8 @@
 		<Item Name="GET_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Available_TTL_outputs_array.vi"/>
 		<Item Name="GET_Index_of_selected_Tree_element_and_N_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Index_of_selected_Tree_element_and_N_Conditions.vi"/>
 		<Item Name="GET_Initial_SubCondition_representation.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Initial_SubCondition_representation.vi"/>
+		<Item Name="GET_Zone_number_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Zone_number_(offline).vi"/>
+		<Item Name="GET_Zone_number_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Zone_number_(online).vi"/>
 		<Item Name="MAT_Get_HB0_filter_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_Get_HB0_filter_coefficients.vi"/>
 		<Item Name="MAT_HB0_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_HB0_filter.vi"/>
 		<Item Name="SW_Add_or_Modify_Reward_Condition.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Add_or_Modify_Reward_Condition.vi"/>
@@ -94,6 +96,7 @@
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
 		<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
@@ -129,10 +132,12 @@
 		<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Indicators_References.ctl"/>
 		<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_params_cluster.ctl"/>
 		<Item Name="CTL_IO_status_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_status_indicator.ctl"/>
+		<Item Name="CTL_Loaded_data_output_(offline).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Loaded_data_output_(offline).ctl"/>
 		<Item Name="CTL_Mouse_Draw_Params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Mouse_Draw_Params.ctl"/>
 		<Item Name="CTL_Overlays_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Overlays_cluster.ctl"/>
 		<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Panes_and_VIs_References.ctl"/>
 		<Item Name="CTL_Paths_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Paths_cluster.ctl"/>
+		<Item Name="CTL_Pixel_to_Zone_array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Pixel_to_Zone_array.ctl"/>
 		<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Play_pause_button.ctl"/>
 		<Item Name="CTL_Post-processing_params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Post-processing_params.ctl"/>
 		<Item Name="CTL_Pre-filter_params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Pre-filter_params.ctl"/>

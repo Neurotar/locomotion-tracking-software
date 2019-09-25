@@ -541,7 +541,7 @@
 			<Item Name="Lossy Stream-a[.,.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str).lvlib"/>
 			<Item Name="Lossy Stream-a[.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](dbl).lvlib"/>
 			<Item Name="Lossy Stream-a[.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str).lvlib"/>
-			<Item Name="Lossy Stream-t&apos;CTL_Animal_Coordinates_and_Speed.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;CTL_Animal_Coordinates_and_Speed.ctl&apos;.lvlib"/>
+			<Item Name="Lossy Stream-c(t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;,i8).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-c(t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;,i8).lvlib"/>
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -564,7 +564,7 @@
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
-			<Item Name="Stream-c(c(u32,u32,stamp),c(i16,i16),t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;,c(dbl,dbl,dbl,dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(c(u32,u32,stamp),c(i16,i16),t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;,c(dbl,dbl,dbl,dbl)).lvlib"/>
+			<Item Name="Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;.lvlib"/>
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
