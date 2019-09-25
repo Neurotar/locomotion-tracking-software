@@ -10,7 +10,7 @@
 
 </Property>
 	<Item Name="Calc and data manipulation" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="CALC_Angle_from_center_towards_mouse_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_from_center_towards_mouse_(arr).vi"/>
 		<Item Name="CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi"/>
 		<Item Name="CALC_Bridge_and_clamp_swap_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Bridge_and_clamp_swap_(arr).vi"/>
@@ -22,6 +22,7 @@
 		<Item Name="CALC_Get_EMA_Coeffs.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Get_EMA_Coeffs.vi"/>
 		<Item Name="CALC_Length_of_True_state_(in_time).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Length_of_True_state_(in_time).vi"/>
 		<Item Name="CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi"/>
+		<Item Name="CALC_Normalize_1D_Array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Normalize_1D_Array.vi"/>
 		<Item Name="CALC_omega(w)_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_omega(w)_(arr).vi"/>
 		<Item Name="CALC_Phi_theta_etc_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Phi_theta_etc_(offline).vi"/>
 		<Item Name="CALC_Phi_theta_etc_3_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Phi_theta_etc_3_(online).vi"/>
@@ -75,12 +76,14 @@
 		<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Segment_map_by_color.vi"/>
 		<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter.vi"/>
 		<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
+		<Item Name="FL_Update_Histogram_data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Update_Histogram_data.vi"/>
 		<Item Name="FL_ZLEMA_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_ZLEMA_Filter.vi"/>
+		<Item Name="GEN_Histo_Bins_And_X_axis.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GEN_Histo_Bins_And_X_axis.vi"/>
 		<Item Name="GET_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Available_TTL_outputs_array.vi"/>
 		<Item Name="GET_Index_of_selected_Tree_element_and_N_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Index_of_selected_Tree_element_and_N_Conditions.vi"/>
 		<Item Name="GET_Initial_SubCondition_representation.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Initial_SubCondition_representation.vi"/>
+		<Item Name="GET_Statistics_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Statistics_(online).vi"/>
 		<Item Name="GET_Zone_number_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Zone_number_(offline).vi"/>
-		<Item Name="GET_Zone_number_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Zone_number_(online).vi"/>
 		<Item Name="MAT_Get_HB0_filter_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_Get_HB0_filter_coefficients.vi"/>
 		<Item Name="MAT_HB0_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_HB0_filter.vi"/>
 		<Item Name="SW_Add_or_Modify_Reward_Condition.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Add_or_Modify_Reward_Condition.vi"/>
@@ -90,7 +93,6 @@
 		<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Debounce_filter_U16.vi"/>
 		<Item Name="SW_Generate_SubCondition_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_SubCondition_text.vi"/>
 		<Item Name="SW_Get_1D_Array_mean.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_mean.vi"/>
-		<Item Name="SW_Get_1D_Array_normalize.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_normalize.vi"/>
 		<Item Name="SW_SG_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients.vi"/>
 		<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients_3-51.vi"/>
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
@@ -133,6 +135,7 @@
 		<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_params_cluster.ctl"/>
 		<Item Name="CTL_IO_status_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_status_indicator.ctl"/>
 		<Item Name="CTL_Loaded_data_output_(offline).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Loaded_data_output_(offline).ctl"/>
+		<Item Name="CTL_Measurements_and_Statistics.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Measurements_and_Statistics.ctl"/>
 		<Item Name="CTL_Mouse_Draw_Params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Mouse_Draw_Params.ctl"/>
 		<Item Name="CTL_Overlays_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Overlays_cluster.ctl"/>
 		<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Panes_and_VIs_References.ctl"/>
@@ -196,7 +199,7 @@
 		<Item Name="FL_Gen_Bins_for_RunLengths.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_RunLengths.vi"/>
 		<Item Name="FL_Gen_Bins_for_RunTimes.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_RunTimes.vi"/>
 		<Item Name="FL_Gen_Bins_for_Speed.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_Speed.vi"/>
-		<Item Name="FL_Get_Histogram_Bin_number.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Histogram_Bin_number.vi"/>
+		<Item Name="FL_Get_Histogram_Bin_value.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Histogram_Bin_value.vi"/>
 		<Item Name="FL_Get_Run_Bout_and_Time.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_Run_Bout_and_Time.vi"/>
 		<Item Name="FL_Get_TTL_in_pulse_length.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_TTL_in_pulse_length.vi"/>
 		<Item Name="FL_Get_TTL_in_pulse_length_2.vi" Type="VI" URL="../SubVi&apos;s/FL_Get_TTL_in_pulse_length_2.vi"/>

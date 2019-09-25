@@ -4,7 +4,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -36,6 +35,7 @@
 			<Item Name="dmc_test.vi" Type="VI" URL="../TestVI&apos;s/dmc_test.vi"/>
 			<Item Name="Hardware_auto_detection_test.vi" Type="VI" URL="../TestVI&apos;s/Hardware_auto_detection_test.vi"/>
 			<Item Name="Hardware_auto_params_set_test.vi" Type="VI" URL="../TestVI&apos;s/Hardware_auto_params_set_test.vi"/>
+			<Item Name="Histogram calculation and plotting.vi" Type="VI" URL="../TestVI&apos;s/Histogram calculation and plotting.vi"/>
 			<Item Name="ImageAcquisition_test.vi" Type="VI" URL="../TestVI&apos;s/ImageAcquisition_test.vi"/>
 			<Item Name="Loop_speed_variation_test.vi" Type="VI" URL="../TestVI&apos;s/Loop_speed_variation_test.vi"/>
 			<Item Name="Multiple_ROIs.vi" Type="VI" URL="../TestVI&apos;s/Multiple_ROIs.vi"/>
@@ -83,10 +83,10 @@
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="MN_Pulse_Generator_main_menu.rtm" Type="Document" URL="../../InVigilo_II/SubVIs/Controls/MN_Pulse_Generator_main_menu.rtm"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
+		<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
-		<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -541,7 +541,7 @@
 			<Item Name="Lossy Stream-a[.,.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str).lvlib"/>
 			<Item Name="Lossy Stream-a[.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](dbl).lvlib"/>
 			<Item Name="Lossy Stream-a[.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str).lvlib"/>
-			<Item Name="Lossy Stream-c(t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;,i8).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-c(t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;,i8).lvlib"/>
+			<Item Name="Lossy Stream-c(t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;,t&apos;CTL_Measurements_and_Statistics.ctl&apos;).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-c(t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;,t&apos;CTL_Measurements_and_Statistics.ctl&apos;).lvlib"/>
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -1027,161 +1027,6 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.1.10.3.exe</Property>
 			</Item>
-			<Item Name="Tracker v2.1.10.3 updater" Type="Installer">
-				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">Tracker_Drivers</Property>
-				<Property Name="Destination[1].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{FD36E8D1-F88E-4679-92F7-DD259C6B765E}</Property>
-				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/MHC_Tracker_v2.1.10.3_updater</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.10.3 updater</Property>
-				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="INST_productName" Type="Str">Tracker v2.1.10.3</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.26</Property>
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
-				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
-				<Property Name="MSI_arpContact" Type="Str">info@neurotar.com</Property>
-				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
-				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
-				<Property Name="MSI_distID" Type="Str">{C91EB2ED-84D2-4E58-A8F2-6625CCC17EDC}</Property>
-				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{10818991-D05D-457A-AB56-F7AEBEC40C16}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.10.3 software update</Property>
-				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
-				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
-				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
-				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.1.10.3.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.1.10.3</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
-				<Property Name="Source[0].File[1].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[1].name" Type="Str">Tracker_settings.tcf</Property>
-				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
-				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[2].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[2].name" Type="Str">LICENSE.rtf</Property>
-				<Property Name="Source[0].File[2].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[2].Shortcut[0].name" Type="Str">LICENSE</Property>
-				<Property Name="Source[0].File[2].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
-				<Property Name="Source[0].File[2].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
-				<Property Name="Source[0].File[3].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[3].name" Type="Str">LICENSE.rtf</Property>
-				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
-				<Property Name="Source[0].FileCount" Type="Int">3</Property>
-				<Property Name="Source[0].name" Type="Str">Tracker v2.1.10.3</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.10.3</Property>
-				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
-			<Item Name="Tracker_v2_packaged" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
-				<Property Name="NIPKG_license" Type="Ref"></Property>
-				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
-				<Property Name="PKG_actions.Count" Type="Int">1</Property>
-				<Property Name="PKG_actions[0].Arguments" Type="Str"></Property>
-				<Property Name="PKG_actions[0].NIPKG.HideConsole" Type="Bool">false</Property>
-				<Property Name="PKG_actions[0].NIPKG.IgnoreErrors" Type="Bool">false</Property>
-				<Property Name="PKG_actions[0].NIPKG.Schedule" Type="Str">post</Property>
-				<Property Name="PKG_actions[0].NIPKG.Step" Type="Str">install</Property>
-				<Property Name="PKG_actions[0].NIPKG.Target.Child" Type="Ref"></Property>
-				<Property Name="PKG_actions[0].NIPKG.Target.Destination" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
-				<Property Name="PKG_actions[0].NIPKG.Target.Source" Type="Ref"></Property>
-				<Property Name="PKG_actions[0].NIPKG.Wait" Type="Bool">true</Property>
-				<Property Name="PKG_actions[0].Type" Type="Str">NIPKG.Executable</Property>
-				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
-				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">1</Property>
-				<Property Name="PKG_buildSpecName" Type="Str">Tracker_v2_packaged</Property>
-				<Property Name="PKG_dependencies.Count" Type="Int">3</Property>
-				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[0].MinVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">NI LabVIEW 2018 (64-bit) Runtime</Property>
-				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2018-runtime-engine</Property>
-				<Property Name="PKG_dependencies[0].Package.Section" Type="Str">Programming Environments</Property>
-				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str">NI LabVIEW 2018 (64-bit) Runtime provides libraries and other files necessary to execute LabVIEW 2018-built applications and shared libraries. Includes NI Reports, 3D graph support, and a browser plug-in that enables clients to view and control front panels remotely using a browser.</Property>
-				<Property Name="PKG_dependencies[0].Relationship" Type="Str">None</Property>
-				<Property Name="PKG_dependencies[0].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_dependencies[1].Enhanced" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[1].MaxVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[1].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[1].MinVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[1].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[1].NIPKG.DisplayName" Type="Str">NI-VISA Runtime</Property>
-				<Property Name="PKG_dependencies[1].Package.Name" Type="Str">ni-visa-runtime</Property>
-				<Property Name="PKG_dependencies[1].Package.Section" Type="Str">Drivers</Property>
-				<Property Name="PKG_dependencies[1].Package.Synopsis" Type="Str">NI-VISA provides an API for controlling USB, TCPIP, GPIB, Serial, PXI, and other types of instruments.</Property>
-				<Property Name="PKG_dependencies[1].Relationship" Type="Str">None</Property>
-				<Property Name="PKG_dependencies[1].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_dependencies[2].Enhanced" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[2].MaxVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[2].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[2].MinVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">NI-Serial Runtime</Property>
-				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-serial-runtime</Property>
-				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Drivers</Property>
-				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">NI-Serial support for National Instruments RS-232 and RS-485 Hardware.</Property>
-				<Property Name="PKG_dependencies[2].Relationship" Type="Str">None</Property>
-				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_description" Type="Str"></Property>
-				<Property Name="PKG_destinations.Count" Type="Int">2</Property>
-				<Property Name="PKG_destinations[0].ID" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
-				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">Tracker_Drivers</Property>
-				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">root_7</Property>
-				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_destinations[1].ID" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
-				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">Tracker_v2</Property>
-				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">root_5</Property>
-				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_displayName" Type="Str">Mobile HomeCage installation package</Property>
-				<Property Name="PKG_displayVersion" Type="Str"></Property>
-				<Property Name="PKG_homepage" Type="Str"></Property>
-				<Property Name="PKG_lvrteTracking" Type="Bool">false</Property>
-				<Property Name="PKG_maintainer" Type="Str">Neurotar Oy &lt;&gt;</Property>
-				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2_packaged</Property>
-				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="PKG_packageName" Type="Str">trackerv2</Property>
-				<Property Name="PKG_ProviderVersion" Type="Int">1810</Property>
-				<Property Name="PKG_section" Type="Str">Application Software</Property>
-				<Property Name="PKG_shortcuts.Count" Type="Int">1</Property>
-				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_8</Property>
-				<Property Name="PKG_shortcuts[0].Name" Type="Str">Tracker_2.1.9.7</Property>
-				<Property Name="PKG_shortcuts[0].Path" Type="Path">Tracker_v2</Property>
-				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
-				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
-				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
-				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_sources.Count" Type="Int">2</Property>
-				<Property Name="PKG_sources[0].Destination" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
-				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
-				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
-				<Property Name="PKG_sources[1].Destination" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
-				<Property Name="PKG_sources[1].ID" Type="Ref"></Property>
-				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
-				<Property Name="PKG_synopsis" Type="Str">Tracker_v2</Property>
-				<Property Name="PKG_version" Type="Str">1.0.0</Property>
-			</Item>
 			<Item Name="Tracker v2.1.10.3 installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
@@ -1426,6 +1271,161 @@
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.10.3</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Tracker v2.1.10.3 updater" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">Tracker_Drivers</Property>
+				<Property Name="Destination[1].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{FD36E8D1-F88E-4679-92F7-DD259C6B765E}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/MHC_Tracker_v2.1.10.3_updater</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.10.3 updater</Property>
+				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="INST_productName" Type="Str">Tracker v2.1.10.3</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.26</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
+				<Property Name="MSI_arpContact" Type="Str">info@neurotar.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
+				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
+				<Property Name="MSI_distID" Type="Str">{C91EB2ED-84D2-4E58-A8F2-6625CCC17EDC}</Property>
+				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{10818991-D05D-457A-AB56-F7AEBEC40C16}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.10.3 software update</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
+				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.1.10.3.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.1.10.3</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
+				<Property Name="Source[0].File[2].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[2].name" Type="Str">LICENSE.rtf</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].name" Type="Str">LICENSE</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
+				<Property Name="Source[0].File[2].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].File[3].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[3].name" Type="Str">LICENSE.rtf</Property>
+				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].FileCount" Type="Int">3</Property>
+				<Property Name="Source[0].name" Type="Str">Tracker v2.1.10.3</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.10.3</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Tracker_v2_packaged" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
+				<Property Name="NIPKG_license" Type="Ref"></Property>
+				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
+				<Property Name="PKG_actions.Count" Type="Int">1</Property>
+				<Property Name="PKG_actions[0].Arguments" Type="Str"></Property>
+				<Property Name="PKG_actions[0].NIPKG.HideConsole" Type="Bool">false</Property>
+				<Property Name="PKG_actions[0].NIPKG.IgnoreErrors" Type="Bool">false</Property>
+				<Property Name="PKG_actions[0].NIPKG.Schedule" Type="Str">post</Property>
+				<Property Name="PKG_actions[0].NIPKG.Step" Type="Str">install</Property>
+				<Property Name="PKG_actions[0].NIPKG.Target.Child" Type="Ref"></Property>
+				<Property Name="PKG_actions[0].NIPKG.Target.Destination" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
+				<Property Name="PKG_actions[0].NIPKG.Target.Source" Type="Ref"></Property>
+				<Property Name="PKG_actions[0].NIPKG.Wait" Type="Bool">true</Property>
+				<Property Name="PKG_actions[0].Type" Type="Str">NIPKG.Executable</Property>
+				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
+				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
+				<Property Name="PKG_buildNumber" Type="Int">1</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">Tracker_v2_packaged</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">3</Property>
+				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">NI LabVIEW 2018 (64-bit) Runtime</Property>
+				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2018-runtime-engine</Property>
+				<Property Name="PKG_dependencies[0].Package.Section" Type="Str">Programming Environments</Property>
+				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str">NI LabVIEW 2018 (64-bit) Runtime provides libraries and other files necessary to execute LabVIEW 2018-built applications and shared libraries. Includes NI Reports, 3D graph support, and a browser plug-in that enables clients to view and control front panels remotely using a browser.</Property>
+				<Property Name="PKG_dependencies[0].Relationship" Type="Str">None</Property>
+				<Property Name="PKG_dependencies[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_dependencies[1].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[1].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[1].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[1].MinVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[1].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[1].NIPKG.DisplayName" Type="Str">NI-VISA Runtime</Property>
+				<Property Name="PKG_dependencies[1].Package.Name" Type="Str">ni-visa-runtime</Property>
+				<Property Name="PKG_dependencies[1].Package.Section" Type="Str">Drivers</Property>
+				<Property Name="PKG_dependencies[1].Package.Synopsis" Type="Str">NI-VISA provides an API for controlling USB, TCPIP, GPIB, Serial, PXI, and other types of instruments.</Property>
+				<Property Name="PKG_dependencies[1].Relationship" Type="Str">None</Property>
+				<Property Name="PKG_dependencies[1].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_dependencies[2].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[2].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[2].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[2].MinVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">NI-Serial Runtime</Property>
+				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-serial-runtime</Property>
+				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Drivers</Property>
+				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">NI-Serial support for National Instruments RS-232 and RS-485 Hardware.</Property>
+				<Property Name="PKG_dependencies[2].Relationship" Type="Str">None</Property>
+				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_description" Type="Str"></Property>
+				<Property Name="PKG_destinations.Count" Type="Int">2</Property>
+				<Property Name="PKG_destinations[0].ID" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
+				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">Tracker_Drivers</Property>
+				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">root_7</Property>
+				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[1].ID" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
+				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">Tracker_v2</Property>
+				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">root_5</Property>
+				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_displayName" Type="Str">Mobile HomeCage installation package</Property>
+				<Property Name="PKG_displayVersion" Type="Str"></Property>
+				<Property Name="PKG_homepage" Type="Str"></Property>
+				<Property Name="PKG_lvrteTracking" Type="Bool">false</Property>
+				<Property Name="PKG_maintainer" Type="Str">Neurotar Oy &lt;&gt;</Property>
+				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2_packaged</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="PKG_packageName" Type="Str">trackerv2</Property>
+				<Property Name="PKG_ProviderVersion" Type="Int">1810</Property>
+				<Property Name="PKG_section" Type="Str">Application Software</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">1</Property>
+				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_8</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">Tracker_2.1.9.7</Property>
+				<Property Name="PKG_shortcuts[0].Path" Type="Path">Tracker_v2</Property>
+				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
+				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_sources.Count" Type="Int">2</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
+				<Property Name="PKG_sources[1].Destination" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref"></Property>
+				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
+				<Property Name="PKG_synopsis" Type="Str">Tracker_v2</Property>
+				<Property Name="PKG_version" Type="Str">1.0.0</Property>
 			</Item>
 		</Item>
 	</Item>
