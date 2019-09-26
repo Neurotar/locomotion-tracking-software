@@ -239,6 +239,7 @@
 		<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Analysis.vi"/>
 		<Item Name="SW_Load_data_for_Analysis_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Analysis_from_TDMS.vi"/>
 		<Item Name="SW_Load_data_for_Conversion_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Conversion_from_TDMS.vi"/>
+		<Item Name="SW_Load_data_from_older_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_from_older_TDMS.vi"/>
 		<Item Name="SW_Load_frames_from_temp_XML_AA.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_frames_from_temp_XML_AA.vi"/>
 		<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_frames_from_XML_GL.vi"/>
 		<Item Name="SW_Load_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group.vi"/>
@@ -331,6 +332,7 @@
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
+	<Item Name="SW_Convert_data_from_old_format_save.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Convert_data_from_old_format_save.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
