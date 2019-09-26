@@ -96,6 +96,8 @@
 		<Item Name="SW_SG_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients.vi"/>
 		<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients_3-51.vi"/>
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
+		<Item Name="GET_Statistics_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Statistics_(offline).vi"/>
+		<Item Name="GET_Running_perc._(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Running_perc._(online).vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -129,6 +131,7 @@
 		<Item Name="CTL_Draw_Area_Size.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Draw_Area_Size.ctl"/>
 		<Item Name="CTL_Filter_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Filter_selector.ctl"/>
 		<Item Name="CTL_Full_data_frame.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Full_data_frame.ctl"/>
+		<Item Name="CTL_Histogram_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_parameters.ctl"/>
 		<Item Name="CTL_Histogram_Properties.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_Properties.ctl"/>
 		<Item Name="CTL_Image_Geometrical_and_scaling_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Image_Geometrical_and_scaling_parameters.ctl"/>
 		<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Indicators_References.ctl"/>
@@ -156,6 +159,7 @@
 		<Item Name="CTL_Settings_parameters_groups.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_parameters_groups.ctl"/>
 		<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
 		<Item Name="CTL_States_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_States_cluster.ctl"/>
+		<Item Name="CTL_Stats_parameters_(online).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Stats_parameters_(online).ctl"/>
 		<Item Name="CTL_Undo_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Undo_button.ctl"/>
 		<Item Name="CTL_Validity_check_criteria.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Validity_check_criteria.ctl"/>
 		<Item Name="CTL_VISA_port_Descr.-Name.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_VISA_port_Descr.-Name.ctl"/>
