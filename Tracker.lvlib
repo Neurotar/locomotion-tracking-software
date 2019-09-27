@@ -153,6 +153,7 @@
 		<Item Name="CTL_Reponse_port_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Reponse_port_info.ctl"/>
 		<Item Name="CTL_Reset_settings_(zones).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Reset_settings_(zones).ctl"/>
 		<Item Name="CTL_Response_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Response_info.ctl"/>
+		<Item Name="CTL_Running_statistics_results.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Running_statistics_results.ctl"/>
 		<Item Name="CTL_Segmented_plot_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segmented_plot_parameters.ctl"/>
 		<Item Name="CTL_Set_Adv_Stim.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Adv_Stim.ctl"/>
 		<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Clear_button.ctl"/>
