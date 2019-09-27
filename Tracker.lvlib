@@ -97,7 +97,7 @@
 		<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients_3-51.vi"/>
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
 		<Item Name="GET_Statistics_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Statistics_(offline).vi"/>
-		<Item Name="GET_Running_perc._and_travel_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Running_perc._and_travel_(online).vi"/>
+		<Item Name="GET_Running_perc._travel_and_avg._speed_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Running_perc._travel_and_avg._speed_(online).vi"/>
 		<Item Name="GET_Travel_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Travel_(offline).vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
