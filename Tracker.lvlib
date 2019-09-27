@@ -319,6 +319,7 @@
 		<Item Name="Tracker_run-time_menu.rtm" Type="Document" URL="../SubVi&apos;s/Set UI states/Tracker_run-time_menu.rtm"/>
 		<Item Name="UI_(01)_Set_startup_controls_state.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(01)_Set_startup_controls_state.vi"/>
 		<Item Name="UI_(02)_Unlock.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(02)_Unlock.vi"/>
+		<Item Name="UI_(02B)_Switch_to_offline_mode.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(02B)_Switch_to_offline_mode.vi"/>
 		<Item Name="UI_(03A)_Set_Play_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(03A)_Set_Play_State.vi"/>
 		<Item Name="UI_(04A)_Set_Stop_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(04A)_Set_Stop_State.vi"/>
 		<Item Name="UI_(05A)_Set_Record_Start_State.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(05A)_Set_Record_Start_State.vi"/>
