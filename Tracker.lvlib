@@ -235,6 +235,7 @@
 	<Item Name="Save and Load" Type="Folder">
 		<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally.vi"/>
 		<Item Name="FL_Preprocess_and_save_incrementally_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally_TDMS.vi"/>
+		<Item Name="SW_Convert_data_from_old_format_save.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Convert_data_from_old_format_save.vi"/>
 		<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Get_save_paths.vi"/>
 		<Item Name="SW_Get_Save_Paths_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Get_Save_Paths_2.vi"/>
 		<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Analysis.vi"/>
@@ -334,7 +335,7 @@
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
-	<Item Name="SW_Convert_data_from_old_format_save.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Convert_data_from_old_format_save.vi"/>
+	<Item Name="SW_Clear_Specific_Errors.vi" Type="VI" URL="../SubVi&apos;s/SW_Clear_Specific_Errors.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
