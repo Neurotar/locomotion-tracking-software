@@ -215,6 +215,7 @@
 		<Item Name="FL_TTL_xor_with_IO_inv_config.vi" Type="VI" URL="../SubVi&apos;s/FL_TTL_xor_with_IO_inv_config.vi"/>
 		<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
 		<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
+		<Item Name="SW_Clear_Specific_Errors.vi" Type="VI" URL="../SubVi&apos;s/SW_Clear_Specific_Errors.vi"/>
 		<Item Name="SW_Gen_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Available_TTL_outputs_array.vi"/>
 		<Item Name="SW_Generate_Segmented_Plot.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot.vi"/>
 		<Item Name="SW_get_config_for_Start_Stop_pulses.vi" Type="VI" URL="../SubVi&apos;s/SW_get_config_for_Start_Stop_pulses.vi"/>
@@ -281,6 +282,7 @@
 		<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Draw_mouse_br.vi"/>
 		<Item Name="SW_Draw_mouse_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Draw_mouse_DAQmx.vi"/>
 		<Item Name="SW_Gen_2D_Histogram.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_2D_Histogram.vi"/>
+		<Item Name="SW_Gen_2D_Histogram_2.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_2D_Histogram_2.vi"/>
 		<Item Name="SW_Gen_Check_segments_parameters.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Check_segments_parameters.vi"/>
 		<Item Name="SW_Gen_Draw_numbers_and_highllights.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Draw_numbers_and_highllights.vi"/>
 		<Item Name="SW_Gen_Draw_numbers_and_highllights_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_Draw_numbers_and_highllights_DAQmx.vi"/>
@@ -335,7 +337,6 @@
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
-	<Item Name="SW_Clear_Specific_Errors.vi" Type="VI" URL="../SubVi&apos;s/SW_Clear_Specific_Errors.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
