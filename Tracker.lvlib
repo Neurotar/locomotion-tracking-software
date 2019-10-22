@@ -99,6 +99,7 @@
 		<Item Name="GET_Statistics_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Statistics_(offline).vi"/>
 		<Item Name="GET_Running_perc._travel_and_avg._speed_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Running_perc._travel_and_avg._speed_(online).vi"/>
 		<Item Name="GET_Travel_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Travel_(offline).vi"/>
+		<Item Name="GET_Gaussian_kernel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Gaussian_kernel.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
