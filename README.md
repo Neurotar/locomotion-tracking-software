@@ -1,4 +1,4 @@
-# Standard Tracker Application
+# Locomotion tracking software for recording mouse activity in the Mobile HomeCage devices.
 
 In this repository, only the standard version of the Tracker application is stored. 
 Additional information and issue tracker can be found at 
@@ -7,7 +7,7 @@ For more information, contact us at info@neurotar.com.
 
 ```
 Mobile HomeCage motion tracking software.
-Current version 2.1.9.10
+Current version 2.1.10.3
 
 Mobile HomeCage motion tracking software for recording mouse activity
 in the Mobile HomeCage devices.
