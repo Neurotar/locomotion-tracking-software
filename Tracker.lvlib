@@ -79,7 +79,9 @@
 		<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
 		<Item Name="FL_Update_Histogram_data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Update_Histogram_data.vi"/>
 		<Item Name="FL_ZLEMA_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_ZLEMA_Filter.vi"/>
-		<Item Name="GEN_Histo_Bins_And_X_axis.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GEN_Histo_Bins_And_X_axis.vi"/>
+		<Item Name="GET_2D_Data_Binning_(additional_data).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Data_Binning_(additional_data).vi"/>
+		<Item Name="GET_2D_Data_Binning_(location).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Data_Binning_(location).vi"/>
+		<Item Name="GET_2D_Histo_bins_(all_types).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Histo_bins_(all_types).vi"/>
 		<Item Name="GET_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Available_TTL_outputs_array.vi"/>
 		<Item Name="GET_Gaussian_kernel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Gaussian_kernel.vi"/>
 		<Item Name="GET_Index_of_selected_Tree_element_and_N_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Index_of_selected_Tree_element_and_N_Conditions.vi"/>
@@ -106,6 +108,7 @@
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Item Name="CTL_2D_bins_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_2D_bins_parameters.ctl"/>
 		<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
 		<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
@@ -218,6 +221,8 @@
 		<Item Name="FL_Save_incrementally_ts.vi" Type="VI" URL="../SubVi&apos;s/FL_Save_incrementally_ts.vi"/>
 		<Item Name="FL_TTL_xor_with_IO_inv_config.vi" Type="VI" URL="../SubVi&apos;s/FL_TTL_xor_with_IO_inv_config.vi"/>
 		<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
+		<Item Name="GEN_2D_Histo_Bins.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GEN_2D_Histo_Bins.vi"/>
+		<Item Name="GEN_Histo_Bins_And_X_axis.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GEN_Histo_Bins_And_X_axis.vi"/>
 		<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
 		<Item Name="SW_Clear_Specific_Errors.vi" Type="VI" URL="../SubVi&apos;s/SW_Clear_Specific_Errors.vi"/>
 		<Item Name="SW_Gen_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Available_TTL_outputs_array.vi"/>

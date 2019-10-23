@@ -21,6 +21,7 @@
 		</Item>
 		<Item Name="TestVI&apos;s" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="2D binning speed test.vi" Type="VI" URL="../TestVI&apos;s/2D binning speed test.vi"/>
 			<Item Name="2D_density_plot_test.vi" Type="VI" URL="../TestVI&apos;s/2D_density_plot_test.vi"/>
 			<Item Name="Camera_test.vi" Type="VI" URL="../TestVI&apos;s/Camera_test.vi"/>
 			<Item Name="Contour plot test.vi" Type="VI" URL="../TestVI&apos;s/Contour plot test.vi"/>
