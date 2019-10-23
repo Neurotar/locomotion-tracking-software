@@ -98,8 +98,10 @@
 		<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Debounce_filter_U16.vi"/>
 		<Item Name="SW_Generate_SubCondition_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_SubCondition_text.vi"/>
 		<Item Name="SW_Get_1D_Array_mean.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_mean.vi"/>
+		<Item Name="SW_Log-transform_colors_array.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Log-transform_colors_array.vi"/>
 		<Item Name="SW_SG_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients.vi"/>
 		<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients_3-51.vi"/>
+		<Item Name="SW_Smooth_Image.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Smooth_Image.vi"/>
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
