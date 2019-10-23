@@ -10,9 +10,10 @@
 
 </Property>
 	<Item Name="Calc and data manipulation" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="CALC_Angle_from_center_towards_mouse_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_from_center_towards_mouse_(arr).vi"/>
 		<Item Name="CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi"/>
+		<Item Name="Calc_average_pixel_gauss_values.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/Calc_average_pixel_gauss_values.vi"/>
 		<Item Name="CALC_Bridge_and_clamp_swap_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Bridge_and_clamp_swap_(arr).vi"/>
 		<Item Name="CALC_Bwd_adjust_TTL_pulse_length_according_to_stim_type.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Bwd_adjust_TTL_pulse_length_according_to_stim_type.vi"/>
 		<Item Name="CALC_Calculate_phi_theta_etc_2_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Calculate_phi_theta_etc_2_(offline).vi"/>
@@ -80,9 +81,13 @@
 		<Item Name="FL_ZLEMA_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_ZLEMA_Filter.vi"/>
 		<Item Name="GEN_Histo_Bins_And_X_axis.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GEN_Histo_Bins_And_X_axis.vi"/>
 		<Item Name="GET_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Available_TTL_outputs_array.vi"/>
+		<Item Name="GET_Gaussian_kernel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Gaussian_kernel.vi"/>
 		<Item Name="GET_Index_of_selected_Tree_element_and_N_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Index_of_selected_Tree_element_and_N_Conditions.vi"/>
 		<Item Name="GET_Initial_SubCondition_representation.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Initial_SubCondition_representation.vi"/>
+		<Item Name="GET_Running_perc._travel_and_avg._speed_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Running_perc._travel_and_avg._speed_(online).vi"/>
+		<Item Name="GET_Statistics_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Statistics_(offline).vi"/>
 		<Item Name="GET_Statistics_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Statistics_(online).vi"/>
+		<Item Name="GET_Travel_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Travel_(offline).vi"/>
 		<Item Name="GET_Zone_number_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Zone_number_(offline).vi"/>
 		<Item Name="MAT_Get_HB0_filter_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_Get_HB0_filter_coefficients.vi"/>
 		<Item Name="MAT_HB0_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_HB0_filter.vi"/>
@@ -96,10 +101,6 @@
 		<Item Name="SW_SG_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients.vi"/>
 		<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients_3-51.vi"/>
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
-		<Item Name="GET_Statistics_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Statistics_(offline).vi"/>
-		<Item Name="GET_Running_perc._travel_and_avg._speed_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Running_perc._travel_and_avg._speed_(online).vi"/>
-		<Item Name="GET_Travel_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Travel_(offline).vi"/>
-		<Item Name="GET_Gaussian_kernel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Gaussian_kernel.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
