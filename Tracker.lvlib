@@ -13,7 +13,6 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="CALC_Angle_from_center_towards_mouse_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_from_center_towards_mouse_(arr).vi"/>
 		<Item Name="CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi"/>
-		<Item Name="Calc_average_pixel_gauss_values.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/Calc_average_pixel_gauss_values.vi"/>
 		<Item Name="CALC_Bridge_and_clamp_swap_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Bridge_and_clamp_swap_(arr).vi"/>
 		<Item Name="CALC_Bwd_adjust_TTL_pulse_length_according_to_stim_type.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Bwd_adjust_TTL_pulse_length_according_to_stim_type.vi"/>
 		<Item Name="CALC_Calculate_phi_theta_etc_2_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Calculate_phi_theta_etc_2_(offline).vi"/>
@@ -22,6 +21,7 @@
 		<Item Name="CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type.vi"/>
 		<Item Name="CALC_Get_EMA_Coeffs.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Get_EMA_Coeffs.vi"/>
 		<Item Name="CALC_Length_of_True_state_(in_time).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Length_of_True_state_(in_time).vi"/>
+		<Item Name="CALC_Mean_pixel_gauss_values.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Mean_pixel_gauss_values.vi"/>
 		<Item Name="CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Mouse_angular_position_in_the_cage&apos;s_coordinates.vi"/>
 		<Item Name="CALC_Normalize_1D_Array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Normalize_1D_Array.vi"/>
 		<Item Name="CALC_omega(w)_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_omega(w)_(arr).vi"/>
@@ -86,6 +86,7 @@
 		<Item Name="GET_Gaussian_kernel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Gaussian_kernel.vi"/>
 		<Item Name="GET_Index_of_selected_Tree_element_and_N_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Index_of_selected_Tree_element_and_N_Conditions.vi"/>
 		<Item Name="GET_Initial_SubCondition_representation.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Initial_SubCondition_representation.vi"/>
+		<Item Name="GET_Location-based_density_map.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Location-based_density_map.vi"/>
 		<Item Name="GET_Running_perc._travel_and_avg._speed_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Running_perc._travel_and_avg._speed_(online).vi"/>
 		<Item Name="GET_Statistics_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Statistics_(offline).vi"/>
 		<Item Name="GET_Statistics_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Statistics_(online).vi"/>
@@ -100,10 +101,8 @@
 		<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Debounce_filter_U16.vi"/>
 		<Item Name="SW_Generate_SubCondition_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_SubCondition_text.vi"/>
 		<Item Name="SW_Get_1D_Array_mean.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_mean.vi"/>
-		<Item Name="SW_Log-transform_colors_array.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Log-transform_colors_array.vi"/>
 		<Item Name="SW_SG_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients.vi"/>
 		<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients_3-51.vi"/>
-		<Item Name="SW_Smooth_Image.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Smooth_Image.vi"/>
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
@@ -306,9 +305,11 @@
 		<Item Name="SW_Generate_Segmented_Plot_v3.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Segmented_Plot_v3.vi"/>
 		<Item Name="SW_Generate_Segmented_Plot_v4_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Segmented_Plot_v4_DAQmx.vi"/>
 		<Item Name="SW_Get_ROI_bounding_box.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Get_ROI_bounding_box.vi"/>
+		<Item Name="SW_Log-transform_colors_array.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Log-transform_colors_array.vi"/>
 		<Item Name="SW_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Make_Track_overlay.vi"/>
 		<Item Name="SW_Make_Track_overlay_test.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Make_Track_overlay_test.vi"/>
 		<Item Name="SW_Plot_Thick_arc_line_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Plot_Thick_arc_line_IMAQdx.vi"/>
+		<Item Name="SW_Smooth_Image.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Smooth_Image.vi"/>
 	</Item>
 	<Item Name="Settings" Type="Folder">
 		<Item Name="HW_Configure_port(s).vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Configure_port(s).vi"/>
