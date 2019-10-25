@@ -54,7 +54,7 @@
 			<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TestVI&apos;s/TDMS_loading_speeds_test.vi"/>
 			<Item Name="TDMS_saving_speed.xlsx" Type="Document" URL="../TestVI&apos;s/TDMS_saving_speed.xlsx"/>
 			<Item Name="TDMS_test.vi" Type="VI" URL="../TestVI&apos;s/TDMS_test.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../TestVI&apos;s/Test.vi"/>
+			<Item Name="Test_bool_conversion.vi" Type="VI" URL="../TestVI&apos;s/Test_bool_conversion.vi"/>
 			<Item Name="Test_data_read.vi" Type="VI" URL="../TestVI&apos;s/Test_data_read.vi"/>
 			<Item Name="Test_image_display_speed.vi" Type="VI" URL="../TestVI&apos;s/Test_image_display_speed.vi"/>
 			<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../TestVI&apos;s/Test_of_the_stim_settings_save.vi"/>
@@ -71,7 +71,6 @@
 			<Item Name="Zone-to-color_correspondence_lookup_test.vi" Type="VI" URL="../TestVI&apos;s/Zone-to-color_correspondence_lookup_test.vi"/>
 			<Item Name="Zones layout drawing test with smoothing and edge detection.vi" Type="VI" URL="../TestVI&apos;s/Zones layout drawing test with smoothing and edge detection.vi"/>
 		</Item>
-		<Item Name="CTL_Full_Track_Array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Full_Track_Array.ctl"/>
 		<Item Name="DigitalOutTask_0" Type="NI-DAQmx Task">
 			<Property Name="\0\ChanType" Type="Str">Digital Output</Property>
 			<Property Name="\0\DO.InvertLines" Type="Str">0</Property>

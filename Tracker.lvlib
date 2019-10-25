@@ -79,6 +79,7 @@
 		<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
 		<Item Name="FL_Update_Histogram_data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Update_Histogram_data.vi"/>
 		<Item Name="FL_ZLEMA_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_ZLEMA_Filter.vi"/>
+		<Item Name="GET_2D_Array_Interpolated_to_size_of_image.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Array_Interpolated_to_size_of_image.vi"/>
 		<Item Name="GET_2D_Data_Binning_(additional_data).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Data_Binning_(additional_data).vi"/>
 		<Item Name="GET_2D_Data_Binning_(location).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Data_Binning_(location).vi"/>
 		<Item Name="GET_2D_Histo_bins_(all_types).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Histo_bins_(all_types).vi"/>
@@ -138,6 +139,7 @@
 		<Item Name="CTL_Draw_Area_Size.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Draw_Area_Size.ctl"/>
 		<Item Name="CTL_Filter_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Filter_selector.ctl"/>
 		<Item Name="CTL_Full_data_frame.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Full_data_frame.ctl"/>
+		<Item Name="CTL_Full_Track_Array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Full_Track_Array.ctl"/>
 		<Item Name="CTL_Histogram_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_parameters.ctl"/>
 		<Item Name="CTL_Histogram_Properties.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_Properties.ctl"/>
 		<Item Name="CTL_Image_Geometrical_and_scaling_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Image_Geometrical_and_scaling_parameters.ctl"/>
