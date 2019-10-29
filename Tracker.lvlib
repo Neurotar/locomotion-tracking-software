@@ -84,6 +84,7 @@
 		<Item Name="GET_2D_Data_Binning_(location).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Data_Binning_(location).vi"/>
 		<Item Name="GET_2D_Histo_bins_(all_types).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Histo_bins_(all_types).vi"/>
 		<Item Name="GET_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Available_TTL_outputs_array.vi"/>
+		<Item Name="GET_Decision_about_TTL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL.vi"/>
 		<Item Name="GET_Gaussian_kernel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Gaussian_kernel.vi"/>
 		<Item Name="GET_Index_of_selected_Tree_element_and_N_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Index_of_selected_Tree_element_and_N_Conditions.vi"/>
 		<Item Name="GET_Initial_SubCondition_representation.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Initial_SubCondition_representation.vi"/>
