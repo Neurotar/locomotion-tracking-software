@@ -90,6 +90,7 @@
 		<Item Name="GET_Index_of_selected_Tree_element_and_N_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Index_of_selected_Tree_element_and_N_Conditions.vi"/>
 		<Item Name="GET_Initial_SubCondition_representation.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Initial_SubCondition_representation.vi"/>
 		<Item Name="GET_Location-based_density_map.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Location-based_density_map.vi"/>
+		<Item Name="Get_Previous_Value_Bool.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/Get_Previous_Value_Bool.vi"/>
 		<Item Name="GET_Running_perc._travel_and_avg._speed_(online).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Running_perc._travel_and_avg._speed_(online).vi"/>
 		<Item Name="GET_Speed-based_density_map.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Speed-based_density_map.vi"/>
 		<Item Name="GET_Statistics_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Statistics_(offline).vi"/>
