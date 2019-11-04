@@ -295,6 +295,7 @@
 		<Item Name="GEN_Time-coded_overlay_PIC.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GEN_Time-coded_overlay_PIC.vi"/>
 		<Item Name="SW_Add_cage_border.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Add_cage_border.vi"/>
 		<Item Name="SW_Create_density_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Create_density_overlay.vi"/>
+		<Item Name="SW_Create_Images_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Create_Images_overlay.vi"/>
 		<Item Name="SW_Draw_mouse_br.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Draw_mouse_br.vi"/>
 		<Item Name="SW_Draw_mouse_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Draw_mouse_DAQmx.vi"/>
 		<Item Name="SW_Gen_2D_Histogram.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Gen_2D_Histogram.vi"/>
@@ -312,6 +313,7 @@
 		<Item Name="SW_Generate_Segmented_Plot_v2.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Segmented_Plot_v2.vi"/>
 		<Item Name="SW_Generate_Segmented_Plot_v3.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Segmented_Plot_v3.vi"/>
 		<Item Name="SW_Generate_Segmented_Plot_v4_DAQmx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Segmented_Plot_v4_DAQmx.vi"/>
+		<Item Name="SW_Generate_Segmented_Plot_v4_Picture.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Generate_Segmented_Plot_v4_Picture.vi"/>
 		<Item Name="SW_Get_ROI_bounding_box.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Get_ROI_bounding_box.vi"/>
 		<Item Name="SW_Log-transform_colors_array.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Log-transform_colors_array.vi"/>
 		<Item Name="SW_Make_Track_overlay.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Make_Track_overlay.vi"/>
@@ -355,6 +357,7 @@
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
+	<Item Name="SW_Blend_colors.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Blend_colors.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
