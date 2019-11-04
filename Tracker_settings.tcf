@@ -15,7 +15,7 @@ Data post-processing.Length = "31"
 Data post-processing.Order = "3"
 Stop at = "0,000000000000000"
 "Stop at" enabled = "FALSE"
-Default save folder path = "/D/Users_Data/Dmitriy_T/Documents/MHC_Tracker"
+Default save folder path = "/D/Users_Data/Dmitriy_T/Documents/MHC_Tracker/Track_2019-11-04-16-13-23"
 Acquisition FPS = "Optimal"
 
 [Researcher >>> Geometry]
