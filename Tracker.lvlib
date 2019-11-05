@@ -209,6 +209,7 @@
 		<Item Name="SW_Fire_TTL_during_calibration_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_calibration_2.vi"/>
 		<Item Name="SW_Fire_TTL_during_the_acquisition.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition.vi"/>
 		<Item Name="SW_Fire_TTL_during_the_acquisition_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition_universal.vi"/>
+		<Item Name="SW_Fire_TTL_on_start_or_stop.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_on_start_or_stop.vi"/>
 		<Item Name="SW_Get_CPU_load.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Get_CPU_load.vi"/>
 		<Item Name="SW_Get_CPU_load_monitor_reference.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Get_CPU_load_monitor_reference.vi"/>
 		<Item Name="SW_Prepare_TTL_activation_sequence.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Prepare_TTL_activation_sequence.vi"/>
