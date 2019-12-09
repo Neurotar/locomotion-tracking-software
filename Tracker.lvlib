@@ -31,6 +31,8 @@
 		<Item Name="CALC_Post-process_timestamps.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Post-process_timestamps.vi"/>
 		<Item Name="CHECK_Condition_has_been_set.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Condition_has_been_set.vi"/>
 		<Item Name="CHECK_If_TTL_should_be_reset.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_If_TTL_should_be_reset.vi"/>
+		<Item Name="CHECK_Particular_Condition.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Particular_Condition.vi"/>
+		<Item Name="CHECK_Particular_SubCondition.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Particular_SubCondition.vi"/>
 		<Item Name="DATA_Reorder_after_condition_modification.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/DATA_Reorder_after_condition_modification.vi"/>
 		<Item Name="FL_Adjust_raw_magnets_coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Adjust_raw_magnets_coords.vi"/>
 		<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calc_speed_on_the_fly.vi"/>
@@ -87,6 +89,8 @@
 		<Item Name="GET_2D_Histo_bins_(all_types).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Histo_bins_(all_types).vi"/>
 		<Item Name="GET_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Available_TTL_outputs_array.vi"/>
 		<Item Name="GET_Decision_about_TTL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL.vi"/>
+		<Item Name="GET_Decision_about_TTL_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL_2.vi"/>
+		<Item Name="GET_Decision_about_TTL_and_Fire.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL_and_Fire.vi"/>
 		<Item Name="GET_Gaussian_kernel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Gaussian_kernel.vi"/>
 		<Item Name="GET_Index_of_selected_Tree_element_and_N_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Index_of_selected_Tree_element_and_N_Conditions.vi"/>
 		<Item Name="GET_Initial_SubCondition_representation.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Initial_SubCondition_representation.vi"/>
@@ -359,7 +363,6 @@
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
-	<Item Name="GET_Decision_about_TTL_and_Fire.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL_and_Fire.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
