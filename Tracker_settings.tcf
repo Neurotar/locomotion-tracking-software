@@ -13,9 +13,9 @@ Name prefix = "Track"
 Data post-processing.Filter type = "Savitzky-Golay"
 Data post-processing.Length = "31"
 Data post-processing.Order = "3"
-Stop at = "0,000000000000000"
-"Stop at" enabled = "FALSE"
-Default save folder path = "/M/"
+Stop at = "15,000000000000000"
+"Stop at" enabled = "TRUE"
+Default save folder path = "/M/Temp"
 Acquisition FPS = "Optimal"
 
 [Researcher >>> Geometry]
