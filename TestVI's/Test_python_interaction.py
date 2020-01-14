@@ -19,7 +19,7 @@ def test_function(some_array):
 
 def get_2d_kde(Xdata, Ydata):
     data = np.vstack((Xdata, Ydata)).T
-    grid_points=2**6
+    grid_points=2**7
     nrm=64
     kde = FFTKDE(kernel='gaussian', norm=nrm)
     grid, points = kde.fit(data).evaluate(grid_points)

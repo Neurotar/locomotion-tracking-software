@@ -4,7 +4,6 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
-		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -22,6 +21,7 @@
 		</Item>
 		<Item Name="TestVI&apos;s" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="2D binning speed test.vi" Type="VI" URL="../TestVI&apos;s/2D binning speed test.vi"/>
 			<Item Name="2D_density_plot_test.vi" Type="VI" URL="../TestVI&apos;s/2D_density_plot_test.vi"/>
 			<Item Name="Camera_test.vi" Type="VI" URL="../TestVI&apos;s/Camera_test.vi"/>
 			<Item Name="Contour plot test.vi" Type="VI" URL="../TestVI&apos;s/Contour plot test.vi"/>
@@ -36,6 +36,7 @@
 			<Item Name="dmc_test.vi" Type="VI" URL="../TestVI&apos;s/dmc_test.vi"/>
 			<Item Name="Hardware_auto_detection_test.vi" Type="VI" URL="../TestVI&apos;s/Hardware_auto_detection_test.vi"/>
 			<Item Name="Hardware_auto_params_set_test.vi" Type="VI" URL="../TestVI&apos;s/Hardware_auto_params_set_test.vi"/>
+			<Item Name="Histogram calculation and plotting.vi" Type="VI" URL="../TestVI&apos;s/Histogram calculation and plotting.vi"/>
 			<Item Name="ImageAcquisition_test.vi" Type="VI" URL="../TestVI&apos;s/ImageAcquisition_test.vi"/>
 			<Item Name="Loop_speed_variation_test.vi" Type="VI" URL="../TestVI&apos;s/Loop_speed_variation_test.vi"/>
 			<Item Name="Multiple_ROIs.vi" Type="VI" URL="../TestVI&apos;s/Multiple_ROIs.vi"/>
@@ -43,6 +44,7 @@
 			<Item Name="Network control test 2 reader.vi" Type="VI" URL="../TestVI&apos;s/Network control test 2 reader.vi"/>
 			<Item Name="Network control test 2 writer.vi" Type="VI" URL="../TestVI&apos;s/Network control test 2 writer.vi"/>
 			<Item Name="Plots_testing.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing.vi"/>
+			<Item Name="Plots_testing_2.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing_2.vi"/>
 			<Item Name="profile.csv" Type="Document" URL="../TestVI&apos;s/profile.csv"/>
 			<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_1.vi"/>
 			<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_2.vi"/>
@@ -50,9 +52,10 @@
 			<Item Name="Smooth_Image_Edge_Detect.vi" Type="VI" URL="../TestVI&apos;s/Smooth_Image_Edge_Detect.vi"/>
 			<Item Name="Tab_controls_color_example.vi" Type="VI" URL="../TestVI&apos;s/Tab_controls_color_example.vi"/>
 			<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TestVI&apos;s/TDMS_loading_speeds_test.vi"/>
+			<Item Name="TDMS_open_and_plot.vi" Type="VI" URL="../TestVI&apos;s/TDMS_open_and_plot.vi"/>
 			<Item Name="TDMS_saving_speed.xlsx" Type="Document" URL="../TestVI&apos;s/TDMS_saving_speed.xlsx"/>
 			<Item Name="TDMS_test.vi" Type="VI" URL="../TestVI&apos;s/TDMS_test.vi"/>
-			<Item Name="Test.vi" Type="VI" URL="../TestVI&apos;s/Test.vi"/>
+			<Item Name="Test_bool_conversion.vi" Type="VI" URL="../TestVI&apos;s/Test_bool_conversion.vi"/>
 			<Item Name="Test_data_read.vi" Type="VI" URL="../TestVI&apos;s/Test_data_read.vi"/>
 			<Item Name="Test_image_display_speed.vi" Type="VI" URL="../TestVI&apos;s/Test_image_display_speed.vi"/>
 			<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../TestVI&apos;s/Test_of_the_stim_settings_save.vi"/>
@@ -66,6 +69,7 @@
 			<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_channel.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
 			<Item Name="ZDelay_node_test.vi" Type="VI" URL="../TestVI&apos;s/ZDelay_node_test.vi"/>
+			<Item Name="Zone-to-color_correspondence_lookup_test.vi" Type="VI" URL="../TestVI&apos;s/Zone-to-color_correspondence_lookup_test.vi"/>
 			<Item Name="Zones layout drawing test with smoothing and edge detection.vi" Type="VI" URL="../TestVI&apos;s/Zones layout drawing test with smoothing and edge detection.vi"/>
 		</Item>
 		<Item Name="DigitalOutTask_0" Type="NI-DAQmx Task">
@@ -81,13 +85,14 @@
 		<Item Name="FP_TDMS_export_tool.vi" Type="VI" URL="../FP_TDMS_export_tool.vi"/>
 		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="MN_Pulse_Generator_main_menu.rtm" Type="Document" URL="../../InVigilo_II/SubVIs/Controls/MN_Pulse_Generator_main_menu.rtm"/>
+		<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
+		<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
-		<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
-			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="user.lib" Type="Folder">
 				<Item Name="Array of VData to VArray__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VArray__ogtk.vi"/>
 				<Item Name="Array of VData to VCluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Array of VData to VCluster__ogtk.vi"/>
@@ -151,22 +156,166 @@
 				<Item Name="Waveform Subtype Enum__ogtk.ctl" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/lvdata/lvdata.llb/Waveform Subtype Enum__ogtk.ctl"/>
 				<Item Name="Write Key (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Key (Variant)__ogtk.vi"/>
 				<Item Name="Write Section Cluster__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/variantconfig/variantconfig.llb/Write Section Cluster__ogtk.vi"/>
+				<Item Name="Search 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Search 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Search 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Search 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Variant)__ogtk.vi"/>
+				<Item Name="Search 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Search 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (String)__ogtk.vi"/>
+				<Item Name="Search 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Search 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Search 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Search 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Search 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Search 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Search 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Search 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Search 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Search 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Search 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Search 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Search 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Search Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Search Array__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (LVObject)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (LVObject)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U64)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I64)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U64)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I64)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (Variant)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U32)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U16)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (U8)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (String)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (SGL)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (Path)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I32)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I16)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (I8)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (EXT)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (DBL)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (CXT)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (CSG)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (CDB)__ogtk.vi"/>
+				<Item Name="Reorder 2D Array2 (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 2D Array2 (Boolean)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Variant)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Path)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (String)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (Boolean)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U8)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U32)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (U16)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (SGL)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I8)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I32)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (I16)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (EXT)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (DBL)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (CSG)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (CXT)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array2 (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array2 (CDB)__ogtk.vi"/>
+				<Item Name="Reorder Array2__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder Array2__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U64)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I64)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (String)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (Path)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (String)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U8)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U32)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (U16)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (SGL)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I8)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I32)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (I16)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (EXT)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (DBL)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (CSG)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (CXT)__ogtk.vi"/>
+				<Item Name="Sort 2D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 2D Array (CDB)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Reorder 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Reorder 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Sort 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Sort Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Sort Array__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U64)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I64)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Variant)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U32)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U16)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (U8)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (String)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (SGL)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Path)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I32)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I16)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (I8)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (EXT)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (DBL)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (CXT)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (CSG)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (CDB)__ogtk.vi"/>
+				<Item Name="Delete Elements from 2D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 2D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Variant)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (String)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Delete Elements from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from 1D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Delete Elements from Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Delete Elements from Array__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (LVObject)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (LVObject)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U64)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I64)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I64)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Boolean)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (Variant)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Variant)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U8)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U32)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (U16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (U16)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (String)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (SGL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (SGL)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I8)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I8)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I32)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I32)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (I16)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (I16)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (EXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (EXT)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (DBL)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (DBL)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (CXT)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CXT)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (CSG)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CSG)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (CDB)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array (Path)__ogtk.vi"/>
+				<Item Name="Remove Duplicates from 1D Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Remove Duplicates from 1D Array__ogtk.vi"/>
+				<Item Name="Valid Path - Traditional__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Traditional__ogtk.vi"/>
+				<Item Name="Valid Path - Array__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path - Array__ogtk.vi"/>
+				<Item Name="Valid Path__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Valid Path__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="3D Contour Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Contour/3D Contour Datatype/3D Contour Datatype.lvclass"/>
-				<Item Name="3D Contour.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Contour/3D Contour/3D Contour.lvclass"/>
-				<Item Name="3D Contour.xctl" Type="XControl" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Contour/3D Contour XCtrl/3D Contour.xctl"/>
-				<Item Name="3D Plot Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot Datatype/3D Plot Datatype.lvclass"/>
-				<Item Name="3D Plot.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot/3D Plot.lvclass"/>
-				<Item Name="3D Surface Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface Datatype/3D Surface Datatype.lvclass"/>
-				<Item Name="3D Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface/3D Surface.lvclass"/>
-				<Item Name="3D Surface.xctl" Type="XControl" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface XCtrl/3D Surface.xctl"/>
-				<Item Name="3DMathPlot Action String.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Action String.ctl"/>
-				<Item Name="3DMathPlot Action String.vi" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Action String.vi"/>
-				<Item Name="3DMathPlot Ctrl Act Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Ctrl Act Cluster.ctl"/>
-				<Item Name="3DMathPlot Ctrl Act Queue.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Ctrl Act Queue.ctl"/>
-				<Item Name="3DMathPlot State Class.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot State Class.ctl"/>
-				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
+				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
 				<Item Name="Advanced Plotting Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/Advanced Plotting Toolkit.lvlib"/>
@@ -174,7 +323,6 @@
 				<Item Name="AsciiToInt.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/AsciiToInt.vi"/>
 				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
-				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
 				<Item Name="Channel Abort Instructions.ctl" Type="VI" URL="/&lt;vilib&gt;/ChannelSupport/Channel Abort Instructions.ctl"/>
@@ -384,7 +532,6 @@
 				<Item Name="Image Unit" Type="VI" URL="/&lt;vilib&gt;/vision/Image Controls.llb/Image Unit"/>
 				<Item Name="imagedata.ctl" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/imagedata.ctl"/>
 				<Item Name="IMAQ ArrayToColorImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToColorImage"/>
-				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="IMAQ AVI2 Close" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Close"/>
 				<Item Name="IMAQ AVI2 Create" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Create"/>
 				<Item Name="IMAQ AVI2 Refnum.ctl" Type="VI" URL="/&lt;vilib&gt;/vision/Avi.llb/IMAQ AVI2 Refnum.ctl"/>
@@ -421,14 +568,12 @@
 				<Item Name="InitScrollbarAndListBox.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/InitScrollbarAndListBox.vi"/>
 				<Item Name="initTabValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/initTabValues.vi"/>
 				<Item Name="Is Path and Not Empty.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Is Path and Not Empty.vi"/>
-				<Item Name="Line.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Line/Line.lvclass"/>
 				<Item Name="List Directory and LLBs.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/List Directory and LLBs.vi"/>
 				<Item Name="loadAndFormatValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/loadAndFormatValues.vi"/>
 				<Item Name="LoadBufferForMultiListBoxAndFormat.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/LoadBufferForMultiListBoxAndFormat.vi"/>
 				<Item Name="LogicalSort.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/LogicalSort.vi"/>
 				<Item Name="Longest Line Length in Pixels.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Longest Line Length in Pixels.vi"/>
 				<Item Name="Lossy Behavior.ctl" Type="VI" URL="/&lt;vilib&gt;/ChannelSupport/Lossy Behavior.ctl"/>
-				<Item Name="LV3DPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LV3DPointTypeDef.ctl"/>
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVForegroundBackgroundColorsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVForegroundBackgroundColorsTypeDef.ctl"/>
 				<Item Name="LVOffsetAndMultiplierTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVOffsetAndMultiplierTypeDef.ctl"/>
@@ -441,13 +586,10 @@
 				<Item Name="LVRowAndColumnUnsignedTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnUnsignedTypeDef.ctl"/>
 				<Item Name="New Zip File.vi" Type="VI" URL="/&lt;vilib&gt;/zip/New Zip File.vi"/>
 				<Item Name="NI_3D Picture Control.lvlib" Type="Library" URL="/&lt;vilib&gt;/picture/3D Picture Control/NI_3D Picture Control.lvlib"/>
-				<Item Name="NI_AAL_Geometry.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Geometry.lvlib"/>
-				<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 				<Item Name="NI_AALPro.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALPro.lvlib"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_Gmath.lvlib" Type="Library" URL="/&lt;vilib&gt;/gmath/NI_Gmath.lvlib"/>
 				<Item Name="NI_LVConfig.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/config.llb/NI_LVConfig.lvlib"/>
-				<Item Name="NI_Math Plot Private Lib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Math Plots/Plot Private Lib/NI_Math Plot Private Lib.lvlib"/>
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
@@ -458,7 +600,6 @@
 				<Item Name="Open File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Open File+.vi"/>
 				<Item Name="panelResize_tdms.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/panelResize_tdms.vi"/>
 				<Item Name="panelstate.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/panelstate.ctl"/>
-				<Item Name="Parametric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Parametric/Parametric.lvclass"/>
 				<Item Name="Path To Command Line String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/Path To Command Line String.vi"/>
 				<Item Name="PathToUNIXPathString.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/CFURL.llb/PathToUNIXPathString.vi"/>
 				<Item Name="PCT Pad String.vi" Type="VI" URL="/&lt;vilib&gt;/picture/picture.llb/PCT Pad String.vi"/>
@@ -491,7 +632,6 @@
 				<Item Name="subDisplayMessage.vi" Type="VI" URL="/&lt;vilib&gt;/express/express output/DisplayMessageBlock.llb/subDisplayMessage.vi"/>
 				<Item Name="subFile Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/FileDialogBlock.llb/subFile Dialog.vi"/>
 				<Item Name="subTimeDelay.vi" Type="VI" URL="/&lt;vilib&gt;/express/express execution control/TimeDelayBlock.llb/subTimeDelay.vi"/>
-				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
 				<Item Name="System Directory Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/sysdir.llb/System Directory Type.ctl"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 				<Item Name="TagReturnType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/TagReturnType.ctl"/>
@@ -509,7 +649,6 @@
 				<Item Name="UpdateScrollbarBeforeKeyEvent.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/UpdateScrollbarBeforeKeyEvent.vi"/>
 				<Item Name="VariantType to Type Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/GetType.llb/VariantType to Type Code.vi"/>
 				<Item Name="VariantType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/VariantDataType/VariantType.lvlib"/>
-				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
 				<Item Name="VISA Configure Serial Port" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port"/>
 				<Item Name="VISA Configure Serial Port (Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Instr).vi"/>
 				<Item Name="VISA Configure Serial Port (Serial Instr).vi" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/VISA Configure Serial Port (Serial Instr).vi"/>
@@ -527,7 +666,54 @@
 				<Item Name="Write Delimited Spreadsheet.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Delimited Spreadsheet.vi"/>
 				<Item Name="Write PNG File.vi" Type="VI" URL="/&lt;vilib&gt;/picture/png.llb/Write PNG File.vi"/>
 				<Item Name="Write Spreadsheet String.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write Spreadsheet String.vi"/>
+				<Item Name="Waveform Array To Dynamic.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Waveform Array To Dynamic.vi"/>
+				<Item Name="ex_WaveformAttribs.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribs.ctl"/>
+				<Item Name="ex_SetAllExpressAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetAllExpressAttribs.vi"/>
+				<Item Name="DU64_U32SubtractWithBorrow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32SubtractWithBorrow.vi"/>
+				<Item Name="I128 Timestamp.ctl" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/I128 Timestamp.ctl"/>
+				<Item Name="Timestamp Subtract.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Subtract.vi"/>
+				<Item Name="DU64_U32AddWithOverflow.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/DU64_U32AddWithOverflow.vi"/>
+				<Item Name="Timestamp Add.vi" Type="VI" URL="/&lt;vilib&gt;/Waveform/TSOps.llb/Timestamp Add.vi"/>
+				<Item Name="ex_WaveformAttribsPlus.ctl" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_WaveformAttribsPlus.ctl"/>
+				<Item Name="ex_SetExpAttribsAndT0.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/ex_SetExpAttribsAndT0.vi"/>
+				<Item Name="ex_GenAddAttribs.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/ex_GenAddAttribs.vi"/>
+				<Item Name="NI_MABase.lvlib" Type="Library" URL="/&lt;vilib&gt;/measure/NI_MABase.lvlib"/>
+				<Item Name="subGetSignalName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subGetSignalName.vi"/>
+				<Item Name="sub2ShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/sub2ShouldUseDefSigName.vi"/>
+				<Item Name="subShouldUseDefSigName.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subShouldUseDefSigName.vi"/>
+				<Item Name="subInternalTiming.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subInternalTiming.vi"/>
+				<Item Name="Nearest Freq in Int Cycles.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Freq in Int Cycles.vi"/>
+				<Item Name="Nearest Frequency for Block.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalConfig.llb/Nearest Frequency for Block.vi"/>
+				<Item Name="subSigGeneratorBlock.vi" Type="VI" URL="/&lt;vilib&gt;/express/express input/SimulateSignalBlock.llb/subSigGeneratorBlock.vi"/>
+				<Item Name="Dynamic To Waveform Array.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/transition.llb/Dynamic To Waveform Array.vi"/>
+				<Item Name="3D Contour Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Contour/3D Contour Datatype/3D Contour Datatype.lvclass"/>
+				<Item Name="3D Contour.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Contour/3D Contour/3D Contour.lvclass"/>
+				<Item Name="3D Plot Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot Datatype/3D Plot Datatype.lvclass"/>
+				<Item Name="3D Plot.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/3D Plot/3D Plot.lvclass"/>
+				<Item Name="3D Surface Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface Datatype/3D Surface Datatype.lvclass"/>
+				<Item Name="3D Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface/3D Surface.lvclass"/>
+				<Item Name="Base Datatype.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Base Datatype.lvclass"/>
+				<Item Name="Surface.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Surface/Surface.lvclass"/>
+				<Item Name="3D Contour.xctl" Type="XControl" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Contour/3D Contour XCtrl/3D Contour.xctl"/>
+				<Item Name="3DMathPlot State Class.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot State Class.ctl"/>
+				<Item Name="3DMathPlot Ctrl Act Cluster.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Ctrl Act Cluster.ctl"/>
+				<Item Name="3DMathPlot Ctrl Act Queue.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Ctrl Act Queue.ctl"/>
 				<Item Name="XControlSupport.lvlib" Type="Library" URL="/&lt;vilib&gt;/_xctls/XControlSupport.lvlib"/>
+				<Item Name="NI_Math Plot Private Lib.lvlib" Type="Library" URL="/&lt;vilib&gt;/Math Plots/Plot Private Lib/NI_Math Plot Private Lib.lvlib"/>
+				<Item Name="LV3DPointTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LV3DPointTypeDef.ctl"/>
+				<Item Name="3DMathPlot Action String.ctl" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Action String.ctl"/>
+				<Item Name="3DMathPlot Action String.vi" Type="VI" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Plot/Action String/3DMathPlot Action String.vi"/>
+				<Item Name="Version To Dotted String.vi" Type="VI" URL="/&lt;vilib&gt;/_xctls/Version To Dotted String.vi"/>
+				<Item Name="3D Surface.xctl" Type="XControl" URL="/&lt;vilib&gt;/Math Plots/3D Math Plots/3D Surface/3D Surface XCtrl/3D Surface.xctl"/>
+				<Item Name="3DPC_SurfacePlot.xctl" Type="XControl" URL="/&lt;vilib&gt;/Native 3D Graph/xcontrol/3DPC_SurfacePlot.xctl"/>
+				<Item Name="Binary Search Sorted Array.vi" Type="VI" URL="/&lt;vilib&gt;/Native 3D Graph/Binary Search Sorted Array.vi"/>
+				<Item Name="NI_AAL_Geometry.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AAL_Geometry.lvlib"/>
+				<Item Name="Parametric.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Parametric/Parametric.lvclass"/>
+				<Item Name="Line.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/Native 3D Graph/classes/Line/Line.lvclass"/>
+				<Item Name="Select Event Type.ctl" Type="VI" URL="/&lt;vilib&gt;/Instr/_visa.llb/Select Event Type.ctl"/>
+				<Item Name="High Resolution Polling Wait.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/High Resolution Polling Wait.vi"/>
+				<Item Name="usereventprio.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/usereventprio.ctl"/>
+				<Item Name="Clear Timing Source.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/Clear Timing Source.vi"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
@@ -539,7 +725,8 @@
 			<Item Name="Lossy Stream-a[.,.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str).lvlib"/>
 			<Item Name="Lossy Stream-a[.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](dbl).lvlib"/>
 			<Item Name="Lossy Stream-a[.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str).lvlib"/>
-			<Item Name="Lossy Stream-t&apos;CTL_Animal_Coordinates_and_Speed.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;CTL_Animal_Coordinates_and_Speed.ctl&apos;.lvlib"/>
+			<Item Name="Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;.lvlib"/>
+			<Item Name="Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;.lvlib"/>
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -548,9 +735,6 @@
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nilvaiu.dll" Type="Document" URL="nilvaiu.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="nivision.dll" Type="Document" URL="nivision.dll">
@@ -562,12 +746,17 @@
 			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
 			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
 			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
-			<Item Name="Stream-c(c(u32,u32,stamp),c(i16,i16),t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;,c(dbl,dbl,dbl,dbl)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-c(c(u32,u32,stamp),c(i16,i16),t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;,c(dbl,dbl,dbl,dbl)).lvlib"/>
+			<Item Name="Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;.lvlib"/>
 			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
+			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
+			<Item Name="Event Messenger-a[.](c(dbl,str)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-a[.](c(dbl,str)).lvlib"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Network_comm_test_1" Type="EXE">
@@ -960,15 +1149,6 @@
 				<Property Name="Source[0].File[3].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="Source[0].File[3].name" Type="Str">LICENSE.rtf</Property>
 				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
-<<<<<<< HEAD
-				<Property Name="Source[0].FileCount" Type="Int">3</Property>
-				<Property Name="Source[0].name" Type="Str">Tracker v2.1.9.12</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.10.2b</Property>
-				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
-			<Item Name="Tracker v2.1.10.2b" Type="EXE">
-=======
 				<Property Name="Source[0].FileCount" Type="Int">2</Property>
 				<Property Name="Source[0].name" Type="Str">Tracker v2.1.9.10</Property>
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
@@ -976,7 +1156,6 @@
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
 			<Item Name="Tracker v2.1.10.3" Type="EXE">
->>>>>>> 9417d5bc278736c2df36db1d00f043e34abfb860
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{28E2E335-2C44-4C98-815A-EC0F4011CAB0}</Property>
@@ -986,29 +1165,6 @@
 				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com</Property>
 				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{2E701D2B-0ACB-4AD9-ABF6-C57ED47CEFDC}</Property>
-<<<<<<< HEAD
-				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.1.10.2b</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/MHC_Tracker_v2.1.10.2b</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{16DBC635-F2C3-4687-876D-638689FB9C2E}</Property>
-				<Property Name="Bld_version.build" Type="Int">2</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">1</Property>
-				<Property Name="Bld_version.patch" Type="Int">10</Property>
-				<Property Name="Destination[0].destName" Type="Str">Tracker_2.1.10.2b.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/MHC_Tracker_v2.1.10.2b/Tracker_2.1.10.2b.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/MHC_Tracker_v2.1.10.2b</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons and Credits/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0FA81FBD-88FD-438A-889C-6C9EAD5B70B7}</Property>
-=======
 				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.1.10.3</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
@@ -1029,8 +1185,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/MHC_Tracker_v2.1.10.3</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons and Credits/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{28D08288-CC27-45FA-96F7-49DDD734ED23}</Property>
->>>>>>> 9417d5bc278736c2df36db1d00f043e34abfb860
+				<Property Name="Source[0].itemID" Type="Str">{09F27651-96E2-4A61-AFA4-49E89D81A691}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -1052,16 +1207,6 @@
 				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">8</Property>
 				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
-<<<<<<< HEAD
-				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.1.10.2b</Property>
-				<Property Name="TgtF_internalName" Type="Str">Tracker v2.1.10.2b</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Neurotar Oy</Property>
-				<Property Name="TgtF_productName" Type="Str">Tracker v2.1.10.2b</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.1.10.2b.exe</Property>
-			</Item>
-			<Item Name="Tracker v2.1.10.2b updater" Type="Installer">
-=======
 				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.1.10.3</Property>
 				<Property Name="TgtF_internalName" Type="Str">Tracker v2.1.10.3</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Neurotar Oy</Property>
@@ -1069,189 +1214,7 @@
 				<Property Name="TgtF_targetfileGUID" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
 				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.1.10.3.exe</Property>
 			</Item>
-			<Item Name="Tracker v2.1.10.3 updater" Type="Installer">
->>>>>>> 9417d5bc278736c2df36db1d00f043e34abfb860
-				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
-				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
-				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
-				<Property Name="Destination[1].name" Type="Str">Tracker_Drivers</Property>
-				<Property Name="Destination[1].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
-				<Property Name="Destination[1].tag" Type="Str">{FD36E8D1-F88E-4679-92F7-DD259C6B765E}</Property>
-				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
-				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-<<<<<<< HEAD
-				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/MHC_Tracker_v2.1.10.2b_updater</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.10.2b updater</Property>
-				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="INST_productName" Type="Str">Tracker v2.1.10.2b</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.23</Property>
-=======
-				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/MHC_Tracker_v2.1.10.3_updater</Property>
-				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.10.3 updater</Property>
-				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="INST_productName" Type="Str">Tracker v2.1.10.3</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.26</Property>
->>>>>>> 9417d5bc278736c2df36db1d00f043e34abfb860
-				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
-				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
-				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
-				<Property Name="MSI_arpContact" Type="Str">info@neurotar.com</Property>
-				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
-				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
-				<Property Name="MSI_distID" Type="Str">{C91EB2ED-84D2-4E58-A8F2-6625CCC17EDC}</Property>
-				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
-				<Property Name="MSI_osCheck" Type="Int">0</Property>
-				<Property Name="MSI_upgradeCode" Type="Str">{10818991-D05D-457A-AB56-F7AEBEC40C16}</Property>
-<<<<<<< HEAD
-				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.10.2b software update</Property>
-=======
-				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.10.3 software update</Property>
->>>>>>> 9417d5bc278736c2df36db1d00f043e34abfb860
-				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
-				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
-				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
-				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
-				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
-				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
-				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
-				<Property Name="RegDestCount" Type="Int">1</Property>
-				<Property Name="Source[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-<<<<<<< HEAD
-				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.1.10.2b.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.1.10.2b</Property>
-=======
-				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.1.10.3.exe</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.1.10.3</Property>
->>>>>>> 9417d5bc278736c2df36db1d00f043e34abfb860
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
-				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[0].tag" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
-				<Property Name="Source[0].File[1].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[1].name" Type="Str">Tracker_settings.tcf</Property>
-				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
-				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
-				<Property Name="Source[0].File[2].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[2].name" Type="Str">LICENSE.rtf</Property>
-				<Property Name="Source[0].File[2].Shortcut[0].destIndex" Type="Int">0</Property>
-				<Property Name="Source[0].File[2].Shortcut[0].name" Type="Str">LICENSE</Property>
-				<Property Name="Source[0].File[2].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
-				<Property Name="Source[0].File[2].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
-				<Property Name="Source[0].File[3].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="Source[0].File[3].name" Type="Str">LICENSE.rtf</Property>
-				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
-				<Property Name="Source[0].FileCount" Type="Int">3</Property>
-<<<<<<< HEAD
-				<Property Name="Source[0].name" Type="Str">Tracker v2.1.10.2b</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.10.2b</Property>
-=======
-				<Property Name="Source[0].name" Type="Str">Tracker v2.1.10.3</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.10.3</Property>
->>>>>>> 9417d5bc278736c2df36db1d00f043e34abfb860
-				<Property Name="Source[0].type" Type="Str">EXE</Property>
-				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
-			<Item Name="Tracker_v2_packaged" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
-				<Property Name="NIPKG_license" Type="Ref"></Property>
-				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
-				<Property Name="PKG_actions.Count" Type="Int">1</Property>
-				<Property Name="PKG_actions[0].Arguments" Type="Str"></Property>
-				<Property Name="PKG_actions[0].NIPKG.HideConsole" Type="Bool">false</Property>
-				<Property Name="PKG_actions[0].NIPKG.IgnoreErrors" Type="Bool">false</Property>
-				<Property Name="PKG_actions[0].NIPKG.Schedule" Type="Str">post</Property>
-				<Property Name="PKG_actions[0].NIPKG.Step" Type="Str">install</Property>
-				<Property Name="PKG_actions[0].NIPKG.Target.Child" Type="Ref"></Property>
-				<Property Name="PKG_actions[0].NIPKG.Target.Destination" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
-				<Property Name="PKG_actions[0].NIPKG.Target.Source" Type="Ref"></Property>
-				<Property Name="PKG_actions[0].NIPKG.Wait" Type="Bool">true</Property>
-				<Property Name="PKG_actions[0].Type" Type="Str">NIPKG.Executable</Property>
-				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
-				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
-				<Property Name="PKG_buildNumber" Type="Int">1</Property>
-				<Property Name="PKG_buildSpecName" Type="Str">Tracker_v2_packaged</Property>
-				<Property Name="PKG_dependencies.Count" Type="Int">3</Property>
-				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[0].MinVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">NI LabVIEW 2018 (64-bit) Runtime</Property>
-				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2018-runtime-engine</Property>
-				<Property Name="PKG_dependencies[0].Package.Section" Type="Str">Programming Environments</Property>
-				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str">NI LabVIEW 2018 (64-bit) Runtime provides libraries and other files necessary to execute LabVIEW 2018-built applications and shared libraries. Includes NI Reports, 3D graph support, and a browser plug-in that enables clients to view and control front panels remotely using a browser.</Property>
-				<Property Name="PKG_dependencies[0].Relationship" Type="Str">None</Property>
-				<Property Name="PKG_dependencies[0].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_dependencies[1].Enhanced" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[1].MaxVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[1].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[1].MinVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[1].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[1].NIPKG.DisplayName" Type="Str">NI-VISA Runtime</Property>
-				<Property Name="PKG_dependencies[1].Package.Name" Type="Str">ni-visa-runtime</Property>
-				<Property Name="PKG_dependencies[1].Package.Section" Type="Str">Drivers</Property>
-				<Property Name="PKG_dependencies[1].Package.Synopsis" Type="Str">NI-VISA provides an API for controlling USB, TCPIP, GPIB, Serial, PXI, and other types of instruments.</Property>
-				<Property Name="PKG_dependencies[1].Relationship" Type="Str">None</Property>
-				<Property Name="PKG_dependencies[1].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_dependencies[2].Enhanced" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[2].MaxVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[2].MaxVersionInclusive" Type="Bool">false</Property>
-				<Property Name="PKG_dependencies[2].MinVersion" Type="Str"></Property>
-				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
-				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">NI-Serial Runtime</Property>
-				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-serial-runtime</Property>
-				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Drivers</Property>
-				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">NI-Serial support for National Instruments RS-232 and RS-485 Hardware.</Property>
-				<Property Name="PKG_dependencies[2].Relationship" Type="Str">None</Property>
-				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_description" Type="Str"></Property>
-				<Property Name="PKG_destinations.Count" Type="Int">2</Property>
-				<Property Name="PKG_destinations[0].ID" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
-				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">Tracker_Drivers</Property>
-				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">root_7</Property>
-				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_destinations[1].ID" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
-				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">Tracker_v2</Property>
-				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">root_5</Property>
-				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
-				<Property Name="PKG_displayName" Type="Str">Mobile HomeCage installation package</Property>
-				<Property Name="PKG_displayVersion" Type="Str"></Property>
-				<Property Name="PKG_homepage" Type="Str"></Property>
-				<Property Name="PKG_lvrteTracking" Type="Bool">false</Property>
-				<Property Name="PKG_maintainer" Type="Str">Neurotar Oy &lt;&gt;</Property>
-				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2_packaged</Property>
-				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
-				<Property Name="PKG_packageName" Type="Str">trackerv2</Property>
-				<Property Name="PKG_ProviderVersion" Type="Int">1810</Property>
-				<Property Name="PKG_section" Type="Str">Application Software</Property>
-				<Property Name="PKG_shortcuts.Count" Type="Int">1</Property>
-				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_8</Property>
-				<Property Name="PKG_shortcuts[0].Name" Type="Str">Tracker_2.1.9.7</Property>
-				<Property Name="PKG_shortcuts[0].Path" Type="Path">Tracker_v2</Property>
-				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
-				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
-				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
-				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
-				<Property Name="PKG_sources.Count" Type="Int">2</Property>
-				<Property Name="PKG_sources[0].Destination" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
-				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
-				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
-				<Property Name="PKG_sources[1].Destination" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
-				<Property Name="PKG_sources[1].ID" Type="Ref"></Property>
-				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
-				<Property Name="PKG_synopsis" Type="Str">Tracker_v2</Property>
-				<Property Name="PKG_version" Type="Str">1.0.0</Property>
-			</Item>
 			<Item Name="Tracker v2.1.10.3 installer" Type="Installer">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2018/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2018/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
 				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
@@ -1378,6 +1341,564 @@
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.10.3</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Tracker v2.1.10.3 installer (run-time only)" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">Tracker_Drivers</Property>
+				<Property Name="Destination[1].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{FD36E8D1-F88E-4679-92F7-DD259C6B765E}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{160B311C-5360-4299-BD7C-1C61EB18036E}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI-488.2 Runtime 19.0</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{902E9855-1E7F-464C-AEA1-6906519A14FF}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI-Serial Runtime 19.0</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{EACEADFB-F69A-4FA2-8AF8-7A4A57C48A2D}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-VISA Runtime 19.0</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{0461072B-16FD-48C5-BA33-118D418BABA9}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 f4 (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[3].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[3].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[3].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[10].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[3].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[2].productName" Type="Str">NI Error Reporting 2019 (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[2].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
+				<Property Name="DistPart[3].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2018</Property>
+				<Property Name="DistPart[3].SoftDep[3].upgradeCode" Type="Str">{EF4708F6-5A34-4DBA-B12B-79CC2004E20B}</Property>
+				<Property Name="DistPart[3].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[4].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[3].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2018 (64-bit)</Property>
+				<Property Name="DistPart[3].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
+				<Property Name="DistPart[3].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[3].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[3].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[3].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[3].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[3].SoftDep[8].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[3].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[3].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[3].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[3].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{E4F03E30-E086-4EFC-B703-16299EC18DC7}</Property>
+				<Property Name="DistPartCount" Type="Int">4</Property>
+				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/Tracker_v2.1.10.3_installer_run-time_only</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.10.3 installer (run-time only)</Property>
+				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="INST_productName" Type="Str">Tracker v2.1.10.3</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.22</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
+				<Property Name="MSI_arpContact" Type="Str">info@neurotar.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
+				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
+				<Property Name="MSI_autoselectDrivers" Type="Bool">true</Property>
+				<Property Name="MSI_distID" Type="Str">{8D86A670-0ED8-4B7D-9056-CBF40DB5C566}</Property>
+				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{0093FB34-8B1F-42DB-B00B-BD0AC4E5B6FD}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.10.3 software installation</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
+				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.1.10.3.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.1.10.3</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
+				<Property Name="Source[0].File[2].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[2].name" Type="Str">LICENSE.rtf</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].name" Type="Str">LICENSE</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
+				<Property Name="Source[0].File[2].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].File[3].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[3].name" Type="Str">LICENSE.rtf</Property>
+				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].FileCount" Type="Int">3</Property>
+				<Property Name="Source[0].name" Type="Str">Tracker v2.1.10.3</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.10.3</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Tracker v2.1.10.3 updater" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Tracker_v2</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">Tracker_Drivers</Property>
+				<Property Name="Destination[1].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{FD36E8D1-F88E-4679-92F7-DD259C6B765E}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/MHC_Tracker_v2.1.10.3_updater</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.1.10.3 updater</Property>
+				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="INST_productName" Type="Str">Tracker v2.1.10.3</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.26</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
+				<Property Name="MSI_arpContact" Type="Str">info@neurotar.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
+				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
+				<Property Name="MSI_distID" Type="Str">{C91EB2ED-84D2-4E58-A8F2-6625CCC17EDC}</Property>
+				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{10818991-D05D-457A-AB56-F7AEBEC40C16}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.1.10.3 software update</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
+				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.1.10.3.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.1.10.3</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{D9669047-E311-41A8-9E3D-F6847F723DAE}</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
+				<Property Name="Source[0].File[2].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[2].name" Type="Str">LICENSE.rtf</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].name" Type="Str">LICENSE</Property>
+				<Property Name="Source[0].File[2].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
+				<Property Name="Source[0].File[2].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].File[3].dest" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Source[0].File[3].name" Type="Str">LICENSE.rtf</Property>
+				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].FileCount" Type="Int">3</Property>
+				<Property Name="Source[0].name" Type="Str">Tracker v2.1.10.3</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.10.3</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Tracker v2.2.0.0 beta 0 updater" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Neurotar</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">Tracker_Drivers</Property>
+				<Property Name="Destination[1].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{FD36E8D1-F88E-4679-92F7-DD259C6B765E}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[2].name" Type="Str">Tracker 2.2</Property>
+				<Property Name="Destination[2].parent" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.0b0_updater</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.2.0.0 beta 0 updater</Property>
+				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="INST_productName" Type="Str">Tracker v2.2.0.0 beta 0</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.32</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
+				<Property Name="MSI_arpContact" Type="Str">info@neurotar.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
+				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
+				<Property Name="MSI_distID" Type="Str">{D2657229-F321-404E-8542-AD3978DED7CE}</Property>
+				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{713AAAC2-7F97-46E5-9729-3A8DB126FE4A}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.2.0.0 beta 0 software installation.</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
+				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.2.0.0b0.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.2.0.0 beta 0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{D58C41A3-BA80-4D41-99CF-66179E5E1852}</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].tag" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[1].unlock" Type="Bool">true</Property>
+				<Property Name="Source[0].File[2].attributes" Type="Int">1</Property>
+				<Property Name="Source[0].File[2].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[2].name" Type="Str">LICENSE.rtf</Property>
+				<Property Name="Source[0].File[2].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].File[3].attributes" Type="Int">1</Property>
+				<Property Name="Source[0].File[3].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[3].name" Type="Str">Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
+				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
+				<Property Name="Source[0].FileCount" Type="Int">4</Property>
+				<Property Name="Source[0].name" Type="Str">Tracker v2.2.0.0b0</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.2.0.9</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Tracker v2.2.0.9" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{DE9EBC34-69D7-4163-91A8-DAFF71D6968F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D6E41CD2-E470-4056-B5DE-42D102755E19}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7666865B-0144-4218-B29C-A5B82F802F04}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.2.0.9</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.9</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3E48C151-966E-4239-AC30-D2CADBDCFFFA}</Property>
+				<Property Name="Bld_version.build" Type="Int">9</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker_2.2.0.9.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.9/Tracker_2.2.0.9.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.9</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons and Credits/orange_mouse_trackericon_256x256.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{F2766622-5C45-47B7-AF58-A41BD302EF3E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/README.md</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Support/Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Tracker.lvlib/FP_Tracker.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/NI_AALBase.lvlib</Property>
+				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">10</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.2.0.9</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tracker v2.2.0.9</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker v2.2.0.9</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D58C41A3-BA80-4D41-99CF-66179E5E1852}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.2.0.9.exe</Property>
+			</Item>
+			<Item Name="Tracker v2.2.0.9 installer" Type="Installer">
+				<Property Name="Destination[0].name" Type="Str">Neurotar</Property>
+				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
+				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Destination[0].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[1].name" Type="Str">Tracker_Drivers</Property>
+				<Property Name="Destination[1].parent" Type="Str">{7C5E53B9-0CC8-49B4-8873-46C4C66A2706}</Property>
+				<Property Name="Destination[1].tag" Type="Str">{FD36E8D1-F88E-4679-92F7-DD259C6B765E}</Property>
+				<Property Name="Destination[1].type" Type="Str">userFolder</Property>
+				<Property Name="Destination[2].name" Type="Str">Tracker 2.2</Property>
+				<Property Name="Destination[2].parent" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="Destination[2].tag" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Destination[2].type" Type="Str">userFolder</Property>
+				<Property Name="DestinationCount" Type="Int">3</Property>
+				<Property Name="DistPart[0].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[0].productID" Type="Str">{BC2E0887-7154-492A-80E3-1A748C59C0CA}</Property>
+				<Property Name="DistPart[0].productName" Type="Str">NI System Configuration Runtime 19.0.0</Property>
+				<Property Name="DistPart[0].upgradeCode" Type="Str">{0E192465-CC28-4C84-BE81-710B71C595A3}</Property>
+				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{837CC836-85AE-432A-B66D-32655139D139}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Vision Common Resources 2019</Property>
+				<Property Name="DistPart[1].upgradeCode" Type="Str">{409BEFA9-EB3E-472F-AD77-271A4A1D5927}</Property>
+				<Property Name="DistPart[2].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[2].productID" Type="Str">{160B311C-5360-4299-BD7C-1C61EB18036E}</Property>
+				<Property Name="DistPart[2].productName" Type="Str">NI-488.2 Runtime 19.0</Property>
+				<Property Name="DistPart[2].upgradeCode" Type="Str">{357F6618-C660-41A2-A185-5578CC876D1D}</Property>
+				<Property Name="DistPart[3].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[3].productID" Type="Str">{902E9855-1E7F-464C-AEA1-6906519A14FF}</Property>
+				<Property Name="DistPart[3].productName" Type="Str">NI-Serial Runtime 19.0</Property>
+				<Property Name="DistPart[3].upgradeCode" Type="Str">{01D82F43-B48D-46FF-8601-FC4FAAE20F41}</Property>
+				<Property Name="DistPart[4].flavorID" Type="Str">_deployment_</Property>
+				<Property Name="DistPart[4].productID" Type="Str">{EACEADFB-F69A-4FA2-8AF8-7A4A57C48A2D}</Property>
+				<Property Name="DistPart[4].productName" Type="Str">NI-VISA Runtime 19.0</Property>
+				<Property Name="DistPart[4].upgradeCode" Type="Str">{8627993A-3F66-483C-A562-0D3BA3F267B1}</Property>
+				<Property Name="DistPart[5].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[5].productID" Type="Str">{0461072B-16FD-48C5-BA33-118D418BABA9}</Property>
+				<Property Name="DistPart[5].productName" Type="Str">NI LabVIEW Runtime 2018 SP1 f4 (64-bit)</Property>
+				<Property Name="DistPart[5].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[0].productName" Type="Str">NI ActiveX Container (64-bit)</Property>
+				<Property Name="DistPart[5].SoftDep[0].upgradeCode" Type="Str">{1038A887-23E1-4289-B0BD-0C4B83C6BA21}</Property>
+				<Property Name="DistPart[5].SoftDep[1].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[1].productName" Type="Str">NI Deployment Framework 2019</Property>
+				<Property Name="DistPart[5].SoftDep[1].upgradeCode" Type="Str">{838942E4-B73C-492E-81A3-AA1E291FD0DC}</Property>
+				<Property Name="DistPart[5].SoftDep[10].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[10].productName" Type="Str">NI TDM Streaming 19.0</Property>
+				<Property Name="DistPart[5].SoftDep[10].upgradeCode" Type="Str">{4CD11BE6-6BB7-4082-8A27-C13771BC309B}</Property>
+				<Property Name="DistPart[5].SoftDep[2].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[2].productName" Type="Str">NI Error Reporting 2019 (64-bit)</Property>
+				<Property Name="DistPart[5].SoftDep[2].upgradeCode" Type="Str">{785BE224-E5B2-46A5-ADCB-55C949B5C9C7}</Property>
+				<Property Name="DistPart[5].SoftDep[3].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[3].productName" Type="Str">NI LabVIEW Real-Time NBFifo 2018</Property>
+				<Property Name="DistPart[5].SoftDep[3].upgradeCode" Type="Str">{EF4708F6-5A34-4DBA-B12B-79CC2004E20B}</Property>
+				<Property Name="DistPart[5].SoftDep[4].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[4].productName" Type="Str">NI Logos 19.0</Property>
+				<Property Name="DistPart[5].SoftDep[4].upgradeCode" Type="Str">{5E4A4CE3-4D06-11D4-8B22-006008C16337}</Property>
+				<Property Name="DistPart[5].SoftDep[5].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[5].productName" Type="Str">NI LabVIEW Web Server 2018 (64-bit)</Property>
+				<Property Name="DistPart[5].SoftDep[5].upgradeCode" Type="Str">{5F449D4C-83B9-492E-986B-6B85A29C431D}</Property>
+				<Property Name="DistPart[5].SoftDep[6].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[6].productName" Type="Str">NI mDNS Responder 19.0</Property>
+				<Property Name="DistPart[5].SoftDep[6].upgradeCode" Type="Str">{9607874B-4BB3-42CB-B450-A2F5EF60BA3B}</Property>
+				<Property Name="DistPart[5].SoftDep[7].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[7].productName" Type="Str">Math Kernel Libraries 2017</Property>
+				<Property Name="DistPart[5].SoftDep[7].upgradeCode" Type="Str">{699C1AC5-2CF2-4745-9674-B19536EBA8A3}</Property>
+				<Property Name="DistPart[5].SoftDep[8].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[8].productName" Type="Str">Math Kernel Libraries 2018</Property>
+				<Property Name="DistPart[5].SoftDep[8].upgradeCode" Type="Str">{33A780B9-8BDE-4A3A-9672-24778EFBEFC4}</Property>
+				<Property Name="DistPart[5].SoftDep[9].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[5].SoftDep[9].productName" Type="Str">NI VC2015 Runtime</Property>
+				<Property Name="DistPart[5].SoftDep[9].upgradeCode" Type="Str">{D42E7BAE-6589-4570-B6A3-3E28889392E7}</Property>
+				<Property Name="DistPart[5].SoftDepCount" Type="Int">11</Property>
+				<Property Name="DistPart[5].upgradeCode" Type="Str">{E4F03E30-E086-4EFC-B703-16299EC18DC7}</Property>
+				<Property Name="DistPart[6].flavorID" Type="Str">DefaultFull</Property>
+				<Property Name="DistPart[6].productID" Type="Str">{EBCDF6CD-76D1-48AF-A6D5-6721CDDA3C17}</Property>
+				<Property Name="DistPart[6].productName" Type="Str">NI TDM Excel Add-In 2019</Property>
+				<Property Name="DistPart[6].upgradeCode" Type="Str">{6D2EBDAF-6CCD-44F3-B767-4DF9E0F2037B}</Property>
+				<Property Name="DistPart[7].flavorID" Type="Str">_full_</Property>
+				<Property Name="DistPart[7].productID" Type="Str">{80E00212-803D-4D38-9AD5-4C3E79B8F67F}</Property>
+				<Property Name="DistPart[7].productName" Type="Str">NI Measurement &amp; Automation Explorer 19.0</Property>
+				<Property Name="DistPart[7].SoftDep[0].exclude" Type="Bool">false</Property>
+				<Property Name="DistPart[7].SoftDep[0].productName" Type="Str">NI Error Reporting</Property>
+				<Property Name="DistPart[7].SoftDep[0].upgradeCode" Type="Str">{42E818C6-2B08-4DE7-BD91-B0FD704C119A}</Property>
+				<Property Name="DistPart[7].SoftDepCount" Type="Int">1</Property>
+				<Property Name="DistPart[7].upgradeCode" Type="Str">{AE940F24-CC0E-4148-9A96-10FB04D9796D}</Property>
+				<Property Name="DistPartCount" Type="Int">8</Property>
+				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
+				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/MHC_Tracker_Software_v2.2.0.9_full_installer</Property>
+				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.2.0.9 installer</Property>
+				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
+				<Property Name="INST_productName" Type="Str">Tracker v2.2.0.9</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.43</Property>
+				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
+				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
+				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
+				<Property Name="MSI_arpContact" Type="Str">info@neurotar.com</Property>
+				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
+				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
+				<Property Name="MSI_distID" Type="Str">{0D693F8D-B07E-414B-ACB0-E8818C1D0C16}</Property>
+				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="MSI_osCheck" Type="Int">0</Property>
+				<Property Name="MSI_upgradeCode" Type="Str">{BAD88A56-B16F-4216-8F0A-AD3B3A707F7C}</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.2.0.9 software installation.</Property>
+				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
+				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
+				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
+				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
+				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
+				<Property Name="RegDestCount" Type="Int">1</Property>
+				<Property Name="Source[0].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[0].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.2.0.9.exe</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.2.0.9</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
+				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[0].tag" Type="Str">{D58C41A3-BA80-4D41-99CF-66179E5E1852}</Property>
+				<Property Name="Source[0].File[1].attributes" Type="Int">2</Property>
+				<Property Name="Source[0].File[1].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[1].name" Type="Str">Tracker_2.2.0.9.aliases</Property>
+				<Property Name="Source[0].File[1].tag" Type="Str">{DE9EBC34-69D7-4163-91A8-DAFF71D6968F}</Property>
+				<Property Name="Source[0].File[2].attributes" Type="Int">2</Property>
+				<Property Name="Source[0].File[2].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[2].name" Type="Str">Tracker_2.2.0.9.ini</Property>
+				<Property Name="Source[0].File[2].tag" Type="Str">{D6E41CD2-E470-4056-B5DE-42D102755E19}</Property>
+				<Property Name="Source[0].File[3].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[3].name" Type="Str">Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
+				<Property Name="Source[0].File[3].unlock" Type="Bool">true</Property>
+				<Property Name="Source[0].File[4].attributes" Type="Int">1</Property>
+				<Property Name="Source[0].File[4].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[4].name" Type="Str">LICENSE.rtf</Property>
+				<Property Name="Source[0].File[4].Shortcut[0].destIndex" Type="Int">0</Property>
+				<Property Name="Source[0].File[4].Shortcut[0].name" Type="Str">LICENSE</Property>
+				<Property Name="Source[0].File[4].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage</Property>
+				<Property Name="Source[0].File[4].ShortcutCount" Type="Int">1</Property>
+				<Property Name="Source[0].File[4].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].File[5].attributes" Type="Int">1</Property>
+				<Property Name="Source[0].File[5].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[5].name" Type="Str">Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
+				<Property Name="Source[0].File[5].tag" Type="Ref">/My Computer/Support/Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
+				<Property Name="Source[0].File[6].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
+				<Property Name="Source[0].File[6].name" Type="Str">Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
+				<Property Name="Source[0].File[6].tag" Type="Ref">/My Computer/Support/Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
+				<Property Name="Source[0].FileCount" Type="Int">6</Property>
+				<Property Name="Source[0].name" Type="Str">Tracker v2.2.0.9</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.2.0.9</Property>
+				<Property Name="Source[0].type" Type="Str">EXE</Property>
+				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Tracker_v2_packaged" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
+				<Property Name="NIPKG_license" Type="Ref"></Property>
+				<Property Name="NIPKG_releaseNotes" Type="Str"></Property>
+				<Property Name="PKG_actions.Count" Type="Int">1</Property>
+				<Property Name="PKG_actions[0].Arguments" Type="Str"></Property>
+				<Property Name="PKG_actions[0].NIPKG.HideConsole" Type="Bool">false</Property>
+				<Property Name="PKG_actions[0].NIPKG.IgnoreErrors" Type="Bool">false</Property>
+				<Property Name="PKG_actions[0].NIPKG.Schedule" Type="Str">post</Property>
+				<Property Name="PKG_actions[0].NIPKG.Step" Type="Str">install</Property>
+				<Property Name="PKG_actions[0].NIPKG.Target.Child" Type="Ref"></Property>
+				<Property Name="PKG_actions[0].NIPKG.Target.Destination" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
+				<Property Name="PKG_actions[0].NIPKG.Target.Source" Type="Ref"></Property>
+				<Property Name="PKG_actions[0].NIPKG.Wait" Type="Bool">true</Property>
+				<Property Name="PKG_actions[0].Type" Type="Str">NIPKG.Executable</Property>
+				<Property Name="PKG_autoIncrementBuild" Type="Bool">true</Property>
+				<Property Name="PKG_autoSelectDeps" Type="Bool">true</Property>
+				<Property Name="PKG_buildNumber" Type="Int">1</Property>
+				<Property Name="PKG_buildSpecName" Type="Str">Tracker_v2_packaged</Property>
+				<Property Name="PKG_dependencies.Count" Type="Int">3</Property>
+				<Property Name="PKG_dependencies[0].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[0].MinVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[0].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[0].NIPKG.DisplayName" Type="Str">NI LabVIEW 2018 (64-bit) Runtime</Property>
+				<Property Name="PKG_dependencies[0].Package.Name" Type="Str">ni-labview-2018-runtime-engine</Property>
+				<Property Name="PKG_dependencies[0].Package.Section" Type="Str">Programming Environments</Property>
+				<Property Name="PKG_dependencies[0].Package.Synopsis" Type="Str">NI LabVIEW 2018 (64-bit) Runtime provides libraries and other files necessary to execute LabVIEW 2018-built applications and shared libraries. Includes NI Reports, 3D graph support, and a browser plug-in that enables clients to view and control front panels remotely using a browser.</Property>
+				<Property Name="PKG_dependencies[0].Relationship" Type="Str">None</Property>
+				<Property Name="PKG_dependencies[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_dependencies[1].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[1].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[1].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[1].MinVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[1].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[1].NIPKG.DisplayName" Type="Str">NI-VISA Runtime</Property>
+				<Property Name="PKG_dependencies[1].Package.Name" Type="Str">ni-visa-runtime</Property>
+				<Property Name="PKG_dependencies[1].Package.Section" Type="Str">Drivers</Property>
+				<Property Name="PKG_dependencies[1].Package.Synopsis" Type="Str">NI-VISA provides an API for controlling USB, TCPIP, GPIB, Serial, PXI, and other types of instruments.</Property>
+				<Property Name="PKG_dependencies[1].Relationship" Type="Str">None</Property>
+				<Property Name="PKG_dependencies[1].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_dependencies[2].Enhanced" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[2].MaxVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[2].MaxVersionInclusive" Type="Bool">false</Property>
+				<Property Name="PKG_dependencies[2].MinVersion" Type="Str"></Property>
+				<Property Name="PKG_dependencies[2].MinVersionType" Type="Str">Inclusive</Property>
+				<Property Name="PKG_dependencies[2].NIPKG.DisplayName" Type="Str">NI-Serial Runtime</Property>
+				<Property Name="PKG_dependencies[2].Package.Name" Type="Str">ni-serial-runtime</Property>
+				<Property Name="PKG_dependencies[2].Package.Section" Type="Str">Drivers</Property>
+				<Property Name="PKG_dependencies[2].Package.Synopsis" Type="Str">NI-Serial support for National Instruments RS-232 and RS-485 Hardware.</Property>
+				<Property Name="PKG_dependencies[2].Relationship" Type="Str">None</Property>
+				<Property Name="PKG_dependencies[2].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_description" Type="Str"></Property>
+				<Property Name="PKG_destinations.Count" Type="Int">2</Property>
+				<Property Name="PKG_destinations[0].ID" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
+				<Property Name="PKG_destinations[0].Subdir.Directory" Type="Str">Tracker_Drivers</Property>
+				<Property Name="PKG_destinations[0].Subdir.Parent" Type="Str">root_7</Property>
+				<Property Name="PKG_destinations[0].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_destinations[1].ID" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
+				<Property Name="PKG_destinations[1].Subdir.Directory" Type="Str">Tracker_v2</Property>
+				<Property Name="PKG_destinations[1].Subdir.Parent" Type="Str">root_5</Property>
+				<Property Name="PKG_destinations[1].Type" Type="Str">Subdir</Property>
+				<Property Name="PKG_displayName" Type="Str">Mobile HomeCage installation package</Property>
+				<Property Name="PKG_displayVersion" Type="Str"></Property>
+				<Property Name="PKG_homepage" Type="Str"></Property>
+				<Property Name="PKG_lvrteTracking" Type="Bool">false</Property>
+				<Property Name="PKG_maintainer" Type="Str">Neurotar Oy &lt;&gt;</Property>
+				<Property Name="PKG_output" Type="Path">../builds/NI_AB_PROJECTNAME/Tracker_v2_packaged</Property>
+				<Property Name="PKG_output.Type" Type="Str">relativeToCommon</Property>
+				<Property Name="PKG_packageName" Type="Str">trackerv2</Property>
+				<Property Name="PKG_ProviderVersion" Type="Int">1810</Property>
+				<Property Name="PKG_section" Type="Str">Application Software</Property>
+				<Property Name="PKG_shortcuts.Count" Type="Int">1</Property>
+				<Property Name="PKG_shortcuts[0].Destination" Type="Str">root_8</Property>
+				<Property Name="PKG_shortcuts[0].Name" Type="Str">Tracker_2.1.9.7</Property>
+				<Property Name="PKG_shortcuts[0].Path" Type="Path">Tracker_v2</Property>
+				<Property Name="PKG_shortcuts[0].Target.Child" Type="Str">{E8D45838-95BF-4EBC-9AFE-A82FB5E09721}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Destination" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
+				<Property Name="PKG_shortcuts[0].Target.Source" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
+				<Property Name="PKG_shortcuts[0].Type" Type="Str">NIPKG</Property>
+				<Property Name="PKG_sources.Count" Type="Int">2</Property>
+				<Property Name="PKG_sources[0].Destination" Type="Str">{4046F7C4-EC55-4CAB-8799-05D63145A4C3}</Property>
+				<Property Name="PKG_sources[0].ID" Type="Ref">/My Computer/Build Specifications/Tracker v2.1.9.10</Property>
+				<Property Name="PKG_sources[0].Type" Type="Str">EXE Build</Property>
+				<Property Name="PKG_sources[1].Destination" Type="Str">{1AA7BD4F-F2A4-469A-9869-B3B9BBD2C0E9}</Property>
+				<Property Name="PKG_sources[1].ID" Type="Ref"></Property>
+				<Property Name="PKG_sources[1].Type" Type="Str">Folder</Property>
+				<Property Name="PKG_synopsis" Type="Str">Tracker_v2</Property>
+				<Property Name="PKG_version" Type="Str">1.0.0</Property>
 			</Item>
 		</Item>
 	</Item>
