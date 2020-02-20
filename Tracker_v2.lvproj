@@ -1587,75 +1587,9 @@
 				<Property Name="Source[0].File[3].tag" Type="Ref">/My Computer/Support/Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
 				<Property Name="Source[0].FileCount" Type="Int">4</Property>
 				<Property Name="Source[0].name" Type="Str">Tracker v2.2.0.0b0</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.2.0.9</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.2.0.10 beta 1</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
-			</Item>
-			<Item Name="Tracker v2.2.0.9" Type="EXE">
-				<Property Name="App_copyErrors" Type="Bool">true</Property>
-				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
-				<Property Name="App_INI_aliasGUID" Type="Str">{DE9EBC34-69D7-4163-91A8-DAFF71D6968F}</Property>
-				<Property Name="App_INI_GUID" Type="Str">{D6E41CD2-E470-4056-B5DE-42D102755E19}</Property>
-				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.certificate" Type="Str">Neurotar Ltd</Property>
-				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com</Property>
-				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
-				<Property Name="Bld_buildCacheID" Type="Str">{7666865B-0144-4218-B29C-A5B82F802F04}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.2.0.9</Property>
-				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
-				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
-				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.9</Property>
-				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
-				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
-				<Property Name="Bld_previewCacheID" Type="Str">{3E48C151-966E-4239-AC30-D2CADBDCFFFA}</Property>
-				<Property Name="Bld_version.build" Type="Int">9</Property>
-				<Property Name="Bld_version.major" Type="Int">2</Property>
-				<Property Name="Bld_version.minor" Type="Int">2</Property>
-				<Property Name="Destination[0].destName" Type="Str">Tracker_2.2.0.9.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.9/Tracker_2.2.0.9.exe</Property>
-				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
-				<Property Name="Destination[0].type" Type="Str">App</Property>
-				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.9</Property>
-				<Property Name="DestinationCount" Type="Int">2</Property>
-				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons and Credits/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{F2766622-5C45-47B7-AF58-A41BD302EF3E}</Property>
-				<Property Name="Source[0].type" Type="Str">Container</Property>
-				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
-				<Property Name="Source[1].type" Type="Str">VI</Property>
-				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
-				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
-				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/README.md</Property>
-				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
-				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
-				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Support/Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
-				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Tracker.lvlib/FP_Tracker.vi</Property>
-				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
-				<Property Name="Source[8].type" Type="Str">VI</Property>
-				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/NI_AALBase.lvlib</Property>
-				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
-				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
-				<Property Name="Source[9].type" Type="Str">Library</Property>
-				<Property Name="SourceCount" Type="Int">10</Property>
-				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.2.0.9</Property>
-				<Property Name="TgtF_internalName" Type="Str">Tracker v2.2.0.9</Property>
-				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Neurotar Oy</Property>
-				<Property Name="TgtF_productName" Type="Str">Tracker v2.2.0.9</Property>
-				<Property Name="TgtF_targetfileGUID" Type="Str">{D58C41A3-BA80-4D41-99CF-66179E5E1852}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.2.0.9.exe</Property>
 			</Item>
 			<Item Name="Tracker v2.2.0.9 installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Neurotar</Property>
@@ -1806,9 +1740,78 @@
 				<Property Name="Source[0].File[6].tag" Type="Ref">/My Computer/Support/Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
 				<Property Name="Source[0].FileCount" Type="Int">6</Property>
 				<Property Name="Source[0].name" Type="Str">Tracker v2.2.0.9</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.2.0.9</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.2.0.10 beta 1</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Tracker v2.2.0.10 beta 1" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{DE9EBC34-69D7-4163-91A8-DAFF71D6968F}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{D6E41CD2-E470-4056-B5DE-42D102755E19}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="App_winsec.certificate" Type="Str">Neurotar Ltd</Property>
+				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com</Property>
+				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{7666865B-0144-4218-B29C-A5B82F802F04}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.2.0.10 beta 1</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.10b1</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{3E48C151-966E-4239-AC30-D2CADBDCFFFA}</Property>
+				<Property Name="Bld_version.build" Type="Int">10</Property>
+				<Property Name="Bld_version.major" Type="Int">2</Property>
+				<Property Name="Bld_version.minor" Type="Int">2</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker_2.2.0.10b1.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.10b1/Tracker_2.2.0.10b1.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.10b1</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons and Credits/orange_mouse_trackericon_256x256.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{5F8A0B2A-750E-46FC-9DEC-0A4A59F0610D}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Support/README.rtf</Property>
+				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
+				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/README.md</Property>
+				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
+				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[7].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[7].itemID" Type="Ref">/My Computer/Support/Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
+				<Property Name="Source[7].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[8].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Tracker.lvlib/FP_Tracker.vi</Property>
+				<Property Name="Source[8].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[8].type" Type="Str">VI</Property>
+				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[9].itemID" Type="Ref">/My Computer/NI_AALBase.lvlib</Property>
+				<Property Name="Source[9].Library.allowMissingMembers" Type="Bool">true</Property>
+				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="Source[9].type" Type="Str">Library</Property>
+				<Property Name="SourceCount" Type="Int">11</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.2.0.10 beta 1</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tracker v2.2.0.10 beta 1</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2019 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker v2.2.0.10 beta 1</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{D58C41A3-BA80-4D41-99CF-66179E5E1852}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.2.0.10b1.exe</Property>
 			</Item>
 			<Item Name="Tracker_v2_packaged" Type="{E661DAE2-7517-431F-AC41-30807A3BDA38}">
 				<Property Name="NIPKG_license" Type="Ref"></Property>

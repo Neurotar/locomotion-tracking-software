@@ -1,6 +1,6 @@
 [Researcher >>> Defaults]
 Default User = "0,000000000000000"
-VISA Resource Name = ""
+VISA Resource Name = "ASRL5::INSTR"
 Histogram parameters.max = "300,000000000000000"
 Histogram parameters.min = "0,000000000000000"
 Histogram parameters.# bins = "10"
@@ -15,7 +15,7 @@ Data post-processing.Length = "31"
 Data post-processing.Order = "3"
 Stop at = "0,000000000000000"
 "Stop at" enabled = "FALSE"
-Default save folder path = ""
+Default save folder path = "/M/"
 Acquisition FPS = "Optimal"
 
 [Researcher >>> Geometry]

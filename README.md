@@ -13,8 +13,8 @@ Mobile HomeCage motion tracking software for recording mouse activity
 in the Mobile HomeCage devices.
 Copyright 2020 Neurotar Oy Ltd
 
-This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU Affero General Public License as published
+This program is free software: you can redistribute it and/or modify
 by the Free Software Foundation, either version 3 of the License, or
 any later version.
 
