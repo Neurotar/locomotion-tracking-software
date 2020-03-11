@@ -87,6 +87,7 @@
 		<Item Name="GET_2D_Data_Binning_(location).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Data_Binning_(location).vi"/>
 		<Item Name="GET_2D_Histo_bins_(all_types).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Histo_bins_(all_types).vi"/>
 		<Item Name="GET_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Available_TTL_outputs_array.vi"/>
+		<Item Name="GET_Click_Coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GET_Click_Coords.vi"/>
 		<Item Name="GET_Decision_about_TTL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL.vi"/>
 		<Item Name="GET_Decision_about_TTL_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL_2.vi"/>
 		<Item Name="GET_Decision_about_TTL_and_Fire.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL_and_Fire.vi"/>
