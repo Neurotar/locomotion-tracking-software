@@ -1899,7 +1899,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.2.0.10 beta 1 installer (no NI MAX)</Property>
 				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="INST_productName" Type="Str">Tracker v2.2.0.10 beta 1</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.44</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.45</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
@@ -1907,7 +1907,6 @@
 				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
 				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
 				<Property Name="MSI_distID" Type="Str">{9D0E901B-CF03-4CA6-94B3-9D92BD4CF463}</Property>
-				<Property Name="MSI_licenseID" Type="Ref"></Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{C3A5D717-D26E-47A6-9E6C-7BBF1A08F2C6}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.2.0.10 beta 1 software installation.</Property>
