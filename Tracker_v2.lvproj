@@ -754,6 +754,9 @@
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
 			<Item Name="Event Messenger-a[.](c(dbl,str)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-a[.](c(dbl,str)).lvlib"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Network_comm_test_1" Type="EXE">
@@ -1811,8 +1814,6 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.2.0.10b1.exe</Property>
 			</Item>
 			<Item Name="Tracker v2.2.0.10 beta 1 installer (no NI MAX)" Type="Installer">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2018/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2018/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
 				<Property Name="Destination[0].name" Type="Str">Neurotar</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
