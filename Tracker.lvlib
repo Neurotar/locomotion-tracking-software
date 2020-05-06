@@ -334,6 +334,7 @@
 	</Item>
 	<Item Name="Settings" Type="Folder">
 		<Item Name="DATA_Reorder_after_condition_modification.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/DATA_Reorder_after_condition_modification.vi"/>
+		<Item Name="Get Abs Manual File Path.vi" Type="VI" URL="../SubVi&apos;s/Settings/Get Abs Manual File Path.vi"/>
 		<Item Name="Get File Version Info.vi" Type="VI" URL="../SubVi&apos;s/Settings/Get File Version Info.vi"/>
 		<Item Name="GET_Initial_Conditions_representation_2.vi" Type="VI" URL="../SubVi&apos;s/Settings/GET_Initial_Conditions_representation_2.vi"/>
 		<Item Name="HW_Configure_port(s).vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Configure_port(s).vi"/>
