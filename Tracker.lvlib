@@ -10,7 +10,7 @@
 
 </Property>
 	<Item Name="Calc and data manipulation" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Item Name="CALC_Angle_from_center_towards_mouse_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_from_center_towards_mouse_(arr).vi"/>
 		<Item Name="CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Angle_of_the_rotation_of_the_cage_itself_(arr).vi"/>
 		<Item Name="CALC_Bridge_and_clamp_swap_(arr).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Bridge_and_clamp_swap_(arr).vi"/>
@@ -33,7 +33,6 @@
 		<Item Name="CHECK_If_TTL_should_be_reset.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_If_TTL_should_be_reset.vi"/>
 		<Item Name="CHECK_Particular_Condition.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Particular_Condition.vi"/>
 		<Item Name="CHECK_Particular_SubCondition.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Particular_SubCondition.vi"/>
-		<Item Name="DATA_Reorder_after_condition_modification.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/DATA_Reorder_after_condition_modification.vi"/>
 		<Item Name="FL_Adjust_raw_magnets_coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Adjust_raw_magnets_coords.vi"/>
 		<Item Name="FL_Calc_speed_on_the_fly.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calc_speed_on_the_fly.vi"/>
 		<Item Name="FL_Calculate_Coordinates.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Calculate_Coordinates.vi"/>
@@ -88,6 +87,7 @@
 		<Item Name="GET_2D_Data_Binning_(location).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Data_Binning_(location).vi"/>
 		<Item Name="GET_2D_Histo_bins_(all_types).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Histo_bins_(all_types).vi"/>
 		<Item Name="GET_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Available_TTL_outputs_array.vi"/>
+		<Item Name="GET_Click_Coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/GET_Click_Coords.vi"/>
 		<Item Name="GET_Decision_about_TTL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL.vi"/>
 		<Item Name="GET_Decision_about_TTL_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL_2.vi"/>
 		<Item Name="GET_Decision_about_TTL_and_Fire.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Decision_about_TTL_and_Fire.vi"/>
@@ -104,16 +104,19 @@
 		<Item Name="GET_Zone_number_(offline).vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_Zone_number_(offline).vi"/>
 		<Item Name="MAT_Get_HB0_filter_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_Get_HB0_filter_coefficients.vi"/>
 		<Item Name="MAT_HB0_filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/MAT_HB0_filter.vi"/>
-		<Item Name="SW_Add_or_Modify_Reward_Condition.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Add_or_Modify_Reward_Condition.vi"/>
 		<Item Name="SW_Calc_speed.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed.vi"/>
 		<Item Name="SW_Calc_speed_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Calc_speed_2.vi"/>
 		<Item Name="SW_Check_segments_parameters_2.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Check_segments_parameters_2.vi"/>
 		<Item Name="SW_Debounce_filter_U16.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Debounce_filter_U16.vi"/>
-		<Item Name="SW_Generate_SubCondition_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_SubCondition_text.vi"/>
 		<Item Name="SW_Get_1D_Array_mean.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Get_1D_Array_mean.vi"/>
 		<Item Name="SW_SG_coefficients.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients.vi"/>
 		<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients_3-51.vi"/>
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
+		<Item Name="CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type_2.vi"/>
+	</Item>
+	<Item Name="Classes" Type="Folder">
+		<Item Name="Reward_Condition.lvclass" Type="LVClass" URL="../SubVi&apos;s/Classes/Reward_Condition/Reward_Condition.lvclass"/>
+		<Item Name="Reward_SubCondition.lvclass" Type="LVClass" URL="../SubVi&apos;s/Classes/Reward_SubCondition/Reward_SubCondition.lvclass"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">0</Property>
@@ -134,6 +137,7 @@
 		<Item Name="CTL_Condition_response_type_2.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Condition_response_type_2.ctl"/>
 		<Item Name="CTL_Condition_type.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Condition_type.ctl"/>
 		<Item Name="CTL_Conditions_Array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_Array.ctl"/>
+		<Item Name="CTL_Conditions_build_parameters_2.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_2.ctl"/>
 		<Item Name="CTL_Conditions_build_parameters_in.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_in.ctl"/>
 		<Item Name="CTL_Conditions_build_parameters_out.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_out.ctl"/>
 		<Item Name="CTL_Conditions_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_Cluster.ctl"/>
@@ -329,15 +333,23 @@
 		<Item Name="SW_Smooth_Image.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Smooth_Image.vi"/>
 	</Item>
 	<Item Name="Settings" Type="Folder">
+		<Item Name="DATA_Reorder_after_condition_modification.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/DATA_Reorder_after_condition_modification.vi"/>
+		<Item Name="Get Abs Manual File Path.vi" Type="VI" URL="../SubVi&apos;s/Settings/Get Abs Manual File Path.vi"/>
+		<Item Name="Get File Version Info.vi" Type="VI" URL="../SubVi&apos;s/Settings/Get File Version Info.vi"/>
+		<Item Name="GET_Initial_Conditions_representation_2.vi" Type="VI" URL="../SubVi&apos;s/Settings/GET_Initial_Conditions_representation_2.vi"/>
 		<Item Name="HW_Configure_port(s).vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Configure_port(s).vi"/>
 		<Item Name="HW_set_IO_ports.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports.vi"/>
 		<Item Name="HW_set_IO_ports_3-pos.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos.vi"/>
 		<Item Name="HW_set_IO_ports_3-pos_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos_2.vi"/>
 		<Item Name="HW_Timings_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Timings_Calibration.vi"/>
+		<Item Name="SW_Add_or_Modify_Reward_Condition.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Add_or_Modify_Reward_Condition.vi"/>
+		<Item Name="SW_Add_or_Modify_Reward_Condition_2.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Add_or_Modify_Reward_Condition_2.vi"/>
 		<Item Name="SW_Dispension_Calibration.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Dispension_Calibration.vi"/>
 		<Item Name="SW_Generate_Full_Condition(s)_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_Full_Condition(s)_text.vi"/>
+		<Item Name="SW_Generate_SubCondition_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_SubCondition_text.vi"/>
 		<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
 		<Item Name="SW_Init_Array_of_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Init_Array_of_Conditions.vi"/>
+		<Item Name="SW_Init_Array_of_Conditions_2.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Init_Array_of_Conditions_2.vi"/>
 		<Item Name="SW_Prepare_Conditions_Array_for_Saving.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Prepare_Conditions_Array_for_Saving.vi"/>
 		<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
 		<Item Name="SW_Set_Cage_and_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Cage_and_Recording_Settings.vi"/>
