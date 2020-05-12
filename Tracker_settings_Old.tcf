@@ -1,0 +1,26 @@
+[Users]
+Researcher = "c7a090a8e9b6e42526ec02324c83bdf6"
+
+[Defaults]
+Default User = 0
+Jump to tracking = FALSE
+VISA Resource Name = "Tracker"
+Data port OK = TRUE
+
+[Researcher]
+Amount of midfield segments = 2    
+Amount of border segments = 4    
+Center segment outer radius, mm = 30    
+Midfield segments outer radius, mm = 75    
+Cage diameter, mm = 180    
+Midfield segments starting angle = 0    
+Border segments starting angle = 0    
+IO ports configuration = "[12,1,1,0,0,0,0]"
+Bridge swap? = TRUE
+Bridge offset = -3.00
+Twisted neck = FALSE
+Offset H. = 0.00
+Name prefix = "SavedTrack"
+Stop at = 0.00
+"Stop at" enabled = FALSE
+Data filtering = 6
