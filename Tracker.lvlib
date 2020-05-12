@@ -224,6 +224,7 @@
 		<Item Name="SW_Prepare_TTL_activation_sequence.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Prepare_TTL_activation_sequence.vi"/>
 	</Item>
 	<Item Name="Misc" Type="Folder">
+		<Item Name="Error (IDL).vi" Type="VI" URL="../SubVi&apos;s/Error (IDL).vi"/>
 		<Item Name="FL_Check_TTL_firing_conditions.vi" Type="VI" URL="../SubVi&apos;s/FL_Check_TTL_firing_conditions.vi"/>
 		<Item Name="FL_DEC_split.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split.vi"/>
 		<Item Name="FL_Gen_Bins_for_RunLengths.vi" Type="VI" URL="../SubVi&apos;s/FL_Gen_Bins_for_RunLengths.vi"/>
