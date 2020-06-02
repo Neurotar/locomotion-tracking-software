@@ -759,6 +759,9 @@
 			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
 			<Item Name="Event Messenger-a[.](c(dbl,str)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-a[.](c(dbl,str)).lvlib"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Network_comm_test_1" Type="EXE">
@@ -2035,9 +2038,6 @@
 				<Property Name="App_INI_aliasGUID" Type="Str">{DE9EBC34-69D7-4163-91A8-DAFF71D6968F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{D6E41CD2-E470-4056-B5DE-42D102755E19}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
-				<Property Name="App_winsec.certificate" Type="Str">Neurotar Oy</Property>
-				<Property Name="App_winsec.description" Type="Str">https://www.neurotar.com</Property>
-				<Property Name="App_winsec.timestamp" Type="Str">http://timestamp.comodoca.com</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{7666865B-0144-4218-B29C-A5B82F802F04}</Property>
 				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.2.0.14</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
@@ -2058,7 +2058,7 @@
 				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/MHC_Tracker_v2.2.0.14</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons and Credits/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{68D178D7-EC43-41DF-8F25-CC9D1F98CCE5}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{8BF37B33-5BC9-47E9-A405-13B97A18A8D0}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -2119,7 +2119,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.2.0.14 installer (update only)</Property>
 				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="INST_productName" Type="Str">Tracker v2.2.0.14</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.56</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.58</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
@@ -2132,9 +2132,6 @@
 				<Property Name="MSI_upgradeCode" Type="Str">{DB844ED7-D6E4-43B6-AB82-F35F45F5EF65}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.2.0.14 software installation. Please note, that this is an update only installer.</Property>
 				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
-				<Property Name="MSI_winsec.certificate" Type="Str">Neurotar Oy</Property>
-				<Property Name="MSI_winsec.description" Type="Str">https://www.neurotar.com</Property>
-				<Property Name="MSI_winsec.timestamp" Type="Str">http://timestamp.comodoca.com/</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
 				<Property Name="RegDest[0].parentTag" Type="Str">2</Property>
