@@ -46,6 +46,7 @@
 			<Item Name="Plots_testing.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing.vi"/>
 			<Item Name="Plots_testing_2.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing_2.vi"/>
 			<Item Name="profile.csv" Type="Document" URL="../TestVI&apos;s/profile.csv"/>
+			<Item Name="Read_Cap_Sensor.vi" Type="VI" URL="../../InVigilo_III/Libraries/UI/Private API/Light Constructor/Read_Cap_Sensor.vi"/>
 			<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_1.vi"/>
 			<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_2.vi"/>
 			<Item Name="Simple_2D_AA_SS3_filter.vi" Type="VI" URL="../TestVI&apos;s/Simple_2D_AA_SS3_filter.vi"/>
