@@ -20,7 +20,7 @@
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="TestVI&apos;s" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="2D binning speed test.vi" Type="VI" URL="../TestVI&apos;s/2D binning speed test.vi"/>
 			<Item Name="2D_density_plot_test.vi" Type="VI" URL="../TestVI&apos;s/2D_density_plot_test.vi"/>
 			<Item Name="Camera_test.vi" Type="VI" URL="../TestVI&apos;s/Camera_test.vi"/>
@@ -46,7 +46,6 @@
 			<Item Name="Plots_testing.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing.vi"/>
 			<Item Name="Plots_testing_2.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing_2.vi"/>
 			<Item Name="profile.csv" Type="Document" URL="../TestVI&apos;s/profile.csv"/>
-			<Item Name="Read_Cap_Sensor.vi" Type="VI" URL="../../InVigilo_III/Libraries/UI/Private API/Light Constructor/Read_Cap_Sensor.vi"/>
 			<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_1.vi"/>
 			<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_2.vi"/>
 			<Item Name="Simple_2D_AA_SS3_filter.vi" Type="VI" URL="../TestVI&apos;s/Simple_2D_AA_SS3_filter.vi"/>
@@ -765,6 +764,48 @@
 			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
+			<Item Name="Capacitance sensor reader" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{7F7A505F-59D3-4C2E-BEE3-C5ECB7315636}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{EFCB7471-4F33-4811-A792-3B9890944DF2}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{DFEBE9B0-4A0A-4134-AA52-14BC22E75C42}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Capacitance sensor reader</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/Capacitance_sensor_reader</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{B65A4FBE-9918-4001-B9D6-C685A7848FAB}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">CapSensor.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/Capacitance_sensor_reader/CapSensor.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/Capacitance_sensor_reader/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons and Credits/Capacitor.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{53E92733-D792-476A-BBB4-E5314228AA5E}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.lvlib/CapSensing/FP_Read_Cap_Sensor.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Capacitance sensor reader</Property>
+				<Property Name="TgtF_internalName" Type="Str">Capacitance sensor reader</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">Capacitance sensor reader</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{7B9B41BE-396C-49C1-B2CE-259E7C458747}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">CapSensor.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
 			<Item Name="Network_comm_test_1" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{6A1EDB5E-8B69-461B-BF17-AEFBB83EF2DA}</Property>

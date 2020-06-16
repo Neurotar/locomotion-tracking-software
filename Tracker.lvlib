@@ -114,6 +114,11 @@
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
 		<Item Name="CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type_2.vi"/>
 	</Item>
+	<Item Name="CapSensing" Type="Folder">
+		<Item Name="CS_Gen_Save_Path.vi" Type="VI" URL="../SubVi&apos;s/CapSensing/CS_Gen_Save_Path.vi"/>
+		<Item Name="CS_Prepare_TDMS.vi" Type="VI" URL="../SubVi&apos;s/CapSensing/CS_Prepare_TDMS.vi"/>
+		<Item Name="FP_Read_Cap_Sensor.vi" Type="VI" URL="../SubVi&apos;s/CapSensing/FP_Read_Cap_Sensor.vi"/>
+	</Item>
 	<Item Name="Classes" Type="Folder">
 		<Item Name="Reward_Condition.lvclass" Type="LVClass" URL="../SubVi&apos;s/Classes/Reward_Condition/Reward_Condition.lvclass"/>
 		<Item Name="Reward_SubCondition.lvclass" Type="LVClass" URL="../SubVi&apos;s/Classes/Reward_SubCondition/Reward_SubCondition.lvclass"/>
