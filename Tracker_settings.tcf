@@ -32,7 +32,7 @@ Bridge H. offset = "0,000000000000000"
 Bridge V. offset = "0,000000000000000"
 Twisted neck = "FALSE"
 Alt. magn. orientation = "FALSE"
-Sensor board size = "Small"
+Sensor board size = "Large"
 
 [Researcher >>> IO parameters]
 IO general config. = "12"
@@ -42,7 +42,7 @@ IO 3 configuration = "0"
 IO 4 configuration = "0"
 Activate ext. RS-232 = "0"
 IO inversion config. = "0"
-Sync capability = "1"
+Sync capability = "0"
 
 [Researcher >>> Calibration]
 Timing calibration sw/hw = "1,000052454301858"
