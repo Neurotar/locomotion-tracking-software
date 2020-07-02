@@ -22,6 +22,7 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="Show Specific Track Argument--cluster.ctl" Type="VI" URL="../Show Specific Track Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -53,16 +54,18 @@
 			<Item Name="Load filelist.vi" Type="VI" URL="../Private API/Requests/Load filelist.vi"/>
 			<Item Name="Preprocess filelist.vi" Type="VI" URL="../Private API/Requests/Preprocess filelist.vi"/>
 			<Item Name="Show list of files.vi" Type="VI" URL="../Show list of files.vi"/>
+			<Item Name="Show Specific Track.vi" Type="VI" URL="../Show Specific Track.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Property Name="NI.SortType" Type="Int">3</Property>
+			<Item Name="TR_Load_TDMS_for_Repair.vi" Type="VI" URL="../Private API/Functions/TR_Load_TDMS_for_Repair.vi"/>
 			<Item Name="TR_Calc_Coordinates_Diff_R_Center_(offline).vi" Type="VI" URL="../Private API/Functions/TR_Calc_Coordinates_Diff_R_Center_(offline).vi"/>
 			<Item Name="TR_Calc_phi_theta_etc_2_(offline).vi" Type="VI" URL="../Private API/Functions/TR_Calc_phi_theta_etc_2_(offline).vi"/>
 			<Item Name="TR_Check_files_format.vi" Type="VI" URL="../Private API/Functions/TR_Check_files_format.vi"/>
 			<Item Name="TR_Fill_listbox.vi" Type="VI" URL="../Private API/Functions/TR_Fill_listbox.vi"/>
 			<Item Name="TR_Filter_magnets_coordinates_(offline).vi" Type="VI" URL="../Private API/Functions/TR_Filter_magnets_coordinates_(offline).vi"/>
 			<Item Name="TR_Load_raw_data_from_TDMS.vi" Type="VI" URL="../Private API/Functions/TR_Load_raw_data_from_TDMS.vi"/>
-			<Item Name="TR_Load_TDMS_for_Repair.vi" Type="VI" URL="../Private API/Functions/TR_Load_TDMS_for_Repair.vi"/>
+			<Item Name="TR_Load_TDMS_parameters.vi" Type="VI" URL="../../../SubVi&apos;s/Save and Load/TR_Load_TDMS_parameters.vi"/>
 			<Item Name="TR_Post-process_timestamps.vi" Type="VI" URL="../Private API/Functions/TR_Post-process_timestamps.vi"/>
 		</Item>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
