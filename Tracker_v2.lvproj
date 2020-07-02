@@ -33,6 +33,7 @@
 			<Item Name="Data_filtering_test_2.vi" Type="VI" URL="../TestVI&apos;s/Data_filtering_test_2.vi"/>
 			<Item Name="Data_loading_speed.xlsx" Type="Document" URL="../TestVI&apos;s/Data_loading_speed.xlsx"/>
 			<Item Name="Data_stream_read_test.vi" Type="VI" URL="../TestVI&apos;s/Data_stream_read_test.vi"/>
+			<Item Name="DLL-based calc.vi" Type="VI" URL="../TestVI&apos;s/DLL-based calc.vi"/>
 			<Item Name="dmc.lvlps" Type="Document" URL="../TestVI&apos;s/dmc.lvlps"/>
 			<Item Name="dmc_test.vi" Type="VI" URL="../TestVI&apos;s/dmc_test.vi"/>
 			<Item Name="Hardware_auto_detection_test.vi" Type="VI" URL="../TestVI&apos;s/Hardware_auto_detection_test.vi"/>
@@ -842,6 +843,7 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Calculus.dll" Type="Document" URL="../TestVI&apos;s/Calculus.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">

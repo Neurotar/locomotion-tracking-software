@@ -57,6 +57,7 @@
 		<Item Name="Functions" Type="Folder">
 			<Item Name="TR_Check_files_format.vi" Type="VI" URL="../Private API/Functions/TR_Check_files_format.vi"/>
 			<Item Name="TR_Fill_listbox.vi" Type="VI" URL="../Private API/Functions/TR_Fill_listbox.vi"/>
+			<Item Name="TR_Load_raw_data_from_TDMS.vi" Type="VI" URL="../Private API/Functions/TR_Load_raw_data_from_TDMS.vi"/>
 			<Item Name="TR_Load_TDMS_for_Repair.vi" Type="VI" URL="../Private API/Functions/TR_Load_TDMS_for_Repair.vi"/>
 		</Item>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
