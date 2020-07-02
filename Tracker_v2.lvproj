@@ -4,6 +4,7 @@
 	<Property Name="NI.LV.All.SourceOnly" Type="Bool">true</Property>
 	<Property Name="NI.Project.Description" Type="Str"></Property>
 	<Item Name="My Computer" Type="My Computer">
+		<Property Name="NI.SortType" Type="Int">3</Property>
 		<Property Name="server.app.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.control.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="server.tcp.enabled" Type="Bool">false</Property>
@@ -77,6 +78,9 @@
 		<Item Name="Tracks Repair Module" Type="Folder">
 			<Item Name="Tracks Repair.lvlib" Type="Library" URL="../Libraries/Tracks Repair/Tracks Repair.lvlib"/>
 		</Item>
+		<Item Name="Testers" Type="Folder">
+			<Item Name="Test Tracks Repair API.vi" Type="VI" URL="../Libraries/Tracks Repair/Test Tracks Repair API.vi"/>
+		</Item>
 		<Item Name="DigitalOutTask_0" Type="NI-DAQmx Task">
 			<Property Name="\0\ChanType" Type="Str">Digital Output</Property>
 			<Property Name="\0\DO.InvertLines" Type="Str">0</Property>
@@ -93,7 +97,6 @@
 		<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
 		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
-		<Item Name="Test Tracks Repair API.vi" Type="VI" URL="../Libraries/Tracks Repair/Test Tracks Repair API.vi"/>
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
