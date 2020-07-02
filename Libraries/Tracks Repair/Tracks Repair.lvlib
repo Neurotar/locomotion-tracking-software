@@ -55,10 +55,15 @@
 			<Item Name="Show list of files.vi" Type="VI" URL="../Show list of files.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="TR_Calc_Coordinates_Diff_R_Center_(offline).vi" Type="VI" URL="../Private API/Functions/TR_Calc_Coordinates_Diff_R_Center_(offline).vi"/>
+			<Item Name="TR_Calc_phi_theta_etc_2_(offline).vi" Type="VI" URL="../Private API/Functions/TR_Calc_phi_theta_etc_2_(offline).vi"/>
 			<Item Name="TR_Check_files_format.vi" Type="VI" URL="../Private API/Functions/TR_Check_files_format.vi"/>
 			<Item Name="TR_Fill_listbox.vi" Type="VI" URL="../Private API/Functions/TR_Fill_listbox.vi"/>
+			<Item Name="TR_Filter_magnets_coordinates_(offline).vi" Type="VI" URL="../Private API/Functions/TR_Filter_magnets_coordinates_(offline).vi"/>
 			<Item Name="TR_Load_raw_data_from_TDMS.vi" Type="VI" URL="../Private API/Functions/TR_Load_raw_data_from_TDMS.vi"/>
 			<Item Name="TR_Load_TDMS_for_Repair.vi" Type="VI" URL="../Private API/Functions/TR_Load_TDMS_for_Repair.vi"/>
+			<Item Name="TR_Post-process_timestamps.vi" Type="VI" URL="../Private API/Functions/TR_Post-process_timestamps.vi"/>
 		</Item>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
 	</Item>
