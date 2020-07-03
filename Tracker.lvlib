@@ -130,6 +130,7 @@
 		<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed_(arr).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed_(arr).ctl"/>
+		<Item Name="CTL_Basic_cage_settings.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Basic_cage_settings.ctl"/>
 		<Item Name="CTL_Bounding_Rectangle_of_Segments.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Bounding_Rectangle_of_Segments.ctl"/>
 		<Item Name="CTL_Cage_Coords.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords.ctl"/>
 		<Item Name="CTL_Cage_Coords_(arrays).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords_(arrays).ctl"/>
