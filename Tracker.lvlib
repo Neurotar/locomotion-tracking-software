@@ -142,6 +142,7 @@
 		<Item Name="CTL_Condition_response_type.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Condition_response_type.ctl"/>
 		<Item Name="CTL_Condition_response_type_2.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Condition_response_type_2.ctl"/>
 		<Item Name="CTL_Condition_type.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Condition_type.ctl"/>
+		<Item Name="CTL_Conditions_All_Presets_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_All_Presets_Cluster.ctl"/>
 		<Item Name="CTL_Conditions_Array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_Array.ctl"/>
 		<Item Name="CTL_Conditions_build_parameters_2.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_2.ctl"/>
 		<Item Name="CTL_Conditions_build_parameters_in.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_in.ctl"/>
