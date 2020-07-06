@@ -1177,3 +1177,11 @@ FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
 COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
 IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
 CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+dotNet decompression
+--------------------
+Thanks Phillip Brooks and candidus for excellent explanation and bug workaround.
+https://forums.ni.com/t5/Example-Code/GZIP-compress-uncompress-of-string-using-NET/ta-p/3507908?profile.language=en
+https://lavag.org/profile/15449-candidus/
