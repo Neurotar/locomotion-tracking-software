@@ -101,6 +101,7 @@
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
+		<Item Name="CTL_Settings_parameter_group_enum.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_parameter_group_enum.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -843,9 +844,6 @@
 			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
 			<Item Name="Event Messenger-a[.](c(dbl,str)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-a[.](c(dbl,str)).lvlib"/>
 			<Item Name="Calculus.dll" Type="Document" URL="../TestVI&apos;s/Calculus.dll"/>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>

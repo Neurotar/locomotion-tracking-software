@@ -148,6 +148,7 @@
 		<Item Name="CTL_Conditions_build_parameters_in.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_in.ctl"/>
 		<Item Name="CTL_Conditions_build_parameters_out.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_out.ctl"/>
 		<Item Name="CTL_Conditions_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_Cluster.ctl"/>
+		<Item Name="CTL_Conditions_GZippped_string.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_GZippped_string.ctl"/>
 		<Item Name="CTL_Control_States.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Control_States.ctl"/>
 		<Item Name="CTL_Controls_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Controls_References.ctl"/>
 		<Item Name="CTL_Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Boolean_Indicator.ctl"/>
@@ -386,5 +387,6 @@
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
+	<Item Name="SW_Load_parameter_group_3.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group_3.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
