@@ -188,6 +188,7 @@
 		<Item Name="CTL_Set_Adv_Stim.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Adv_Stim.ctl"/>
 		<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Clear_button.ctl"/>
 		<Item Name="CTL_Settings_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_cluster.ctl"/>
+		<Item Name="CTL_Settings_parameter_group_enum.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_parameter_group_enum.ctl"/>
 		<Item Name="CTL_Settings_parameters_groups.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_parameters_groups.ctl"/>
 		<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
 		<Item Name="CTL_States_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_States_cluster.ctl"/>
@@ -270,6 +271,7 @@
 		<Item Name="PR_Write_tracker_stream_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Recording/PR_Write_tracker_stream_to_TDMS.vi"/>
 	</Item>
 	<Item Name="Save and Load" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally.vi"/>
 		<Item Name="FL_Preprocess_and_save_incrementally_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally_TDMS.vi"/>
 		<Item Name="SW_Convert_data_from_old_format_save.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Convert_data_from_old_format_save.vi"/>
@@ -283,6 +285,7 @@
 		<Item Name="SW_Load_frames_from_XML_GL.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_frames_from_XML_GL.vi"/>
 		<Item Name="SW_Load_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group.vi"/>
 		<Item Name="SW_Load_parameter_group_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group_2.vi"/>
+		<Item Name="SW_Load_parameter_group_3.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group_3.vi"/>
 		<Item Name="SW_Load_proc_data_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_proc_data_from_TDMS.vi"/>
 		<Item Name="SW_Load_raw_data_from_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_raw_data_from_TDMS.vi"/>
 		<Item Name="SW_Load_settings_file.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_file.vi"/>
@@ -296,6 +299,7 @@
 		<Item Name="SW_Save_proc_data_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_proc_data_to_TDMS.vi"/>
 		<Item Name="SW_Save_Settings.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings.vi"/>
 		<Item Name="SW_Save_Settings_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings_2.vi"/>
+		<Item Name="SW_Shape_Conditions_Array_after_Loading.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Shape_Conditions_Array_after_Loading.vi"/>
 	</Item>
 	<Item Name="Segmented plot and mouse" Type="Folder">
 		<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/AL_Rotate_mouse_coords.vi"/>
@@ -363,7 +367,6 @@
 		<Item Name="SW_Prepare_Conditions_Array_for_Saving.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Prepare_Conditions_Array_for_Saving.vi"/>
 		<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
 		<Item Name="SW_Set_Cage_and_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Cage_and_Recording_Settings.vi"/>
-		<Item Name="SW_Shape_Conditions_Array_after_Loading.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Shape_Conditions_Array_after_Loading.vi"/>
 	</Item>
 	<Item Name="UI interacton" Type="Folder">
 		<Item Name="SW_Adjust_UI_draw_interwal.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Adjust_UI_draw_interwal.vi"/>
@@ -387,6 +390,5 @@
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
-	<Item Name="SW_Load_parameter_group_3.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_parameter_group_3.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
