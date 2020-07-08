@@ -22,7 +22,7 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
-				<Item Name="Show Specific Track Argument--cluster.ctl" Type="VI" URL="../Show Specific Track Argument--cluster.ctl"/>
+				<Item Name="Load Specific Track Argument--cluster.ctl" Type="VI" URL="../Load Specific Track Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -51,10 +51,10 @@
 		</Item>
 		<Item Name="Requests" Type="Folder">
 			<Item Name="Open folder.vi" Type="VI" URL="../Private API/Requests/Open folder.vi"/>
+			<Item Name="Load Specific Track.vi" Type="VI" URL="../Load Specific Track.vi"/>
 			<Item Name="Load filelist.vi" Type="VI" URL="../Private API/Requests/Load filelist.vi"/>
 			<Item Name="Preprocess filelist.vi" Type="VI" URL="../Private API/Requests/Preprocess filelist.vi"/>
 			<Item Name="Show list of files.vi" Type="VI" URL="../Show list of files.vi"/>
-			<Item Name="Show Specific Track.vi" Type="VI" URL="../Show Specific Track.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
