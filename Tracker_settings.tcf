@@ -57,3 +57,6 @@ Disp. calibration info 2.Channel = "3"
 Disp. calibration info 2.Speed, µl per ms = "1,000000000000000"
 Disp. calibration info 3.Channel = "4"
 Disp. calibration info 3.Speed, µl per ms = "1,000000000000000"
+
+[Researcher >>> Conditions presets array]
+GZipped XML string = ""

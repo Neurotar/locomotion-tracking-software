@@ -23,6 +23,7 @@
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Load Specific Track Argument--cluster.ctl" Type="VI" URL="../Load Specific Track Argument--cluster.ctl"/>
+				<Item Name="Show Specific Track Argument--cluster.ctl" Type="VI" URL="../Show Specific Track Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -52,6 +53,7 @@
 		<Item Name="Requests" Type="Folder">
 			<Item Name="Open folder.vi" Type="VI" URL="../Private API/Requests/Open folder.vi"/>
 			<Item Name="Load Specific Track.vi" Type="VI" URL="../Load Specific Track.vi"/>
+			<Item Name="Show Specific Track.vi" Type="VI" URL="../Show Specific Track.vi"/>
 			<Item Name="Load filelist.vi" Type="VI" URL="../Private API/Requests/Load filelist.vi"/>
 			<Item Name="Preprocess filelist.vi" Type="VI" URL="../Private API/Requests/Preprocess filelist.vi"/>
 			<Item Name="Show list of files.vi" Type="VI" URL="../Show list of files.vi"/>
@@ -68,6 +70,7 @@
 			<Item Name="TR_Load_TDMS_parameters.vi" Type="VI" URL="../../../SubVi&apos;s/Save and Load/TR_Load_TDMS_parameters.vi"/>
 			<Item Name="TR_Post-process_timestamps.vi" Type="VI" URL="../Private API/Functions/TR_Post-process_timestamps.vi"/>
 			<Item Name="TR_Decimate_Array.vim" Type="VI" URL="../Private API/Functions/TR_Decimate_Array.vim"/>
+			<Item Name="TR_DRAW_Trajectory_(offline).vi" Type="VI" URL="../Private API/Functions/TR_DRAW_Trajectory_(offline).vi"/>
 		</Item>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
 	</Item>
