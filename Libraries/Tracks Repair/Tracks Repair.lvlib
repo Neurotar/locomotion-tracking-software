@@ -49,15 +49,19 @@
 			<Item Name="Open folder Argument--cluster.ctl" Type="VI" URL="../Private API/Arguments/Open folder Argument--cluster.ctl"/>
 			<Item Name="Preprocess filelist Argument--cluster.ctl" Type="VI" URL="../Private API/Arguments/Preprocess filelist Argument--cluster.ctl"/>
 			<Item Name="Process Specific Track Argument--cluster.ctl" Type="VI" URL="../Process Specific Track Argument--cluster.ctl"/>
+			<Item Name="Set Initial View Argument--cluster.ctl" Type="VI" URL="../Set Initial View Argument--cluster.ctl"/>
 			<Item Name="Show list of files Argument--cluster.ctl" Type="VI" URL="../Show list of files Argument--cluster.ctl"/>
 			<Item Name="Show Specific Track Argument--cluster.ctl" Type="VI" URL="../Show Specific Track Argument--cluster.ctl"/>
 			<Item Name="Update Diagram Argument--cluster.ctl" Type="VI" URL="../Update Diagram Argument--cluster.ctl"/>
+			<Item Name="Update Settings Argument--cluster.ctl" Type="VI" URL="../Update Settings Argument--cluster.ctl"/>
 		</Item>
 		<Item Name="Requests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Load filelist.vi" Type="VI" URL="../Private API/Requests/Load filelist.vi"/>
 			<Item Name="Open folder.vi" Type="VI" URL="../Private API/Requests/Open folder.vi"/>
+			<Item Name="Update Settings.vi" Type="VI" URL="../Update Settings.vi"/>
 			<Item Name="Preprocess filelist.vi" Type="VI" URL="../Private API/Requests/Preprocess filelist.vi"/>
+			<Item Name="Set Initial View.vi" Type="VI" URL="../Set Initial View.vi"/>
 			<Item Name="Show list of files.vi" Type="VI" URL="../Show list of files.vi"/>
 			<Item Name="Load Specific Track.vi" Type="VI" URL="../Load Specific Track.vi"/>
 			<Item Name="Process Specific Track.vi" Type="VI" URL="../Process Specific Track.vi"/>
@@ -79,7 +83,10 @@
 			<Item Name="TR_DRAW_Track_overlays_(offline).vi" Type="VI" URL="../Private API/Functions/TR_DRAW_Track_overlays_(offline).vi"/>
 			<Item Name="TR_DRAW_Trajectory_(offline).vi" Type="VI" URL="../Private API/Functions/TR_DRAW_Trajectory_(offline).vi"/>
 			<Item Name="TR_GEN_Location-based_density_map.vi" Type="VI" URL="../Private API/Functions/TR_GEN_Location-based_density_map.vi"/>
+			<Item Name="TR_Gen_Empty_Image_with_background.vi" Type="VI" URL="../Private API/Functions/TR_Gen_Empty_Image_with_background.vi"/>
 			<Item Name="TR_Generate_Segmented_Plot_v5_DAQmx.vi" Type="VI" URL="../Private API/Functions/TR_Generate_Segmented_Plot_v5_DAQmx.vi"/>
+			<Item Name="TR_SW_Gen_Get_Initial_picture_Scaling_and_Cage_size_DAQmx.vi" Type="VI" URL="../Private API/Functions/TR_SW_Gen_Get_Initial_picture_Scaling_and_Cage_size_DAQmx.vi"/>
+			<Item Name="TR_Adjust_raw_magnets_coords.vi" Type="VI" URL="../Private API/Functions/TR_Adjust_raw_magnets_coords.vi"/>
 		</Item>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
 	</Item>
