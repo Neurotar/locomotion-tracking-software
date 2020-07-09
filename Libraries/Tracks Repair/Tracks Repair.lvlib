@@ -51,6 +51,7 @@
 			<Item Name="Process Specific Track Argument--cluster.ctl" Type="VI" URL="../Process Specific Track Argument--cluster.ctl"/>
 			<Item Name="Show list of files Argument--cluster.ctl" Type="VI" URL="../Show list of files Argument--cluster.ctl"/>
 			<Item Name="Show Specific Track Argument--cluster.ctl" Type="VI" URL="../Show Specific Track Argument--cluster.ctl"/>
+			<Item Name="Update Diagram Argument--cluster.ctl" Type="VI" URL="../Update Diagram Argument--cluster.ctl"/>
 		</Item>
 		<Item Name="Requests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -61,6 +62,7 @@
 			<Item Name="Load Specific Track.vi" Type="VI" URL="../Load Specific Track.vi"/>
 			<Item Name="Process Specific Track.vi" Type="VI" URL="../Process Specific Track.vi"/>
 			<Item Name="Show Specific Track.vi" Type="VI" URL="../Show Specific Track.vi"/>
+			<Item Name="Update Diagram.vi" Type="VI" URL="../Update Diagram.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
