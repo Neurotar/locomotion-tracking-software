@@ -76,6 +76,7 @@
 			<Item Name="TR_Decimate_Array.vim" Type="VI" URL="../Private API/Functions/TR_Decimate_Array.vim"/>
 			<Item Name="TR_DRAW_Track_overlays_(offline).vi" Type="VI" URL="../Private API/Functions/TR_DRAW_Track_overlays_(offline).vi"/>
 			<Item Name="TR_DRAW_Trajectory_(offline).vi" Type="VI" URL="../Private API/Functions/TR_DRAW_Trajectory_(offline).vi"/>
+			<Item Name="TR_GEN_Location-based_density_map.vi" Type="VI" URL="../Private API/Functions/TR_GEN_Location-based_density_map.vi"/>
 			<Item Name="TR_Generate_Segmented_Plot_v5_DAQmx.vi" Type="VI" URL="../Private API/Functions/TR_Generate_Segmented_Plot_v5_DAQmx.vi"/>
 		</Item>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
