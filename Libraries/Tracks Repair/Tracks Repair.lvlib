@@ -44,6 +44,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Arguments" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Apply params to track Argument--cluster.ctl" Type="VI" URL="../Apply params to track Argument--cluster.ctl"/>
 			<Item Name="Load filelist Argument--cluster.ctl" Type="VI" URL="../Private API/Arguments/Load filelist Argument--cluster.ctl"/>
 			<Item Name="Load Specific Track Argument--cluster.ctl" Type="VI" URL="../Load Specific Track Argument--cluster.ctl"/>
 			<Item Name="Open folder Argument--cluster.ctl" Type="VI" URL="../Private API/Arguments/Open folder Argument--cluster.ctl"/>
@@ -58,6 +59,7 @@
 		<Item Name="Requests" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="Load filelist.vi" Type="VI" URL="../Private API/Requests/Load filelist.vi"/>
+			<Item Name="Apply params to track.vi" Type="VI" URL="../Apply params to track.vi"/>
 			<Item Name="Open folder.vi" Type="VI" URL="../Private API/Requests/Open folder.vi"/>
 			<Item Name="Update Settings.vi" Type="VI" URL="../Update Settings.vi"/>
 			<Item Name="Preprocess filelist.vi" Type="VI" URL="../Private API/Requests/Preprocess filelist.vi"/>
@@ -87,6 +89,8 @@
 			<Item Name="TR_Generate_Segmented_Plot_v5_DAQmx.vi" Type="VI" URL="../Private API/Functions/TR_Generate_Segmented_Plot_v5_DAQmx.vi"/>
 			<Item Name="TR_SW_Gen_Get_Initial_picture_Scaling_and_Cage_size_DAQmx.vi" Type="VI" URL="../Private API/Functions/TR_SW_Gen_Get_Initial_picture_Scaling_and_Cage_size_DAQmx.vi"/>
 			<Item Name="TR_Adjust_raw_magnets_coords.vi" Type="VI" URL="../Private API/Functions/TR_Adjust_raw_magnets_coords.vi"/>
+			<Item Name="TR_Save_repaired_track_to_TDMS.vi" Type="VI" URL="../Private API/Functions/TR_Save_repaired_track_to_TDMS.vi"/>
+			<Item Name="TR_Repair_TDMS_track.vi" Type="VI" URL="../Private API/Functions/TR_Repair_TDMS_track.vi"/>
 		</Item>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
 	</Item>
