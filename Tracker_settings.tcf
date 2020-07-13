@@ -1,6 +1,6 @@
 [Researcher >>> Defaults]
 Default User = "0,000000000000000"
-VISA Resource Name = "ASRL5::INSTR"
+VISA Resource Name = ""
 Histogram parameters.max = "300,000000000000000"
 Histogram parameters.min = "0,000000000000000"
 Histogram parameters.# bins = "10"
@@ -15,11 +15,11 @@ Data post-processing.Length = "31"
 Data post-processing.Order = "3"
 Stop at = "0,000000000000000"
 "Stop at" enabled = "FALSE"
-Default save folder path = "/D/Users_Data/Dmitriy_T/Documents"
+Default save folder path = ""
 Acquisition FPS = "Optimal"
 
 [Researcher >>> Geometry]
-Cage diameter, mm = "180"
+Cage diameter, mm = "325"
 Starting angle MIDFIELD = "0"
 Starting angle BORDER = "0"
 Radius, mm CENTER = "45"
@@ -32,7 +32,7 @@ Bridge H. offset = "0,000000000000000"
 Bridge V. offset = "0,000000000000000"
 Twisted neck = "FALSE"
 Alt. magn. orientation = "FALSE"
-Sensor board size = "Small"
+Sensor board size = "Large"
 
 [Researcher >>> IO parameters]
 IO general config. = "0"
@@ -45,9 +45,9 @@ IO inversion config. = "0"
 Sync capability = "1"
 
 [Researcher >>> Calibration]
-Timing calibration sw/hw = "1,000052454301858"
-True FPS = "66,197717015444667"
-True frame time, s = "0,015106261138382"
+Timing calibration sw/hw = "1,0"
+True FPS = "100,0"
+True frame time, s = "0,01"
 Disp. calibration info.<size(s)> = "4"
 Disp. calibration info 0.Channel = "1"
 Disp. calibration info 0.Speed, µl per ms = "1,000000000000000"
@@ -57,6 +57,3 @@ Disp. calibration info 2.Channel = "3"
 Disp. calibration info 2.Speed, µl per ms = "1,000000000000000"
 Disp. calibration info 3.Channel = "4"
 Disp. calibration info 3.Speed, µl per ms = "1,000000000000000"
-
-[Researcher >>> Conditions presets array]
-GZipped XML string = ""
