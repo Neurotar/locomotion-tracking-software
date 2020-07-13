@@ -22,7 +22,6 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
-				<Item Name="Show Specific Track Argument--cluster.ctl" Type="VI" URL="../Show Specific Track Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -44,17 +43,34 @@
 	<Item Name="Private API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Arguments" Type="Folder">
-			<Item Name="Open folder Argument--cluster.ctl" Type="VI" URL="../Private API/Arguments/Open folder Argument--cluster.ctl"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Apply params to track Argument--cluster.ctl" Type="VI" URL="../Apply params to track Argument--cluster.ctl"/>
+			<Item Name="Apply to All Argument--cluster.ctl" Type="VI" URL="../Apply to All Argument--cluster.ctl"/>
 			<Item Name="Load filelist Argument--cluster.ctl" Type="VI" URL="../Private API/Arguments/Load filelist Argument--cluster.ctl"/>
+			<Item Name="Load Specific Track Argument--cluster.ctl" Type="VI" URL="../Load Specific Track Argument--cluster.ctl"/>
+			<Item Name="Open folder Argument--cluster.ctl" Type="VI" URL="../Private API/Arguments/Open folder Argument--cluster.ctl"/>
 			<Item Name="Preprocess filelist Argument--cluster.ctl" Type="VI" URL="../Private API/Arguments/Preprocess filelist Argument--cluster.ctl"/>
+			<Item Name="Process Specific Track Argument--cluster.ctl" Type="VI" URL="../Process Specific Track Argument--cluster.ctl"/>
+			<Item Name="Set Initial View Argument--cluster.ctl" Type="VI" URL="../Set Initial View Argument--cluster.ctl"/>
 			<Item Name="Show list of files Argument--cluster.ctl" Type="VI" URL="../Show list of files Argument--cluster.ctl"/>
+			<Item Name="Show Specific Track Argument--cluster.ctl" Type="VI" URL="../Show Specific Track Argument--cluster.ctl"/>
+			<Item Name="Update Diagram Argument--cluster.ctl" Type="VI" URL="../Update Diagram Argument--cluster.ctl"/>
+			<Item Name="Update Settings Argument--cluster.ctl" Type="VI" URL="../Update Settings Argument--cluster.ctl"/>
 		</Item>
 		<Item Name="Requests" Type="Folder">
-			<Item Name="Open folder.vi" Type="VI" URL="../Private API/Requests/Open folder.vi"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Apply params to track.vi" Type="VI" URL="../Apply params to track.vi"/>
+			<Item Name="Apply to All.vi" Type="VI" URL="../Apply to All.vi"/>
 			<Item Name="Load filelist.vi" Type="VI" URL="../Private API/Requests/Load filelist.vi"/>
+			<Item Name="Load Specific Track.vi" Type="VI" URL="../Load Specific Track.vi"/>
+			<Item Name="Open folder.vi" Type="VI" URL="../Private API/Requests/Open folder.vi"/>
 			<Item Name="Preprocess filelist.vi" Type="VI" URL="../Private API/Requests/Preprocess filelist.vi"/>
+			<Item Name="Process Specific Track.vi" Type="VI" URL="../Process Specific Track.vi"/>
+			<Item Name="Set Initial View.vi" Type="VI" URL="../Set Initial View.vi"/>
 			<Item Name="Show list of files.vi" Type="VI" URL="../Show list of files.vi"/>
 			<Item Name="Show Specific Track.vi" Type="VI" URL="../Show Specific Track.vi"/>
+			<Item Name="Update Diagram.vi" Type="VI" URL="../Update Diagram.vi"/>
+			<Item Name="Update Settings.vi" Type="VI" URL="../Update Settings.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
@@ -68,6 +84,17 @@
 			<Item Name="TR_Load_TDMS_parameters.vi" Type="VI" URL="../../../SubVi&apos;s/Save and Load/TR_Load_TDMS_parameters.vi"/>
 			<Item Name="TR_Post-process_timestamps.vi" Type="VI" URL="../Private API/Functions/TR_Post-process_timestamps.vi"/>
 			<Item Name="TR_Decimate_Array.vim" Type="VI" URL="../Private API/Functions/TR_Decimate_Array.vim"/>
+			<Item Name="TR_DRAW_Track_overlays_(offline).vi" Type="VI" URL="../Private API/Functions/TR_DRAW_Track_overlays_(offline).vi"/>
+			<Item Name="TR_DRAW_Trajectory_(offline).vi" Type="VI" URL="../Private API/Functions/TR_DRAW_Trajectory_(offline).vi"/>
+			<Item Name="TR_GEN_Location-based_density_map.vi" Type="VI" URL="../Private API/Functions/TR_GEN_Location-based_density_map.vi"/>
+			<Item Name="TR_Gen_Empty_Image_with_background.vi" Type="VI" URL="../Private API/Functions/TR_Gen_Empty_Image_with_background.vi"/>
+			<Item Name="TR_Generate_Segmented_Plot_v5_DAQmx.vi" Type="VI" URL="../Private API/Functions/TR_Generate_Segmented_Plot_v5_DAQmx.vi"/>
+			<Item Name="TR_Set_List_Markings.vi" Type="VI" URL="../Private API/Functions/TR_Set_List_Markings.vi"/>
+			<Item Name="TR_Set_List_Item_Value.vi" Type="VI" URL="../Private API/Functions/TR_Set_List_Item_Value.vi"/>
+			<Item Name="TR_SW_Gen_Get_Initial_picture_Scaling_and_Cage_size_DAQmx.vi" Type="VI" URL="../Private API/Functions/TR_SW_Gen_Get_Initial_picture_Scaling_and_Cage_size_DAQmx.vi"/>
+			<Item Name="TR_Adjust_raw_magnets_coords.vi" Type="VI" URL="../Private API/Functions/TR_Adjust_raw_magnets_coords.vi"/>
+			<Item Name="TR_Save_repaired_track_to_TDMS.vi" Type="VI" URL="../Private API/Functions/TR_Save_repaired_track_to_TDMS.vi"/>
+			<Item Name="TR_Repair_TDMS_track.vi" Type="VI" URL="../Private API/Functions/TR_Repair_TDMS_track.vi"/>
 		</Item>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
 	</Item>

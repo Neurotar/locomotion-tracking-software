@@ -299,8 +299,7 @@
 		<Item Name="SW_Save_proc_data_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_proc_data_to_TDMS.vi"/>
 		<Item Name="SW_Save_Settings.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings.vi"/>
 		<Item Name="SW_Save_Settings_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings_2.vi"/>
-		<Item Name="SW_Shape_Conditions_Array_after_Loading_GZIP.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Shape_Conditions_Array_after_Loading_GZIP.vi"/>
-		<Item Name="SW_Shape_Conditions_Array_after_Loading_XML.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Shape_Conditions_Array_after_Loading_XML.vi"/>
+		<Item Name="SW_Shape_Conditions_Array_after_Loading.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Shape_Conditions_Array_after_Loading.vi"/>
 	</Item>
 	<Item Name="Segmented plot and mouse" Type="Folder">
 		<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/AL_Rotate_mouse_coords.vi"/>
