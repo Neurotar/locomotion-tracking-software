@@ -88,6 +88,7 @@
 			<Item Name="TR_Gen_Empty_Image_with_background.vi" Type="VI" URL="../Private API/Functions/TR_Gen_Empty_Image_with_background.vi"/>
 			<Item Name="TR_Generate_Segmented_Plot_v5_DAQmx.vi" Type="VI" URL="../Private API/Functions/TR_Generate_Segmented_Plot_v5_DAQmx.vi"/>
 			<Item Name="TR_Set_List_Markings.vi" Type="VI" URL="../Private API/Functions/TR_Set_List_Markings.vi"/>
+			<Item Name="TR_Set_List_Item_Value.vi" Type="VI" URL="../Private API/Functions/TR_Set_List_Item_Value.vi"/>
 			<Item Name="TR_SW_Gen_Get_Initial_picture_Scaling_and_Cage_size_DAQmx.vi" Type="VI" URL="../Private API/Functions/TR_SW_Gen_Get_Initial_picture_Scaling_and_Cage_size_DAQmx.vi"/>
 			<Item Name="TR_Adjust_raw_magnets_coords.vi" Type="VI" URL="../Private API/Functions/TR_Adjust_raw_magnets_coords.vi"/>
 			<Item Name="TR_Save_repaired_track_to_TDMS.vi" Type="VI" URL="../Private API/Functions/TR_Save_repaired_track_to_TDMS.vi"/>
