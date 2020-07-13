@@ -45,6 +45,7 @@
 		<Item Name="Arguments" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Apply params to track Argument--cluster.ctl" Type="VI" URL="../Apply params to track Argument--cluster.ctl"/>
+			<Item Name="Apply to All Argument--cluster.ctl" Type="VI" URL="../Apply to All Argument--cluster.ctl"/>
 			<Item Name="Load filelist Argument--cluster.ctl" Type="VI" URL="../Private API/Arguments/Load filelist Argument--cluster.ctl"/>
 			<Item Name="Load Specific Track Argument--cluster.ctl" Type="VI" URL="../Load Specific Track Argument--cluster.ctl"/>
 			<Item Name="Open folder Argument--cluster.ctl" Type="VI" URL="../Private API/Arguments/Open folder Argument--cluster.ctl"/>
@@ -57,18 +58,19 @@
 			<Item Name="Update Settings Argument--cluster.ctl" Type="VI" URL="../Update Settings Argument--cluster.ctl"/>
 		</Item>
 		<Item Name="Requests" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="Load filelist.vi" Type="VI" URL="../Private API/Requests/Load filelist.vi"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Apply params to track.vi" Type="VI" URL="../Apply params to track.vi"/>
+			<Item Name="Apply to All.vi" Type="VI" URL="../Apply to All.vi"/>
+			<Item Name="Load filelist.vi" Type="VI" URL="../Private API/Requests/Load filelist.vi"/>
+			<Item Name="Load Specific Track.vi" Type="VI" URL="../Load Specific Track.vi"/>
 			<Item Name="Open folder.vi" Type="VI" URL="../Private API/Requests/Open folder.vi"/>
-			<Item Name="Update Settings.vi" Type="VI" URL="../Update Settings.vi"/>
 			<Item Name="Preprocess filelist.vi" Type="VI" URL="../Private API/Requests/Preprocess filelist.vi"/>
+			<Item Name="Process Specific Track.vi" Type="VI" URL="../Process Specific Track.vi"/>
 			<Item Name="Set Initial View.vi" Type="VI" URL="../Set Initial View.vi"/>
 			<Item Name="Show list of files.vi" Type="VI" URL="../Show list of files.vi"/>
-			<Item Name="Load Specific Track.vi" Type="VI" URL="../Load Specific Track.vi"/>
-			<Item Name="Process Specific Track.vi" Type="VI" URL="../Process Specific Track.vi"/>
 			<Item Name="Show Specific Track.vi" Type="VI" URL="../Show Specific Track.vi"/>
 			<Item Name="Update Diagram.vi" Type="VI" URL="../Update Diagram.vi"/>
+			<Item Name="Update Settings.vi" Type="VI" URL="../Update Settings.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">3</Property>
