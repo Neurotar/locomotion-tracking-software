@@ -79,8 +79,12 @@
 		<Item Name="Tracks Repair Module" Type="Folder">
 			<Item Name="Tracks Repair.lvlib" Type="Library" URL="../Libraries/Tracks Repair/Tracks Repair.lvlib"/>
 		</Item>
+		<Item Name="Stream Data Module" Type="Folder">
+			<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
+		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Tracks Repair API.vi" Type="VI" URL="../Libraries/Tracks Repair/Test Tracks Repair API.vi"/>
+			<Item Name="Test Stream Data API.vi" Type="VI" URL="../Libraries/Stream Data/Test Stream Data API.vi"/>
 		</Item>
 		<Item Name="DigitalOutTask_0" Type="NI-DAQmx Task">
 			<Property Name="\0\ChanType" Type="Str">Digital Output</Property>
