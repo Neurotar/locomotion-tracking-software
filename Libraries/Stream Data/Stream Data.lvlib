@@ -27,6 +27,7 @@
 				<Item Name="Change Serial Port Argument--cluster.ctl" Type="VI" URL="../Change Serial Port Argument--cluster.ctl"/>
 				<Item Name="Close Serial Port Argument--cluster.ctl" Type="VI" URL="../Close Serial Port Argument--cluster.ctl"/>
 				<Item Name="Update Status Argument--cluster.ctl" Type="VI" URL="../Update Status Argument--cluster.ctl"/>
+				<Item Name="Prepare to Exit Argument--cluster.ctl" Type="VI" URL="../Prepare to Exit Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -45,6 +46,7 @@
 			<Item Name="Change Serial Port.vi" Type="VI" URL="../Change Serial Port.vi"/>
 			<Item Name="Close Serial Port.vi" Type="VI" URL="../Close Serial Port.vi"/>
 			<Item Name="Update Status.vi" Type="VI" URL="../Update Status.vi"/>
+			<Item Name="Prepare to Exit.vi" Type="VI" URL="../Prepare to Exit.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -55,6 +57,7 @@
 		<Item Name="Functions" Type="Folder">
 			<Item Name="SD_Keep_only_required_measurements.vi" Type="VI" URL="../Private API/Functions/SD_Keep_only_required_measurements.vi"/>
 			<Item Name="SD_Gen_Random_Frame.vi" Type="VI" URL="../Private API/Functions/SD_Gen_Random_Frame.vi"/>
+			<Item Name="SD_Construct_data_string.vi" Type="VI" URL="../Private API/Functions/SD_Construct_data_string.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CTL_Variable_to_pass.ctl" Type="VI" URL="../Private API/Typedefs/CTL_Variable_to_pass.ctl"/>
