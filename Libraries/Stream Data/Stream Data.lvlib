@@ -23,6 +23,10 @@
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Send Frame Argument--cluster.ctl" Type="VI" URL="../Send Frame Argument--cluster.ctl"/>
+				<Item Name="Open Serial Port Argument--cluster.ctl" Type="VI" URL="../Open Serial Port Argument--cluster.ctl"/>
+				<Item Name="Change Serial Port Argument--cluster.ctl" Type="VI" URL="../Change Serial Port Argument--cluster.ctl"/>
+				<Item Name="Close Serial Port Argument--cluster.ctl" Type="VI" URL="../Close Serial Port Argument--cluster.ctl"/>
+				<Item Name="Update Status Argument--cluster.ctl" Type="VI" URL="../Update Status Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -37,6 +41,10 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Send Frame.vi" Type="VI" URL="../Send Frame.vi"/>
+			<Item Name="Open Serial Port.vi" Type="VI" URL="../Open Serial Port.vi"/>
+			<Item Name="Change Serial Port.vi" Type="VI" URL="../Change Serial Port.vi"/>
+			<Item Name="Close Serial Port.vi" Type="VI" URL="../Close Serial Port.vi"/>
+			<Item Name="Update Status.vi" Type="VI" URL="../Update Status.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
