@@ -54,6 +54,7 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Functions" Type="Folder">
 			<Item Name="SD_Keep_only_required_measurements.vi" Type="VI" URL="../Private API/Functions/SD_Keep_only_required_measurements.vi"/>
+			<Item Name="SD_Gen_Random_Frame.vi" Type="VI" URL="../Private API/Functions/SD_Gen_Random_Frame.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CTL_Variable_to_pass.ctl" Type="VI" URL="../Private API/Typedefs/CTL_Variable_to_pass.ctl"/>
