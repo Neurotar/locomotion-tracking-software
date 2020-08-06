@@ -1,6 +1,6 @@
 [Researcher >>> Defaults]
 Default User = "0,000000000000000"
-VISA Resource Name = ""
+VISA Resource Name = "ASRL5::INSTR"
 Histogram parameters.max = "300,000000000000000"
 Histogram parameters.min = "0,000000000000000"
 Histogram parameters.# bins = "10"
@@ -15,7 +15,7 @@ Data post-processing.Length = "31"
 Data post-processing.Order = "3"
 Stop at = "0,000000000000000"
 "Stop at" enabled = "FALSE"
-Default save folder path = ""
+Default save folder path = "/D/Users_Data/Dmitriy_T/Documents"
 Acquisition FPS = "Optimal"
 
 [Researcher >>> Geometry]
@@ -36,7 +36,7 @@ Sensor board size = "Small"
 
 [Researcher >>> IO parameters]
 IO general config. = "0"
-IO 1 configuration = "1"
+IO 1 configuration = "3"
 IO 2 configuration = "1"
 IO 3 configuration = "1"
 IO 4 configuration = "1"
@@ -57,3 +57,6 @@ Disp. calibration info 2.Channel = "3"
 Disp. calibration info 2.Speed, µl per ms = "1,000000000000000"
 Disp. calibration info 3.Channel = "4"
 Disp. calibration info 3.Speed, µl per ms = "1,000000000000000"
+
+[Researcher >>> Conditions presets array]
+GZipped XML string = "\1F‹\08\00\00\00\00\00\04\00íÚMOëhš€áýHý\1FÞe·„ú\14\1F==-\1D\1D©»\1A\0D\0B„Ž ê‘f\17ˆ\03Ö\04;ØÎ š_?&Eâ|8!ÀŠGW-¨ŠÍ›˜Ë~\0AÝ¯øþ÷ª\1Aþöã\0Fÿöýjø˜ýøµ,Fy“—E¦UVgM†/ßòâû·ùw´ßùÏü±Îÿ/ûñ·ïß\16ÿÙ\1Eýu2«›¬êÞê÷×©\1C§»å»vor5{<Ÿ4õ¿´‡^ÿ³=ú²œdÃbù&çÅðv’ºeÿ\1AN~üòýÛË¿ÚWßV¾ÿ¦©òâ~¹òåËú²åÏ–Ž»7èV­CÜL³»|œgÕ\1Fë?½÷'_®MuSÍîšY•½÷çîÞ";\\àü¿¶ïcj~›®|ú¯\0Fe~7û—·|}Õ\1Dÿï²Èz\0Eÿ½¸Ÿd©)Óóp2Y=¿q-¿_ÀÚe<N‡U^ïºŽË¬®{>ïåp*«tþ4\1BNzÎï:þŸU6œ?r»—¾~KÏ™«²Ù^Õû\03þó\1F—ËŸ°=3ÛxÎ~ùó/kÿtË_\17®?iíÉ¼½W¿¥»*o¯,\1F~à‰Ûzíçítïóö¯?§»‡ìî>ú¸m}ì+áõ¬(ÚùJ·å¬I¬³—ÿ\13¼üx[úëßø˜µo·þ}‡Ü‰ß\0Dþ÷\03·äÛŠ(\\¸páÂ…\0B\17.\\¸\11q¿-;d\1F¹˜í.CÌŠÙ/6äpáÂ…\0B\17.\\¸páFÄ\15³bVÌ\06\1Fr¸páÂ…\0B\17.\\¸p#âŠY1+fƒ\0F9\\¸páÂ…\0B\17.\\¸\11qÅ¬˜\15³Á‡\1C.\\¸páÂ…\0B\17.Üˆ¸bVÌŠÙàC\0E\17.\\¸páÂ…\0B\17nD\\1+fÅlð!‡\0B\17.\\¸páÂ…\0B7"®˜\15³b6øÃ…\0B\17.\\¸páÂ…\1B\11WÌŠY1\1B|ÈáÂ…\0B\17.\\¸páÂˆÛ\1F³ÝÑMüë¬ž–EÝÓ²ëæ+^‹%ýõwµ£6ó*Mgãq_\18æO³|”ªìyXÞT[¹Áà2MËªÙº†ŸíÁtÜóQó\13'»Nœî:qö®{9¿¬Ù¤\05šdÅ}óp”\1EëOÜÑÍ§ýbX§Û,+R5‡<éûFïõu*Çén±¹Po?\0Aû·5Î\0FŸº›¦jçd¹òåËú²n‹ã¤{ƒnÕzd/÷S>\10×¶sºË°c;ç‹ýšƒ\0B\17.\\¸páÂ…\0B7"®¿M\10³b6øÃ…\0B\17.\\¸páÂ…\1B\11WÌŠY1\1B|ÈáÂ…\0B\17.\\¸páÂˆ+fÅ¬˜\0D>äpáÂ…\0B\17.\\¸páFÄ\15³bVÌ\06\1Fr¸páÂ…\0B\17.\\¸p#âŠY1+fƒ\0F9\\¸páÂ…\0B\17.\\¸\11qÅ¬˜\15³Á‡\1C.\\¸páÂ…\0B\17.Üˆ¸bVÌŠÙàC\0E\17.\\¸páÂ…\0B\17nD\\1+fÅlð!‡\0B\17.\\¸páÂ…\0B7"nÌvG7ñ¯³zZ\16uOË®›¯x-–ô×ßÕŽÚÌ«4Ç}a˜?ÍòQª²ça5zSmåB\06ƒË4-«fë\1A~¶\07ÓqÏGÍOœì:qºëÄÙ»îåü²f“\16h’\15÷ÍÃQz¬?qG7Ÿö‹an³¬HuÖ\1Cò¤ï\1B½××©\1C§»ÅæB½ý(ìßÖ8?|ênšª“åÊ—/ëËº-ŽÓî\0DºUë‘½ÜOù@\\ÛÎé.ÃvŽíœ/ök\0E.\\¸páÂ…\0B\17.Üˆ¸þ6AÌŠÙàC\0E\17.\\¸páÂ…\0B\17nD\\1+fÅlð!‡\0B\17.\\¸páÂ…\0B7"®˜\15³b6øÃ…\0B\17.\\¸páÂ…\1B\11WÌŠY1\1B|ÈáÂ…\0B\17.\\¸páÂˆ+fÅ¬˜\0D>äpáÂ…\0B\17.\\¸páFÄ\15³bVÌ\06\1Fr¸páÂ…\0B\17.\\¸p#âŠY1+fƒ\0F9\\¸páÂ…\0B\17.\\¸\11qÅ¬˜\15³Á‡\1C.\\¸páÂ…\0B\17.Üˆ¸ý1Û\1DÝÄ¿ÎêiYÔ=-»n¾âµXÒ_W;j3¯Òt6\1E÷…aþ4ËG©Êž‡ÕèMµ•\0B\19\0C.Ó´¬š­køÙ\1ELÇ=\1F5?q²ëÄé®\13gïº—óËšMZ IVÜ7\0FGé±þÄ\1DÝ|Ú/†uºÍ²"ÕYsÈ“¾oô^_§rœî\16›\0Bõö£°[ãüð©»iªvN–+_¾¬/ë¶8Îº7èV­Gör?å\03qm;§»\0CÛ9¶s¾Ø¯9¸páÂ…\0B\17.\\¸p#âúÛ\041+fƒ\0F9\\¸páÂ…\0B\17.\\¸\11qÅ¬˜\15³Á‡\1C.\\¸páÂ…\0B\17.Üˆ¸bVÌŠÙàC\0E\17.\\¸páÂ…\0B\17nD\\1+fÅlð!‡\0B\17.\\¸páÂ…\0B7"®˜\15³b6øÃ…\0B\17.\\¸páÂ…\1B\11WÌŠY1\1B|ÈáÂ…\0B\17.\\¸páÂˆ+fÅ¬˜\0D>äpáÂ…\0B\17.\\¸páFÄ\15³bVÌ\06\1Fr¸páÂ…\0B\17.\\¸p#âöÇlwt\13ÿ:«§eQ÷´ìºùŠ×bIý]í¨Í¼JÓÙxÜ\17†ùÓ,\1F¥*{\1EV£7ÕV.d0¸LÓ²j¶®ág{0\1D÷|ÔüÄÉ®\13§»Nœ½ë^Î/k6i&Yqß<\1C¥Çú\13wtói¿\18Öé6ËŠTgÍ!Oú¾Ñ{}Êqº[l.ÔÛÂþmóÃ§î¦©Ú9Y®|ù²¾¬ÛâøK÷\06ÝªõÈ^î§| ®mçt—a;ÇvÎ\17û5\07\17.\\¸páÂ…\0B\17nD\\› fÅlð!‡\0B\17.\\¸páÂ…\0B7"®˜\15³b6øÃ…\0B\17.\\¸páÂ…\1B\11WÌŠY1\1B|ÈáÂ…\0B\17.\\¸páÂˆ+fÅ¬˜\0D>äpáÂ…\0B\17.\\¸páFÄ\15³bVÌ\06\1Fr¸páÂ…\0B\17.\\¸p#âŠY1+fƒ\0F9\\¸páÂ…\0B\17.\\¸\11qÅ¬˜\15³Á‡\1C.\\¸páÂ…\0B\17.Üˆ¸bVÌŠÙàC\0E\17.\\¸páÂ…\0B\17nDÜþ˜íŽnâ_gõ´,êž–]7_ñZ,é¯¿«\1Dµ™Wi:\1BûÂ0šå£TeÏÃjô¦ÚÊ…\0C\06—iZVÍÖ5ül\0F¦ãžšŸ8Ùuât×‰³wÝËùeÍ&-Ð$+î›‡£ôXâŽn>í\17Ã:ÝfY‘ê¬9äIß7z¯¯S9Nw‹Í…zûQØ¿­q~øÔÝ4U;'Ë•/_Ö—u[\1CÿÞ½A·j=²—û)\1FˆkÛ9ÝeØÎ±óÅ~ÍÁ…\0B\17.\\¸páÂ…\1B\11×ß&ˆY1\1B|ÈáÂ…\0B\17.\\¸páÂˆ+fÅ¬˜\0D>äpáÂ…\0B\17.\\¸páFÄ\15³bVÌ\06\1Fr¸páÂ…\0B\17.\\¸p#âŠY1+fƒ\0F9\\¸páÂ…\0B\17.\\¸\11qÅ¬˜\15³Á‡\1C.\\¸páÂ…\0B\17.Üˆ¸bVÌŠÙàC\0E\17.\\¸páÂ…\0B\17nD\\1+fÅlð!‡\0B\17.\\¸páÂ…\0B7"®˜\15³b6øÃ…\0B\17.\\¸páÂ…\1B\11·?f»£›ø×Y=-‹º§e×ÍW¼\16KúëïjGmæUšÎÆã¾0ÌŸfù(UÙó°\1A½©¶r!ƒÁeš–U³u\0D?Ûƒé¸ç£æ'Nv8Ýuâì]÷r~Y³I\0B4ÉŠûæá(=ÖŸ¸£›OûÅ°N·YV¤:k\0EyÒ÷ÞëëTŽÓÝbs¡Þ~\14öokœ\1F>u7MÕÎÉråË—õeÝ\16Ç_»7èV­Gör?å\03qm;§»\0CÛ9¶s¾Ø¯9¸páÂ…\0B\17.\\¸p#âúÛ\041+fƒ\0F9\\¸páÂ…\0B\17.\\¸\11qÅ¬˜\15³Á‡\1C.\\¸páÂ…\0B\17.Üˆ¸bVÌŠÙàC\0E\17.\\¸páÂ…\0B\17nD\\1+fÅlð!‡\0B\17.\\¸páÂ…\0B7"®˜\15³b6øÃ…\0B\17.\\¸páÂ…\1B\11WÌŠY1\1B|ÈáÂ…\0B\17.\\¸páÂˆ+fÅ¬˜\0D>äpáÂ…\0B\17.\\¸páFÄ\15³bVÌ\06\1Fr¸páÂ…\0B\17.\\¸p#âöÇlwt\13ÿ:«§eQ÷´ìºùŠ×bIý]í¨Í¼JÓÙxÜ\17†ùÓ,\1F¥*{\1EV£7ÕV.d0¸LÓ²j¶®ág{0\1D÷|ÔüÄÉ®\13§»Nœ½ë^Î/k6i&Yqß<\1C¥Çú\13wtói¿\18Öé6ËŠTgÍ!Oú¾Ñ{}Êqº[l.ÔÛÂþmóÃ§î¦©Ú9Y®|ù²¾¬Ûâøî\0DºUë‘½ÜOù@\\ÛÎé.ÃvŽíœ/ök\0E.\\¸páÂ…\0B\17.Üˆ¸þ6AÌŠÙàC\0E\17.\\¸páÂ…\0B\17nD\\1+fÅlð!‡\0B\17.\\¸páÂ…\0B7"®˜\15³b6øÃ…\0B\17.\\¸páÂ…\1B\11WÌŠY1\1B|ÈáÂ…\0B\17.\\¸páÂˆ+fÅ¬˜\0D>äpáÂ…\0B\17.\\¸páFÄ\15³bVÌ\06\1Fr¸páÂ…\0B\17.\\¸p#âŠY1+fƒ\0F9\\¸páÂ…\0B\17.\\¸\11qÅ¬˜\15³Á‡\1C.\\¸páÂ…\0B\17.Üˆ¸ý1Û\1DÝÄ¿ÎêiYÔ=-»n¾âµXÒ_W;j3¯Òt6\1E÷…aþ4ËG©Êž‡ÕèMµ•\0B\19\0C.Ó´¬š­køÙ\1ELÇ=\1F5?q²ëÄé®\13gïº—óËšMZ IVÜ7\0FGé±þÄ\1DÝ|Ú/†uºÍ²"ÕYsÈ“¾oô^_§rœî\16›\0Bõö£°[ãüð©»iªvN–+_¾¬/ë¶8þÖ½A·j=²—û)\1FˆkÛ9ÝeØÎ±óÅ~ÍÁ…\0B\17.\\¸páÂ…\1B\11×ß&ˆY1\1B|ÈáÂ…\0B\17.\\¸páÂˆ+fÅ¬˜\0D>äpáÂ…\0B\17.\\¸páFÄ\15³bVÌ\06\1Fr¸páÂ…\0B\17.\\¸p#âŠY1+fƒ\0F9\\¸páÂ…\0B\17.\\¸\11qÅ¬˜\15³Á‡\1C.\\¸páÂ…\0B\17.Üˆ¸bVÌŠÙàC\0E\17.\\¸páÂ…\0B\17nD\\1+fÅlð!‡\0B\17.\\¸páÂ…\0B7"®˜\15³b6øÃ…\0B\17.\\¸páÂ…\1B\11·?f»£›ø×Y=-‹º§e×ÍW¼\16KúëïjGmæUšÎÆã¾0ÌŸfù(UÙó°\1A½©¶r!ƒÁeš–U³u\0D?Ûƒé¸ç£æ'Nv8Ýuâì]÷r~Y³I\0B4ÉŠûæá(=ÖŸ¸£›OûÅ°N·YV¤:k\0EyÒ{Ÿƒÿ\07dKü5BÊ\04\00"
