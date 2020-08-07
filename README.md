@@ -3,11 +3,14 @@
 In this repository, only the standard version of the Tracker application is stored. 
 Additional information and issue tracker can be found at 
 https://github.com/Neurotar/standard-tracker-application. 
-For more information, contact us at info@neurotar.com.
+For more information, contact us at info@neurotar.com or check our website:
+* https://www.neurotar.com/research-instruments/ for our line of research instruments, 
+* https://www.neurotar.com/product/mobile-homecage-motion-tracking/ for the standard Mobile HomeCage device with tracking capability and
+* https://www.neurotar.com/product/mobile-homecage-large-locomotion-tracking/ for the Large one.
 
 ```
 Mobile HomeCage motion tracking software.
-Current version 2.2.0.11
+Current version 2.2.0.14
 
 Mobile HomeCage motion tracking software for recording mouse activity
 in the Mobile HomeCage devices.

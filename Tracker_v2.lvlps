@@ -1,5 +1,5 @@
 [ProjectWindow_Data]
-ProjectExplorer.ClassicPosition[String] = "154,1555,867,2018"
+ProjectExplorer.ClassicPosition[String] = "235,1363,795,1814"
 
 [AB_Cache_{5A2AA7FE-30E1-44DD-B5E9-ED6F46F86EF6}]
 Cache_Path[Path] Line0001 = "/C/Users/Mikhail O/AppData/Local/Temp/AB_Cache_{5A"
@@ -57,14 +57,6 @@ Cache_Path[Path] Line0002 = "B86E-58FD-413E-9CEC-D8802DA46550}.txt"
 Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{87C5"
 Cache_Path[Path] Line0002 = "4859-F4D2-4BF1-90F8-DF82C2124796}.txt"
 
-[AB_Cache_{7666865B-0144-4218-B29C-A5B82F802F04}]
-Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{7666"
-Cache_Path[Path] Line0002 = "865B-0144-4218-B29C-A5B82F802F04}.txt"
-
-[AB_Cache_{3E48C151-966E-4239-AC30-D2CADBDCFFFA}]
-Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{3E48"
-Cache_Path[Path] Line0002 = "C151-966E-4239-AC30-D2CADBDCFFFA}.txt"
-
 [AB_Cache_{2E701D2B-0ACB-4AD9-ABF6-C57ED47CEFDC}]
 Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{2E70"
 Cache_Path[Path] Line0002 = "1D2B-0ACB-4AD9-ABF6-C57ED47CEFDC}.txt"
@@ -72,4 +64,20 @@ Cache_Path[Path] Line0002 = "1D2B-0ACB-4AD9-ABF6-C57ED47CEFDC}.txt"
 [AB_Cache_{16DBC635-F2C3-4687-876D-638689FB9C2E}]
 Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{16DB"
 Cache_Path[Path] Line0002 = "C635-F2C3-4687-876D-638689FB9C2E}.txt"
+
+[AB_Cache_{DFEBE9B0-4A0A-4134-AA52-14BC22E75C42}]
+Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{DFEB"
+Cache_Path[Path] Line0002 = "E9B0-4A0A-4134-AA52-14BC22E75C42}.txt"
+
+[AB_Cache_{B65A4FBE-9918-4001-B9D6-C685A7848FAB}]
+Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{B65A"
+Cache_Path[Path] Line0002 = "4FBE-9918-4001-B9D6-C685A7848FAB}.txt"
+
+[AB_Cache_{7666865B-0144-4218-B29C-A5B82F802F04}]
+Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{7666"
+Cache_Path[Path] Line0002 = "865B-0144-4218-B29C-A5B82F802F04}.txt"
+
+[AB_Cache_{3E48C151-966E-4239-AC30-D2CADBDCFFFA}]
+Cache_Path[Path] Line0001 = "/C/Users/Dmitriy/AppData/Local/Temp/AB_Cache_{3E48"
+Cache_Path[Path] Line0002 = "C151-966E-4239-AC30-D2CADBDCFFFA}.txt"
 
