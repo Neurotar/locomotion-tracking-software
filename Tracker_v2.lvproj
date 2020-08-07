@@ -84,9 +84,13 @@
 		<Item Name="Stream Data Module" Type="Folder">
 			<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
 		</Item>
+		<Item Name="Cage Diagram Module" Type="Folder">
+			<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
+		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Tracks Repair API.vi" Type="VI" URL="../Libraries/Tracks Repair/Test Tracks Repair API.vi"/>
 			<Item Name="Test Stream Data API.vi" Type="VI" URL="../Libraries/Stream Data/Test Stream Data API.vi"/>
+			<Item Name="Test Cage Diagram API.vi" Type="VI" URL="../Libraries/Cage Diagram/Test Cage Diagram API.vi"/>
 		</Item>
 		<Item Name="DigitalOutTask_0" Type="NI-DAQmx Task">
 			<Property Name="\0\ChanType" Type="Str">Digital Output</Property>
@@ -901,6 +905,9 @@
 			</Item>
 			<Item Name="Lossy Stream-a[.](bool).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool).lvlib"/>
 			<Item Name="Calculus.dll" Type="Document" URL="../TestVI&apos;s/Calculus2/Calculus.dll"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">
