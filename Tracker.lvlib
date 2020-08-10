@@ -30,7 +30,7 @@
 		<Item Name="CALC_Pix_to_zone_correspondence.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Pix_to_zone_correspondence.vi"/>
 		<Item Name="CALC_Post-process_timestamps.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Post-process_timestamps.vi"/>
 		<Item Name="CHECK_Condition_has_been_set.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Condition_has_been_set.vi"/>
-		<Item Name="CHECK_If_TTL_should_be_reset.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_If_TTL_should_be_reset.vi"/>
+		<Item Name="CHECK_If_TTL_command_should_be_sent.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_If_TTL_command_should_be_sent.vi"/>
 		<Item Name="CHECK_Particular_Condition.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Particular_Condition.vi"/>
 		<Item Name="CHECK_Particular_SubCondition.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Particular_SubCondition.vi"/>
 		<Item Name="FL_Adjust_raw_magnets_coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Adjust_raw_magnets_coords.vi"/>
