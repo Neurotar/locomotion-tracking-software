@@ -39,7 +39,7 @@
 			<Item Name="Set Parameters and data.vi" Type="VI" URL="../Set Parameters and data.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
-			<Item Name="CTL_Parameter_transfer_name.ctl" Type="VI" URL="../Private API/Typedefs/CTL_Parameter_transfer_name.ctl"/>
+			<Item Name="CTL_Parameter_transfer_name.ctl" Type="VI" URL="../Typedefs/CTL_Parameter_transfer_name.ctl"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
