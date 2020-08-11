@@ -23,6 +23,7 @@
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Set Parameters and data Argument--cluster.ctl" Type="VI" URL="../Set Parameters and data Argument--cluster.ctl"/>
+				<Item Name="Send frame Argument--cluster.ctl" Type="VI" URL="../Send frame Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -37,6 +38,7 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Set Parameters and data.vi" Type="VI" URL="../Set Parameters and data.vi"/>
+			<Item Name="Send frame.vi" Type="VI" URL="../Send frame.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CTL_Parameter_transfer_name.ctl" Type="VI" URL="../Typedefs/CTL_Parameter_transfer_name.ctl"/>
