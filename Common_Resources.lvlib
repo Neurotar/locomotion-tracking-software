@@ -81,4 +81,10 @@
 		<Item Name="CTL_VISA_port_Descr.-Name.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_VISA_port_Descr.-Name.ctl"/>
 		<Item Name="CTL_Zones_control_and_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Zones_control_and_indicator.ctl"/>
 	</Item>
+	<Item Name="Functions" Type="Folder">
+		<Item Name="Calc and data manipulation" Type="Folder">
+			<Item Name="FL_Last_N_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_DBL.vi"/>
+			<Item Name="FL_Sum_of_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Sum_of_Samples_DBL.vi"/>
+		</Item>
+	</Item>
 </Library>

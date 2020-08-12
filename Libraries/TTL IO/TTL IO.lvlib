@@ -52,10 +52,12 @@
 		<Item Name="Requests" Type="Folder"/>
 		<Item Name="Functions" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Calc_Sum_of_Samples_DBL.vi" Type="VI" URL="../Private API/Functions/Calc_Sum_of_Samples_DBL.vi"/>
 			<Item Name="Check_If_any_condition_has_became_TRUE.vi" Type="VI" URL="../Private API/Functions/Check_If_any_condition_has_became_TRUE.vi"/>
 			<Item Name="Check_Particular_Condition.vi" Type="VI" URL="../Private API/Functions/Check_Particular_Condition.vi"/>
 			<Item Name="Check_Particular_SubCondition.vi" Type="VI" URL="../Private API/Functions/Check_Particular_SubCondition.vi"/>
 			<Item Name="Check_which_Conditions_are_met.vi" Type="VI" URL="../Private API/Functions/Check_which_Conditions_are_met.vi"/>
+			<Item Name="Keep_Last_N_Samples_DBL.vi" Type="VI" URL="../Private API/Functions/Keep_Last_N_Samples_DBL.vi"/>
 			<Item Name="Make_Decision_about_TTL_and_Fire_Commands.vi" Type="VI" URL="../Private API/Functions/Make_Decision_about_TTL_and_Fire_Commands.vi"/>
 			<Item Name="Prepare_TTL_activation_sequence.vi" Type="VI" URL="../Private API/Functions/Prepare_TTL_activation_sequence.vi"/>
 		</Item>

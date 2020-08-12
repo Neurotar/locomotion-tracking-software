@@ -65,7 +65,6 @@
 		<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster.vi"/>
 		<Item Name="FL_Last_N_Samples_Cluster_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_1D.vi"/>
 		<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
-		<Item Name="FL_Last_N_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_DBL.vi"/>
 		<Item Name="FL_Last_N_Samples_UNIV_iout.vim" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_UNIV_iout.vim"/>
 		<Item Name="FL_Make_data_frame_and_put_to_channel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_channel.vi"/>
 		<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_queue.vi"/>
@@ -79,7 +78,6 @@
 		<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Segment_map_by_color.vi"/>
 		<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter.vi"/>
 		<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
-		<Item Name="FL_Sum_of_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Sum_of_Samples_DBL.vi"/>
 		<Item Name="FL_Update_Histogram_data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Update_Histogram_data.vi"/>
 		<Item Name="FL_ZLEMA_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_ZLEMA_Filter.vi"/>
 		<Item Name="GET_2D_Array_Interpolated_to_size_of_image.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Array_Interpolated_to_size_of_image.vi"/>
