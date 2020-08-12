@@ -22,6 +22,13 @@
 		</Item>
 		<Item Name="TestVI&apos;s" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Inclusion of feedback node" Type="Folder">
+				<Item Name="Count_independent.vi" Type="VI" URL="../TestVI&apos;s/Inclusion of feedback node/Count_independent.vi"/>
+				<Item Name="Count_independent_sub.vi" Type="VI" URL="../TestVI&apos;s/Inclusion of feedback node/Count_independent_sub.vi"/>
+				<Item Name="Count_looped.vi" Type="VI" URL="../TestVI&apos;s/Inclusion of feedback node/Count_looped.vi"/>
+				<Item Name="Count_looped_sub.vi" Type="VI" URL="../TestVI&apos;s/Inclusion of feedback node/Count_looped_sub.vi"/>
+				<Item Name="Inclusion_main.vi" Type="VI" URL="../TestVI&apos;s/Inclusion of feedback node/Inclusion_main.vi"/>
+			</Item>
 			<Item Name="2D binning speed test.vi" Type="VI" URL="../TestVI&apos;s/2D binning speed test.vi"/>
 			<Item Name="2D_density_plot_test.vi" Type="VI" URL="../TestVI&apos;s/2D_density_plot_test.vi"/>
 			<Item Name="Camera_test.vi" Type="VI" URL="../TestVI&apos;s/Camera_test.vi"/>
