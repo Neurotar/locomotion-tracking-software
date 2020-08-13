@@ -53,6 +53,7 @@
 		<Item Name="Functions" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Calc_Sum_of_Samples_DBL.vi" Type="VI" URL="../Private API/Functions/Calc_Sum_of_Samples_DBL.vi"/>
+			<Item Name="Check_If_any_condition_has_became_FALSE.vi" Type="VI" URL="../Private API/Functions/Check_If_any_condition_has_became_FALSE.vi"/>
 			<Item Name="Check_If_any_condition_has_became_TRUE.vi" Type="VI" URL="../Private API/Functions/Check_If_any_condition_has_became_TRUE.vi"/>
 			<Item Name="Check_Particular_Condition.vi" Type="VI" URL="../Private API/Functions/Check_Particular_Condition.vi"/>
 			<Item Name="Check_Particular_SubCondition.vi" Type="VI" URL="../Private API/Functions/Check_Particular_SubCondition.vi"/>

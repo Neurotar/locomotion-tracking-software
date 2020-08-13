@@ -20,6 +20,24 @@
 		<Item Name="Support" Type="Folder" URL="../Support">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
+		<Item Name="Tracks Repair Module" Type="Folder">
+			<Item Name="Tracks Repair.lvlib" Type="Library" URL="../Libraries/Tracks Repair/Tracks Repair.lvlib"/>
+		</Item>
+		<Item Name="Stream Data Module" Type="Folder">
+			<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
+		</Item>
+		<Item Name="Cage Diagram Module" Type="Folder">
+			<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
+		</Item>
+		<Item Name="TTL IO Module" Type="Folder">
+			<Item Name="TTL IO.lvlib" Type="Library" URL="../Libraries/TTL IO/TTL IO.lvlib"/>
+		</Item>
+		<Item Name="Testers" Type="Folder">
+			<Item Name="Test Tracks Repair API.vi" Type="VI" URL="../Libraries/Tracks Repair/Test Tracks Repair API.vi"/>
+			<Item Name="Test Stream Data API.vi" Type="VI" URL="../Libraries/Stream Data/Test Stream Data API.vi"/>
+			<Item Name="Test Cage Diagram API.vi" Type="VI" URL="../Libraries/Cage Diagram/Test Cage Diagram API.vi"/>
+			<Item Name="Test TTL IO API.vi" Type="VI" URL="../Libraries/TTL IO/Test TTL IO API.vi"/>
+		</Item>
 		<Item Name="TestVI&apos;s" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Inclusion of feedback node" Type="Folder">
@@ -84,24 +102,6 @@
 			<Item Name="Zone-to-color_correspondence_lookup_test.vi" Type="VI" URL="../TestVI&apos;s/Zone-to-color_correspondence_lookup_test.vi"/>
 			<Item Name="Zone-to-color_correspondence_lookup_test_2.vi" Type="VI" URL="../TestVI&apos;s/Zone-to-color_correspondence_lookup_test_2.vi"/>
 			<Item Name="Zones layout drawing test with smoothing and edge detection.vi" Type="VI" URL="../TestVI&apos;s/Zones layout drawing test with smoothing and edge detection.vi"/>
-		</Item>
-		<Item Name="Tracks Repair Module" Type="Folder">
-			<Item Name="Tracks Repair.lvlib" Type="Library" URL="../Libraries/Tracks Repair/Tracks Repair.lvlib"/>
-		</Item>
-		<Item Name="Stream Data Module" Type="Folder">
-			<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
-		</Item>
-		<Item Name="Cage Diagram Module" Type="Folder">
-			<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
-		</Item>
-		<Item Name="TTL IO Module" Type="Folder">
-			<Item Name="TTL IO.lvlib" Type="Library" URL="../Libraries/TTL IO/TTL IO.lvlib"/>
-		</Item>
-		<Item Name="Testers" Type="Folder">
-			<Item Name="Test Tracks Repair API.vi" Type="VI" URL="../Libraries/Tracks Repair/Test Tracks Repair API.vi"/>
-			<Item Name="Test Stream Data API.vi" Type="VI" URL="../Libraries/Stream Data/Test Stream Data API.vi"/>
-			<Item Name="Test Cage Diagram API.vi" Type="VI" URL="../Libraries/Cage Diagram/Test Cage Diagram API.vi"/>
-			<Item Name="Test TTL IO API.vi" Type="VI" URL="../Libraries/TTL IO/Test TTL IO API.vi"/>
 		</Item>
 		<Item Name="DigitalOutTask_0" Type="NI-DAQmx Task">
 			<Property Name="\0\ChanType" Type="Str">Digital Output</Property>
