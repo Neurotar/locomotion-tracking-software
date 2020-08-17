@@ -89,6 +89,7 @@
 			<Item Name="Test_data_read.vi" Type="VI" URL="../TestVI&apos;s/Test_data_read.vi"/>
 			<Item Name="Test_image_display_speed.vi" Type="VI" URL="../TestVI&apos;s/Test_image_display_speed.vi"/>
 			<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../TestVI&apos;s/Test_of_the_stim_settings_save.vi"/>
+			<Item Name="Test_ports_IO_xor_performance.vi" Type="VI" URL="../TestVI&apos;s/Test_ports_IO_xor_performance.vi"/>
 			<Item Name="Test_python_interaction.py" Type="Document" URL="../TestVI&apos;s/Test_python_interaction.py"/>
 			<Item Name="TMDS_clean_and_compress_test.vi" Type="VI" URL="../TestVI&apos;s/TMDS_clean_and_compress_test.vi"/>
 			<Item Name="Track_overlay_draw_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Track_overlay_draw_speed_test.vi"/>

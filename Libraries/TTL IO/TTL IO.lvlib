@@ -42,6 +42,7 @@
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CTL_Parameter_transfer_name.ctl" Type="VI" URL="../Typedefs/CTL_Parameter_transfer_name.ctl"/>
+			<Item Name="CTL_TTL_command_block.ctl" Type="VI" URL="../Typedefs/CTL_TTL_command_block.ctl"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -61,6 +62,7 @@
 			<Item Name="Keep_Last_N_Samples_DBL.vi" Type="VI" URL="../Private API/Functions/Keep_Last_N_Samples_DBL.vi"/>
 			<Item Name="Make_Decision_about_TTL_and_Fire_Commands.vi" Type="VI" URL="../Private API/Functions/Make_Decision_about_TTL_and_Fire_Commands.vi"/>
 			<Item Name="Prepare_TTL_activation_sequence.vi" Type="VI" URL="../Private API/Functions/Prepare_TTL_activation_sequence.vi"/>
+			<Item Name="TTL_XOR_with_IO_inv_config.vi" Type="VI" URL="../Private API/Functions/TTL_XOR_with_IO_inv_config.vi"/>
 		</Item>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
 	</Item>
