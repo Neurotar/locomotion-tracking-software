@@ -55,6 +55,7 @@
 		<Item Name="Requests" Type="Folder"/>
 		<Item Name="Functions" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Add_TTL_IO_times-to-live.vi" Type="VI" URL="../Private API/Functions/Add_TTL_IO_times-to-live.vi"/>
 			<Item Name="Calc_Sum_of_Samples_DBL.vi" Type="VI" URL="../Private API/Functions/Calc_Sum_of_Samples_DBL.vi"/>
 			<Item Name="Check_If_any_condition_has_became_FALSE.vi" Type="VI" URL="../Private API/Functions/Check_If_any_condition_has_became_FALSE.vi"/>
 			<Item Name="Check_If_any_condition_has_became_TRUE.vi" Type="VI" URL="../Private API/Functions/Check_If_any_condition_has_became_TRUE.vi"/>
@@ -65,6 +66,7 @@
 			<Item Name="Make_Decision_about_TTL_and_Fire_Commands.vi" Type="VI" URL="../Private API/Functions/Make_Decision_about_TTL_and_Fire_Commands.vi"/>
 			<Item Name="Prepare_TTL_activation_sequence.vi" Type="VI" URL="../Private API/Functions/Prepare_TTL_activation_sequence.vi"/>
 			<Item Name="TTL_XOR_with_IO_inv_config.vi" Type="VI" URL="../Private API/Functions/TTL_XOR_with_IO_inv_config.vi"/>
+			<Item Name="Update_TTL_IO_times-to-live.vi" Type="VI" URL="../Private API/Functions/Update_TTL_IO_times-to-live.vi"/>
 		</Item>
 		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
 	</Item>

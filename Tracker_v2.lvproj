@@ -88,13 +88,13 @@
 			<Item Name="TDMS_Save_to_CSV.vi" Type="VI" URL="../TestVI&apos;s/TDMS_Save_to_CSV.vi"/>
 			<Item Name="TDMS_saving_speed.xlsx" Type="Document" URL="../TestVI&apos;s/TDMS_saving_speed.xlsx"/>
 			<Item Name="TDMS_test.vi" Type="VI" URL="../TestVI&apos;s/TDMS_test.vi"/>
+			<Item Name="Test_2D_array_index_speed.vi" Type="VI" URL="../TestVI&apos;s/Test_2D_array_index_speed.vi"/>
 			<Item Name="Test_bool_conversion.vi" Type="VI" URL="../TestVI&apos;s/Test_bool_conversion.vi"/>
 			<Item Name="Test_data_read.vi" Type="VI" URL="../TestVI&apos;s/Test_data_read.vi"/>
 			<Item Name="Test_image_display_speed.vi" Type="VI" URL="../TestVI&apos;s/Test_image_display_speed.vi"/>
 			<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../TestVI&apos;s/Test_of_the_stim_settings_save.vi"/>
 			<Item Name="Test_ports_IO_xor_performance.vi" Type="VI" URL="../TestVI&apos;s/Test_ports_IO_xor_performance.vi"/>
 			<Item Name="Test_python_interaction.py" Type="Document" URL="../TestVI&apos;s/Test_python_interaction.py"/>
-			<Item Name="Test_timing_source_triggers.vi" Type="VI" URL="../TestVI&apos;s/Test_timing_source_triggers.vi"/>
 			<Item Name="TMDS_clean_and_compress_test.vi" Type="VI" URL="../TestVI&apos;s/TMDS_clean_and_compress_test.vi"/>
 			<Item Name="Track_overlay_draw_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Track_overlay_draw_speed_test.vi"/>
 			<Item Name="Track_overlay_test.vi" Type="VI" URL="../TestVI&apos;s/Track_overlay_test.vi"/>
@@ -922,9 +922,6 @@
 			</Item>
 			<Item Name="Lossy Stream-a[.](bool).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool).lvlib"/>
 			<Item Name="Calculus.dll" Type="Document" URL="../TestVI&apos;s/Calculus2/Calculus.dll"/>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">
