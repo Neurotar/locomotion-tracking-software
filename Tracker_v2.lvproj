@@ -20,17 +20,20 @@
 		<Item Name="Support" Type="Folder" URL="../Support">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
-		<Item Name="Tracks Repair Module" Type="Folder">
-			<Item Name="Tracks Repair.lvlib" Type="Library" URL="../Libraries/Tracks Repair/Tracks Repair.lvlib"/>
-		</Item>
-		<Item Name="Stream Data Module" Type="Folder">
-			<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
-		</Item>
-		<Item Name="Cage Diagram Module" Type="Folder">
-			<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
-		</Item>
-		<Item Name="TTL IO Module" Type="Folder">
-			<Item Name="TTL IO.lvlib" Type="Library" URL="../Libraries/TTL IO/TTL IO.lvlib"/>
+		<Item Name="Modules" Type="Folder">
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="Cage Diagram Module" Type="Folder">
+				<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
+			</Item>
+			<Item Name="Stream Data Module" Type="Folder">
+				<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
+			</Item>
+			<Item Name="Tracks Repair Module" Type="Folder">
+				<Item Name="Tracks Repair.lvlib" Type="Library" URL="../Libraries/Tracks Repair/Tracks Repair.lvlib"/>
+			</Item>
+			<Item Name="TTL IO Module" Type="Folder">
+				<Item Name="TTL IO.lvlib" Type="Library" URL="../Libraries/TTL IO/TTL IO.lvlib"/>
+			</Item>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Tracks Repair API.vi" Type="VI" URL="../Libraries/Tracks Repair/Test Tracks Repair API.vi"/>
@@ -91,6 +94,7 @@
 			<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../TestVI&apos;s/Test_of_the_stim_settings_save.vi"/>
 			<Item Name="Test_ports_IO_xor_performance.vi" Type="VI" URL="../TestVI&apos;s/Test_ports_IO_xor_performance.vi"/>
 			<Item Name="Test_python_interaction.py" Type="Document" URL="../TestVI&apos;s/Test_python_interaction.py"/>
+			<Item Name="Test_timing_source_triggers.vi" Type="VI" URL="../TestVI&apos;s/Test_timing_source_triggers.vi"/>
 			<Item Name="TMDS_clean_and_compress_test.vi" Type="VI" URL="../TestVI&apos;s/TMDS_clean_and_compress_test.vi"/>
 			<Item Name="Track_overlay_draw_speed_test.vi" Type="VI" URL="../TestVI&apos;s/Track_overlay_draw_speed_test.vi"/>
 			<Item Name="Track_overlay_test.vi" Type="VI" URL="../TestVI&apos;s/Track_overlay_test.vi"/>
@@ -918,6 +922,9 @@
 			</Item>
 			<Item Name="Lossy Stream-a[.](bool).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool).lvlib"/>
 			<Item Name="Calculus.dll" Type="Document" URL="../TestVI&apos;s/Calculus2/Calculus.dll"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">
