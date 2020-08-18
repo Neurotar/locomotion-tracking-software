@@ -125,7 +125,6 @@
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="FP_Apply_digital_signature.vi" Type="VI" URL="../FP_Apply_digital_signature.vi"/>
-		<Item Name="CTL_Segments_Colors_(pie).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segments_Colors_(pie).ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="user.lib" Type="Folder">
