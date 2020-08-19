@@ -66,6 +66,7 @@
 			<Item Name="Keep_Last_N_Samples_DBL.vi" Type="VI" URL="../Private API/Functions/Keep_Last_N_Samples_DBL.vi"/>
 			<Item Name="Make_Decision_about_TTL_and_Fire_Commands.vi" Type="VI" URL="../Private API/Functions/Make_Decision_about_TTL_and_Fire_Commands.vi"/>
 			<Item Name="Prepare_TTL_activation_sequence.vi" Type="VI" URL="../Private API/Functions/Prepare_TTL_activation_sequence.vi"/>
+			<Item Name="Send_to_VISA_serial_port.vi" Type="VI" URL="../Private API/Functions/Send_to_VISA_serial_port.vi"/>
 			<Item Name="TTL_XOR_with_IO_inv_config.vi" Type="VI" URL="../Private API/Functions/TTL_XOR_with_IO_inv_config.vi"/>
 			<Item Name="Update_TTL_IO_times-to-live.vi" Type="VI" URL="../Private API/Functions/Update_TTL_IO_times-to-live.vi"/>
 		</Item>
