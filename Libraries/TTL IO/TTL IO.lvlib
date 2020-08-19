@@ -29,6 +29,7 @@
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="Conditions that are TRUE (active rules) Argument--cluster.ctl" Type="VI" URL="../Conditions that are TRUE (active rules) Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -67,6 +68,7 @@
 			<Item Name="Keep_Last_N_Samples_DBL.vi" Type="VI" URL="../Private API/Functions/Keep_Last_N_Samples_DBL.vi"/>
 			<Item Name="Make_Decision_about_TTL_and_Fire_Commands.vi" Type="VI" URL="../Private API/Functions/Make_Decision_about_TTL_and_Fire_Commands.vi"/>
 			<Item Name="Prepare_TTL_activation_sequence.vi" Type="VI" URL="../Private API/Functions/Prepare_TTL_activation_sequence.vi"/>
+			<Item Name="Send_active_rules_info.vi" Type="VI" URL="../Private API/Functions/Send_active_rules_info.vi"/>
 			<Item Name="Send_to_VISA_serial_port.vi" Type="VI" URL="../Private API/Functions/Send_to_VISA_serial_port.vi"/>
 			<Item Name="TTL_XOR_with_IO_inv_config.vi" Type="VI" URL="../Private API/Functions/TTL_XOR_with_IO_inv_config.vi"/>
 			<Item Name="Update_TTL_IO_times-to-live.vi" Type="VI" URL="../Private API/Functions/Update_TTL_IO_times-to-live.vi"/>
@@ -84,6 +86,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="Conditions that are TRUE (active rules).vi" Type="VI" URL="../Conditions that are TRUE (active rules).vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
