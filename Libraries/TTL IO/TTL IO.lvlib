@@ -46,6 +46,7 @@
 			<Item Name="CTL_Commands_and_Data_for_TTL_IO.ctl" Type="VI" URL="../Typedefs/CTL_Commands_and_Data_for_TTL_IO.ctl"/>
 			<Item Name="CTL_IO_ports_status.ctl" Type="VI" URL="../Typedefs/CTL_IO_ports_status.ctl"/>
 			<Item Name="CTL_IO_action.ctl" Type="VI" URL="../Typedefs/CTL_IO_action.ctl"/>
+			<Item Name="CTL_IO_Live_params.ctl" Type="VI" URL="../Typedefs/CTL_IO_Live_params.ctl"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
