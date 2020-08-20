@@ -22,6 +22,7 @@
 				<Item Name="Show Panel Argument--cluster.ctl" Type="VI" URL="../Show Panel Argument--cluster.ctl"/>
 				<Item Name="Hide Panel Argument--cluster.ctl" Type="VI" URL="../Hide Panel Argument--cluster.ctl"/>
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
+				<Item Name="New Layout Argument--cluster.ctl" Type="VI" URL="../New Layout Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -35,9 +36,12 @@
 			<Item Name="Stop Module.vi" Type="VI" URL="../Stop Module.vi"/>
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
+			<Item Name="New Layout.vi" Type="VI" URL="../New Layout.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CTL_Cage_type.ctl" Type="VI" URL="../Typedefs/CTL_Cage_type.ctl"/>
+			<Item Name="CTL_Image_Geomety_and_Scaling_info.ctl" Type="VI" URL="../Typedefs/CTL_Image_Geomety_and_Scaling_info.ctl"/>
+			<Item Name="CTL_Cage_dimensions.ctl" Type="VI" URL="../Typedefs/CTL_Cage_dimensions.ctl"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -46,7 +50,13 @@
 	<Item Name="Private API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Requests" Type="Folder"/>
-		<Item Name="Functions" Type="Folder"/>
+		<Item Name="Functions" Type="Folder">
+			<Item Name="Cage Generation SubFunctions" Type="Folder">
+				<Item Name="Generate_Cage_DAQmx_Image_and_Scaling.vi" Type="VI" URL="../Private API/Functions/Generate_Cage_DAQmx_Image_and_Scaling.vi"/>
+				<Item Name="Get_nice_dimensions_for_displayed_cage.vi" Type="VI" URL="../Private API/Functions/Get_nice_dimensions_for_displayed_cage.vi"/>
+			</Item>
+			<Item Name="Generate_Cage_Diagram.vi" Type="VI" URL="../Private API/Functions/Generate_Cage_Diagram.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
