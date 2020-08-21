@@ -40,7 +40,7 @@
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CTL_Cage_type.ctl" Type="VI" URL="../Typedefs/CTL_Cage_type.ctl"/>
-			<Item Name="CTL_Image_Geomety_and_Scaling_info.ctl" Type="VI" URL="../Typedefs/CTL_Image_Geomety_and_Scaling_info.ctl"/>
+			<Item Name="CTL_Image_Scaling_info.ctl" Type="VI" URL="../Typedefs/CTL_Image_Scaling_info.ctl"/>
 			<Item Name="CTL_Cage_dimensions.ctl" Type="VI" URL="../Typedefs/CTL_Cage_dimensions.ctl"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
@@ -102,4 +102,5 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="Draw_Segment_at_Coords.vi" Type="VI" URL="../Private API/Functions/Draw_Segment_at_Coords.vi"/>
 </Library>
