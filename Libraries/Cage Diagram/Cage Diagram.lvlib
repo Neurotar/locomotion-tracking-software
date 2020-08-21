@@ -42,6 +42,7 @@
 			<Item Name="CTL_Cage_type.ctl" Type="VI" URL="../Typedefs/CTL_Cage_type.ctl"/>
 			<Item Name="CTL_Image_Scaling_info.ctl" Type="VI" URL="../Typedefs/CTL_Image_Scaling_info.ctl"/>
 			<Item Name="CTL_Cage_dimensions.ctl" Type="VI" URL="../Typedefs/CTL_Cage_dimensions.ctl"/>
+			<Item Name="CTL_Cage_drawing_params.ctl" Type="VI" URL="../Typedefs/CTL_Cage_drawing_params.ctl"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -54,6 +55,9 @@
 			<Item Name="Cage Generation SubFunctions" Type="Folder">
 				<Item Name="Generate_Cage_DAQmx_Image_and_Scaling.vi" Type="VI" URL="../Private API/Functions/Generate_Cage_DAQmx_Image_and_Scaling.vi"/>
 				<Item Name="Get_nice_dimensions_for_displayed_cage.vi" Type="VI" URL="../Private API/Functions/Get_nice_dimensions_for_displayed_cage.vi"/>
+				<Item Name="Draw_Cage_Body.vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Body.vi"/>
+				<Item Name="Draw_Cage_Outline_(round).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(round).vi"/>
+				<Item Name="Get_bounding_box_for_object_at_coords.vi" Type="VI" URL="../Private API/Functions/Get_bounding_box_for_object_at_coords.vi"/>
 			</Item>
 			<Item Name="Generate_Cage_Diagram.vi" Type="VI" URL="../Private API/Functions/Generate_Cage_Diagram.vi"/>
 		</Item>
@@ -102,5 +106,4 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Draw_Segment_at_Coords.vi" Type="VI" URL="../Private API/Functions/Draw_Segment_at_Coords.vi"/>
 </Library>
