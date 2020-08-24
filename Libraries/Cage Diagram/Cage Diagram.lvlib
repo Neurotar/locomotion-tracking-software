@@ -62,6 +62,7 @@
 				<Item Name="Draw_Cage_Outline_(round).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(round).vi"/>
 				<Item Name="Draw_Cage_Outline_(square).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(square).vi"/>
 				<Item Name="Draw_Cage_Outline_(square)_substep_1.vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(square)_substep_1.vi"/>
+				<Item Name="Draw_Cage_Outline_(t-maze).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(t-maze).vi"/>
 				<Item Name="Draw_rectangles_near_rounded_corners.vi" Type="VI" URL="../Private API/Functions/Draw_rectangles_near_rounded_corners.vi"/>
 				<Item Name="Draw_rounded_corners.vi" Type="VI" URL="../Private API/Functions/Draw_rounded_corners.vi"/>
 				<Item Name="Generate_Cage_DAQmx_Image_and_Scaling.vi" Type="VI" URL="../Private API/Functions/Generate_Cage_DAQmx_Image_and_Scaling.vi"/>
