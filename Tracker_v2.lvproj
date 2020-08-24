@@ -83,8 +83,8 @@
 			<Item Name="Single_pulse_ext_TTL.vi" Type="VI" URL="../TestVI&apos;s/Single_pulse_ext_TTL.vi"/>
 			<Item Name="Smooth_Image_Edge_Detect.vi" Type="VI" URL="../TestVI&apos;s/Smooth_Image_Edge_Detect.vi"/>
 			<Item Name="Tab_controls_color_example.vi" Type="VI" URL="../TestVI&apos;s/Tab_controls_color_example.vi"/>
-			<Item Name="TCP_comms_receive.vi" Type="VI" URL="../TestVI&apos;s/TCP_comms_receive.vi"/>
-			<Item Name="TCP_comms_test.vi" Type="VI" URL="../TestVI&apos;s/TCP_comms_test.vi"/>
+			<Item Name="TCP_comms.vi" Type="VI" URL="../TestVI&apos;s/TCP_comms.vi"/>
+			<Item Name="TCP_comms_test_receive.vi" Type="VI" URL="../TestVI&apos;s/TCP_comms_test_receive.vi"/>
 			<Item Name="TCP_comms_test_send.vi" Type="VI" URL="../TestVI&apos;s/TCP_comms_test_send.vi"/>
 			<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TestVI&apos;s/TDMS_loading_speeds_test.vi"/>
 			<Item Name="TDMS_open_and_plot.vi" Type="VI" URL="../TestVI&apos;s/TDMS_open_and_plot.vi"/>
@@ -2549,6 +2549,92 @@
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.2.1.0 beta 1</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="TCP comms test SEND" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{5AEE018B-3CCB-4CCA-8221-7FD56D8BD7EB}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{CACDB02E-F5BA-48A5-B83E-5A889A62FCE3}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{993B8A1B-C454-4D96-9A8C-D9E132CCC255}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TCP comms test SEND</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/TCP_comms_test_SEND</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{1252071C-F82A-474C-9C57-9FB733F2C7EA}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">TCP_test_SEND.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/TCP_comms_test_SEND/TCP_test_SEND.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/TCP_comms_test_SEND/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AB756DAA-5650-4D66-8EFF-E34239322DDE}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestVI's/TCP_comms_test_send.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TCP comms test SEND</Property>
+				<Property Name="TgtF_internalName" Type="Str">TCP comms test SEND</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">TCP comms test SEND</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{05E3D740-D292-4209-BE1D-2DEF89D63613}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TCP_test_SEND.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="TCP comms test RECEIVE" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{815D7035-F025-497A-B8E8-87C813D04604}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{3F06B405-B332-4228-AC70-2A7B39AEA24A}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{88E5AE80-3A74-48BF-B1D3-B0B5F0CA69A6}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TCP comms test RECEIVE</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/TCP_comms_test_RECEIVE</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{330CA9D2-C614-4382-B196-E98225674650}</Property>
+				<Property Name="Bld_version.build" Type="Int">4</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">TCP_test_RECEIVE.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/TCP_comms_test_RECEIVE/TCP_test_RECEIVE.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/TCP_comms_test_RECEIVE/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{AB756DAA-5650-4D66-8EFF-E34239322DDE}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestVI's/TCP_comms_test_send.vi</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/TestVI's/TCP_comms.vi</Property>
+				<Property Name="Source[2].type" Type="Str">VI</Property>
+				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/TestVI's/TCP_comms_test_receive.vi</Property>
+				<Property Name="Source[3].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[3].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">4</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TCP comms test SEND</Property>
+				<Property Name="TgtF_internalName" Type="Str">TCP comms test SEND</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">TCP comms test SEND</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{833F6BA8-1903-4A7D-975E-68A8546444CD}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TCP_test_RECEIVE.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
