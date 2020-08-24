@@ -83,7 +83,9 @@
 			<Item Name="Single_pulse_ext_TTL.vi" Type="VI" URL="../TestVI&apos;s/Single_pulse_ext_TTL.vi"/>
 			<Item Name="Smooth_Image_Edge_Detect.vi" Type="VI" URL="../TestVI&apos;s/Smooth_Image_Edge_Detect.vi"/>
 			<Item Name="Tab_controls_color_example.vi" Type="VI" URL="../TestVI&apos;s/Tab_controls_color_example.vi"/>
+			<Item Name="TCP_comms_receive.vi" Type="VI" URL="../TestVI&apos;s/TCP_comms_receive.vi"/>
 			<Item Name="TCP_comms_test.vi" Type="VI" URL="../TestVI&apos;s/TCP_comms_test.vi"/>
+			<Item Name="TCP_comms_test_send.vi" Type="VI" URL="../TestVI&apos;s/TCP_comms_test_send.vi"/>
 			<Item Name="TDMS_loading_speeds_test.vi" Type="VI" URL="../TestVI&apos;s/TDMS_loading_speeds_test.vi"/>
 			<Item Name="TDMS_open_and_plot.vi" Type="VI" URL="../TestVI&apos;s/TDMS_open_and_plot.vi"/>
 			<Item Name="TDMS_Save_to_CSV.vi" Type="VI" URL="../TestVI&apos;s/TDMS_Save_to_CSV.vi"/>
@@ -880,10 +882,10 @@
 				<Item Name="Get File System Separator.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/sysinfo.llb/Get File System Separator.vi"/>
 				<Item Name="IMAQ ArrayToImage" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ ArrayToImage"/>
 				<Item Name="IMAQ GetImageSize" Type="VI" URL="/&lt;vilib&gt;/vision/Basics.llb/IMAQ GetImageSize"/>
+				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
+				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
-				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
-				<Item Name="TCP Listen.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen.vi"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
 			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
