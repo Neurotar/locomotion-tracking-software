@@ -58,6 +58,7 @@
 				<Item Name="Box_Expand_or_Contract.vi" Type="VI" URL="../Private API/Functions/Box_Expand_or_Contract.vi"/>
 				<Item Name="Box_Scale.vi" Type="VI" URL="../Private API/Functions/Box_Scale.vi"/>
 				<Item Name="Draw_Cage_Body.vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Body.vi"/>
+				<Item Name="Draw_Cage_circle_chord_segment.vi" Type="VI" URL="../Private API/Functions/Draw_Cage_circle_chord_segment.vi"/>
 				<Item Name="Draw_Cage_Outline_(donut).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(donut).vi"/>
 				<Item Name="Draw_Cage_Outline_(round).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(round).vi"/>
 				<Item Name="Draw_Cage_Outline_(square).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(square).vi"/>
