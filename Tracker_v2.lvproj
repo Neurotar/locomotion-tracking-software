@@ -24,6 +24,7 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Cage Diagram Module" Type="Folder">
 				<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
+				<Item Name="Data.lvclass" Type="LVClass" URL="../Libraries/Cage Diagram/Private API/Data.lvclass"/>
 			</Item>
 			<Item Name="Stream Data Module" Type="Folder">
 				<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>

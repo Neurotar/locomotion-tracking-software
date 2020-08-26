@@ -61,6 +61,7 @@
 				<Item Name="Draw_Cage_circle_chord_segment.vi" Type="VI" URL="../Private API/Functions/Draw_Cage_circle_chord_segment.vi"/>
 				<Item Name="Draw_Cage_Outline_(donut).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(donut).vi"/>
 				<Item Name="Draw_Cage_Outline_(round).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(round).vi"/>
+				<Item Name="Draw_Cage_Outline_(sociability maze).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(sociability maze).vi"/>
 				<Item Name="Draw_Cage_Outline_(square).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(square).vi"/>
 				<Item Name="Draw_Cage_Outline_(square)_substep_1.vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(square)_substep_1.vi"/>
 				<Item Name="Draw_Cage_Outline_(t-maze).vi" Type="VI" URL="../Private API/Functions/Draw_Cage_Outline_(t-maze).vi"/>
@@ -68,6 +69,7 @@
 				<Item Name="Draw_rounded_corners.vi" Type="VI" URL="../Private API/Functions/Draw_rounded_corners.vi"/>
 				<Item Name="Generate_Cage_DAQmx_Image_and_Scaling.vi" Type="VI" URL="../Private API/Functions/Generate_Cage_DAQmx_Image_and_Scaling.vi"/>
 				<Item Name="Get_bounding_box_for_object_at_coords.vi" Type="VI" URL="../Private API/Functions/Get_bounding_box_for_object_at_coords.vi"/>
+				<Item Name="Get_coords_from_bounding_box.vi" Type="VI" URL="../Private API/Functions/Get_coords_from_bounding_box.vi"/>
 				<Item Name="Get_nice_dimensions_for_displayed_cage.vi" Type="VI" URL="../Private API/Functions/Get_nice_dimensions_for_displayed_cage.vi"/>
 				<Item Name="Get_object_size_from_b.box.vi" Type="VI" URL="../Private API/Functions/Get_object_size_from_b.box.vi"/>
 			</Item>
