@@ -16,6 +16,7 @@
 		<Item Name="CTL_Animal_Coordinates_and_Speed_(arr).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed_(arr).ctl"/>
 		<Item Name="CTL_Basic_cage_settings.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Basic_cage_settings.ctl"/>
 		<Item Name="CTL_Bounding_Rectangle_of_Segments.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Bounding_Rectangle_of_Segments.ctl"/>
+		<Item Name="CTL_Cage_all_segmentation_params_set.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_all_segmentation_params_set.ctl"/>
 		<Item Name="CTL_Cage_Coords.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords.ctl"/>
 		<Item Name="CTL_Cage_Coords_(arrays).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords_(arrays).ctl"/>
 		<Item Name="CTL_Cage_diameter.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_diameter.ctl"/>
@@ -69,6 +70,8 @@
 		<Item Name="CTL_Response_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Response_info.ctl"/>
 		<Item Name="CTL_Running_statistics_results.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Running_statistics_results.ctl"/>
 		<Item Name="CTL_Segmented_plot_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segmented_plot_parameters.ctl"/>
+		<Item Name="CTL_Segmented_plot_parameters_2.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segmented_plot_parameters_2.ctl"/>
+		<Item Name="CTL_Segmented_plot_parameters_2_(round_d1).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segmented_plot_parameters_2_(round_d1).ctl"/>
 		<Item Name="CTL_Segments_Colors_(pie).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segments_Colors_(pie).ctl"/>
 		<Item Name="CTL_Set_Adv_Stim.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Adv_Stim.ctl"/>
 		<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Clear_button.ctl"/>
