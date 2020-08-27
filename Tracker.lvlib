@@ -218,6 +218,7 @@
 		<Item Name="SW_Load_settings_to_main_tab.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab.vi"/>
 		<Item Name="SW_Load_settings_to_main_tab_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_2.vi"/>
 		<Item Name="SW_Load_settings_to_main_tab_3.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_3.vi"/>
+		<Item Name="SW_Load_settings_to_main_tab_4.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_4.vi"/>
 		<Item Name="SW_Save_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group.vi"/>
 		<Item Name="SW_Save_parameter_group_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group_2.vi"/>
 		<Item Name="SW_Save_proc_data_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_proc_data_to_TDMS.vi"/>
@@ -269,6 +270,7 @@
 		<Item Name="SW_Make_Track_overlay_test.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Make_Track_overlay_test.vi"/>
 		<Item Name="SW_Plot_Thick_arc_line_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Plot_Thick_arc_line_IMAQdx.vi"/>
 		<Item Name="SW_Smooth_Image.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Smooth_Image.vi"/>
+		<Item Name="SW_Update_radial_segmentation_variable_info.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Update_radial_segmentation_variable_info.vi"/>
 	</Item>
 	<Item Name="Settings" Type="Folder">
 		<Item Name="DATA_Reorder_after_condition_modification.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/DATA_Reorder_after_condition_modification.vi"/>
@@ -309,12 +311,10 @@
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 		<Item Name="UI_Set_Slider_values_when_online.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Slider_values_when_online.vi"/>
 		<Item Name="UI_Update_timeline.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Update_timeline.vi"/>
-		<Item Name="UI_update_Zone_indicator_params.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_update_Zone_indicator_params.vi"/>
+		<Item Name="UI_update_Zone_indicator_params_(univ).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_update_Zone_indicator_params_(univ).vi"/>
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
-	<Item Name="SW_Load_settings_to_main_tab_4.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_4.vi"/>
-	<Item Name="SW_Update_radial_segmentation_variable_info.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Update_radial_segmentation_variable_info.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
