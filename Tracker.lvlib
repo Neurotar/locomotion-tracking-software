@@ -197,6 +197,7 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally.vi"/>
 		<Item Name="FL_Preprocess_and_save_incrementally_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally_TDMS.vi"/>
+		<Item Name="Get_cage_size_text_from_Geometry_data.vi" Type="VI" URL="../SubVi&apos;s/Get_cage_size_text_from_Geometry_data.vi"/>
 		<Item Name="SW_Convert_data_from_old_format_save.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Convert_data_from_old_format_save.vi"/>
 		<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Get_save_paths.vi"/>
 		<Item Name="SW_Get_Save_Paths_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Get_Save_Paths_2.vi"/>
@@ -314,5 +315,6 @@
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 	<Item Name="SW_Load_settings_to_main_tab_4.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_4.vi"/>
+	<Item Name="SW_Update_radial_segmentation_variable_info.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Update_radial_segmentation_variable_info.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
