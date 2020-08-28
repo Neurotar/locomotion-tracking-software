@@ -186,9 +186,7 @@
 		<Item Name="SW_Get_passw_hash.vi" Type="VI" URL="../SubVi&apos;s/SW_Get_passw_hash.vi"/>
 		<Item Name="SW_Load_frames_from_XML_LL.vi" Type="VI" URL="../SubVi&apos;s/SW_Load_frames_from_XML_LL.vi"/>
 		<Item Name="SW_Mix_TTL_inputs.vi" Type="VI" URL="../SubVi&apos;s/SW_Mix_TTL_inputs.vi"/>
-		<Item Name="SW_Read_Cage&apos;s_Geometrical_Parameter.vi" Type="VI" URL="../SubVi&apos;s/SW_Read_Cage&apos;s_Geometrical_Parameter.vi"/>
 		<Item Name="SW_Set_Adv_Stimulus_interface.vi" Type="VI" URL="../SubVi&apos;s/SW_Set_Adv_Stimulus_interface.vi"/>
-		<Item Name="SW_Write_Cage&apos;s_Geometrical_Parameter.vi" Type="VI" URL="../SubVi&apos;s/SW_Write_Cage&apos;s_Geometrical_Parameter.vi"/>
 	</Item>
 	<Item Name="Recording" Type="Folder">
 		<Item Name="PR_Prepare_TDMS_for_Recording.vi" Type="VI" URL="../SubVi&apos;s/Recording/PR_Prepare_TDMS_for_Recording.vi"/>

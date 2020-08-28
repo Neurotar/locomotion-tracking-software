@@ -92,5 +92,9 @@
 			<Item Name="FL_Last_N_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_DBL.vi"/>
 			<Item Name="FL_Sum_of_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Sum_of_Samples_DBL.vi"/>
 		</Item>
+		<Item Name="Misc" Type="Folder">
+			<Item Name="SW_Read_Cage&apos;s_Geometrical_Parameter.vi" Type="VI" URL="../SubVi&apos;s/SW_Read_Cage&apos;s_Geometrical_Parameter.vi"/>
+			<Item Name="SW_Write_Cage&apos;s_Geometrical_Parameter.vi" Type="VI" URL="../SubVi&apos;s/SW_Write_Cage&apos;s_Geometrical_Parameter.vi"/>
+		</Item>
 	</Item>
 </Library>
