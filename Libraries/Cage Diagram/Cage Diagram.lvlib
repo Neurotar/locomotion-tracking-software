@@ -25,6 +25,8 @@
 				<Item Name="New Layout Argument--cluster.ctl" Type="VI" URL="../New Layout Argument--cluster.ctl"/>
 				<Item Name="New Layout (instant) Argument--cluster.ctl" Type="VI" URL="../New Layout (instant) Argument--cluster.ctl"/>
 				<Item Name="New Layout (instant) (Reply Payload)--cluster.ctl" Type="VI" URL="../New Layout (instant) (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get Layout Image as Array Argument--cluster.ctl" Type="VI" URL="../Get Layout Image as Array Argument--cluster.ctl"/>
+				<Item Name="Get Layout Image as Array (Reply Payload)--cluster.ctl" Type="VI" URL="../Get Layout Image as Array (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -41,6 +43,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="New Layout.vi" Type="VI" URL="../New Layout.vi"/>
 			<Item Name="New Layout (instant).vi" Type="VI" URL="../New Layout (instant).vi"/>
+			<Item Name="Get Layout Image as Array.vi" Type="VI" URL="../Get Layout Image as Array.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CTL_Cage_type.ctl" Type="VI" URL="../Typedefs/CTL_Cage_type.ctl"/>
