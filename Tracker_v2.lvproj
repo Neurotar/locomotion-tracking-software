@@ -26,6 +26,12 @@
 				<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
 				<Item Name="Data.lvclass" Type="LVClass" URL="../Libraries/Cage Diagram/Private API/Data.lvclass"/>
 			</Item>
+			<Item Name="File IO Module" Type="Folder">
+				<Item Name="File IO.lvlib" Type="Library" URL="../Libraries/File IO/File IO.lvlib"/>
+			</Item>
+			<Item Name="Settings Module" Type="Folder">
+				<Item Name="Settings.lvlib" Type="Library" URL="../Libraries/Settings/Settings.lvlib"/>
+			</Item>
 			<Item Name="Stream Data Module" Type="Folder">
 				<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
 			</Item>
@@ -41,6 +47,8 @@
 			<Item Name="Test Stream Data API.vi" Type="VI" URL="../Libraries/Stream Data/Test Stream Data API.vi"/>
 			<Item Name="Test Cage Diagram API.vi" Type="VI" URL="../Libraries/Cage Diagram/Test Cage Diagram API.vi"/>
 			<Item Name="Test TTL IO API.vi" Type="VI" URL="../Libraries/TTL IO/Test TTL IO API.vi"/>
+			<Item Name="Test File IO API.vi" Type="VI" URL="../Libraries/File IO/Test File IO API.vi"/>
+			<Item Name="Test Settings API.vi" Type="VI" URL="../Libraries/Settings/Test Settings API.vi"/>
 		</Item>
 		<Item Name="TestVI&apos;s" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
