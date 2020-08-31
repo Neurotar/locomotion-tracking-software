@@ -147,6 +147,7 @@
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
 		<Item Name="FP_Apply_digital_signature.vi" Type="VI" URL="../FP_Apply_digital_signature.vi"/>
+		<Item Name="Startup.vi" Type="VI" URL="../Startup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -944,6 +945,9 @@
 			</Item>
 			<Item Name="Lossy Stream-a[.](bool).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool).lvlib"/>
 			<Item Name="Calculus.dll" Type="Document" URL="../TestVI&apos;s/Calculus2/Calculus.dll"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">
@@ -2710,8 +2714,6 @@
 				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.3.0.1.exe</Property>
 			</Item>
 			<Item Name="Tracker v2.3.0.1 alpha 1 full installer" Type="Installer">
-				<Property Name="AB_Class_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2018/vi.lib/AppBuilder/IB_Classes/MSI/IB_MSI.lvclass</Property>
-				<Property Name="AB_UIClass_Path" Type="Path">/C/Program Files/National Instruments/LabVIEW 2018/vi.lib/AppBuilder/IB_Classes/Installer/UI/AB_UI_Frmwk_Installer.lvclass</Property>
 				<Property Name="Destination[0].name" Type="Str">Neurotar</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
@@ -2803,7 +2805,7 @@
 				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.3.0.1 alpha 1 full installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
 				<Property Name="INST_productName" Type="Str">Tracker v2.3.0.1 alpha 1</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.54</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.55</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
