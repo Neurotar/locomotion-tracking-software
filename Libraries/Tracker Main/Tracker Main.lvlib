@@ -48,12 +48,21 @@
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 		<Item Name="Arguments" Type="Folder">
 			<Item Name="SW Init Argument--cluster.ctl" Type="VI" URL="../SW Init Argument--cluster.ctl"/>
+			<Item Name="HW Init Argument--cluster.ctl" Type="VI" URL="../HW Init Argument--cluster.ctl"/>
+			<Item Name="Update Interface Argument--cluster.ctl" Type="VI" URL="../Update Interface Argument--cluster.ctl"/>
+			<Item Name="Load Minimal Set of Modules Argument--cluster.ctl" Type="VI" URL="../Load Minimal Set of Modules Argument--cluster.ctl"/>
 		</Item>
 		<Item Name="Requests" Type="Folder">
 			<Item Name="SW Init.vi" Type="VI" URL="../SW Init.vi"/>
+			<Item Name="HW Init.vi" Type="VI" URL="../HW Init.vi"/>
+			<Item Name="Update Interface.vi" Type="VI" URL="../Update Interface.vi"/>
+			<Item Name="Load Minimal Set of Modules.vi" Type="VI" URL="../Load Minimal Set of Modules.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
 			<Item Name="Set Status with History.vi" Type="VI" URL="../Private API/Functions/Set Status with History.vi"/>
+		</Item>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="CTL_UI_Update_Option.ctl" Type="VI" URL="../Private API/Typedefs/CTL_UI_Update_Option.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
