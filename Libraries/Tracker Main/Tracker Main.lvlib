@@ -35,6 +35,18 @@
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
 		<Item Name="Obtain Broadcast Events for Registration.vi" Type="VI" URL="../Obtain Broadcast Events for Registration.vi"/>
 	</Item>
+	<Item Name="Private API" Type="Folder">
+		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		<Item Name="Arguments" Type="Folder">
+			<Item Name="SW Init Argument--cluster.ctl" Type="VI" URL="../SW Init Argument--cluster.ctl"/>
+		</Item>
+		<Item Name="Requests" Type="Folder">
+			<Item Name="SW Init.vi" Type="VI" URL="../SW Init.vi"/>
+		</Item>
+		<Item Name="Functions" Type="Folder">
+			<Item Name="Set Status with History.vi" Type="VI" URL="../Private API/Functions/Set Status with History.vi"/>
+		</Item>
+	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 		<Property Name="NI.SortType" Type="Int">3</Property>
@@ -75,6 +87,9 @@
 		<Item Name="Synchronize Caller Events.vi" Type="VI" URL="../Synchronize Caller Events.vi"/>
 		<Item Name="Wait on Event Sync.vi" Type="VI" URL="../Wait on Event Sync.vi"/>
 		<Item Name="Wait on Module Sync.vi" Type="VI" URL="../Wait on Module Sync.vi"/>
+	</Item>
+	<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass">
+		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

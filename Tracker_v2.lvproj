@@ -24,7 +24,6 @@
 			<Property Name="NI.SortType" Type="Int">0</Property>
 			<Item Name="Cage Diagram Module" Type="Folder">
 				<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
-				<Item Name="Data.lvclass" Type="LVClass" URL="../Libraries/Cage Diagram/Private API/Data.lvclass"/>
 			</Item>
 			<Item Name="File IO Module" Type="Folder">
 				<Item Name="File IO.lvlib" Type="Library" URL="../Libraries/File IO/File IO.lvlib"/>
@@ -945,9 +944,6 @@
 			</Item>
 			<Item Name="Lossy Stream-a[.](bool).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool).lvlib"/>
 			<Item Name="Calculus.dll" Type="Document" URL="../TestVI&apos;s/Calculus2/Calculus.dll"/>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">
