@@ -70,12 +70,13 @@
 		<Item Name="CTL_Response_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Response_info.ctl"/>
 		<Item Name="CTL_Running_statistics_results.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Running_statistics_results.ctl"/>
 		<Item Name="CTL_Segmented_plot_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segmented_plot_parameters.ctl"/>
-		<Item Name="CTL_Segmented_plot_parameters_2.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segmented_plot_parameters_2.ctl"/>
-		<Item Name="CTL_Segmented_plot_parameters_2_(round_d1).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segmented_plot_parameters_2_(round_d1).ctl"/>
+		<Item Name="CTL_Segmented_plot_parameters_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_Segmented_plot_parameters_2.ctl"/>
+		<Item Name="CTL_Segmented_plot_parameters_2_(round_d1).ctl" Type="VI" URL="../Common/Typedefs/CTL_Segmented_plot_parameters_2_(round_d1).ctl"/>
 		<Item Name="CTL_Segments_Colors_(pie).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segments_Colors_(pie).ctl"/>
 		<Item Name="CTL_Set_Adv_Stim.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Adv_Stim.ctl"/>
 		<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Clear_button.ctl"/>
 		<Item Name="CTL_Settings_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_cluster.ctl"/>
+		<Item Name="CTL_Settings_cluster_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_Settings_cluster_2.ctl"/>
 		<Item Name="CTL_Settings_parameter_group_enum.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_parameter_group_enum.ctl"/>
 		<Item Name="CTL_Settings_parameters_groups.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_parameters_groups.ctl"/>
 		<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
@@ -93,7 +94,12 @@
 			<Item Name="FL_Sum_of_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Sum_of_Samples_DBL.vi"/>
 		</Item>
 		<Item Name="Misc" Type="Folder">
+			<Item Name="GZip_String_via_dotNet.vi" Type="VI" URL="../Common/Functions/GZip_String_via_dotNet.vi"/>
+		</Item>
+		<Item Name="Settings" Type="Folder">
+			<Item Name="SW_Init_Array_of_Conditions.vi" Type="VI" URL="../Common/Functions/SW_Init_Array_of_Conditions.vi"/>
 			<Item Name="SW_Read_Cage&apos;s_Geometrical_Parameter.vi" Type="VI" URL="../SubVi&apos;s/SW_Read_Cage&apos;s_Geometrical_Parameter.vi"/>
+			<Item Name="SW_Shape_Conditions_Array_after_Loading.vi" Type="VI" URL="../Common/Functions/SW_Shape_Conditions_Array_after_Loading.vi"/>
 			<Item Name="SW_Write_Cage&apos;s_Geometrical_Parameter.vi" Type="VI" URL="../SubVi&apos;s/SW_Write_Cage&apos;s_Geometrical_Parameter.vi"/>
 		</Item>
 	</Item>
