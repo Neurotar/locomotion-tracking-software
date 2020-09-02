@@ -36,7 +36,8 @@
 		<Item Name="CTL_Conditions_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_Cluster.ctl"/>
 		<Item Name="CTL_Conditions_GZippped_string.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_GZippped_string.ctl"/>
 		<Item Name="CTL_Control_States.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Control_States.ctl"/>
-		<Item Name="CTL_Controls_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Controls_References.ctl"/>
+		<Item Name="CTL_Controls_References.ctl" Type="VI" URL="../Common/Typedefs/CTL_Controls_References.ctl"/>
+		<Item Name="CTL_Controls_References_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_Controls_References_2.ctl"/>
 		<Item Name="CTL_Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Boolean_Indicator.ctl"/>
 		<Item Name="CTL_Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Close_Button.ctl"/>
 		<Item Name="CTL_Custom_HW_Re-check_Button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_HW_Re-check_Button.ctl"/>
