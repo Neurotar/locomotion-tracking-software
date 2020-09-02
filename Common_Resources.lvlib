@@ -12,6 +12,7 @@
 		<Item Name="CTL_2D_bins_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_2D_bins_parameters.ctl"/>
 		<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
 		<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
+		<Item Name="CTL_All_References_2.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References_2.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed_(arr).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed_(arr).ctl"/>
 		<Item Name="CTL_Basic_cage_settings.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Basic_cage_settings.ctl"/>
@@ -50,7 +51,8 @@
 		<Item Name="CTL_Histogram_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_parameters.ctl"/>
 		<Item Name="CTL_Histogram_Properties.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_Properties.ctl"/>
 		<Item Name="CTL_Image_Geometrical_and_scaling_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Image_Geometrical_and_scaling_parameters.ctl"/>
-		<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Indicators_References.ctl"/>
+		<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../Common/Typedefs/CTL_Indicators_References.ctl"/>
+		<Item Name="CTL_Indicators_References_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_Indicators_References_2.ctl"/>
 		<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_params_cluster.ctl"/>
 		<Item Name="CTL_IO_Ports_activity_indicator.ctl" Type="VI" URL="../Common/Typedefs/CTL_IO_Ports_activity_indicator.ctl"/>
 		<Item Name="CTL_IO_status_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_status_indicator.ctl"/>
