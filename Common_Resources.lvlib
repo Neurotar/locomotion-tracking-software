@@ -53,6 +53,7 @@
 		<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Indicators_References.ctl"/>
 		<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_params_cluster.ctl"/>
 		<Item Name="CTL_IO_status_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_status_indicator.ctl"/>
+		<Item Name="CTL_IO_status_indicator_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_IO_status_indicator_2.ctl"/>
 		<Item Name="CTL_Loaded_data_output_(offline).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Loaded_data_output_(offline).ctl"/>
 		<Item Name="CTL_Measurements_and_Statistics.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Measurements_and_Statistics.ctl"/>
 		<Item Name="CTL_Mouse_Draw_Params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Mouse_Draw_Params.ctl"/>
@@ -86,6 +87,7 @@
 		<Item Name="CTL_Validity_check_criteria.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Validity_check_criteria.ctl"/>
 		<Item Name="CTL_VISA_port_Descr.-Name.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_VISA_port_Descr.-Name.ctl"/>
 		<Item Name="CTL_Zone_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Zone_indicator.ctl"/>
+		<Item Name="CTL_Zone_indicator_vert.ctl" Type="VI" URL="../Common/Typedefs/CTL_Zone_indicator_vert.ctl"/>
 		<Item Name="CTL_Zones_control_and_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Zones_control_and_indicator.ctl"/>
 	</Item>
 	<Item Name="Functions" Type="Folder">
@@ -93,10 +95,14 @@
 			<Item Name="FL_Last_N_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_DBL.vi"/>
 			<Item Name="FL_Sum_of_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Sum_of_Samples_DBL.vi"/>
 		</Item>
+		<Item Name="Conditions" Type="Folder">
+			<Item Name="SW_Generate_Full_Condition(s)_text_2.vi" Type="VI" URL="../Common/Functions/SW_Generate_Full_Condition(s)_text_2.vi"/>
+		</Item>
 		<Item Name="Misc" Type="Folder">
 			<Item Name="GZip_String_via_dotNet.vi" Type="VI" URL="../Common/Functions/GZip_String_via_dotNet.vi"/>
 		</Item>
 		<Item Name="Settings" Type="Folder">
+			<Item Name="SW_Get_Ports_IO_and_Inv_config.vi" Type="VI" URL="../Common/Functions/SW_Get_Ports_IO_and_Inv_config.vi"/>
 			<Item Name="SW_Init_Array_of_Conditions.vi" Type="VI" URL="../Common/Functions/SW_Init_Array_of_Conditions.vi"/>
 			<Item Name="SW_Read_Cage&apos;s_Geometrical_Parameter.vi" Type="VI" URL="../SubVi&apos;s/SW_Read_Cage&apos;s_Geometrical_Parameter.vi"/>
 			<Item Name="SW_Shape_Conditions_Array_after_Loading.vi" Type="VI" URL="../Common/Functions/SW_Shape_Conditions_Array_after_Loading.vi"/>
