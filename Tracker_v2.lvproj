@@ -144,7 +144,7 @@
 		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
 		<Item Name="Common_Resources.lvlib" Type="Library" URL="../Common_Resources.lvlib"/>
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
-		<Item Name="Tracker.vi" Type="VI" URL="../Tracker.vi"/>
+		<Item Name="Tracker_2.1.vi" Type="VI" URL="../Tracker_2.1.vi"/>
 		<Item Name="FP_Apply_digital_signature.vi" Type="VI" URL="../FP_Apply_digital_signature.vi"/>
 		<Item Name="Startup.vi" Type="VI" URL="../Startup.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -1234,7 +1234,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{28D08288-CC27-45FA-96F7-49DDD734ED23}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker_2.1.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
@@ -1662,7 +1662,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{47BD84DA-1A40-4998-B259-9322BFF4641E}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker_2.1.vi</Property>
 				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
@@ -2281,7 +2281,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{08818316-6D11-4F54-8305-B3528E1BF068}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker_2.1.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
@@ -2675,7 +2675,7 @@
 				<Property Name="Source[0].itemID" Type="Str">{0465777B-96A3-4D53-809A-02ED605C4598}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker_2.1.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>

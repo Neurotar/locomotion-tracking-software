@@ -8,11 +8,18 @@
 
 </Property>
 	<Item Name="Controls" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">0</Property>
+		<Property Name="NI.SortType" Type="Int">3</Property>
+		<Item Name="UI elements" Type="Folder">
+			<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
+			<Item Name="CTL_All_UI_References_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_All_UI_References_2.ctl"/>
+			<Item Name="CTL_Controls_References.ctl" Type="VI" URL="../Common/Typedefs/CTL_Controls_References.ctl"/>
+			<Item Name="CTL_Controls_References_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_Controls_References_2.ctl"/>
+			<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../Common/Typedefs/CTL_Indicators_References.ctl"/>
+			<Item Name="CTL_Indicators_References_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_Indicators_References_2.ctl"/>
+			<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../Common/Typedefs/CTL_Panes_and_VIs_References.ctl"/>
+		</Item>
 		<Item Name="CTL_2D_bins_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_2D_bins_parameters.ctl"/>
 		<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
-		<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
-		<Item Name="CTL_All_UI_References_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_All_UI_References_2.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed_(arr).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed_(arr).ctl"/>
 		<Item Name="CTL_Basic_cage_settings.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Basic_cage_settings.ctl"/>
@@ -36,8 +43,6 @@
 		<Item Name="CTL_Conditions_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_Cluster.ctl"/>
 		<Item Name="CTL_Conditions_GZippped_string.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_GZippped_string.ctl"/>
 		<Item Name="CTL_Control_States.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Control_States.ctl"/>
-		<Item Name="CTL_Controls_References.ctl" Type="VI" URL="../Common/Typedefs/CTL_Controls_References.ctl"/>
-		<Item Name="CTL_Controls_References_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_Controls_References_2.ctl"/>
 		<Item Name="CTL_Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Boolean_Indicator.ctl"/>
 		<Item Name="CTL_Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Close_Button.ctl"/>
 		<Item Name="CTL_Custom_HW_Re-check_Button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_HW_Re-check_Button.ctl"/>
@@ -52,8 +57,6 @@
 		<Item Name="CTL_Histogram_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_parameters.ctl"/>
 		<Item Name="CTL_Histogram_Properties.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_Properties.ctl"/>
 		<Item Name="CTL_Image_Geometrical_and_scaling_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Image_Geometrical_and_scaling_parameters.ctl"/>
-		<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../Common/Typedefs/CTL_Indicators_References.ctl"/>
-		<Item Name="CTL_Indicators_References_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_Indicators_References_2.ctl"/>
 		<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_params_cluster.ctl"/>
 		<Item Name="CTL_IO_Ports_activity_indicator.ctl" Type="VI" URL="../Common/Typedefs/CTL_IO_Ports_activity_indicator.ctl"/>
 		<Item Name="CTL_IO_status_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_status_indicator.ctl"/>
@@ -62,7 +65,6 @@
 		<Item Name="CTL_Measurements_and_Statistics.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Measurements_and_Statistics.ctl"/>
 		<Item Name="CTL_Mouse_Draw_Params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Mouse_Draw_Params.ctl"/>
 		<Item Name="CTL_Overlays_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Overlays_cluster.ctl"/>
-		<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../Common/Typedefs/CTL_Panes_and_VIs_References.ctl"/>
 		<Item Name="CTL_Paths_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Paths_cluster.ctl"/>
 		<Item Name="CTL_Pixel_to_Zone_array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Pixel_to_Zone_array.ctl"/>
 		<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Play_pause_button.ctl"/>

@@ -51,12 +51,14 @@
 			<Item Name="HW Init Argument--cluster.ctl" Type="VI" URL="../HW Init Argument--cluster.ctl"/>
 			<Item Name="Update Interface Argument--cluster.ctl" Type="VI" URL="../Update Interface Argument--cluster.ctl"/>
 			<Item Name="Load Minimal Set of Modules Argument--cluster.ctl" Type="VI" URL="../Load Minimal Set of Modules Argument--cluster.ctl"/>
+			<Item Name="Update Cage Layout Argument--cluster.ctl" Type="VI" URL="../Update Cage Layout Argument--cluster.ctl"/>
 		</Item>
 		<Item Name="Requests" Type="Folder">
 			<Item Name="SW Init.vi" Type="VI" URL="../SW Init.vi"/>
 			<Item Name="HW Init.vi" Type="VI" URL="../HW Init.vi"/>
 			<Item Name="Update Interface.vi" Type="VI" URL="../Update Interface.vi"/>
 			<Item Name="Load Minimal Set of Modules.vi" Type="VI" URL="../Load Minimal Set of Modules.vi"/>
+			<Item Name="Update Cage Layout.vi" Type="VI" URL="../Update Cage Layout.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
 			<Item Name="UI" Type="Folder">
