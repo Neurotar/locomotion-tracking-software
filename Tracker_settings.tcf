@@ -34,8 +34,8 @@ Cage parameters.Sociability-maze = "\18\00€\00\00\00\00\01\00\08\000ÿÿÿÿ\00\01\0
 
 [ >>> IO parameters]
 IO general config. = "12"
-IO 1 configuration = "1"
-IO 2 configuration = "1"
+IO 1 configuration = "0"
+IO 2 configuration = "0"
 IO 3 configuration = "0"
 IO 4 configuration = "0"
 Activate ext. RS-232 = "0"

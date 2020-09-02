@@ -294,7 +294,6 @@
 	</Item>
 	<Item Name="UI interacton" Type="Folder">
 		<Item Name="SW_Adjust_UI_draw_interwal.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Adjust_UI_draw_interwal.vi"/>
-		<Item Name="SW_Get_Menu_tags.vi" Type="VI" URL="../SubVi&apos;s/Controls/SW_Get_Menu_tags.vi"/>
 		<Item Name="Tracker_run-time_menu.rtm" Type="Document" URL="../SubVi&apos;s/Set UI states/Tracker_run-time_menu.rtm"/>
 		<Item Name="UI_(01)_Set_startup_controls_state.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(01)_Set_startup_controls_state.vi"/>
 		<Item Name="UI_(02)_Unlock.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(02)_Unlock.vi"/>
@@ -309,7 +308,6 @@
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 		<Item Name="UI_Set_Slider_values_when_online.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Slider_values_when_online.vi"/>
 		<Item Name="UI_Update_timeline.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Update_timeline.vi"/>
-		<Item Name="UI_update_Zone_indicator_params_(univ).vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_update_Zone_indicator_params_(univ).vi"/>
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
 	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>

@@ -12,7 +12,7 @@
 		<Item Name="CTL_2D_bins_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_2D_bins_parameters.ctl"/>
 		<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
 		<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
-		<Item Name="CTL_All_References_2.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References_2.ctl"/>
+		<Item Name="CTL_All_UI_References_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_All_UI_References_2.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed_(arr).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed_(arr).ctl"/>
 		<Item Name="CTL_Basic_cage_settings.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Basic_cage_settings.ctl"/>
@@ -111,6 +111,10 @@
 			<Item Name="SW_Read_Cage&apos;s_Geometrical_Parameter.vi" Type="VI" URL="../SubVi&apos;s/SW_Read_Cage&apos;s_Geometrical_Parameter.vi"/>
 			<Item Name="SW_Shape_Conditions_Array_after_Loading.vi" Type="VI" URL="../Common/Functions/SW_Shape_Conditions_Array_after_Loading.vi"/>
 			<Item Name="SW_Write_Cage&apos;s_Geometrical_Parameter.vi" Type="VI" URL="../SubVi&apos;s/SW_Write_Cage&apos;s_Geometrical_Parameter.vi"/>
+		</Item>
+		<Item Name="UI Interaction" Type="Folder">
+			<Item Name="SW_Get_Menu_tags.vi" Type="VI" URL="../Common/Functions/UI Interaction/SW_Get_Menu_tags.vi"/>
+			<Item Name="UI_update_Zone_indicator_params_(univ).vi" Type="VI" URL="../Common/Functions/UI Interaction/UI_update_Zone_indicator_params_(univ).vi"/>
 		</Item>
 	</Item>
 </Library>

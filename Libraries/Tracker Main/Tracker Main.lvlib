@@ -59,6 +59,9 @@
 			<Item Name="Load Minimal Set of Modules.vi" Type="VI" URL="../Load Minimal Set of Modules.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
+			<Item Name="UI" Type="Folder">
+				<Item Name="UI_(01)_Set_startup_controls_state.vi" Type="VI" URL="../Private API/Functions/UI_(01)_Set_startup_controls_state.vi"/>
+			</Item>
 			<Item Name="Set Status with History.vi" Type="VI" URL="../Private API/Functions/Set Status with History.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
@@ -112,5 +115,7 @@
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
-	<Item Name="Tracker_Main_run-time_menu.rtm" Type="Document" URL="../Tracker_Main_run-time_menu.rtm"/>
+	<Item Name="Tracker_Main_run-time_menu.rtm" Type="Document" URL="../Tracker_Main_run-time_menu.rtm">
+		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+	</Item>
 </Library>
