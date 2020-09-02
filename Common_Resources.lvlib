@@ -52,13 +52,14 @@
 		<Item Name="CTL_Image_Geometrical_and_scaling_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Image_Geometrical_and_scaling_parameters.ctl"/>
 		<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Indicators_References.ctl"/>
 		<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_params_cluster.ctl"/>
+		<Item Name="CTL_IO_Ports_activity_indicator.ctl" Type="VI" URL="../Common/Typedefs/CTL_IO_Ports_activity_indicator.ctl"/>
 		<Item Name="CTL_IO_status_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_status_indicator.ctl"/>
 		<Item Name="CTL_IO_status_indicator_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_IO_status_indicator_2.ctl"/>
 		<Item Name="CTL_Loaded_data_output_(offline).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Loaded_data_output_(offline).ctl"/>
 		<Item Name="CTL_Measurements_and_Statistics.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Measurements_and_Statistics.ctl"/>
 		<Item Name="CTL_Mouse_Draw_Params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Mouse_Draw_Params.ctl"/>
 		<Item Name="CTL_Overlays_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Overlays_cluster.ctl"/>
-		<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Panes_and_VIs_References.ctl"/>
+		<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../Common/Typedefs/CTL_Panes_and_VIs_References.ctl"/>
 		<Item Name="CTL_Paths_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Paths_cluster.ctl"/>
 		<Item Name="CTL_Pixel_to_Zone_array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Pixel_to_Zone_array.ctl"/>
 		<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Play_pause_button.ctl"/>
