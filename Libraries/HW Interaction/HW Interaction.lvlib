@@ -49,7 +49,17 @@
 	</Item>
 	<Item Name="Private API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		<Item Name="Typedefs" Type="Folder"/>
+		<Item Name="Functions" Type="Folder">
+			<Item Name="Polymorphic sub" Type="Folder">
+				<Item Name="HW_Poll_Tracker_1.x.x.vi" Type="VI" URL="../Private API/Functions/HW_Poll_Tracker_1.x.x.vi"/>
+				<Item Name="HW_Poll_Tracker_2.0.3.vi" Type="VI" URL="../Private API/Functions/HW_Poll_Tracker_2.0.3.vi"/>
+				<Item Name="HW_Poll_Tracker_2.0.4+.vi" Type="VI" URL="../Private API/Functions/HW_Poll_Tracker_2.0.4+.vi"/>
+			</Item>
+			<Item Name="HW_Poll_Tracker_poly.vi" Type="VI" URL="../Private API/Functions/HW_Poll_Tracker_poly.vi"/>
+			<Item Name="HW_Setup_3.vi" Type="VI" URL="../Private API/Functions/HW_Setup_3.vi"/>
+			<Item Name="HW_Init_Serial_3.vi" Type="VI" URL="../Private API/Functions/HW_Init_Serial_3.vi"/>
+			<Item Name="HW_Set_FPS_on_device.vi" Type="VI" URL="../Private API/Functions/HW_Set_FPS_on_device.vi"/>
+		</Item>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
