@@ -60,6 +60,10 @@
 			<Item Name="HW_Init_Serial_3.vi" Type="VI" URL="../Private API/Functions/HW_Init_Serial_3.vi"/>
 			<Item Name="HW_Set_FPS_on_device.vi" Type="VI" URL="../Private API/Functions/HW_Set_FPS_on_device.vi"/>
 		</Item>
+		<Item Name="Typedefs" Type="Folder">
+			<Item Name="CTL_HW_Init_outcome.ctl" Type="VI" URL="../Private API/Typedefs/CTL_HW_Init_outcome.ctl"/>
+			<Item Name="CTL_HW_Init_internal_commands.ctl" Type="VI" URL="../Private API/Typedefs/CTL_HW_Init_internal_commands.ctl"/>
+		</Item>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

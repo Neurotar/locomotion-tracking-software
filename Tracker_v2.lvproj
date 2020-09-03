@@ -151,7 +151,6 @@
 		<Item Name="FP_Tracker_2.1.vi" Type="VI" URL="../FP_Tracker_2.1.vi"/>
 		<Item Name="FP_Apply_digital_signature.vi" Type="VI" URL="../FP_Apply_digital_signature.vi"/>
 		<Item Name="Startup.vi" Type="VI" URL="../Startup.vi"/>
-		<Item Name="CTL_HW_Init_outcome.ctl" Type="VI" URL="../Libraries/HW Interaction/Private API/Typedefs/CTL_HW_Init_outcome.ctl"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="user.lib" Type="Folder">
