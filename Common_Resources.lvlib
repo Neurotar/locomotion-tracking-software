@@ -106,6 +106,9 @@
 		<Item Name="Conditions" Type="Folder">
 			<Item Name="SW_Generate_Full_Condition(s)_text_2.vi" Type="VI" URL="../Common/Functions/SW_Generate_Full_Condition(s)_text_2.vi"/>
 		</Item>
+		<Item Name="Errors" Type="Folder">
+			<Item Name="SW_Clear_Specific_Errors.vi" Type="VI" URL="../Common/Functions/Errors/SW_Clear_Specific_Errors.vi"/>
+		</Item>
 		<Item Name="Misc" Type="Folder">
 			<Item Name="GZip_String_via_dotNet.vi" Type="VI" URL="../Common/Functions/GZip_String_via_dotNet.vi"/>
 		</Item>

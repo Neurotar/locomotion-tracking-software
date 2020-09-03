@@ -156,6 +156,7 @@
 		<Item Name="SW_Prepare_TTL_activation_sequence.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Prepare_TTL_activation_sequence.vi"/>
 	</Item>
 	<Item Name="Misc" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Error (IDL).vi" Type="VI" URL="../SubVi&apos;s/Error (IDL).vi"/>
 		<Item Name="FL_Check_TTL_firing_conditions.vi" Type="VI" URL="../SubVi&apos;s/FL_Check_TTL_firing_conditions.vi"/>
 		<Item Name="FL_DEC_split.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split.vi"/>
@@ -174,7 +175,6 @@
 		<Item Name="GEN_2D_Histo_Bins.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GEN_2D_Histo_Bins.vi"/>
 		<Item Name="GEN_Histo_Bins_And_X_axis.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GEN_Histo_Bins_And_X_axis.vi"/>
 		<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
-		<Item Name="SW_Clear_Specific_Errors.vi" Type="VI" URL="../SubVi&apos;s/SW_Clear_Specific_Errors.vi"/>
 		<Item Name="SW_Gen_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Available_TTL_outputs_array.vi"/>
 		<Item Name="SW_Generate_Segmented_Plot.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot.vi"/>
 		<Item Name="SW_get_config_for_Start_Stop_pulses.vi" Type="VI" URL="../SubVi&apos;s/SW_get_config_for_Start_Stop_pulses.vi"/>

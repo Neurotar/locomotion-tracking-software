@@ -28,6 +28,7 @@
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
 				<Item Name="Status Updated Argument--cluster.ctl" Type="VI" URL="../Status Updated Argument--cluster.ctl"/>
 				<Item Name="Error Reported Argument--cluster.ctl" Type="VI" URL="../Error Reported Argument--cluster.ctl"/>
+				<Item Name="HW Init Outcome Argument--cluster.ctl" Type="VI" URL="../HW Init Outcome Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -55,6 +56,7 @@
 				<Item Name="HW_Poll_Tracker_2.0.3.vi" Type="VI" URL="../Private API/Functions/HW_Poll_Tracker_2.0.3.vi"/>
 				<Item Name="HW_Poll_Tracker_2.0.4+.vi" Type="VI" URL="../Private API/Functions/HW_Poll_Tracker_2.0.4+.vi"/>
 			</Item>
+			<Item Name="HW_Send_Command.vi" Type="VI" URL="../Private API/Functions/HW_Send_Command.vi"/>
 			<Item Name="HW_Poll_Tracker_poly.vi" Type="VI" URL="../Private API/Functions/HW_Poll_Tracker_poly.vi"/>
 			<Item Name="HW_Setup_3.vi" Type="VI" URL="../Private API/Functions/HW_Setup_3.vi"/>
 			<Item Name="HW_Init_Serial_3.vi" Type="VI" URL="../Private API/Functions/HW_Init_Serial_3.vi"/>
@@ -63,6 +65,7 @@
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CTL_HW_Init_outcome.ctl" Type="VI" URL="../Private API/Typedefs/CTL_HW_Init_outcome.ctl"/>
 			<Item Name="CTL_HW_Init_internal_commands.ctl" Type="VI" URL="../Private API/Typedefs/CTL_HW_Init_internal_commands.ctl"/>
+			<Item Name="CTL_HW_Interaction_Commands.ctl" Type="VI" URL="../Private API/Typedefs/CTL_HW_Interaction_Commands.ctl"/>
 		</Item>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
@@ -76,6 +79,7 @@
 		<Item Name="Error Reported.vi" Type="VI" URL="../Error Reported.vi"/>
 		<Item Name="Module Did Stop.vi" Type="VI" URL="../Module Did Stop.vi"/>
 		<Item Name="Update Module Execution Status.vi" Type="VI" URL="../Update Module Execution Status.vi"/>
+		<Item Name="HW Init Outcome.vi" Type="VI" URL="../HW Init Outcome.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
