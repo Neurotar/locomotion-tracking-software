@@ -18,8 +18,10 @@
 			<Item Name="CTL_Indicators_References_2.ctl" Type="VI" URL="../Common/Typedefs/CTL_Indicators_References_2.ctl"/>
 			<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../Common/Typedefs/CTL_Panes_and_VIs_References.ctl"/>
 		</Item>
+		<Item Name="HW params" Type="Folder">
+			<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
+		</Item>
 		<Item Name="CTL_2D_bins_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_2D_bins_parameters.ctl"/>
-		<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
 		<Item Name="CTL_Animal_Coordinates_and_Speed_(arr).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed_(arr).ctl"/>
 		<Item Name="CTL_Basic_cage_settings.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Basic_cage_settings.ctl"/>
