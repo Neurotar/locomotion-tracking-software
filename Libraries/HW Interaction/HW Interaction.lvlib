@@ -64,6 +64,8 @@
 			<Item Name="HW_Setup_3.vi" Type="VI" URL="../Private API/Functions/HW_Setup_3.vi"/>
 			<Item Name="HW_Init_Serial_3.vi" Type="VI" URL="../Private API/Functions/HW_Init_Serial_3.vi"/>
 			<Item Name="HW_Set_FPS_on_device.vi" Type="VI" URL="../Private API/Functions/HW_Set_FPS_on_device.vi"/>
+			<Item Name="HW_Set_SYNC_on_ECU_2.vi" Type="VI" URL="../Private API/Functions/HW_Set_SYNC_on_ECU_2.vi"/>
+			<Item Name="HW_Set_IO_Dir_on_ECU_2.vi" Type="VI" URL="../Private API/Functions/HW_Set_IO_Dir_on_ECU_2.vi"/>
 		</Item>
 		<Item Name="Typedefs" Type="Folder">
 			<Item Name="CTL_HW_Init_outcome.ctl" Type="VI" URL="../Private API/Typedefs/CTL_HW_Init_outcome.ctl"/>

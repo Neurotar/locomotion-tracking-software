@@ -66,6 +66,7 @@
 		<Item Name="Functions" Type="Folder">
 			<Item Name="UI" Type="Folder">
 				<Item Name="UI_(01)_Set_startup_controls_state.vi" Type="VI" URL="../Private API/Functions/UI_(01)_Set_startup_controls_state.vi"/>
+				<Item Name="UI_(02)_Unlock_UI.vi" Type="VI" URL="../Private API/Functions/UI_(02)_Unlock_UI.vi"/>
 			</Item>
 			<Item Name="Set Status with History.vi" Type="VI" URL="../Private API/Functions/Set Status with History.vi"/>
 		</Item>
