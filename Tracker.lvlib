@@ -123,9 +123,9 @@
 	</Item>
 	<Item Name="HW Interaction" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="HW_Acquisition_Start.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Start.vi"/>
 		<Item Name="HW_Acquisition_Stop.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Stop.vi"/>
-		<Item Name="HW_Detect_compatible_COM_ports.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Detect_compatible_COM_ports.vi"/>
 		<Item Name="HW_Get_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/HW_Get_data_flow_from_serial_port.vi"/>
 		<Item Name="HW_Get_raw_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Get_raw_data_flow_from_serial_port.vi"/>
 		<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init.vi"/>
@@ -276,7 +276,6 @@
 		<Item Name="Get Abs Manual File Path.vi" Type="VI" URL="../SubVi&apos;s/Settings/Get Abs Manual File Path.vi"/>
 		<Item Name="Get File Version Info.vi" Type="VI" URL="../SubVi&apos;s/Settings/Get File Version Info.vi"/>
 		<Item Name="GET_Initial_Conditions_representation_2.vi" Type="VI" URL="../SubVi&apos;s/Settings/GET_Initial_Conditions_representation_2.vi"/>
-		<Item Name="HW_Configure_port(s).vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Configure_port(s).vi"/>
 		<Item Name="HW_set_IO_ports.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports.vi"/>
 		<Item Name="HW_set_IO_ports_3-pos.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos.vi"/>
 		<Item Name="HW_set_IO_ports_3-pos_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos_2.vi"/>

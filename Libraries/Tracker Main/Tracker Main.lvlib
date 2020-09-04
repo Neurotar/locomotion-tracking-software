@@ -24,6 +24,13 @@
 				<Item Name="Show Diagram Argument--cluster.ctl" Type="VI" URL="../Show Diagram Argument--cluster.ctl"/>
 				<Item Name="Prepare to Exit Argument--cluster.ctl" Type="VI" URL="../Prepare to Exit Argument--cluster.ctl"/>
 				<Item Name="Update Status and History Argument--cluster.ctl" Type="VI" URL="../Update Status and History Argument--cluster.ctl"/>
+				<Item Name="HW Init Outcome check Argument--cluster.ctl" Type="VI" URL="../HW Init Outcome check Argument--cluster.ctl"/>
+				<Item Name="SW Init Argument--cluster.ctl" Type="VI" URL="../SW Init Argument--cluster.ctl"/>
+				<Item Name="HW Init Argument--cluster.ctl" Type="VI" URL="../HW Init Argument--cluster.ctl"/>
+				<Item Name="Update Interface Argument--cluster.ctl" Type="VI" URL="../Update Interface Argument--cluster.ctl"/>
+				<Item Name="Load Minimal Set of Modules Argument--cluster.ctl" Type="VI" URL="../Load Minimal Set of Modules Argument--cluster.ctl"/>
+				<Item Name="Update Cage Layout Argument--cluster.ctl" Type="VI" URL="../Update Cage Layout Argument--cluster.ctl"/>
+				<Item Name="Switch Offline Argument--cluster.ctl" Type="VI" URL="../Switch Offline Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -38,7 +45,6 @@
 			<Item Name="Get Module Execution Status.vi" Type="VI" URL="../Get Module Execution Status.vi"/>
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Prepare to Exit.vi" Type="VI" URL="../Prepare to Exit.vi"/>
-			<Item Name="Update Status and History.vi" Type="VI" URL="../Update Status and History.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -46,19 +52,16 @@
 	</Item>
 	<Item Name="Private API" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		<Item Name="Arguments" Type="Folder">
-			<Item Name="SW Init Argument--cluster.ctl" Type="VI" URL="../SW Init Argument--cluster.ctl"/>
-			<Item Name="HW Init Argument--cluster.ctl" Type="VI" URL="../HW Init Argument--cluster.ctl"/>
-			<Item Name="Update Interface Argument--cluster.ctl" Type="VI" URL="../Update Interface Argument--cluster.ctl"/>
-			<Item Name="Load Minimal Set of Modules Argument--cluster.ctl" Type="VI" URL="../Load Minimal Set of Modules Argument--cluster.ctl"/>
-			<Item Name="Update Cage Layout Argument--cluster.ctl" Type="VI" URL="../Update Cage Layout Argument--cluster.ctl"/>
-		</Item>
 		<Item Name="Requests" Type="Folder">
-			<Item Name="SW Init.vi" Type="VI" URL="../SW Init.vi"/>
+			<Property Name="NI.SortType" Type="Int">0</Property>
+			<Item Name="HW Init Outcome check.vi" Type="VI" URL="../HW Init Outcome check.vi"/>
 			<Item Name="HW Init.vi" Type="VI" URL="../HW Init.vi"/>
-			<Item Name="Update Interface.vi" Type="VI" URL="../Update Interface.vi"/>
 			<Item Name="Load Minimal Set of Modules.vi" Type="VI" URL="../Load Minimal Set of Modules.vi"/>
+			<Item Name="SW Init.vi" Type="VI" URL="../SW Init.vi"/>
+			<Item Name="Switch Offline.vi" Type="VI" URL="../Switch Offline.vi"/>
 			<Item Name="Update Cage Layout.vi" Type="VI" URL="../Update Cage Layout.vi"/>
+			<Item Name="Update Interface.vi" Type="VI" URL="../Update Interface.vi"/>
+			<Item Name="Update Status and History.vi" Type="VI" URL="../Update Status and History.vi"/>
 		</Item>
 		<Item Name="Functions" Type="Folder">
 			<Item Name="UI" Type="Folder">

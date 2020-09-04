@@ -109,10 +109,15 @@
 		<Item Name="Errors" Type="Folder">
 			<Item Name="SW_Clear_Specific_Errors.vi" Type="VI" URL="../Common/Functions/Errors/SW_Clear_Specific_Errors.vi"/>
 		</Item>
+		<Item Name="HW Interaction" Type="Folder">
+			<Item Name="HW_Detect_compatible_COM_ports.vi" Type="VI" URL="../Common/Functions/HW Interaction/HW_Detect_compatible_COM_ports.vi"/>
+		</Item>
 		<Item Name="Misc" Type="Folder">
 			<Item Name="GZip_String_via_dotNet.vi" Type="VI" URL="../Common/Functions/GZip_String_via_dotNet.vi"/>
 		</Item>
 		<Item Name="Settings" Type="Folder">
+			<Item Name="HW_Configure_port(s).vi" Type="VI" URL="../Common/Functions/HW_Configure_port(s).vi"/>
+			<Item Name="HW_Configure_port(s)_2.vi" Type="VI" URL="../Common/Functions/HW_Configure_port(s)_2.vi"/>
 			<Item Name="SW_Get_Ports_IO_and_Inv_config.vi" Type="VI" URL="../Common/Functions/SW_Get_Ports_IO_and_Inv_config.vi"/>
 			<Item Name="SW_Init_Array_of_Conditions.vi" Type="VI" URL="../Common/Functions/SW_Init_Array_of_Conditions.vi"/>
 			<Item Name="SW_Read_Cage&apos;s_Geometrical_Parameter.vi" Type="VI" URL="../SubVi&apos;s/SW_Read_Cage&apos;s_Geometrical_Parameter.vi"/>

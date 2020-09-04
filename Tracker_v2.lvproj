@@ -22,30 +22,14 @@
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Cage Diagram Module" Type="Folder">
-				<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
-			</Item>
-			<Item Name="File IO Module" Type="Folder">
-				<Item Name="File IO.lvlib" Type="Library" URL="../Libraries/File IO/File IO.lvlib"/>
-			</Item>
-			<Item Name="HW Interaction Module" Type="Folder">
-				<Item Name="HW Interaction.lvlib" Type="Library" URL="../Libraries/HW Interaction/HW Interaction.lvlib"/>
-			</Item>
-			<Item Name="Settings Module" Type="Folder">
-				<Item Name="Settings.lvlib" Type="Library" URL="../Libraries/Settings/Settings.lvlib"/>
-			</Item>
-			<Item Name="Stream Data Module" Type="Folder">
-				<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
-			</Item>
-			<Item Name="Tracker Main Module" Type="Folder">
-				<Item Name="Tracker Main.lvlib" Type="Library" URL="../Libraries/Tracker Main/Tracker Main.lvlib"/>
-			</Item>
-			<Item Name="Tracks Repair Module" Type="Folder">
-				<Item Name="Tracks Repair.lvlib" Type="Library" URL="../Libraries/Tracks Repair/Tracks Repair.lvlib"/>
-			</Item>
-			<Item Name="TTL IO Module" Type="Folder">
-				<Item Name="TTL IO.lvlib" Type="Library" URL="../Libraries/TTL IO/TTL IO.lvlib"/>
-			</Item>
+			<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
+			<Item Name="File IO.lvlib" Type="Library" URL="../Libraries/File IO/File IO.lvlib"/>
+			<Item Name="HW Interaction.lvlib" Type="Library" URL="../Libraries/HW Interaction/HW Interaction.lvlib"/>
+			<Item Name="Settings.lvlib" Type="Library" URL="../Libraries/Settings/Settings.lvlib"/>
+			<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
+			<Item Name="Tracker Main.lvlib" Type="Library" URL="../Libraries/Tracker Main/Tracker Main.lvlib"/>
+			<Item Name="Tracks Repair.lvlib" Type="Library" URL="../Libraries/Tracks Repair/Tracks Repair.lvlib"/>
+			<Item Name="TTL IO.lvlib" Type="Library" URL="../Libraries/TTL IO/TTL IO.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Tracks Repair API.vi" Type="VI" URL="../Libraries/Tracks Repair/Test Tracks Repair API.vi"/>
@@ -948,9 +932,6 @@
 			</Item>
 			<Item Name="Lossy Stream-a[.](bool).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool).lvlib"/>
 			<Item Name="Calculus.dll" Type="Document" URL="../TestVI&apos;s/Calculus2/Calculus.dll"/>
-			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
-				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
-			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">

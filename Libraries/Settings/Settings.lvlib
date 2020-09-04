@@ -25,6 +25,7 @@
 				<Item Name="Load Settings from File Argument--cluster.ctl" Type="VI" URL="../Load Settings from File Argument--cluster.ctl"/>
 				<Item Name="Instant Load Settings from File Argument--cluster.ctl" Type="VI" URL="../Instant Load Settings from File Argument--cluster.ctl"/>
 				<Item Name="Instant Load Settings from File (Reply Payload)--cluster.ctl" Type="VI" URL="../Instant Load Settings from File (Reply Payload)--cluster.ctl"/>
+				<Item Name="Save Settings to File Argument--cluster.ctl" Type="VI" URL="../Save Settings to File Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -41,6 +42,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Load Settings from File.vi" Type="VI" URL="../Load Settings from File.vi"/>
 			<Item Name="Instant Load Settings from File.vi" Type="VI" URL="../Instant Load Settings from File.vi"/>
+			<Item Name="Save Settings to File.vi" Type="VI" URL="../Save Settings to File.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
