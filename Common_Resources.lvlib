@@ -114,6 +114,8 @@
 		</Item>
 		<Item Name="Misc" Type="Folder">
 			<Item Name="GZip_String_via_dotNet.vi" Type="VI" URL="../Common/Functions/GZip_String_via_dotNet.vi"/>
+			<Item Name="SW_Get_CPU_load.vi" Type="VI" URL="../Common/Functions/Misc/SW_Get_CPU_load.vi"/>
+			<Item Name="SW_Get_CPU_load_monitor_reference.vi" Type="VI" URL="../Common/Functions/Misc/SW_Get_CPU_load_monitor_reference.vi"/>
 		</Item>
 		<Item Name="Settings" Type="Folder">
 			<Item Name="HW_Configure_port(s).vi" Type="VI" URL="../Common/Functions/HW_Configure_port(s).vi"/>
