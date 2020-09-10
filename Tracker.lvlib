@@ -220,6 +220,8 @@
 		<Item Name="SW_Load_settings_to_main_tab_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_2.vi"/>
 		<Item Name="SW_Load_settings_to_main_tab_3.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_3.vi"/>
 		<Item Name="SW_Load_settings_to_main_tab_4.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_4.vi"/>
+		<Item Name="SW_Save_Cluster_from_String.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Cluster_from_String.vi"/>
+		<Item Name="SW_Save_Cluster_to_String.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Cluster_to_String.vi"/>
 		<Item Name="SW_Save_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group.vi"/>
 		<Item Name="SW_Save_parameter_group_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group_2.vi"/>
 		<Item Name="SW_Save_proc_data_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_proc_data_to_TDMS.vi"/>
