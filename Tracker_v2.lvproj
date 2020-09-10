@@ -2651,33 +2651,33 @@
 				<Property Name="TgtF_targetfileName" Type="Str">TCP_test_RECEIVE.exe</Property>
 				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Tracker v2.3.0.1 alpha 1" Type="EXE">
+			<Item Name="Tracker v2.3.0.1 alpha 2" Type="EXE">
 				<Property Name="App_copyErrors" Type="Bool">true</Property>
 				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
 				<Property Name="App_INI_aliasGUID" Type="Str">{292B586B-B680-428D-95D7-ECFBCEC5386F}</Property>
 				<Property Name="App_INI_GUID" Type="Str">{39FBC4F2-0F56-4E33-B67D-6889C1EEFB02}</Property>
 				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
 				<Property Name="Bld_buildCacheID" Type="Str">{A8E0CFED-6AA3-40ED-AF1F-27A574EC2919}</Property>
-				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.3.0.1 alpha 1</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Tracker v2.3.0.1 alpha 2</Property>
 				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
 				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
 				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
-				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/MHC_Tracker_Software_v2.3.0.1_alpha_1_standalone</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/MHC_Tracker_Software_v2.3.0.1_alpha_2_standalone</Property>
 				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
 				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
 				<Property Name="Bld_previewCacheID" Type="Str">{819CDCB1-80F6-490C-9F20-9127B04D456A}</Property>
 				<Property Name="Bld_version.build" Type="Int">1</Property>
 				<Property Name="Bld_version.major" Type="Int">2</Property>
 				<Property Name="Bld_version.minor" Type="Int">3</Property>
-				<Property Name="Destination[0].destName" Type="Str">Tracker_2.3.0.1.exe</Property>
-				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/MHC_Tracker_Software_v2.3.0.1_alpha_1_standalone/Tracker_2.3.0.1.exe</Property>
+				<Property Name="Destination[0].destName" Type="Str">Tracker_2.3.0.1_a2.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/MHC_Tracker_Software_v2.3.0.1_alpha_2_standalone/Tracker_2.3.0.1_a2.exe</Property>
 				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
 				<Property Name="Destination[0].type" Type="Str">App</Property>
 				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
-				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/MHC_Tracker_Software_v2.3.0.1_alpha_1_standalone</Property>
+				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/MHC_Tracker_Software_v2.3.0.1_alpha_2_standalone</Property>
 				<Property Name="DestinationCount" Type="Int">2</Property>
 				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons and Credits/orange_mouse_trackericon_256x256.ico</Property>
-				<Property Name="Source[0].itemID" Type="Str">{0465777B-96A3-4D53-809A-02ED605C4598}</Property>
+				<Property Name="Source[0].itemID" Type="Str">{7044D05D-730F-47AD-A472-226463F3C0DD}</Property>
 				<Property Name="Source[0].type" Type="Str">Container</Property>
 				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/Tracker.vi</Property>
@@ -2707,14 +2707,14 @@
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
-				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.3.0.1 alpha 1</Property>
-				<Property Name="TgtF_internalName" Type="Str">Tracker v2.3.0.1 alpha 1</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Tracker v2.3.0.1 alpha 2</Property>
+				<Property Name="TgtF_internalName" Type="Str">Tracker v2.3.0.1 alpha 2</Property>
 				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Neurotar Oy</Property>
-				<Property Name="TgtF_productName" Type="Str">Tracker v2.3.0.1 alpha 1</Property>
+				<Property Name="TgtF_productName" Type="Str">Tracker v2.3.0.1 alpha 2</Property>
 				<Property Name="TgtF_targetfileGUID" Type="Str">{FC6BAB48-CC26-4879-85F1-AF5BCE9860B3}</Property>
-				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.3.0.1.exe</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Tracker_2.3.0.1_a2.exe</Property>
 			</Item>
-			<Item Name="Tracker v2.3.0.1 alpha 1 full installer" Type="Installer">
+			<Item Name="Tracker v2.3.0.1 alpha 2 full installer" Type="Installer">
 				<Property Name="Destination[0].name" Type="Str">Neurotar</Property>
 				<Property Name="Destination[0].parent" Type="Str">{3912416A-D2E5-411B-AFEE-B63654D690C0}</Property>
 				<Property Name="Destination[0].tag" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
@@ -2733,8 +2733,8 @@
 				<Property Name="DistPart[0].productName" Type="Str">NI System Configuration Runtime 20.0.0</Property>
 				<Property Name="DistPart[0].upgradeCode" Type="Str">{0E192465-CC28-4C84-BE81-710B71C595A3}</Property>
 				<Property Name="DistPart[1].flavorID" Type="Str">DefaultFull</Property>
-				<Property Name="DistPart[1].productID" Type="Str">{1D64A5FC-338A-4C3D-A3BD-8FC65A2B5D36}</Property>
-				<Property Name="DistPart[1].productName" Type="Str">NI Vision Common Resources 2019 SP1</Property>
+				<Property Name="DistPart[1].productID" Type="Str">{57C41B25-A232-4945-B942-D7EC8ECBE6EF}</Property>
+				<Property Name="DistPart[1].productName" Type="Str">NI Vision Common Resources 2020</Property>
 				<Property Name="DistPart[1].upgradeCode" Type="Str">{409BEFA9-EB3E-472F-AD77-271A4A1D5927}</Property>
 				<Property Name="DistPart[2].flavorID" Type="Str">_full_</Property>
 				<Property Name="DistPart[2].productID" Type="Str">{160B311C-5360-4299-BD7C-1C61EB18036E}</Property>
@@ -2801,12 +2801,12 @@
 				<Property Name="DistPartCount" Type="Int">8</Property>
 				<Property Name="INST_author" Type="Str">Neurotar Oy</Property>
 				<Property Name="INST_autoIncrement" Type="Bool">true</Property>
-				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/MHC_Tracker_Software_v2.3.0.1_alpha_1_full_installer</Property>
+				<Property Name="INST_buildLocation" Type="Path">../Tracker_builds/MHC_Tracker_Software_v2.3.0.1_alpha_2_full_installer</Property>
 				<Property Name="INST_buildLocation.type" Type="Str">relativeToCommon</Property>
-				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.3.0.1 alpha 1 full installer</Property>
+				<Property Name="INST_buildSpecName" Type="Str">Tracker v2.3.0.1 alpha 2 full installer</Property>
 				<Property Name="INST_defaultDir" Type="Str">{59F5E6B8-7945-4FFD-9586-6E75D848E731}</Property>
-				<Property Name="INST_productName" Type="Str">Tracker v2.3.0.1 alpha 1</Property>
-				<Property Name="INST_productVersion" Type="Str">1.0.55</Property>
+				<Property Name="INST_productName" Type="Str">Tracker v2.3.0.1 alpha 2</Property>
+				<Property Name="INST_productVersion" Type="Str">1.0.56</Property>
 				<Property Name="InstSpecBitness" Type="Str">64-bit</Property>
 				<Property Name="InstSpecVersion" Type="Str">18008012</Property>
 				<Property Name="MSI_arpCompany" Type="Str">Neurotar Oy</Property>
@@ -2817,7 +2817,7 @@
 				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{AB3A19F6-3BA0-4083-8A9B-E51C2D3F9F82}</Property>
-				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.3.0.1 alpha 1 software installation.</Property>
+				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.3.0.1 alpha 2 software installation.</Property>
 				<Property Name="MSI_windowTitle" Type="Str">Tracker software installation</Property>
 				<Property Name="RegDest[0].dirName" Type="Str">Software</Property>
 				<Property Name="RegDest[0].dirTag" Type="Str">{DDFAFC8B-E728-4AC8-96DE-B920EBB97A86}</Property>
@@ -2825,10 +2825,10 @@
 				<Property Name="RegDestCount" Type="Int">1</Property>
 				<Property Name="Source[0].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
 				<Property Name="Source[0].File[0].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
-				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.3.0.1.exe</Property>
+				<Property Name="Source[0].File[0].name" Type="Str">Tracker_2.3.0.1_a2.exe</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].destIndex" Type="Int">0</Property>
 				<Property Name="Source[0].File[0].Shortcut[0].name" Type="Str">Tracker 2.3.0.1</Property>
-				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Tracker v2.3.0.1 alpha 1</Property>
+				<Property Name="Source[0].File[0].Shortcut[0].subDir" Type="Str">Tracker v2.3.0.1 alpha 2</Property>
 				<Property Name="Source[0].File[0].ShortcutCount" Type="Int">1</Property>
 				<Property Name="Source[0].File[0].tag" Type="Str">{FC6BAB48-CC26-4879-85F1-AF5BCE9860B3}</Property>
 				<Property Name="Source[0].File[1].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
@@ -2851,8 +2851,8 @@
 				<Property Name="Source[0].File[6].name" Type="Str">Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
 				<Property Name="Source[0].File[6].tag" Type="Ref"></Property>
 				<Property Name="Source[0].FileCount" Type="Int">2</Property>
-				<Property Name="Source[0].name" Type="Str">Tracker v2.3.0.1 alpha 1</Property>
-				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.3.0.1 alpha 1</Property>
+				<Property Name="Source[0].name" Type="Str">Tracker v2.3.0.1 alpha 2</Property>
+				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.3.0.1 alpha 2</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
 			</Item>
