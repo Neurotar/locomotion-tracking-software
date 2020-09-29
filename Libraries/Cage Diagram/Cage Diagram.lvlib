@@ -82,6 +82,7 @@
 			</Item>
 			<Item Name="Generate_Cage_Diagram.vi" Type="VI" URL="../Private API/Functions/Generate_Cage_Diagram.vi"/>
 		</Item>
+		<Item Name="Data.lvclass" Type="LVClass" URL="../Private API/Data.lvclass"/>
 	</Item>
 	<Item Name="Broadcasts" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>

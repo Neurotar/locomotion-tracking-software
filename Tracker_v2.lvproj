@@ -22,28 +22,13 @@
 		</Item>
 		<Item Name="Modules" Type="Folder">
 			<Property Name="NI.SortType" Type="Int">0</Property>
-			<Item Name="Cage Diagram Module" Type="Folder">
-				<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
-				<Item Name="Data.lvclass" Type="LVClass" URL="../Libraries/Cage Diagram/Private API/Data.lvclass"/>
-			</Item>
-			<Item Name="File IO Module" Type="Folder">
-				<Item Name="File IO.lvlib" Type="Library" URL="../Libraries/File IO/File IO.lvlib"/>
-			</Item>
-			<Item Name="Settings Module" Type="Folder">
-				<Item Name="Settings.lvlib" Type="Library" URL="../Libraries/Settings/Settings.lvlib"/>
-			</Item>
-			<Item Name="Stream Data Module" Type="Folder">
-				<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
-			</Item>
-			<Item Name="Tracker Main Module" Type="Folder">
-				<Item Name="Tracker Main.lvlib" Type="Library" URL="../Libraries/Tracker Main/Tracker Main.lvlib"/>
-			</Item>
-			<Item Name="Tracks Repair Module" Type="Folder">
-				<Item Name="Tracks Repair.lvlib" Type="Library" URL="../Libraries/Tracks Repair/Tracks Repair.lvlib"/>
-			</Item>
-			<Item Name="TTL IO Module" Type="Folder">
-				<Item Name="TTL IO.lvlib" Type="Library" URL="../Libraries/TTL IO/TTL IO.lvlib"/>
-			</Item>
+			<Item Name="Cage Diagram.lvlib" Type="Library" URL="../Libraries/Cage Diagram/Cage Diagram.lvlib"/>
+			<Item Name="File IO.lvlib" Type="Library" URL="../Libraries/File IO/File IO.lvlib"/>
+			<Item Name="Settings.lvlib" Type="Library" URL="../Libraries/Settings/Settings.lvlib"/>
+			<Item Name="Stream Data.lvlib" Type="Library" URL="../Libraries/Stream Data/Stream Data.lvlib"/>
+			<Item Name="Tracker Main.lvlib" Type="Library" URL="../Libraries/Tracker Main/Tracker Main.lvlib"/>
+			<Item Name="Tracks Repair.lvlib" Type="Library" URL="../Libraries/Tracks Repair/Tracks Repair.lvlib"/>
+			<Item Name="TTL IO.lvlib" Type="Library" URL="../Libraries/TTL IO/TTL IO.lvlib"/>
 		</Item>
 		<Item Name="Testers" Type="Folder">
 			<Item Name="Test Tracks Repair API.vi" Type="VI" URL="../Libraries/Tracks Repair/Test Tracks Repair API.vi"/>
@@ -81,14 +66,16 @@
 			<Item Name="Hardware_auto_params_set_test.vi" Type="VI" URL="../TestVI&apos;s/Hardware_auto_params_set_test.vi"/>
 			<Item Name="Histogram calculation and plotting.vi" Type="VI" URL="../TestVI&apos;s/Histogram calculation and plotting.vi"/>
 			<Item Name="ImageAcquisition_test.vi" Type="VI" URL="../TestVI&apos;s/ImageAcquisition_test.vi"/>
+			<Item Name="Images_Overlay_test.vi" Type="VI" URL="../TestVI&apos;s/Images_Overlay_test.vi"/>
 			<Item Name="Loop_speed_variation_test.vi" Type="VI" URL="../TestVI&apos;s/Loop_speed_variation_test.vi"/>
 			<Item Name="Multiple_ROIs.vi" Type="VI" URL="../TestVI&apos;s/Multiple_ROIs.vi"/>
 			<Item Name="Network control test 1.vi" Type="VI" URL="../TestVI&apos;s/Network control test 1.vi"/>
 			<Item Name="Network control test 2 reader.vi" Type="VI" URL="../TestVI&apos;s/Network control test 2 reader.vi"/>
 			<Item Name="Network control test 2 writer.vi" Type="VI" URL="../TestVI&apos;s/Network control test 2 writer.vi"/>
-			<Item Name="Overlays_test.vi" Type="VI" URL="../TestVI&apos;s/Overlays_test.vi"/>
 			<Item Name="Plots_testing.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing.vi"/>
 			<Item Name="Plots_testing_2.vi" Type="VI" URL="../TestVI&apos;s/Plots_testing_2.vi"/>
+			<Item Name="Post-Build Action_for_Overlays.vi" Type="VI" URL="../TestVI&apos;s/Post-Build Action_for_Overlays.vi"/>
+			<Item Name="Pre-Build Action_for_Overlays.vi" Type="VI" URL="../TestVI&apos;s/Pre-Build Action_for_Overlays.vi"/>
 			<Item Name="profile.csv" Type="Document" URL="../TestVI&apos;s/profile.csv"/>
 			<Item Name="Shared_Variable_test_1.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_1.vi"/>
 			<Item Name="Shared_Variable_test_2.vi" Type="VI" URL="../TestVI&apos;s/Shared_Variable_test_2.vi"/>
@@ -2855,6 +2842,146 @@
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.3.0.1 alpha 2</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="Overlay_test_debug_ON" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{447F58E0-FBC8-4573-9413-0700CABC77C7}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{4E91CF3C-20D5-420E-A382-9AE1891A78E1}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{0BB2E0A2-A334-4DBF-8A8D-07F48F48E313}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Overlay_test_debug_ON</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Overlay_test_debug_ON</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{64FF210C-02B5-4DC3-883E-C08CA7878F95}</Property>
+				<Property Name="Bld_version.build" Type="Int">1</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Overlay_tests_debug_ON.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Overlay_test_debug_ON/Overlay_tests_debug_ON.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Overlay_test_debug_ON/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{51A1C05B-4C4A-4A4B-B34D-F00C4D2B8F74}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestVI's/Images_Overlay_test.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_enableDebugging" Type="Bool">true</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Overlay_test_debug_ON</Property>
+				<Property Name="TgtF_internalName" Type="Str">Overlay_test_debug_ON</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">Overlay_test_debug_ON</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{2CB82124-EAF5-43B5-A66B-8594B7FAE294}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Overlay_tests_debug_ON.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Overlay_test_debug_DEF" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{CC40508A-2BA8-45A5-82A5-A7E51819FE82}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0F78E269-FCFA-4307-96B0-2D2EA213557B}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{96B80734-DC96-4331-AFD7-4BFB20BB9174}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Overlay_test_debug_DEF</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Overlay_test_debug_DEF</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{A86A549F-4F0C-42C9-8D4C-001BD50F60F7}</Property>
+				<Property Name="Bld_version.build" Type="Int">2</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Overlay_tests_debug_DEF.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Overlay_test_debug_DEF/Overlay_tests_debug_DEF.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Overlay_test_debug_DEF/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].itemID" Type="Str">{51A1C05B-4C4A-4A4B-B34D-F00C4D2B8F74}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestVI's/Images_Overlay_test.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="SourceCount" Type="Int">2</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Overlay_test_debug_ON</Property>
+				<Property Name="TgtF_internalName" Type="Str">Overlay_test_debug_ON</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">Overlay_test_debug_ON</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{76F22274-94BF-45F7-B144-AAAEC2CB10EF}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Overlay_tests_debug_DEF.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
+			</Item>
+			<Item Name="Overlay_test_debug_OFF" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{00DB8A27-768C-43C5-A9C7-253410CB98F3}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{94ED8916-9BAA-48AB-839F-B0FD5FE45282}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{416AF920-0579-4A3B-8A58-48D5D0731245}</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">Overlay_test_debug_OFF</Property>
+				<Property Name="Bld_excludeDependentDLLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeDependentPPLs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeTypedefs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../builds/NI_AB_PROJECTNAME/Overlay_test_debug_OFF</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_postActionVIID" Type="Ref">/My Computer/TestVI's/Post-Build Action_for_Overlays.vi</Property>
+				<Property Name="Bld_preActionVIID" Type="Ref">/My Computer/TestVI's/Pre-Build Action_for_Overlays.vi</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{494EA1CC-4E00-4393-A138-A9579A41E49C}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">Overlay_tests_debug_OFF.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../builds/NI_AB_PROJECTNAME/Overlay_test_debug_OFF/Overlay_tests_debug_OFF.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../builds/NI_AB_PROJECTNAME/Overlay_test_debug_OFF/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Source[0].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[0].itemID" Type="Str">{51A1C05B-4C4A-4A4B-B34D-F00C4D2B8F74}</Property>
+				<Property Name="Source[0].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[0].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[0].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/TestVI's/Images_Overlay_test.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].Container.applyProperties" Type="Bool">true</Property>
+				<Property Name="Source[2].Container.depDestIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Icons and Credits</Property>
+				<Property Name="Source[2].properties[0].type" Type="Str">Allow debugging</Property>
+				<Property Name="Source[2].properties[0].value" Type="Bool">false</Property>
+				<Property Name="Source[2].propertiesCount" Type="Int">1</Property>
+				<Property Name="Source[2].type" Type="Str">Container</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">Overlay_test_debug_ON</Property>
+				<Property Name="TgtF_internalName" Type="Str">Overlay_test_debug_ON</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">Overlay_test_debug_ON</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{88EB0F1B-285F-4078-A85F-27BDCF651A02}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">Overlay_tests_debug_OFF.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
