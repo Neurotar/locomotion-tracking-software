@@ -94,8 +94,10 @@
 			<Item Name="Test_2D_array_index_speed.vi" Type="VI" URL="../TestVI&apos;s/Test_2D_array_index_speed.vi"/>
 			<Item Name="Test_bool_conversion.vi" Type="VI" URL="../TestVI&apos;s/Test_bool_conversion.vi"/>
 			<Item Name="Test_data_read.vi" Type="VI" URL="../TestVI&apos;s/Test_data_read.vi"/>
+			<Item Name="Test_HW_Stream_raw_data_channel.vi" Type="VI" URL="../TestVI&apos;s/Test_HW_Stream_raw_data_channel.vi"/>
 			<Item Name="Test_image_display_speed.vi" Type="VI" URL="../TestVI&apos;s/Test_image_display_speed.vi"/>
 			<Item Name="Test_image_segmentation.vi" Type="VI" URL="../TestVI&apos;s/Test_image_segmentation.vi"/>
+			<Item Name="Test_Make_data_frame_and_put_somewhere.vi" Type="VI" URL="../TestVI&apos;s/Test_Make_data_frame_and_put_somewhere.vi"/>
 			<Item Name="Test_of_the_stim_settings_save.vi" Type="VI" URL="../TestVI&apos;s/Test_of_the_stim_settings_save.vi"/>
 			<Item Name="Test_playback_indicator.vi" Type="VI" URL="../TestVI&apos;s/Test_playback_indicator.vi"/>
 			<Item Name="Test_ports_IO_xor_performance.vi" Type="VI" URL="../TestVI&apos;s/Test_ports_IO_xor_performance.vi"/>
@@ -108,6 +110,7 @@
 			<Item Name="Tracker_v2.2_test_acq_comms.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2.2_test_acq_comms.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_channel.vi"/>
 			<Item Name="Tracker_v2_test_acq_comms_enq.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v2_test_acq_comms_enq.vi"/>
+			<Item Name="Tracker_v3_test_acq_comms_channel.vi" Type="VI" URL="../TestVI&apos;s/Tracker_v3_test_acq_comms_channel.vi"/>
 			<Item Name="ZDelay_node_test.vi" Type="VI" URL="../TestVI&apos;s/ZDelay_node_test.vi"/>
 			<Item Name="Zone-to-color_correspondence_lookup_test.vi" Type="VI" URL="../TestVI&apos;s/Zone-to-color_correspondence_lookup_test.vi"/>
 			<Item Name="Zone-to-color_correspondence_lookup_test_2.vi" Type="VI" URL="../TestVI&apos;s/Zone-to-color_correspondence_lookup_test_2.vi"/>
@@ -932,6 +935,9 @@
 			</Item>
 			<Item Name="Lossy Stream-a[.](bool).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool).lvlib"/>
 			<Item Name="Calculus.dll" Type="Document" URL="../TestVI&apos;s/Calculus2/Calculus.dll"/>
+			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
+				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
+			</Item>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">
