@@ -138,6 +138,7 @@
 		<Item Name="FP_Tracker_2.1.vi" Type="VI" URL="../FP_Tracker_2.1.vi"/>
 		<Item Name="FP_Apply_digital_signature.vi" Type="VI" URL="../FP_Apply_digital_signature.vi"/>
 		<Item Name="Startup.vi" Type="VI" URL="../Startup.vi"/>
+		<Item Name="FP_Repair_broken_TDMS.vi" Type="VI" URL="../FP_Repair_broken_TDMS.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Property Name="NI.SortType" Type="Int">3</Property>
 			<Item Name="user.lib" Type="Folder">
@@ -455,6 +456,9 @@
 				<Item Name="Index 1D Array Elements (CDB)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (CDB)__ogtk.vi"/>
 				<Item Name="Index 1D Array Elements (Boolean)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index 1D Array Elements (Boolean)__ogtk.vi"/>
 				<Item Name="Index Array Elements__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/array/array.llb/Index Array Elements__ogtk.vi"/>
+				<Item Name="Convert File Extension (String)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (String)__ogtk.vi"/>
+				<Item Name="Convert File Extension (Path)__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension (Path)__ogtk.vi"/>
+				<Item Name="Convert File Extension__ogtk.vi" Type="VI" URL="/&lt;userlib&gt;/_OpenG.lib/file/file.llb/Convert File Extension__ogtk.vi"/>
 			</Item>
 			<Item Name="vi.lib" Type="Folder">
 				<Property Name="NI.SortType" Type="Int">3</Property>
@@ -938,6 +942,7 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="High Speed Stream-c(a[.](u16),stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp).lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">
@@ -2844,6 +2849,52 @@
 				<Property Name="Source[0].tag" Type="Ref">/My Computer/Build Specifications/Tracker v2.3.0.1 alpha 1</Property>
 				<Property Name="Source[0].type" Type="Str">EXE</Property>
 				<Property Name="SourceCount" Type="Int">1</Property>
+			</Item>
+			<Item Name="TDMS repair tool" Type="EXE">
+				<Property Name="App_copyErrors" Type="Bool">true</Property>
+				<Property Name="App_includeHWConfig" Type="Bool">true</Property>
+				<Property Name="App_INI_aliasGUID" Type="Str">{EBD0D859-95C4-4A7B-8416-3B6C3788747E}</Property>
+				<Property Name="App_INI_GUID" Type="Str">{0322C7C1-F1B6-4345-873D-5EDB44B9DB5A}</Property>
+				<Property Name="App_serverConfig.httpPort" Type="Int">8002</Property>
+				<Property Name="Bld_autoIncrement" Type="Bool">true</Property>
+				<Property Name="Bld_buildCacheID" Type="Str">{FD3921F8-48F5-4B7B-8896-ECD0E57D1A24}</Property>
+				<Property Name="Bld_buildSpecDescription" Type="Str">Simple TDMS repair tool.</Property>
+				<Property Name="Bld_buildSpecName" Type="Str">TDMS repair tool</Property>
+				<Property Name="Bld_excludeInlineSubVIs" Type="Bool">true</Property>
+				<Property Name="Bld_excludeLibraryItems" Type="Bool">true</Property>
+				<Property Name="Bld_excludePolymorphicVIs" Type="Bool">true</Property>
+				<Property Name="Bld_localDestDir" Type="Path">../Tracker_builds/TDMS_repair_tool</Property>
+				<Property Name="Bld_localDestDirType" Type="Str">relativeToCommon</Property>
+				<Property Name="Bld_modifyLibraryFile" Type="Bool">true</Property>
+				<Property Name="Bld_previewCacheID" Type="Str">{0163CF0D-DD9C-45A7-9B8F-0072E3118CF9}</Property>
+				<Property Name="Bld_version.build" Type="Int">3</Property>
+				<Property Name="Bld_version.major" Type="Int">1</Property>
+				<Property Name="Destination[0].destName" Type="Str">TDMS_repair.exe</Property>
+				<Property Name="Destination[0].path" Type="Path">../Tracker_builds/TDMS_repair_tool/TDMS_repair.exe</Property>
+				<Property Name="Destination[0].preserveHierarchy" Type="Bool">true</Property>
+				<Property Name="Destination[0].type" Type="Str">App</Property>
+				<Property Name="Destination[1].destName" Type="Str">Support Directory</Property>
+				<Property Name="Destination[1].path" Type="Path">../Tracker_builds/TDMS_repair_tool/data</Property>
+				<Property Name="DestinationCount" Type="Int">2</Property>
+				<Property Name="Exe_iconItemID" Type="Ref">/My Computer/Icons and Credits/Blue_tape_256pix.ico</Property>
+				<Property Name="Source[0].itemID" Type="Str">{05FF8B9D-EB09-4197-8EAB-BB82FA51CC92}</Property>
+				<Property Name="Source[0].type" Type="Str">Container</Property>
+				<Property Name="Source[1].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FP_Repair_broken_TDMS.vi</Property>
+				<Property Name="Source[1].sourceInclusion" Type="Str">TopLevel</Property>
+				<Property Name="Source[1].type" Type="Str">VI</Property>
+				<Property Name="Source[2].destinationIndex" Type="Int">0</Property>
+				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Icons and Credits/Icons_credits.txt</Property>
+				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
+				<Property Name="SourceCount" Type="Int">3</Property>
+				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
+				<Property Name="TgtF_fileDescription" Type="Str">TDMS repair tool</Property>
+				<Property Name="TgtF_internalName" Type="Str">TDMS repair tool</Property>
+				<Property Name="TgtF_legalCopyright" Type="Str">Copyright © 2020 Neurotar Oy</Property>
+				<Property Name="TgtF_productName" Type="Str">TDMS repair tool</Property>
+				<Property Name="TgtF_targetfileGUID" Type="Str">{5A0CF374-23F0-44BE-A35F-E680DB4CF5ED}</Property>
+				<Property Name="TgtF_targetfileName" Type="Str">TDMS_repair.exe</Property>
+				<Property Name="TgtF_versionIndependent" Type="Bool">true</Property>
 			</Item>
 		</Item>
 	</Item>
