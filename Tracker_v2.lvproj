@@ -116,6 +116,11 @@
 			<Item Name="Zone-to-color_correspondence_lookup_test_2.vi" Type="VI" URL="../TestVI&apos;s/Zone-to-color_correspondence_lookup_test_2.vi"/>
 			<Item Name="Zones layout drawing test with smoothing and edge detection.vi" Type="VI" URL="../TestVI&apos;s/Zones layout drawing test with smoothing and edge detection.vi"/>
 		</Item>
+		<Item Name="Docs" Type="Folder">
+			<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
+			<Item Name="README.md" Type="Document" URL="../README.md"/>
+			<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
+		</Item>
 		<Item Name="DigitalOutTask_0" Type="NI-DAQmx Task">
 			<Property Name="\0\ChanType" Type="Str">Digital Output</Property>
 			<Property Name="\0\DO.InvertLines" Type="Str">0</Property>
@@ -127,12 +132,9 @@
 		</Item>
 		<Item Name="FP_Calibrate_reward.vi" Type="VI" URL="../SubVi&apos;s/FP_Calibrate_reward.vi"/>
 		<Item Name="FP_TDMS_export_tool.vi" Type="VI" URL="../FP_TDMS_export_tool.vi"/>
-		<Item Name="LICENSE.md" Type="Document" URL="../LICENSE.md"/>
 		<Item Name="MN_Pulse_Generator_main_menu.rtm" Type="Document" URL="../../InVigilo_II/SubVIs/Controls/MN_Pulse_Generator_main_menu.rtm"/>
 		<Item Name="NI_AALBase.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/NI_AALBase.lvlib"/>
-		<Item Name="README.md" Type="Document" URL="../README.md"/>
 		<Item Name="SW_Globals.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals.vi"/>
-		<Item Name="Third_Party_Agreements_Acknowledgements_and_Disclosures.md" Type="Document" URL="../Third_Party_Agreements_Acknowledgements_and_Disclosures.md"/>
 		<Item Name="Common_Resources.lvlib" Type="Library" URL="../Common_Resources.lvlib"/>
 		<Item Name="Tracker.lvlib" Type="Library" URL="../Tracker.lvlib"/>
 		<Item Name="FP_Tracker_2.1.vi" Type="VI" URL="../FP_Tracker_2.1.vi"/>
@@ -1239,11 +1241,11 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Docs/LICENSE.md</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/README.md</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Docs/README.md</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Docs/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
@@ -1667,12 +1669,12 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Docs/LICENSE.md</Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/README.md</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Docs/README.md</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Docs/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
@@ -2288,11 +2290,11 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Docs/LICENSE.md</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/README.md</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Docs/README.md</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Docs/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref"></Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">Include</Property>
@@ -2679,11 +2681,11 @@
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/LICENSE.md</Property>
+				<Property Name="Source[3].itemID" Type="Ref">/My Computer/Docs/LICENSE.md</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/README.md</Property>
+				<Property Name="Source[4].itemID" Type="Ref">/My Computer/Docs/README.md</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
+				<Property Name="Source[5].itemID" Type="Ref">/My Computer/Docs/Third_Party_Agreements_Acknowledgements_and_Disclosures.md</Property>
 				<Property Name="Source[6].destinationIndex" Type="Int">0</Property>
 				<Property Name="Source[6].itemID" Type="Ref">/My Computer/Tracker.lvlib/FP_Tracker_2.2.vi</Property>
 				<Property Name="Source[6].sourceInclusion" Type="Str">TopLevel</Property>
