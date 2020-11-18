@@ -944,7 +944,7 @@
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="High Speed Stream-c(a[.](u16),stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp).lvlib"/>
+			<Item Name="High Speed Stream-c(a[.](u16),stamp,str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp,str).lvlib"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">
