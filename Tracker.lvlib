@@ -30,7 +30,7 @@
 		<Item Name="CALC_Pix_to_zone_correspondence.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Pix_to_zone_correspondence.vi"/>
 		<Item Name="CALC_Post-process_timestamps.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Post-process_timestamps.vi"/>
 		<Item Name="CHECK_Condition_has_been_set.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Condition_has_been_set.vi"/>
-		<Item Name="CHECK_If_TTL_should_be_reset.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_If_TTL_should_be_reset.vi"/>
+		<Item Name="CHECK_If_TTL_command_should_be_sent.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_If_TTL_command_should_be_sent.vi"/>
 		<Item Name="CHECK_Particular_Condition.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Particular_Condition.vi"/>
 		<Item Name="CHECK_Particular_SubCondition.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CHECK_Particular_SubCondition.vi"/>
 		<Item Name="FL_Adjust_raw_magnets_coords.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Adjust_raw_magnets_coords.vi"/>
@@ -65,7 +65,6 @@
 		<Item Name="FL_Last_N_Samples_Cluster.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster.vi"/>
 		<Item Name="FL_Last_N_Samples_Cluster_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_1D.vi"/>
 		<Item Name="FL_Last_N_Samples_Cluster_Array_1D.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_Cluster_Array_1D.vi"/>
-		<Item Name="FL_Last_N_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_DBL.vi"/>
 		<Item Name="FL_Last_N_Samples_UNIV_iout.vim" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Last_N_Samples_UNIV_iout.vim"/>
 		<Item Name="FL_Make_data_frame_and_put_to_channel.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_channel.vi"/>
 		<Item Name="FL_Make_data_frame_and_put_to_queue.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Make_data_frame_and_put_to_queue.vi"/>
@@ -79,7 +78,6 @@
 		<Item Name="FL_Segment_map_by_color.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Segment_map_by_color.vi"/>
 		<Item Name="FL_SG_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter.vi"/>
 		<Item Name="FL_SG_Filter_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_SG_Filter_2.vi"/>
-		<Item Name="FL_Sum_of_Samples_DBL.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Sum_of_Samples_DBL.vi"/>
 		<Item Name="FL_Update_Histogram_data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Update_Histogram_data.vi"/>
 		<Item Name="FL_ZLEMA_Filter.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_ZLEMA_Filter.vi"/>
 		<Item Name="GET_2D_Array_Interpolated_to_size_of_image.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GET_2D_Array_Interpolated_to_size_of_image.vi"/>
@@ -113,6 +111,7 @@
 		<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients_3-51.vi"/>
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
 		<Item Name="CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type_2.vi"/>
+		<Item Name="FL_Align_and_Decode_input_data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Align_and_Decode_input_data.vi"/>
 	</Item>
 	<Item Name="CapSensing" Type="Folder">
 		<Item Name="CS_Gen_Save_Path.vi" Type="VI" URL="../SubVi&apos;s/CapSensing/CS_Gen_Save_Path.vi"/>
@@ -123,86 +122,11 @@
 		<Item Name="Reward_Condition.lvclass" Type="LVClass" URL="../SubVi&apos;s/Classes/Reward_Condition/Reward_Condition.lvclass"/>
 		<Item Name="Reward_SubCondition.lvclass" Type="LVClass" URL="../SubVi&apos;s/Classes/Reward_SubCondition/Reward_SubCondition.lvclass"/>
 	</Item>
-	<Item Name="Controls" Type="Folder">
-		<Property Name="NI.SortType" Type="Int">0</Property>
-		<Item Name="CTL_2D_bins_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_2D_bins_parameters.ctl"/>
-		<Item Name="CTL_Acquisition_speed_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Acquisition_speed_selector.ctl"/>
-		<Item Name="CTL_All_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_All_References.ctl"/>
-		<Item Name="CTL_Animal_Coordinates_and_Speed.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed.ctl"/>
-		<Item Name="CTL_Animal_Coordinates_and_Speed_(arr).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Animal_Coordinates_and_Speed_(arr).ctl"/>
-		<Item Name="CTL_Basic_cage_settings.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Basic_cage_settings.ctl"/>
-		<Item Name="CTL_Bounding_Rectangle_of_Segments.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Bounding_Rectangle_of_Segments.ctl"/>
-		<Item Name="CTL_Cage_Coords.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords.ctl"/>
-		<Item Name="CTL_Cage_Coords_(arrays).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_Coords_(arrays).ctl"/>
-		<Item Name="CTL_Cage_diameter.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_diameter.ctl"/>
-		<Item Name="CTL_Cage_radial_segmentation.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Cage_radial_segmentation.ctl"/>
-		<Item Name="CTL_Calibration_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Calibration_parameters.ctl"/>
-		<Item Name="CTL_Color_ramp.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Color_ramp.ctl"/>
-		<Item Name="CTL_Comparison_type.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Comparison_type.ctl"/>
-		<Item Name="CTL_Condition_response_type.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Condition_response_type.ctl"/>
-		<Item Name="CTL_Condition_response_type_2.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Condition_response_type_2.ctl"/>
-		<Item Name="CTL_Condition_type.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Condition_type.ctl"/>
-		<Item Name="CTL_Conditions_All_Presets_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_All_Presets_Cluster.ctl"/>
-		<Item Name="CTL_Conditions_Array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_Array.ctl"/>
-		<Item Name="CTL_Conditions_build_parameters_2.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_2.ctl"/>
-		<Item Name="CTL_Conditions_build_parameters_in.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_in.ctl"/>
-		<Item Name="CTL_Conditions_build_parameters_out.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_build_parameters_out.ctl"/>
-		<Item Name="CTL_Conditions_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_Cluster.ctl"/>
-		<Item Name="CTL_Conditions_GZippped_string.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Conditions_GZippped_string.ctl"/>
-		<Item Name="CTL_Control_States.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Control_States.ctl"/>
-		<Item Name="CTL_Controls_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Controls_References.ctl"/>
-		<Item Name="CTL_Custom_Boolean_Indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Boolean_Indicator.ctl"/>
-		<Item Name="CTL_Custom_Close_Button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Close_Button.ctl"/>
-		<Item Name="CTL_Custom_HW_Re-check_Button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_HW_Re-check_Button.ctl"/>
-		<Item Name="CTL_Custom_Jump_to..._button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Custom_Jump_to..._button.ctl"/>
-		<Item Name="CTL_Data_flow_control_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Data_flow_control_cluster.ctl"/>
-		<Item Name="CTL_Decoded_data_frame.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Decoded_data_frame.ctl"/>
-		<Item Name="CTL_Dispenser_calibration_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Dispenser_calibration_info.ctl"/>
-		<Item Name="CTL_Draw_Area_Size.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Draw_Area_Size.ctl"/>
-		<Item Name="CTL_Filter_selector.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Filter_selector.ctl"/>
-		<Item Name="CTL_Full_data_frame.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Full_data_frame.ctl"/>
-		<Item Name="CTL_Full_Track_Array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Full_Track_Array.ctl"/>
-		<Item Name="CTL_Histogram_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_parameters.ctl"/>
-		<Item Name="CTL_Histogram_Properties.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Histogram_Properties.ctl"/>
-		<Item Name="CTL_Image_Geometrical_and_scaling_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Image_Geometrical_and_scaling_parameters.ctl"/>
-		<Item Name="CTL_Indicators_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Indicators_References.ctl"/>
-		<Item Name="CTL_IO_params_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_params_cluster.ctl"/>
-		<Item Name="CTL_IO_status_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_IO_status_indicator.ctl"/>
-		<Item Name="CTL_Loaded_data_output_(offline).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Loaded_data_output_(offline).ctl"/>
-		<Item Name="CTL_Measurements_and_Statistics.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Measurements_and_Statistics.ctl"/>
-		<Item Name="CTL_Mouse_Draw_Params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Mouse_Draw_Params.ctl"/>
-		<Item Name="CTL_Overlays_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Overlays_cluster.ctl"/>
-		<Item Name="CTL_Panes_and_VIs_References.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Panes_and_VIs_References.ctl"/>
-		<Item Name="CTL_Paths_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Paths_cluster.ctl"/>
-		<Item Name="CTL_Pixel_to_Zone_array.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Pixel_to_Zone_array.ctl"/>
-		<Item Name="CTL_Play_pause_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Play_pause_button.ctl"/>
-		<Item Name="CTL_Post-processing_params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Post-processing_params.ctl"/>
-		<Item Name="CTL_Pre-filter_params.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Pre-filter_params.ctl"/>
-		<Item Name="CTL_Queue_or_Notifier_Message_Cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Queue_or_Notifier_Message_Cluster.ctl"/>
-		<Item Name="CTL_Record_stop_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Record_stop_button.ctl"/>
-		<Item Name="CTL_Reponse_port_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Reponse_port_info.ctl"/>
-		<Item Name="CTL_Reset_settings_(zones).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Reset_settings_(zones).ctl"/>
-		<Item Name="CTL_Response_info.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Response_info.ctl"/>
-		<Item Name="CTL_Running_statistics_results.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Running_statistics_results.ctl"/>
-		<Item Name="CTL_Segmented_plot_parameters.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Segmented_plot_parameters.ctl"/>
-		<Item Name="CTL_Set_Adv_Stim.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Adv_Stim.ctl"/>
-		<Item Name="CTL_Set_Clear_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Set_Clear_button.ctl"/>
-		<Item Name="CTL_Settings_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_cluster.ctl"/>
-		<Item Name="CTL_Settings_parameter_group_enum.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_parameter_group_enum.ctl"/>
-		<Item Name="CTL_Settings_parameters_groups.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Settings_parameters_groups.ctl"/>
-		<Item Name="CTL_Single_stimulus_setting.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Single_stimulus_setting.ctl"/>
-		<Item Name="CTL_States_cluster.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_States_cluster.ctl"/>
-		<Item Name="CTL_Stats_parameters_(online).ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Stats_parameters_(online).ctl"/>
-		<Item Name="CTL_Undo_button.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Undo_button.ctl"/>
-		<Item Name="CTL_Validity_check_criteria.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Validity_check_criteria.ctl"/>
-		<Item Name="CTL_VISA_port_Descr.-Name.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_VISA_port_Descr.-Name.ctl"/>
-		<Item Name="CTL_Zones_control_and_indicator.ctl" Type="VI" URL="../SubVi&apos;s/Controls/CTL_Zones_control_and_indicator.ctl"/>
-	</Item>
 	<Item Name="HW Interaction" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="HW_Acquisition_Start.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Start.vi"/>
 		<Item Name="HW_Acquisition_Stop.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Acquisition_Stop.vi"/>
-		<Item Name="HW_Detect_compatible_COM_ports.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Detect_compatible_COM_ports.vi"/>
 		<Item Name="HW_Get_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/HW_Get_data_flow_from_serial_port.vi"/>
 		<Item Name="HW_Get_raw_data_flow_from_serial_port.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Get_raw_data_flow_from_serial_port.vi"/>
 		<Item Name="HW_Init.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_Init.vi"/>
@@ -228,11 +152,10 @@
 		<Item Name="SW_Fire_TTL_during_the_acquisition.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition.vi"/>
 		<Item Name="SW_Fire_TTL_during_the_acquisition_universal.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_during_the_acquisition_universal.vi"/>
 		<Item Name="SW_Fire_TTL_on_start_or_stop.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Fire_TTL_on_start_or_stop.vi"/>
-		<Item Name="SW_Get_CPU_load.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Get_CPU_load.vi"/>
-		<Item Name="SW_Get_CPU_load_monitor_reference.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Get_CPU_load_monitor_reference.vi"/>
 		<Item Name="SW_Prepare_TTL_activation_sequence.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/SW_Prepare_TTL_activation_sequence.vi"/>
 	</Item>
 	<Item Name="Misc" Type="Folder">
+		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="Error (IDL).vi" Type="VI" URL="../SubVi&apos;s/Error (IDL).vi"/>
 		<Item Name="FL_Check_TTL_firing_conditions.vi" Type="VI" URL="../SubVi&apos;s/FL_Check_TTL_firing_conditions.vi"/>
 		<Item Name="FL_DEC_split.vi" Type="VI" URL="../SubVi&apos;s/FL_DEC_split.vi"/>
@@ -250,9 +173,7 @@
 		<Item Name="FL_Zones_Loc_Get_n_Norm.vi" Type="VI" URL="../SubVi&apos;s/FL_Zones_Loc_Get_n_Norm.vi"/>
 		<Item Name="GEN_2D_Histo_Bins.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GEN_2D_Histo_Bins.vi"/>
 		<Item Name="GEN_Histo_Bins_And_X_axis.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/GEN_Histo_Bins_And_X_axis.vi"/>
-		<Item Name="GZip_String_via_dotNet.vi" Type="VI" URL="../SubVi&apos;s/GZip_String_via_dotNet.vi"/>
 		<Item Name="SW_Check_password.vi" Type="VI" URL="../SubVi&apos;s/SW_Check_password.vi"/>
-		<Item Name="SW_Clear_Specific_Errors.vi" Type="VI" URL="../SubVi&apos;s/SW_Clear_Specific_Errors.vi"/>
 		<Item Name="SW_Gen_Available_TTL_outputs_array.vi" Type="VI" URL="../SubVi&apos;s/SW_Gen_Available_TTL_outputs_array.vi"/>
 		<Item Name="SW_Generate_Segmented_Plot.vi" Type="VI" URL="../SubVi&apos;s/SW_Generate_Segmented_Plot.vi"/>
 		<Item Name="SW_get_config_for_Start_Stop_pulses.vi" Type="VI" URL="../SubVi&apos;s/SW_get_config_for_Start_Stop_pulses.vi"/>
@@ -274,7 +195,9 @@
 		<Property Name="NI.SortType" Type="Int">0</Property>
 		<Item Name="FL_Preprocess_and_save_incrementally.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally.vi"/>
 		<Item Name="FL_Preprocess_and_save_incrementally_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/FL_Preprocess_and_save_incrementally_TDMS.vi"/>
+		<Item Name="Get_cage_size_text_from_Geometry_data.vi" Type="VI" URL="../SubVi&apos;s/Get_cage_size_text_from_Geometry_data.vi"/>
 		<Item Name="SW_Convert_data_from_old_format_save.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Convert_data_from_old_format_save.vi"/>
+		<Item Name="SW_Convert_data_from_old_format_save_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Convert_data_from_old_format_save_2.vi"/>
 		<Item Name="SW_Get_save_paths.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Get_save_paths.vi"/>
 		<Item Name="SW_Get_Save_Paths_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Get_Save_Paths_2.vi"/>
 		<Item Name="SW_Load_data_for_Analysis.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_data_for_Analysis.vi"/>
@@ -294,12 +217,12 @@
 		<Item Name="SW_Load_settings_to_main_tab.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab.vi"/>
 		<Item Name="SW_Load_settings_to_main_tab_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_2.vi"/>
 		<Item Name="SW_Load_settings_to_main_tab_3.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_3.vi"/>
+		<Item Name="SW_Load_settings_to_main_tab_4.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Load_settings_to_main_tab_4.vi"/>
 		<Item Name="SW_Save_parameter_group.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group.vi"/>
 		<Item Name="SW_Save_parameter_group_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_parameter_group_2.vi"/>
 		<Item Name="SW_Save_proc_data_to_TDMS.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_proc_data_to_TDMS.vi"/>
 		<Item Name="SW_Save_Settings.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings.vi"/>
 		<Item Name="SW_Save_Settings_2.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Save_Settings_2.vi"/>
-		<Item Name="SW_Shape_Conditions_Array_after_Loading.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Shape_Conditions_Array_after_Loading.vi"/>
 	</Item>
 	<Item Name="Segmented plot and mouse" Type="Folder">
 		<Item Name="AL_Rotate_mouse_coords.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/AL_Rotate_mouse_coords.vi"/>
@@ -345,13 +268,13 @@
 		<Item Name="SW_Make_Track_overlay_test.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Make_Track_overlay_test.vi"/>
 		<Item Name="SW_Plot_Thick_arc_line_IMAQdx.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Plot_Thick_arc_line_IMAQdx.vi"/>
 		<Item Name="SW_Smooth_Image.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Smooth_Image.vi"/>
+		<Item Name="SW_Update_radial_segmentation_variable_info.vi" Type="VI" URL="../SubVi&apos;s/Segmented plot and mouse/SW_Update_radial_segmentation_variable_info.vi"/>
 	</Item>
 	<Item Name="Settings" Type="Folder">
 		<Item Name="DATA_Reorder_after_condition_modification.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/DATA_Reorder_after_condition_modification.vi"/>
 		<Item Name="Get Abs Manual File Path.vi" Type="VI" URL="../SubVi&apos;s/Settings/Get Abs Manual File Path.vi"/>
 		<Item Name="Get File Version Info.vi" Type="VI" URL="../SubVi&apos;s/Settings/Get File Version Info.vi"/>
 		<Item Name="GET_Initial_Conditions_representation_2.vi" Type="VI" URL="../SubVi&apos;s/Settings/GET_Initial_Conditions_representation_2.vi"/>
-		<Item Name="HW_Configure_port(s).vi" Type="VI" URL="../SubVi&apos;s/Settings/HW_Configure_port(s).vi"/>
 		<Item Name="HW_set_IO_ports.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports.vi"/>
 		<Item Name="HW_set_IO_ports_3-pos.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos.vi"/>
 		<Item Name="HW_set_IO_ports_3-pos_2.vi" Type="VI" URL="../SubVi&apos;s/HW Interaction/HW_set_IO_ports_3-pos_2.vi"/>
@@ -362,7 +285,6 @@
 		<Item Name="SW_Generate_Full_Condition(s)_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_Full_Condition(s)_text.vi"/>
 		<Item Name="SW_Generate_SubCondition_text.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Generate_SubCondition_text.vi"/>
 		<Item Name="SW_Get_temporary_save_path.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Get_temporary_save_path.vi"/>
-		<Item Name="SW_Init_Array_of_Conditions.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Init_Array_of_Conditions.vi"/>
 		<Item Name="SW_Init_Array_of_Conditions_2.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Init_Array_of_Conditions_2.vi"/>
 		<Item Name="SW_Prepare_Conditions_Array_for_Saving.vi" Type="VI" URL="../SubVi&apos;s/Save and Load/SW_Prepare_Conditions_Array_for_Saving.vi"/>
 		<Item Name="SW_Set_Add_Recording_Settings.vi" Type="VI" URL="../SubVi&apos;s/Settings/SW_Set_Add_Recording_Settings.vi"/>
@@ -370,7 +292,6 @@
 	</Item>
 	<Item Name="UI interacton" Type="Folder">
 		<Item Name="SW_Adjust_UI_draw_interwal.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Adjust_UI_draw_interwal.vi"/>
-		<Item Name="SW_Get_Menu_tags.vi" Type="VI" URL="../SubVi&apos;s/Controls/SW_Get_Menu_tags.vi"/>
 		<Item Name="Tracker_run-time_menu.rtm" Type="Document" URL="../SubVi&apos;s/Set UI states/Tracker_run-time_menu.rtm"/>
 		<Item Name="UI_(01)_Set_startup_controls_state.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(01)_Set_startup_controls_state.vi"/>
 		<Item Name="UI_(02)_Unlock.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_(02)_Unlock.vi"/>
@@ -385,10 +306,9 @@
 		<Item Name="UI_Set_Initial_tabs_representation.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Initial_tabs_representation.vi"/>
 		<Item Name="UI_Set_Slider_values_when_online.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Set_Slider_values_when_online.vi"/>
 		<Item Name="UI_Update_timeline.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_Update_timeline.vi"/>
-		<Item Name="UI_update_Zone_indicator_params.vi" Type="VI" URL="../SubVi&apos;s/Set UI states/UI_update_Zone_indicator_params.vi"/>
 	</Item>
 	<Item Name="Device low-level comms.lvlib" Type="Library" URL="../Device low-level comms.lvlib"/>
-	<Item Name="FP_Tracker.vi" Type="VI" URL="../FP_Tracker.vi"/>
+	<Item Name="FP_Tracker_2.2.vi" Type="VI" URL="../FP_Tracker_2.2.vi"/>
 	<Item Name="SW_Globals_2.2+.vi" Type="VI" URL="../SubVi&apos;s/SW_Globals_2.2+.vi"/>
 	<Item Name="Tracker_settings.tcf" Type="Document" URL="../Tracker_settings.tcf"/>
 </Library>
