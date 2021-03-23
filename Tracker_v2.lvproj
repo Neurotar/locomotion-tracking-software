@@ -2066,7 +2066,7 @@
 				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
 				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
 				<Property Name="MSI_distID" Type="Str">{9D0E901B-CF03-4CA6-94B3-9D92BD4CF463}</Property>
-				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="MSI_licenseID" Type="Ref"></Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{C3A5D717-D26E-47A6-9E6C-7BBF1A08F2C6}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.2.0.11 software installation. Please note, that this is a version without NI MAX components.</Property>
@@ -2214,7 +2214,7 @@
 				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
 				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
 				<Property Name="MSI_distID" Type="Str">{DA3B13E1-9EB6-4B89-B465-8581EFB1DFD8}</Property>
-				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="MSI_licenseID" Type="Ref"></Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{F15749D5-63FF-4703-B513-7E6AB9F049C2}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.2.0.14 software installation.</Property>
@@ -2291,7 +2291,7 @@
 				<Property Name="Source[1].itemID" Type="Ref">/My Computer/FP_Tracker_2.1.vi</Property>
 				<Property Name="Source[1].type" Type="Str">VI</Property>
 				<Property Name="Source[10].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[10].itemID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[10].itemID" Type="Ref"></Property>
 				<Property Name="Source[10].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].itemID" Type="Ref">/My Computer/Tracker.lvlib/Tracker_settings.tcf</Property>
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
@@ -2515,7 +2515,7 @@
 				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
 				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
 				<Property Name="MSI_distID" Type="Str">{0463E34D-4F4C-4DF0-BBDF-569FDC0DDA7B}</Property>
-				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="MSI_licenseID" Type="Ref"></Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{3896DBA2-131F-451F-B2D2-DCD6A0B28351}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.2.1.0 beta 1 software installation.</Property>
@@ -2557,7 +2557,7 @@
 				<Property Name="Source[0].File[5].Shortcut[0].name" Type="Str">LICENSE</Property>
 				<Property Name="Source[0].File[5].Shortcut[0].subDir" Type="Str">Neurotar Mobile HomeCage\2.2.1</Property>
 				<Property Name="Source[0].File[5].ShortcutCount" Type="Int">1</Property>
-				<Property Name="Source[0].File[5].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].File[5].tag" Type="Ref"></Property>
 				<Property Name="Source[0].File[6].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
 				<Property Name="Source[0].File[6].name" Type="Str">Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
 				<Property Name="Source[0].File[6].tag" Type="Ref"></Property>
@@ -2705,7 +2705,7 @@
 				<Property Name="Source[8].itemID" Type="Ref">/My Computer/Support/Locomotion_tracking_tracking_software_User_Manual.pdf</Property>
 				<Property Name="Source[8].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[9].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[9].itemID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[9].itemID" Type="Ref"></Property>
 				<Property Name="Source[9].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="SourceCount" Type="Int">10</Property>
 				<Property Name="TgtF_companyName" Type="Str">Neurotar Oy</Property>
@@ -2816,7 +2816,7 @@
 				<Property Name="MSI_arpPhone" Type="Str">+358 9 428 344 56</Property>
 				<Property Name="MSI_arpURL" Type="Str">https://www.neurotar.com/</Property>
 				<Property Name="MSI_distID" Type="Str">{FBDB235C-42E8-4ADE-A3CD-2EB41DF9B6EC}</Property>
-				<Property Name="MSI_licenseID" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="MSI_licenseID" Type="Ref"></Property>
 				<Property Name="MSI_osCheck" Type="Int">0</Property>
 				<Property Name="MSI_upgradeCode" Type="Str">{AB3A19F6-3BA0-4083-8A9B-E51C2D3F9F82}</Property>
 				<Property Name="MSI_windowMessage" Type="Str">Welcome to the Mobile HomeCage Tracker v.2.3.0.1 alpha 1 software installation.</Property>
@@ -2848,7 +2848,7 @@
 				<Property Name="Source[0].File[4].tag" Type="Ref">/My Computer/Support/Locomotion_tracking_tracking_software_User_Manual.pdf</Property>
 				<Property Name="Source[0].File[5].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
 				<Property Name="Source[0].File[5].name" Type="Str">LICENSE.rtf</Property>
-				<Property Name="Source[0].File[5].tag" Type="Ref">/My Computer/Support/LICENSE.rtf</Property>
+				<Property Name="Source[0].File[5].tag" Type="Ref"></Property>
 				<Property Name="Source[0].File[6].dest" Type="Str">{F8DC7267-EE0D-4904-B97C-FDB77130B1F5}</Property>
 				<Property Name="Source[0].File[6].name" Type="Str">Third_Party_Agreements_Acknowledgements_and_Disclosures.rtf</Property>
 				<Property Name="Source[0].File[6].tag" Type="Ref"></Property>
