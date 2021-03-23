@@ -111,6 +111,7 @@
 		<Item Name="SW_SG_coefficients_3-51.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_SG_coefficients_3-51.vi"/>
 		<Item Name="SW_Update_dispension_calibration_info_array.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/SW_Update_dispension_calibration_info_array.vi"/>
 		<Item Name="CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type_2.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/CALC_Fwd_adjust_TTL_pulse_length_according_to_stim_type_2.vi"/>
+		<Item Name="FL_Align_and_Decode_input_data.vi" Type="VI" URL="../SubVi&apos;s/Calc and data manipulation/FL_Align_and_Decode_input_data.vi"/>
 	</Item>
 	<Item Name="CapSensing" Type="Folder">
 		<Item Name="CS_Gen_Save_Path.vi" Type="VI" URL="../SubVi&apos;s/CapSensing/CS_Gen_Save_Path.vi"/>

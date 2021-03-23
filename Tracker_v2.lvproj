@@ -14,8 +14,14 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Icons and Credits" Type="Folder" URL="../Icons and Credits">
-			<Property Name="NI.DISK" Type="Bool">true</Property>
+		<Item Name="Icons and Credits" Type="Folder">
+			<Item Name="Blue_tape_256pix.ico" Type="Document" URL="../Icons and Credits/Blue_tape_256pix.ico"/>
+			<Item Name="Calibration_icon.ico" Type="Document" URL="../Icons and Credits/Calibration_icon.ico"/>
+			<Item Name="Capacitor.ico" Type="Document" URL="../Icons and Credits/Capacitor.ico"/>
+			<Item Name="Export_icon_256pix.ico" Type="Document" URL="../Icons and Credits/Export_icon_256pix.ico"/>
+			<Item Name="Icons_credits.txt" Type="Document" URL="../Icons and Credits/Icons_credits.txt"/>
+			<Item Name="orange_mouse_trackericon_256x256.ico" Type="Document" URL="../Icons and Credits/orange_mouse_trackericon_256x256.ico"/>
+			<Item Name="TDMS_to_CSV_48x48.ico" Type="Document" URL="../Icons and Credits/TDMS_to_CSV_48x48.ico"/>
 		</Item>
 		<Item Name="Support" Type="Folder" URL="../Support">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
