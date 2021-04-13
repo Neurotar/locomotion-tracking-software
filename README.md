@@ -10,11 +10,11 @@ For more information, contact us at info@neurotar.com or check our website:
 
 ```
 Mobile HomeCage motion tracking software.
-Current version 2.2.0.14
+Current version 3.0.0.11 Preview 3.
 
 Mobile HomeCage motion tracking software for recording mouse activity
 in the Mobile HomeCage devices.
-Copyright 2020 Neurotar Oy Ltd
+Copyright 2021 Neurotar Oy Ltd
 
 it under the terms of the GNU Affero General Public License as published
 This program is free software: you can redistribute it and/or modify
@@ -30,5 +30,7 @@ You should have received a copy of the GNU Affero General Public License along w
 If not, see <http://www.gnu.org/licenses/>.
 
 This program uses a 3rd-party software components.
-License(s) information: Third_Party_Agreements_Acknowledgements_and_Disclosures.md
+License(s) information: 
+For versions 2.x: Third_Party_Agreements_Acknowledgements_and_Disclosures_v.2.x.md
+For versions 3.x: Third_Party_Agreements_Acknowledgements_and_Disclosures_v.3.x.md
 ```
