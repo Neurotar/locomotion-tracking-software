@@ -10,7 +10,7 @@ For more information, contact us at info@neurotar.com or check our website:
 
 ```
 Mobile HomeCage motion tracking software.
-Current version 3.0.0.11 Preview 3.
+Current version 3.0.0.51 Beta 1.
 
 Mobile HomeCage motion tracking software for recording mouse activity
 in the Mobile HomeCage devices.

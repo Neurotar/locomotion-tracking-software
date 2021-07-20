@@ -19,7 +19,7 @@ Excellent template and toolset for development of the complex LabVIEW applicatio
 •	https://delacor.com/
 •	https://forums.ni.com/t5/Delacor-Toolkits/ct-p/7004?profile.language=en
 
-Copyright © 2015-2020 by Delacor, LLC. All Rights Reserved.
+Copyright © 2015-2021 by Delacor, LLC. All Rights Reserved.
 
 
 
