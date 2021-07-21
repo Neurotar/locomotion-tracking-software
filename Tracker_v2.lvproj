@@ -472,14 +472,12 @@
 				<Property Name="NI.SortType" Type="Int">3</Property>
 				<Item Name="8.6CompatibleGlobalVar.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/config.llb/8.6CompatibleGlobalVar.vi"/>
 				<Item Name="Add File to Zip.vi" Type="VI" URL="/&lt;vilib&gt;/zip/Add File to Zip.vi"/>
-				<Item Name="Advanced Plotting Toolkit.lvlib" Type="Library" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/Advanced Plotting Toolkit.lvlib"/>
 				<Item Name="Application Directory.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Application Directory.vi"/>
 				<Item Name="AsciiToInt.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/AsciiToInt.vi"/>
 				<Item Name="Assert Floating-Point Numeric Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Floating-Point Numeric Type.vim"/>
 				<Item Name="Assert Integer Type.vim" Type="VI" URL="/&lt;vilib&gt;/Utility/TypeAssert/Assert Integer Type.vim"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
 				<Item Name="Calculate Frames per Second.vi" Type="VI" URL="/&lt;vilib&gt;/vision/Calculate Frames per Second.vi"/>
-				<Item Name="Channel Abort Instructions.ctl" Type="VI" URL="/&lt;vilib&gt;/ChannelSupport/Channel Abort Instructions.ctl"/>
 				<Item Name="Check Color Table Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Color Table Size.vi"/>
 				<Item Name="Check Data Size.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check Data Size.vi"/>
 				<Item Name="Check File Permissions.vi" Type="VI" URL="/&lt;vilib&gt;/picture/jpeg.llb/Check File Permissions.vi"/>
@@ -496,7 +494,6 @@
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="configureNumberOfValues.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tdmsutil.llb/configureNumberOfValues.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="Create Directory Recursive.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Create Directory Recursive.vi"/>
 				<Item Name="Create Timing Source.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/Create Timing Source.vi"/>
 				<Item Name="Create_1kHz_TSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/_suppVIs/Create_1kHz_TSource.vi"/>
 				<Item Name="Create_1MHz_TSource.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/TimedLoop/scheduler/LVUserAPI/_suppVIs/Create_1MHz_TSource.vi"/>
@@ -747,7 +744,6 @@
 				<Item Name="NI_Matrix.lvlib" Type="Library" URL="/&lt;vilib&gt;/Analysis/Matrix/NI_Matrix.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
 				<Item Name="NI_PtbyPt.lvlib" Type="Library" URL="/&lt;vilib&gt;/ptbypt/NI_PtbyPt.lvlib"/>
-				<Item Name="NI_Unzip.lvlib" Type="Library" URL="/&lt;vilib&gt;/zip/NI_Unzip.lvlib"/>
 				<Item Name="NI_Vision_Acquisition_Software.lvlib" Type="Library" URL="/&lt;vilib&gt;/vision/driver/NI_Vision_Acquisition_Software.lvlib"/>
 				<Item Name="nisyscfg.lvlib" Type="Library" URL="/&lt;vilib&gt;/nisyscfg/nisyscfg.lvlib"/>
 				<Item Name="Not Found Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Not Found Dialog.vi"/>
@@ -902,19 +898,39 @@
 				<Item Name="Internecine Avoider.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/Internecine Avoider.vi"/>
 				<Item Name="TCP Listen List Operations.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen List Operations.ctl"/>
 				<Item Name="TCP Listen Internal List.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/tcp.llb/TCP Listen Internal List.vi"/>
+				<Item Name="New.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_core/New.vi"/>
+				<Item Name="ArrayView.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/ArrayView.vi"/>
+				<Item Name="View.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_core/View.vi"/>
+				<Item Name="Histogram2DProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/Histogram2DProperties.ctl"/>
+				<Item Name="Colormap.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/properties/Colormap.ctl"/>
+				<Item Name="Colormap_Map.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/properties/Colormap_Map.ctl"/>
+				<Item Name="Colormap_Scaling.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/properties/Colormap_Scaling.ctl"/>
+				<Item Name="Display.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/properties/Display.ctl"/>
+				<Item Name="Histogram2DRange.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/Histogram2DRange.ctl"/>
+				<Item Name="NewPlotProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_core/NewPlotProperties.ctl"/>
+				<Item Name="PlotColor.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/typedefs/PlotColor.ctl"/>
+				<Item Name="NewPlotType.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_core/NewPlotType.ctl"/>
+				<Item Name="Histogram2D.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/Histogram2D.vi"/>
+				<Item Name="Histogram2D_Automatic.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/Histogram2D_Automatic.vi"/>
+				<Item Name="Close.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_core/Close.vi"/>
+				<Item Name="NewPlotScales.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_core/NewPlotScales.ctl"/>
+				<Item Name="ContourFilledProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/ContourFilledProperties.ctl"/>
+				<Item Name="ContourRange.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/ContourRange.ctl"/>
+				<Item Name="ContourProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/ContourProperties.ctl"/>
+				<Item Name="Line.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/properties/Line.ctl"/>
+				<Item Name="Line_Style.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/properties/Line_Style.ctl"/>
+				<Item Name="ArrayViewProperties.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/ArrayViewProperties.ctl"/>
+				<Item Name="Size.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_figure/Size.vi"/>
+				<Item Name="ContourFilled.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/ContourFilled.vi"/>
+				<Item Name="ContourFilled_Automatic.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/ContourFilled_Automatic.vi"/>
+				<Item Name="Contour.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/Contour.vi"/>
+				<Item Name="Contour_Automatic.vi" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/Contour_Automatic.vi"/>
+				<Item Name="ArrayViewBoundaries.ctl" Type="VI" URL="/&lt;vilib&gt;/Heliosphere Research LLC/Advanced Plotting Toolkit/api_plotting/ArrayViewBoundaries.ctl"/>
 			</Item>
 			<Item Name="_ChannelSupport.lvlib" Type="Library" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/_ChannelSupport.lvlib"/>
-			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
-			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
-			<Item Name="High Speed Stream-c(str,stamp).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp).lvlib"/>
 			<Item Name="kernel32.dll" Type="Document" URL="kernel32.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Lossy Stream-a[.,.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str).lvlib"/>
-			<Item Name="Lossy Stream-a[.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](dbl).lvlib"/>
-			<Item Name="Lossy Stream-a[.](str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str).lvlib"/>
-			<Item Name="Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;.lvlib"/>
-			<Item Name="Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;.lvlib"/>
 			<Item Name="lvalarms.dll" Type="Document" URL="lvalarms.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
@@ -931,26 +947,94 @@
 			<Item Name="nivissvc.dll" Type="Document" URL="nivissvc.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
-			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
-			<Item Name="Stream-a[.,.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl).lvlib"/>
-			<Item Name="Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;.lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;.lvlib"/>
-			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
 			<Item Name="System" Type="VI" URL="System">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
 			<Item Name="libsystem_kernel.dylib" Type="Document" URL="/usr/lib/system/libsystem_kernel.dylib"/>
-			<Item Name="Event Messenger-a[.](c(dbl,str)).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-a[.](c(dbl,str)).lvlib"/>
 			<Item Name="mscorlib" Type="VI" URL="mscorlib">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
-			<Item Name="Lossy Stream-a[.](bool).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool).lvlib"/>
 			<Item Name="Calculus.dll" Type="Document" URL="../TestVI&apos;s/Calculus2/Calculus.dll"/>
-			<Item Name="High Speed Stream-c(a[.](u16),stamp,str).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp,str).lvlib"/>
+			<Item Name=")Channel.ctl" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/)Channel.ctl"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Write.vi"/>
+			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/)Channel.vi"/>
+			<Item Name="))Channel.ctl" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-a[.](c(dbl,str))/))Channel.ctl"/>
+			<Item Name=")Channel.ctl" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool)/)Channel.ctl"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool)/Write.vi"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-a[.](c(dbl,str))/Write.vi"/>
+			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool)/Write With Abort.vi"/>
+			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool)/Endpoint.vi"/>
+			<Item Name="))Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Event Messenger-a[.](c(dbl,str))/))Channel.vi"/>
+			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](bool)/)Channel.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl)/Read.vi"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl)/Write.vi"/>
+			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl)/Read With Abort.vi"/>
+			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl)/Write With Abort.vi"/>
+			<Item Name="EndpointRead.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl)/EndpointRead.vi"/>
+			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl)/Endpoint.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl)/Instantiate.vi"/>
+			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-a[.,.](dbl)/)Channel.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;/Read.vi"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;/Write.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;/Read.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;/Read.vi"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;/Write.vi"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;/Write.vi"/>
+			<Item Name=")Channel.ctl" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp,str)/)Channel.ctl"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp,str)/Write.vi"/>
+			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp,str)/)Channel.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Read.vi"/>
+			<Item Name="_Read For Replicate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/_Read For Replicate.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Instantiate.vi"/>
+			<Item Name="Init Signal.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(str,stamp)/Abort Signal/Init Signal.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp,str)/Read.vi"/>
+			<Item Name="_Read For Replicate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp,str)/_Read For Replicate.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp,str)/Instantiate.vi"/>
+			<Item Name="Init Signal.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/High Speed Stream-c(a[.](u16),stamp,str)/Abort Signal/Init Signal.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str)/Read.vi"/>
+			<Item Name="Read.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str)/Read.vi"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str)/Write.vi"/>
+			<Item Name="Write.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str)/Write.vi"/>
+			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str)/Read With Abort.vi"/>
+			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str)/Read With Abort.vi"/>
+			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str)/Write With Abort.vi"/>
+			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str)/Write With Abort.vi"/>
+			<Item Name="EndpointRead.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str)/EndpointRead.vi"/>
+			<Item Name="EndpointRead.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str)/EndpointRead.vi"/>
+			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str)/Endpoint.vi"/>
+			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str)/Endpoint.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str)/Instantiate.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str)/Instantiate.vi"/>
+			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](str)/)Channel.vi"/>
+			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.,.](str)/)Channel.vi"/>
+			<Item Name="Lossy Stream-a[.](dbl).lvlib" Type="Library" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-a[.](dbl).lvlib"/>
+			<Item Name="PipeLogic.lvclass" Type="LVClass" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/PipeLogic/PipeLogic.lvclass"/>
+			<Item Name="Stream.lvlib" Type="Library" URL="/&lt;resource&gt;/Channels/Stream/Stream.lvlib"/>
+			<Item Name="Update Probe Details String.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/Update Probe Details String.vi"/>
+			<Item Name="ProbeFormatting.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ProbeSupport/ProbeFormatting.vi"/>
+			<Item Name="ChannelProbePositionAndTitle.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbePositionAndTitle.vi"/>
+			<Item Name="ChannelProbeWindowStagger.vi" Type="VI" URL="/&lt;resource&gt;/ChannelSupport/_ChannelSupport/ChannelProbeWindowStagger.vi"/>
 			<Item Name="nisyscfg.dll" Type="Document" URL="nisyscfg.dll">
 				<Property Name="NI.PreserveRelativePath" Type="Bool">true</Property>
 			</Item>
+			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;/Read With Abort.vi"/>
+			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;/Write With Abort.vi"/>
+			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;/Read With Abort.vi"/>
+			<Item Name="Read With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;/Read With Abort.vi"/>
+			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;/Write With Abort.vi"/>
+			<Item Name="Write With Abort.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;/Write With Abort.vi"/>
+			<Item Name="EndpointRead.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;/EndpointRead.vi"/>
+			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;/Endpoint.vi"/>
+			<Item Name="EndpointRead.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;/EndpointRead.vi"/>
+			<Item Name="EndpointRead.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;/EndpointRead.vi"/>
+			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;/Endpoint.vi"/>
+			<Item Name="Endpoint.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;/Endpoint.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;/Instantiate.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;/Instantiate.vi"/>
+			<Item Name="Instantiate.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;/Instantiate.vi"/>
+			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Stream-t&apos;Tracker.lvlib-CTL_Full_data_frame.ctl&apos;/)Channel.vi"/>
+			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Measurements_and_Statistics.ctl&apos;/)Channel.vi"/>
+			<Item Name=")Channel.vi" Type="VI" URL="/&lt;extravilib&gt;/ChannelInstances/Lossy Stream-t&apos;Tracker.lvlib-CTL_Animal_Coordinates_and_Speed.ctl&apos;/)Channel.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
 			<Item Name="Capacitance sensor reader" Type="EXE">
